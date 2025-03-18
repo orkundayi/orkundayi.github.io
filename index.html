@@ -1,1 +1,191 @@
-<h1>Orkun Dayı</h1>
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kişisel Portfolyo Sitesi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">DevPortfolio</div>
+            <div class="mobile-menu-btn">☰</div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Ana Sayfa</a></li>
+                    <li><a href="#services">Hizmetler</a></li>
+                    <li><a href="#portfolio">Projelerim</a></li>
+                    <li><a href="#contact">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Merhaba, Ben <span style="color: var(--primary);">İsim Soyisim</span></h1>
+                <p>Flutter, Dart ve .NET konularında uzmanlaşmış bir yazılım geliştiricisiyim. Yaratıcı ve kullanıcı dostu uygulamalar geliştirmeyi seviyorum.</p>
+                <a href="#contact" class="btn">İletişime Geç</a>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-github">G</i></a>
+                    <a href="#"><i class="fab fa-linkedin">L</i></a>
+                    <a href="#"><i class="fab fa-twitter">T</i></a>
+                    <a href="#"><i class="fab fa-instagram">I</i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/profile.jpg" alt="Profil Resmi">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Hizmetlerim</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="icon">📱</div>
+                    <h3>Mobil Uygulama Geliştirme</h3>
+                    <p>Flutter ve Dart kullanarak, iOS ve Android için yüksek performanslı ve kullanıcı dostu mobil uygulamalar geliştiriyorum.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">💻</div>
+                    <h3>Web Uygulama Geliştirme</h3>
+                    <p>.NET ve modern web teknolojileri kullanarak, responsive ve hızlı web uygulamaları oluşturuyorum.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">🔧</div>
+                    <h3>Bakım ve Geliştirme</h3>
+                    <p>Mevcut uygulamaları güncel tutmak, hataları gidermek ve yeni özellikler eklemek için bakım ve geliştirme hizmetleri sağlıyorum.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">🔍</div>
+                    <h3>Kod İncelemesi</h3>
+                    <p>Mevcut projeleri inceleyerek, kod kalitesini artırmak ve performans sorunlarını gidermek için öneriler sunuyorum.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">📊</div>
+                    <h3>Veri Analizi</h3>
+                    <p>Uygulamanızın kullanım verilerini analiz ederek, kullanıcı deneyimini iyileştirmek için stratejiler geliştiriyorum.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">🚀</div>
+                    <h3>Proje Danışmanlığı</h3>
+                    <p>Yeni projeler için teknoloji seçimi, mimari tasarım ve proje yönetimi konularında danışmanlık hizmetleri sunuyorum.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Projelerim</h2>
+            </div>
+            <div class="portfolio-filters">
+                <button class="active" data-filter="all">Tümü</button>
+                <button data-filter="mobile">Mobil</button>
+                <button data-filter="web">Web</button>
+                <button data-filter="design">Tasarım</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="mobile">
+                    <img src="images/project1.jpg" alt="Proje 1">
+                    <div class="overlay">
+                        <h3>Fitness Uygulaması</h3>
+                        <p>Flutter, Dart</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <img src="images/project2.jpg" alt="Proje 2">
+                    <div class="overlay">
+                        <h3>E-Ticaret Platformu</h3>
+                        <p>.NET, SQL Server</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="mobile">
+                    <img src="images/project3.jpg" alt="Proje 3">
+                    <div class="overlay">
+                        <h3>Hava Durumu Uygulaması</h3>
+                        <p>Flutter, API Entegrasyonu</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="design">
+                    <img src="images/project4.jpg" alt="Proje 4">
+                    <div class="overlay">
+                        <h3>Kurumsal Kimlik</h>
+                        <p>Tasarım, Branding</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <img src="images/project5.jpg" alt="Proje 5">
+                    <div class="overlay">
+                        <h3>İçerik Yönetim Sistemi</h3>
+                        <p>.NET, Azure</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="mobile">
+                    <img src="images/project6.jpg" alt="Proje 6">
+                    <div class="overlay">
+                        <h3>Seyahat Rehberi</h3>
+                        <p>Flutter, Firebase</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-title">
+                <h2>İletişim</h2>
+            </div>
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">İsim</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-posta</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Konu</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mesaj</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Gönder</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>Hakkımda</h3>
+                    <p>Flutter, Dart ve .NET konularında uzmanlaşmış bir yazılım geliştiricisiyim. Yaratıcı ve kullanıcı dostu uygulamalar geliştirmeyi seviyorum.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
