@@ -3,14 +3,16 @@ document.addEventListener('DOMContentLoaded', function() {
     const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
     const nav = document.querySelector('nav');
     const navLinks = document.querySelectorAll('nav ul li a');
+    const portfolioFilters = document.querySelectorAll('.portfolio-filters button');
+    const portfolioItems = document.querySelectorAll('.portfolio-item');
+    const scrollElements = document.querySelectorAll('.service-card, .portfolio-item');
+    const contactForm = document.getElementById('contactForm');
+    const languageButton = document.querySelector('.language-button');
+    const languageDropdown = document.querySelector('.language-dropdown');
 
     // Header scroll effect
     window.addEventListener('scroll', function() {
-        if (window.scrollY > 50) {
-            header.classList.add('scrolled');
-        } else {
-            header.classList.remove('scrolled');
-        }
+        header.classList.toggle('scrolled', window.scrollY > 50);
     });
 
     // Mobile menu toggle
@@ -20,88 +22,48 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Close mobile menu when a link is clicked
     navLinks.forEach(link => {
-        link.addEventListener('click', function() {
-            nav.classList.remove('active');
-        });
+        link.addEventListener('click', () => nav.classList.remove('active'));
     });
 
     // Portfolio filtering
-    const portfolioFilters = document.querySelectorAll('.portfolio-filters button');
-    const portfolioItems = document.querySelectorAll('.portfolio-item');
-
     portfolioFilters.forEach(filter => {
         filter.addEventListener('click', function() {
             portfolioFilters.forEach(btn => btn.classList.remove('active'));
             this.classList.add('active');
-
+            
             const filterValue = this.getAttribute('data-filter');
             portfolioItems.forEach(item => {
-                if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
-                    item.style.display = 'block';
-                } else {
-                    item.style.display = 'none';
-                }
+                item.style.display = (filterValue === 'all' || item.getAttribute('data-category') === filterValue) ? 'block' : 'none';
             });
         });
     });
 
     // Scroll Animation
-    const scrollElements = document.querySelectorAll('.service-card, .portfolio-item');
-
-    const elementInView = (el, dividend = 1) => {
-        const elementTop = el.getBoundingClientRect().top;
-        return (
-            elementTop <= 
-            (window.innerHeight || document.documentElement.clientHeight) / dividend
-        );
-    };
-
-    const displayScrollElement = (element) => {
-        element.classList.add('scrolled');
-    };
-
-    const hideScrollElement = (element) => {
-        element.classList.remove('scrolled');
-    };
-
+    const elementInView = (el, dividend = 1) => el.getBoundingClientRect().top <= (window.innerHeight || document.documentElement.clientHeight) / dividend;
+    
     const handleScrollAnimation = () => {
-        scrollElements.forEach((el) => {
-            if (elementInView(el, 1.25)) {
-                displayScrollElement(el);
-            } else {
-                hideScrollElement(el);
-            }
+        scrollElements.forEach(el => {
+            el.classList.toggle('scrolled', elementInView(el, 1.25));
         });
     };
 
-    // İlk yükleme için animasyonu kontrol et
     handleScrollAnimation();
+    window.addEventListener('scroll', handleScrollAnimation);
 
-    // Kaydırma olayı için animasyonu kontrol et
-    window.addEventListener('scroll', () => {
-        handleScrollAnimation();
-    });
-
-    // Tıklanabilir portfolio itemları için gelişmiş interaksiyon
+    // Portfolio item click interaction
     portfolioItems.forEach(item => {
         item.addEventListener('click', function() {
-            // Burada portfolyo detay sayfasına yönlendirme yapabilirsiniz
-            // Örnek: window.location.href = 'proje-detay.html?id=' + this.getAttribute('data-id');
             console.log('Portfolyo item tıklandı:', this.querySelector('h3').textContent);
         });
     });
 
-    // Form submission için temel doğrulama
-    const contactForm = document.getElementById('contactForm');
+    // Contact form validation
     if (contactForm) {
         contactForm.addEventListener('submit', function(e) {
             e.preventDefault();
-            
-            // Basit form doğrulama
             let isValid = true;
-            const formInputs = this.querySelectorAll('input, textarea');
             
-            formInputs.forEach(input => {
+            this.querySelectorAll('input, textarea').forEach(input => {
                 if (!input.value.trim()) {
                     isValid = false;
                     input.style.borderColor = 'red';
@@ -109,9 +71,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     input.style.borderColor = '#ddd';
                 }
             });
-            
+
             if (isValid) {
-                // Form gönderildiğinde kullanıcıya geri bildirim
                 alert('Mesajınız başarıyla gönderildi! En kısa sürede size dönüş yapacağız.');
                 this.reset();
             } else {
@@ -119,4 +80,22 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     }
+
+    // Language Switcher
+    function toggleDropdown() {
+        languageDropdown.style.display = languageDropdown.style.display === 'block' ? 'none' : 'block';
+    }
+
+    function setLanguage(lang) {
+        document.querySelectorAll('[data-lang-tr], [data-lang-en]').forEach(el => {
+            el.innerHTML = el.getAttribute(`data-lang-${lang}`);
+        });
+        document.getElementById("selected-flag").src = lang === "tr" ? "https://flagcdn.com/w40/tr.png" : "https://flagcdn.com/w40/gb.png";
+        document.getElementById("selected-lang").textContent = lang === "tr" ? "Türkçe" : "English";
+        languageDropdown.style.display = 'none';
+    }
+
+    languageButton.addEventListener('click', toggleDropdown);
+    window.setLanguage = setLanguage;
+    setLanguage('tr'); // Default language
 });

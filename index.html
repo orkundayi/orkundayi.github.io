@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kişisel Portfolyo Sitesi</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
     <!-- Header -->
@@ -14,12 +15,26 @@
             <div class="mobile-menu-btn">☰</div>
             <nav>
                 <ul>
-                    <li><a href="#home">Ana Sayfa</a></li>
-                    <li><a href="#services">Hizmetler</a></li>
-                    <li><a href="#portfolio">Projelerim</a></li>
-                    <li><a href="#contact">İletişim</a></li>
+                    <li><a href="#home" data-lang-tr="Ana Sayfa" data-lang-en="Home">Ana Sayfa</a></li>
+                    <li><a href="#services" data-lang-tr="Hizmetler" data-lang-en="Services">Hizmetler</a></li>
+                    <li><a href="#portfolio" data-lang-tr="Projelerim" data-lang-en="Portfolio">Projelerim</a></li>
+                    <li><a href="#contact" data-lang-tr="İletişim" data-lang-en="Contact">İletişim</a></li>
                 </ul>
             </nav>
+            <div class="language-switcher">
+                <button class="language-button" onclick="toggleDropdown()">
+                    <img id="selected-flag" src="https://flagcdn.com/w40/tr.png" alt="TR">
+                    <span id="selected-lang">Türkçe</span>
+                </button>
+                <div class="language-dropdown">
+                    <div class="language-option" onclick="setLanguage('tr')">
+                        <img src="https://flagcdn.com/w40/tr.png" alt="TR"> Türkçe
+                    </div>
+                    <div class="language-option" onclick="setLanguage('en')">
+                        <img src="https://flagcdn.com/w40/gb.png" alt="EN"> English
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
 
@@ -27,18 +42,16 @@
     <section id="home" class="hero">
         <div class="container">
             <div class="hero-content">
-                <h1>Merhaba, Ben <span style="color: var(--primary);">İsim Soyisim</span></h1>
-                <p>Flutter, Dart ve .NET konularında uzmanlaşmış bir yazılım geliştiricisiyim. Yaratıcı ve kullanıcı dostu uygulamalar geliştirmeyi seviyorum.</p>
-                <a href="#contact" class="btn">İletişime Geç</a>
+                <h1 data-lang-tr="Merhaba, Ben <span style='color: var(--primary);'>Orkun Dayı</span>" data-lang-en="Hello, I'm <span style='color: var(--primary);'>Orkun Dayı</span>">Merhaba, Ben <span style="color: var(--primary);">Orkun Dayı</span></h1>
+                <p data-lang-tr="Flutter ve Dart teknolojilerinde uzmanlaşmış, kullanıcı dostu ve yaratıcı mobil uygulamalar geliştiren deneyimli bir yazılım geliştiricisiyim." data-lang-en="I am an experienced software developer specializing in Flutter and Dart technologies, creating user-friendly and creative mobile applications.">Flutter ve Dart teknolojilerinde uzmanlaşmış, kullanıcı dostu ve yaratıcı mobil uygulamalar geliştiren deneyimli bir yazılım geliştiricisiyim.</p>
+                <a href="#contact" class="btn" data-lang-tr="İletişime Geç" data-lang-en="Contact Me">İletişime Geç</a>
                 <div class="social-icons">
-                    <a href="#"><i class="fab fa-github">G</i></a>
-                    <a href="#"><i class="fab fa-linkedin">L</i></a>
-                    <a href="#"><i class="fab fa-twitter">T</i></a>
-                    <a href="#"><i class="fab fa-instagram">I</i></a>
+                    <a href="https://github.com/orkundayi" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/orkundayi" target="_blank"><i class="fab fa-linkedin"></i></a>
                 </div>
             </div>
             <div class="hero-image">
-                <img src="images/profile.jpg" alt="Profil Resmi">
+                <img src="https://media.licdn.com/dms/image/v2/D4D03AQFsAX3q7s9IEg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1722429383628?e=1747872000&v=beta&t=_KetcL9BlIe7nbC97ck0KyIu3H9U4rSLskUmMe6mvr8" alt="Profil Resmi">
             </div>
         </div>
     </section>
@@ -47,38 +60,38 @@
     <section id="services" class="services section">
         <div class="container">
             <div class="section-title">
-                <h2>Hizmetlerim</h2>
+                <h2 data-lang-tr="Hizmetlerim" data-lang-en="My Services">Hizmetlerim</h2>
             </div>
             <div class="services-grid">
                 <div class="service-card">
                     <div class="icon">📱</div>
-                    <h3>Mobil Uygulama Geliştirme</h3>
-                    <p>Flutter ve Dart kullanarak, iOS ve Android için yüksek performanslı ve kullanıcı dostu mobil uygulamalar geliştiriyorum.</p>
+                    <h3 data-lang-tr="Mobil Uygulama Geliştirme" data-lang-en="Mobile App Development">Mobil Uygulama Geliştirme</h3>
+                    <p data-lang-tr="Flutter ve Dart kullanarak, iOS ve Android için yüksek performanslı ve kullanıcı dostu mobil uygulamalar geliştiriyorum." data-lang-en="Using Flutter and Dart, I develop high-performance and user-friendly mobile applications for iOS and Android.">Flutter ve Dart kullanarak, iOS ve Android için yüksek performanslı ve kullanıcı dostu mobil uygulamalar geliştiriyorum.</p>
                 </div>
                 <div class="service-card">
                     <div class="icon">💻</div>
-                    <h3>Web Uygulama Geliştirme</h3>
-                    <p>.NET ve modern web teknolojileri kullanarak, responsive ve hızlı web uygulamaları oluşturuyorum.</p>
+                    <h3 data-lang-tr="Web Uygulama Geliştirme" data-lang-en="Web Application Development">Web Uygulama Geliştirme</h3>
+                    <p data-lang-tr=".NET ve modern web teknolojileri kullanarak, responsive ve hızlı web uygulamaları oluşturuyorum." data-lang-en="Using .NET and modern web technologies, I create responsive and fast web applications.">.NET ve modern web teknolojileri kullanarak, responsive ve hızlı web uygulamaları oluşturuyorum.</p>
                 </div>
                 <div class="service-card">
                     <div class="icon">🔧</div>
-                    <h3>Bakım ve Geliştirme</h3>
-                    <p>Mevcut uygulamaları güncel tutmak, hataları gidermek ve yeni özellikler eklemek için bakım ve geliştirme hizmetleri sağlıyorum.</p>
+                    <h3 data-lang-tr="Bakım ve Geliştirme" data-lang-en="Maintenance and Development">Bakım ve Geliştirme</h3>
+                    <p data-lang-tr="Mevcut uygulamaları güncel tutmak, hataları gidermek ve yeni özellikler eklemek için bakım ve geliştirme hizmetleri sağlıyorum." data-lang-en="I provide maintenance and development services to keep existing applications up-to-date, fix bugs, and add new features.">Mevcut uygulamaları güncel tutmak, hataları gidermek ve yeni özellikler eklemek için bakım ve geliştirme hizmetleri sağlıyorum.</p>
                 </div>
                 <div class="service-card">
                     <div class="icon">🔍</div>
-                    <h3>Kod İncelemesi</h3>
-                    <p>Mevcut projeleri inceleyerek, kod kalitesini artırmak ve performans sorunlarını gidermek için öneriler sunuyorum.</p>
+                    <h3 data-lang-tr="Kod İncelemesi" data-lang-en="Code Review">Kod İncelemesi</h3>
+                    <p data-lang-tr="Mevcut projeleri inceleyerek, kod kalitesini artırmak ve performans sorunlarını gidermek için öneriler sunuyorum." data-lang-en="I review existing projects and provide suggestions to improve code quality and address performance issues.">Mevcut projeleri inceleyerek, kod kalitesini artırmak ve performans sorunlarını gidermek için öneriler sunuyorum.</p>
                 </div>
                 <div class="service-card">
                     <div class="icon">📊</div>
-                    <h3>Veri Analizi</h3>
-                    <p>Uygulamanızın kullanım verilerini analiz ederek, kullanıcı deneyimini iyileştirmek için stratejiler geliştiriyorum.</p>
+                    <h3 data-lang-tr="Veri Analizi" data-lang-en="Data Analysis">Veri Analizi</h3>
+                    <p data-lang-tr="Uygulamanızın kullanım verilerini analiz ederek, kullanıcı deneyimini iyileştirmek için stratejiler geliştiriyorum." data-lang-en="I analyze the usage data of your application and develop strategies to improve the user experience.">Uygulamanızın kullanım verilerini analiz ederek, kullanıcı deneyimini iyileştirmek için stratejiler geliştiriyorum.</p>
                 </div>
                 <div class="service-card">
                     <div class="icon">🚀</div>
-                    <h3>Proje Danışmanlığı</h3>
-                    <p>Yeni projeler için teknoloji seçimi, mimari tasarım ve proje yönetimi konularında danışmanlık hizmetleri sunuyorum.</p>
+                    <h3 data-lang-tr="Proje Danışmanlığı" data-lang-en="Project Consulting">Proje Danışmanlığı</h3>
+                    <p data-lang-tr="Yeni projeler için teknoloji seçimi, mimari tasarım ve proje yönetimi konularında danışmanlık hizmetleri sunuyorum." data-lang-en="I provide consulting services on technology selection, architectural design, and project management for new projects.">Yeni projeler için teknoloji seçimi, mimari tasarım ve proje yönetimi konularında danışmanlık hizmetleri sunuyorum.</p>
                 </div>
             </div>
         </div>
@@ -87,7 +100,7 @@
     <section id="portfolio" class="portfolio section">
         <div class="container">
             <div class="section-title">
-                <h2>Projelerim</h2>
+                <h2 data-lang-tr="Projelerim" data-lang-en="My Projects">Projelerim</h2>
             </div>
             <div class="portfolio-filters">
                 <button class="active" data-filter="all">Tümü</button>
@@ -120,7 +133,7 @@
                 <div class="portfolio-item" data-category="design">
                     <img src="images/project4.jpg" alt="Proje 4">
                     <div class="overlay">
-                        <h3>Kurumsal Kimlik</h>
+                        <h3>Kurumsal Kimlik</h3>
                         <p>Tasarım, Branding</p>
                     </div>
                 </div>
@@ -146,29 +159,29 @@
     <section id="contact" class="contact section">
         <div class="container">
             <div class="section-title">
-                <h2>İletişim</h2>
+                <h2 data-lang-tr="İletişim" data-lang-en="Contact">İletişim</h2>
             </div>
             <div class="contact-form">
                 <form id="contactForm">
                     <div class="form-row">
                         <div class="form-group">
-                            <label for="name">İsim</label>
+                            <label for="name" data-lang-tr="İsim" data-lang-en="Name">İsim</label>
                             <input type="text" id="name" name="name" required>
                         </div>
                         <div class="form-group">
-                            <label for="email">E-posta</label>
+                            <label for="email" data-lang-tr="E-posta" data-lang-en="Email">E-posta</label>
                             <input type="email" id="email" name="email" required>
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="subject">Konu</label>
+                        <label for="subject" data-lang-tr="Konu" data-lang-en="Subject">Konu</label>
                         <input type="text" id="subject" name="subject" required>
                     </div>
                     <div class="form-group">
-                        <label for="message">Mesaj</label>
+                        <label for="message" data-lang-tr="Mesaj" data-lang-en="Message">Mesaj</label>
                         <textarea id="message" name="message" required></textarea>
                     </div>
-                    <button type="submit" class="btn">Gönder</button>
+                    <button type="submit" class="btn" data-lang-tr="Gönder" data-lang-en="Send">Gönder</button>
                 </form>
             </div>
         </div>
@@ -179,8 +192,8 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-col">
-                    <h3>Hakkımda</h3>
-                    <p>Flutter, Dart ve .NET konularında uzmanlaşmış bir yazılım geliştiricisiyim. Yaratıcı ve kullanıcı dostu uygulamalar geliştirmeyi seviyorum.</p>
+                    <h3 data-lang-tr="Hakkımda" data-lang-en="About Me">Hakkımda</h3>
+                    <p data-lang-tr="Flutter, Dart ve .NET konularında uzmanlaşmış bir yazılım geliştiricisiyim. Yaratıcı ve kullanıcı dostu uygulamalar geliştirmeyi seviyorum." data-lang-en="I am a software developer specializing in Flutter, Dart, and .NET. I love creating creative and user-friendly applications.">Flutter, Dart ve .NET konularında uzmanlaşmış bir yazılım geliştiricisiyim. Yaratıcı ve kullanıcı dostu uygulamalar geliştirmeyi seviyorum.</p>
                 </div>
             </div>
         </div>

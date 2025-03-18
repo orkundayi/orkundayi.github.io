@@ -284,7 +284,7 @@ nav ul li a:hover::after {
 
 .hero-content .social-icons {
     display: flex;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .hero-content .social-icons a {
@@ -832,6 +832,7 @@ footer::after {
     }
     
     nav {
+        margin-left: auto;
         position: fixed;
         top: 80px;
         left: -100%;
@@ -897,4 +898,103 @@ footer::after {
     opacity: 0;
     transform: translateY(30px);
     transition: all 0.5s ease;
+}
+
+/* Language Switcher */
+.language-switcher {
+    position: relative;
+    display: inline-block;
+}
+
+.language-switcher select {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    appearance: none;
+    background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path fill="%23000" d="M2 0L0 2h4zM2 5L0 3h4z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 8px 10px;
+}
+
+.language-switcher select option[data-flag="tr"]::before {
+    content: "🇹🇷 ";
+}
+
+.language-switcher select option[data-flag="en"]::before {
+    content: "🇬🇧 ";
+}
+
+.language-button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: white;
+    font-size: 14px;
+}
+
+.language-button img {
+    width: 20px;
+    height: auto;
+}
+
+.language-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: none; /* Başlangıçta gizli */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    min-width: 120px;
+}
+
+.language-option {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.language-option img {
+    width: 20px;
+    height: auto;
+}
+
+.language-option:hover {
+    background: #f1f1f1;
+}
+
+icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: background 0.3s ease;
+}
+
+.github {
+    background-color: black; /* GitHub rengi */
+}
+
+.linkedin {
+    background-color: #0077B5; /* LinkedIn rengi */
+}
+
+.icon:hover {
+    opacity: 0.8;
 }
