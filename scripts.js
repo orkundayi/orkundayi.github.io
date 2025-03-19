@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
+    // This is a small change to trigger GitHub Pages rebuild
     const header = document.querySelector('header');
     const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
     const nav = document.querySelector('nav');
