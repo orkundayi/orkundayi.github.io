@@ -22,16 +22,16 @@
                 </ul>
             </nav>
             <div class="language-switcher">
-                <button class="language-button" onclick="toggleDropdown()">
+                <button class="language-button">
                     <img id="selected-flag" src="https://flagcdn.com/w40/tr.png" alt="TR">
                     <span id="selected-lang">Türkçe</span>
                 </button>
                 <div class="language-dropdown">
-                    <div class="language-option" onclick="setLanguage('tr')">
+                    <div class="language-option" id="lang-option-tr" onclick="setLanguage('tr')">
                         <img src="https://flagcdn.com/w40/tr.png" alt="TR"> Türkçe
                     </div>
-                    <div class="language-option" onclick="setLanguage('en')">
-                        <img src="https://flagcdn.com/w40/gb.png" alt="EN"> English
+                    <div class="language-option" id="lang-option-en" onclick="setLanguage('en')">
+                        <img src="https://flagcdn.com/w40/gb.png" alt="EN"> İngilizce
                     </div>
                 </div>
             </div>

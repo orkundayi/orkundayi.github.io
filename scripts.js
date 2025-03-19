@@ -85,17 +85,46 @@ document.addEventListener('DOMContentLoaded', function() {
     function toggleDropdown() {
         languageDropdown.style.display = languageDropdown.style.display === 'block' ? 'none' : 'block';
     }
-
+    
     function setLanguage(lang) {
+        // Update content with selected language
         document.querySelectorAll('[data-lang-tr], [data-lang-en]').forEach(el => {
             el.innerHTML = el.getAttribute(`data-lang-${lang}`);
         });
-        document.getElementById("selected-flag").src = lang === "tr" ? "https://flagcdn.com/w40/tr.png" : "https://flagcdn.com/w40/gb.png";
+        
+        // Update flag and language name in button
+        document.getElementById("selected-flag").src = lang === "tr" ? 
+            "https://flagcdn.com/w40/tr.png" : "https://flagcdn.com/w40/gb.png";
         document.getElementById("selected-lang").textContent = lang === "tr" ? "Türkçe" : "English";
+        
+        // Update language dropdown options based on current language
+        const trOption = document.getElementById("lang-option-tr");
+        const enOption = document.getElementById("lang-option-en");
+        
+        if (lang === "tr") {
+            trOption.innerHTML = '<img src="https://flagcdn.com/w40/tr.png" alt="TR"> Türkçe';
+            enOption.innerHTML = '<img src="https://flagcdn.com/w40/gb.png" alt="EN"> İngilizce';
+        } else {
+            trOption.innerHTML = '<img src="https://flagcdn.com/w40/tr.png" alt="TR"> Turkish';
+            enOption.innerHTML = '<img src="https://flagcdn.com/w40/gb.png" alt="EN"> English';
+        }
+        
         languageDropdown.style.display = 'none';
     }
 
-    languageButton.addEventListener('click', toggleDropdown);
+    // Add click event listener to language button
+    languageButton.addEventListener('click', function(event) {
+        event.stopPropagation();
+        toggleDropdown();
+    });
+
+    // Add event listener to close dropdown when clicking outside
+    document.addEventListener('click', function(event) {
+        if (!languageButton.contains(event.target) && !languageDropdown.contains(event.target)) {
+            languageDropdown.style.display = 'none';
+        }
+    });
+
     window.setLanguage = setLanguage;
     setLanguage('tr'); // Default language
 });
