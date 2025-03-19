@@ -1,5 +1,14 @@
 document.addEventListener('DOMContentLoaded', function() {
     // This is a small change to trigger GitHub Pages rebuild
+    const savedTheme = localStorage.getItem('theme');
+    const darkIcon = document.getElementById('dark-icon');
+    const lightIcon = document.getElementById('light-icon');
+        
+    if (savedTheme === 'dark') {
+        document.body.classList.add('dark-mode');
+        darkIcon.style.display = 'none';
+        lightIcon.style.display = 'block';
+    }
     const header = document.querySelector('header');
     const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
     const nav = document.querySelector('nav');
@@ -214,15 +223,5 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('theme-toggle-btn').addEventListener('click', toggleTheme);
 
     // Sayfa yüklendiğinde kaydedilen temayı kontrol et
-    document.addEventListener('DOMContentLoaded', function() {
-        const savedTheme = localStorage.getItem('theme');
-        const darkIcon = document.getElementById('dark-icon');
-        const lightIcon = document.getElementById('light-icon');
-        
-        if (savedTheme === 'dark') {
-            document.body.classList.add('dark-mode');
-            darkIcon.style.display = 'none';
-            lightIcon.style.display = 'block';
-        }
-    });
+    
 });
