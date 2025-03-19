@@ -25,6 +25,13 @@ document.addEventListener('DOMContentLoaded', function() {
         link.addEventListener('click', () => nav.classList.remove('active'));
     });
 
+    // Close mobile menu when clicking outside
+    document.addEventListener('click', function(event) {
+        if (!nav.contains(event.target) && !mobileMenuBtn.contains(event.target)) {
+            nav.classList.remove('active');
+        }
+    });
+
     // Portfolio filtering
     portfolioFilters.forEach(filter => {
         filter.addEventListener('click', function() {
@@ -56,30 +63,6 @@ document.addEventListener('DOMContentLoaded', function() {
             console.log('Portfolyo item tıklandı:', this.querySelector('h3').textContent);
         });
     });
-
-    // Contact form validation
-    if (contactForm) {
-        contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            let isValid = true;
-            
-            this.querySelectorAll('input, textarea').forEach(input => {
-                if (!input.value.trim()) {
-                    isValid = false;
-                    input.style.borderColor = 'red';
-                } else {
-                    input.style.borderColor = '#ddd';
-                }
-            });
-
-            if (isValid) {
-                alert('Mesajınız başarıyla gönderildi! En kısa sürede size dönüş yapacağız.');
-                this.reset();
-            } else {
-                alert('Lütfen tüm alanları doldurun.');
-            }
-        });
-    }
 
     // Language Switcher
     function toggleDropdown() {
@@ -127,4 +110,81 @@ document.addEventListener('DOMContentLoaded', function() {
 
     window.setLanguage = setLanguage;
     setLanguage('tr'); // Default language
+
+    // Contact form submission - Web3Forms entegrasyonu
+    if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            let isValid = true;
+            
+            // Validate all form fields
+            this.querySelectorAll('input:not([type="hidden"]), textarea').forEach(input => {
+                if (!input.value.trim()) {
+                    isValid = false;
+                    input.style.borderColor = 'red';
+                } else {
+                    input.style.borderColor = '#ddd';
+                }
+            });
+
+            if (!isValid) {
+                // Show validation error message
+                const currentLang = document.getElementById("selected-lang").textContent === "Türkçe" ? "tr" : "en";
+                const validationMessage = currentLang === "tr" ? 
+                    'Lütfen tüm alanları doldurun.' : 
+                    'Please fill in all fields.';
+                
+                alert(validationMessage);
+                return; // Stop execution if validation fails
+            }
+
+            // Show loading state
+            const submitButton = this.querySelector('button[type="submit"]');
+            const originalText = submitButton.innerHTML;
+            submitButton.disabled = true;
+            submitButton.innerHTML = document.getElementById("selected-lang").textContent === "Türkçe" ? 'Gönderiliyor...' : 'Sending...';
+            
+            // Web3Forms kullanarak form gönderimi
+            const formData = new FormData(this);
+            
+            fetch('https://api.web3forms.com/submit', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                if (data.success) {
+                    // Form başarıyla gönderildi
+                    const currentLang = document.getElementById("selected-lang").textContent === "Türkçe" ? "tr" : "en";
+                    const successMessage = currentLang === "tr" ? 
+                        'Mesajınız başarıyla gönderildi! En kısa sürede size dönüş yapacağız.' : 
+                        'Your message has been sent successfully! We will get back to you soon.';
+                    
+                    alert(successMessage);
+                    contactForm.reset();
+                } else {
+                    // Form gönderiminde hata oluştu
+                    throw new Error('Form submission failed');
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                const currentLang = document.getElementById("selected-lang").textContent === "Türkçe" ? "tr" : "en";
+                const errorMessage = currentLang === "tr" ? 
+                    'Mesaj gönderilirken bir hata oluştu. Lütfen daha sonra tekrar deneyiniz.' : 
+                    'An error occurred while sending the message. Please try again later.';
+                
+                alert(errorMessage);
+            })
+            .finally(() => {
+                submitButton.disabled = false;
+                submitButton.innerHTML = originalText;
+            });
+        });
+    }
 });

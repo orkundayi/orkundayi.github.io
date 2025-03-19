@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kişisel Portfolyo Sitesi</title>
+    <title>Flutech</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
 </head>
 <body>
     <!-- Header -->
     <header>
         <div class="container">
-            <div class="logo">DevPortfolio</div>
+            <a href="#home" class="logo">Flutech</a>
             <div class="mobile-menu-btn">☰</div>
             <nav>
                 <ul>
                     <li><a href="#home" data-lang-tr="Ana Sayfa" data-lang-en="Home">Ana Sayfa</a></li>
                     <li><a href="#services" data-lang-tr="Hizmetler" data-lang-en="Services">Hizmetler</a></li>
-                    <li><a href="#portfolio" data-lang-tr="Projelerim" data-lang-en="Portfolio">Projelerim</a></li>
+                    <!-- <li><a href="#portfolio" data-lang-tr="Projelerim" data-lang-en="My Projects">Projelerim</a></li> -->
                     <li><a href="#contact" data-lang-tr="İletişim" data-lang-en="Contact">İletişim</a></li>
                 </ul>
             </nav>
@@ -43,7 +44,7 @@
         <div class="container">
             <div class="hero-content">
                 <h1 data-lang-tr="Merhaba, Ben <span style='color: var(--primary);'>Orkun Dayı</span>" data-lang-en="Hello, I'm <span style='color: var(--primary);'>Orkun Dayı</span>">Merhaba, Ben <span style="color: var(--primary);">Orkun Dayı</span></h1>
-                <p data-lang-tr="Flutter ve Dart teknolojilerinde uzmanlaşmış, kullanıcı dostu ve yaratıcı mobil uygulamalar geliştiren deneyimli bir yazılım geliştiricisiyim." data-lang-en="I am an experienced software developer specializing in Flutter and Dart technologies, creating user-friendly and creative mobile applications.">Flutter ve Dart teknolojilerinde uzmanlaşmış, kullanıcı dostu ve yaratıcı mobil uygulamalar geliştiren deneyimli bir yazılım geliştiricisiyim.</p>
+                <p data-lang-tr="Flutter ve Dart teknolojilerinde uzmanlaşmış, kullanıcı dostu ve yaratıcı mobil uygulamalar geliştiren bir yazılım geliştiricisiyim." data-lang-en="I specialize in Flutter and Dart technologies, developing user-friendly and creative mobile applications."></p>
                 <a href="#contact" class="btn" data-lang-tr="İletişime Geç" data-lang-en="Contact Me">İletişime Geç</a>
                 <div class="social-icons">
                     <a href="https://github.com/orkundayi" target="_blank"><i class="fab fa-github"></i></a>
@@ -65,39 +66,24 @@
             <div class="services-grid">
                 <div class="service-card">
                     <div class="icon">📱</div>
-                    <h3 data-lang-tr="Mobil Uygulama Geliştirme" data-lang-en="Mobile App Development">Mobil Uygulama Geliştirme</h3>
-                    <p data-lang-tr="Flutter ve Dart kullanarak, iOS ve Android için yüksek performanslı ve kullanıcı dostu mobil uygulamalar geliştiriyorum." data-lang-en="Using Flutter and Dart, I develop high-performance and user-friendly mobile applications for iOS and Android.">Flutter ve Dart kullanarak, iOS ve Android için yüksek performanslı ve kullanıcı dostu mobil uygulamalar geliştiriyorum.</p>
-                </div>
-                <div class="service-card">
-                    <div class="icon">💻</div>
-                    <h3 data-lang-tr="Web Uygulama Geliştirme" data-lang-en="Web Application Development">Web Uygulama Geliştirme</h3>
-                    <p data-lang-tr=".NET ve modern web teknolojileri kullanarak, responsive ve hızlı web uygulamaları oluşturuyorum." data-lang-en="Using .NET and modern web technologies, I create responsive and fast web applications.">.NET ve modern web teknolojileri kullanarak, responsive ve hızlı web uygulamaları oluşturuyorum.</p>
+                    <h3 data-lang-tr="Mobil Uygulama Geliştirme" data-lang-en="Mobile App Development"></h3>
+                    <p data-lang-tr="Flutter ve Dart kullanarak performanslı, ölçeklenebilir ve kullanıcı dostu mobil uygulamalar geliştiriyorum. Modern ve estetik UI/UX tasarımlarıyla uygulamalarınızın hem görsel hem de işlevsel kalitesini artırarak en iyi kullanıcı deneyimini sunuyorum." data-lang-en="I develop high-performance, scalable, and user-friendly mobile applications using Flutter and Dart. By incorporating modern and aesthetic UI/UX designs, I enhance both the visual appeal and functional quality of your applications to deliver the best user experience."></p>
                 </div>
                 <div class="service-card">
                     <div class="icon">🔧</div>
-                    <h3 data-lang-tr="Bakım ve Geliştirme" data-lang-en="Maintenance and Development">Bakım ve Geliştirme</h3>
-                    <p data-lang-tr="Mevcut uygulamaları güncel tutmak, hataları gidermek ve yeni özellikler eklemek için bakım ve geliştirme hizmetleri sağlıyorum." data-lang-en="I provide maintenance and development services to keep existing applications up-to-date, fix bugs, and add new features.">Mevcut uygulamaları güncel tutmak, hataları gidermek ve yeni özellikler eklemek için bakım ve geliştirme hizmetleri sağlıyorum.</p>
-                </div>
-                <div class="service-card">
-                    <div class="icon">🔍</div>
-                    <h3 data-lang-tr="Kod İncelemesi" data-lang-en="Code Review">Kod İncelemesi</h3>
-                    <p data-lang-tr="Mevcut projeleri inceleyerek, kod kalitesini artırmak ve performans sorunlarını gidermek için öneriler sunuyorum." data-lang-en="I review existing projects and provide suggestions to improve code quality and address performance issues.">Mevcut projeleri inceleyerek, kod kalitesini artırmak ve performans sorunlarını gidermek için öneriler sunuyorum.</p>
-                </div>
-                <div class="service-card">
-                    <div class="icon">📊</div>
-                    <h3 data-lang-tr="Veri Analizi" data-lang-en="Data Analysis">Veri Analizi</h3>
-                    <p data-lang-tr="Uygulamanızın kullanım verilerini analiz ederek, kullanıcı deneyimini iyileştirmek için stratejiler geliştiriyorum." data-lang-en="I analyze the usage data of your application and develop strategies to improve the user experience.">Uygulamanızın kullanım verilerini analiz ederek, kullanıcı deneyimini iyileştirmek için stratejiler geliştiriyorum.</p>
+                    <h3 data-lang-tr="Uygulama Bakımı" data-lang-en="App Maintenance"></h3>
+                    <p data-lang-tr="Mevcut uygulamalarınızın güncel, hızlı ve verimli çalışmasını sağlıyorum. Hata giderme, performans iyileştirme ve yeni özellikler ekleme süreçlerini yöneterek uygulamanızın kalitesini artırıyorum." data-lang-en="I ensure that your applications remain up-to-date, fast, and efficient. By managing bug fixes, performance improvements, and new feature implementations, I help enhance the overall quality of your app."></p>
                 </div>
                 <div class="service-card">
                     <div class="icon">🚀</div>
-                    <h3 data-lang-tr="Proje Danışmanlığı" data-lang-en="Project Consulting">Proje Danışmanlığı</h3>
-                    <p data-lang-tr="Yeni projeler için teknoloji seçimi, mimari tasarım ve proje yönetimi konularında danışmanlık hizmetleri sunuyorum." data-lang-en="I provide consulting services on technology selection, architectural design, and project management for new projects.">Yeni projeler için teknoloji seçimi, mimari tasarım ve proje yönetimi konularında danışmanlık hizmetleri sunuyorum.</p>
+                    <h3 data-lang-tr="Backend & API" data-lang-en="Backend & API"></h3>
+                    <p data-lang-tr="Mobil uygulamalar için güvenli, ölçeklenebilir ve yüksek performanslı backend çözümleri geliştiriyorum. Üçüncü taraf servisler, ödeme sistemleri ve API entegrasyonları ile uygulamanızın sorunsuz çalışmasını sağlıyorum." data-lang-en="I build secure, scalable, and high-performance backend solutions for mobile applications. I integrate third-party services, payment systems, and APIs to ensure seamless functionality and smooth operation of your application."></p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="portfolio" class="portfolio section">
+    <!-- <section id="portfolio" class="portfolio section">
         <div class="container">
             <div class="section-title">
                 <h2 data-lang-tr="Projelerim" data-lang-en="My Projects">Projelerim</h2>
@@ -153,7 +139,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
@@ -162,7 +148,17 @@
                 <h2 data-lang-tr="İletişim" data-lang-en="Contact">İletişim</h2>
             </div>
             <div class="contact-form">
-                <form id="contactForm">
+                <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                    <!-- Web3Forms API Anahtarı -->
+                    <input type="hidden" name="access_key" value="3ec02830-12a9-4629-b163-9d69b7f71b23">
+                    
+                    <!-- Spam koruması için gizli alan -->
+                    <input type="checkbox" name="botcheck" style="display: none;">
+                    
+                    <!-- Gönderilecek alıcı e-posta adresi (isteğe bağlı) -->
+                    <input type="hidden" name="from_name" value="Flutech Website">
+                    <input type="hidden" name="subject" value="Flutech İletişim Formu Mesajı">
+                    
                     <div class="form-row">
                         <div class="form-group">
                             <label for="name" data-lang-tr="İsim" data-lang-en="Name">İsim</label>
@@ -191,10 +187,27 @@
     <footer>
         <div class="container">
             <div class="footer-content">
-                <div class="footer-col">
+                <div class="footer-col about-col">
                     <h3 data-lang-tr="Hakkımda" data-lang-en="About Me">Hakkımda</h3>
-                    <p data-lang-tr="Flutter, Dart ve .NET konularında uzmanlaşmış bir yazılım geliştiricisiyim. Yaratıcı ve kullanıcı dostu uygulamalar geliştirmeyi seviyorum." data-lang-en="I am a software developer specializing in Flutter, Dart, and .NET. I love creating creative and user-friendly applications.">Flutter, Dart ve .NET konularında uzmanlaşmış bir yazılım geliştiricisiyim. Yaratıcı ve kullanıcı dostu uygulamalar geliştirmeyi seviyorum.</p>
+                    <p data-lang-tr="Tutkulu bir mobil uygulama geliştiricisiyim ve Flutter ile Dart teknolojileri üzerinde uzmanlaşmış durumdayım. Yüksek performanslı, ölçeklenebilir ve kullanıcı dostu uygulamalar geliştirirken, UI/UX tasarımına büyük önem veriyorum. Kendimi sürekli yeni teknolojilerle geliştirerek yenilikçi dijital çözümler üretmeyi hedefliyorum." data-lang-en="I am a passionate mobile developer specializing in Flutter and Dart. I build high-performance, scalable, and user-friendly applications with a strong focus on UI/UX. I continuously explore new technologies to improve my skills and create innovative digital solutions."></p>
+                    
+                    <div class="footer-social">
+                        <a href="https://github.com/orkundayi" class="icon github" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/orkundayi" class="icon linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
                 </div>
+                
+                <div class="footer-col contact-col">
+                    <h3 data-lang-tr="İletişim" data-lang-en="Contact">İletişim</h3>
+                    <div class="footer-email">
+                        <i class="far fa-envelope"></i>
+                        <a href="mailto:orkundayi@flutech.org">orkundayi@flutech.org</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>2025 - <span data-lang-tr="Orkun Dayı" data-lang-en="Orkun Dayi">Orkun Dayı</span></p>
             </div>
         </div>
     </footer>

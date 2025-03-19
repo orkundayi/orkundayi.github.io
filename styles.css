@@ -317,7 +317,7 @@ nav ul li a:hover::after {
 .hero-image img {
     max-width: 100%;
     height: auto;
-    border-radius: 20px;
+    border-radius: 50%; /* Dairesel kesim için */
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
     transition: all 0.5s ease;
 }
@@ -468,6 +468,9 @@ nav ul li a:hover::after {
     font-size: 22px;
     margin-bottom: 15px;
     transition: all 0.3s ease;
+    height: 55px; /* Başlıklar için sabit yükseklik */
+    display: flex;
+    align-items: center; /* Dikey ortalama */
 }
 
 .service-card:hover h3 {
@@ -694,15 +697,16 @@ nav ul li a:hover::after {
     flex: 1;
 }
 
-/* Footer */
+/* Footer - Consolidated and Improved */
 footer {
     background: var(--dark);
     color: white;
-    padding: 50px 0 20px;
+    padding: 60px 0 20px;
     position: relative;
     overflow: hidden;
 }
 
+/* Background decorations */
 footer::before {
     content: '';
     position: absolute;
@@ -725,17 +729,25 @@ footer::after {
     border-radius: 50%;
 }
 
+/* Footer content structure */
 .footer-content {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 40px;
     position: relative;
     z-index: 1;
+    gap: 40px;
 }
 
 .footer-col {
-    flex: 0 0 23%;
-    max-width: 23%;
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-col.about-col {
+    flex: 2;
+    max-width: 600px;
 }
 
 .footer-col h3 {
@@ -754,26 +766,76 @@ footer::after {
     background: var(--primary);
     bottom: 0;
     left: 0;
+    transition: width 0.3s ease;
 }
 
-.footer-col ul {
-    list-style: none;
+.footer-col:hover h3::after {
+    width: 70px;
 }
 
-.footer-col ul li {
-    margin-bottom: 10px;
+.footer-col p {
+    line-height: 1.7;
+    color: #cdcdcd;
+    margin-bottom: 20px;
 }
 
-.footer-col ul li a {
-    color: #aaa;
+/* Footer social icons */
+.footer-social {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.footer-social a.icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
     transition: all 0.3s ease;
 }
 
-.footer-col ul li a:hover {
-    color: white;
-    padding-left: 5px;
+.footer-social a.icon:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
+.footer-social .github {
+    background-color: #333333;
+}
+
+.footer-social .linkedin {
+    background-color: #0077B5;
+}
+
+/* Footer email styling */
+.footer-email {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.footer-email i {
+    color: var(--primary);
+    font-size: 18px;
+}
+
+.footer-email a {
+    color: #cdcdcd;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-email a:hover {
+    color: var(--primary);
+}
+
+/* Footer bottom copyright */
 .footer-bottom {
     text-align: center;
     padding-top: 20px;
@@ -782,48 +844,76 @@ footer::after {
     z-index: 1;
 }
 
-/* Responsive Styles */
-@media (max-width: 992px) {
-    .hero-content, .hero-image {
+.footer-bottom p {
+    color: #999;
+    font-size: 14px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .footer-col, .footer-col.about-col {
         flex: 0 0 100%;
         max-width: 100%;
     }
     
-    .hero .container {
-        flex-direction: column;
-    }
-    
-    .hero-content {
+    .footer-col h3 {
         text-align: center;
-        margin-bottom: 50px;
     }
     
-    .hero-content .social-icons {
+    .footer-col h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .footer-col p {
+        text-align: center;
+    }
+    
+    .footer-social {
         justify-content: center;
     }
     
-    .about .container {
+    .footer-email {
+        justify-content: center;
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .footer-content {
         flex-direction: column;
+        gap: 30px;
     }
     
-    .about-image, .about-content {
+    .footer-col, .footer-col.about-col {
         flex: 0 0 100%;
         max-width: 100%;
     }
     
-    .about-image {
-        margin-bottom: 30px;
-        padding-right: 0;
+    .footer-col h3 {
+        text-align: center;
     }
     
-    .footer-content {
-        flex-wrap: wrap;
+    .footer-col h3::after {
+        left: 50%;
+        transform: translateX(-50%);
     }
     
-    .footer-col {
-        flex: 0 0 48%;
-        max-width: 48%;
-        margin-bottom: 30px;
+    .footer-col p {
+        text-align: center;
+    }
+    
+    .footer-social {
+        justify-content: center;
+    }
+    
+    .footer-email {
+        justify-content: center;
     }
 }
 
@@ -1020,4 +1110,26 @@ icon {
 
 .icon:hover {
     opacity: 0.8;
+}
+
+.footer-email {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.footer-email p {
+    margin: 0;
+    font-weight: 600;
+}
+
+.footer-email a {
+    color: var(--primary);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-email a:hover {
+    color: var(--primary-dark);
 }
