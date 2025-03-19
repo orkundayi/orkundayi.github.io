@@ -10,18 +10,19 @@
 </head>
 <body>
     <!-- Header -->
-    <header>
-        <div class="container">
-            <a href="#home" class="logo">Flutech</a>
-            <div class="mobile-menu-btn">☰</div>
-            <nav>
-                <ul>
-                    <li><a href="#home" data-lang-tr="Ana Sayfa" data-lang-en="Home">Ana Sayfa</a></li>
-                    <li><a href="#services" data-lang-tr="Hizmetler" data-lang-en="Services">Hizmetler</a></li>
-                    <!-- <li><a href="#portfolio" data-lang-tr="Projelerim" data-lang-en="My Projects">Projelerim</a></li> -->
-                    <li><a href="#contact" data-lang-tr="İletişim" data-lang-en="Contact">İletişim</a></li>
-                </ul>
-            </nav>
+<header>
+    <div class="container">
+        <a href="#home" class="logo">Flutech</a>
+        <div class="mobile-menu-btn">☰</div>
+        <nav>
+            <ul>
+                <li><a href="#home" data-lang-tr="Ana Sayfa" data-lang-en="Home">Ana Sayfa</a></li>
+                <li><a href="#services" data-lang-tr="Hizmetler" data-lang-en="Services">Hizmetler</a></li>
+                <!-- <li><a href="#portfolio" data-lang-tr="Projelerim" data-lang-en="My Projects">Projelerim</a></li> -->
+                <li><a href="#contact" data-lang-tr="İletişim" data-lang-en="Contact">İletişim</a></li>
+            </ul>
+        </nav>
+        <div class="header-actions">
             <div class="language-switcher">
                 <button class="language-button">
                     <img id="selected-flag" src="https://flagcdn.com/w40/tr.png" alt="TR">
@@ -36,8 +37,15 @@
                     </div>
                 </div>
             </div>
+            <div class="theme-toggle">
+                <button id="theme-toggle-btn">
+                    <i class="fas fa-moon" id="dark-icon"></i>
+                    <i class="fas fa-sun" id="light-icon" style="display: none;"></i>
+                </button>
+            </div>
         </div>
-    </header>
+    </div>
+</header>
 
     <!-- Hero Section -->
     <section id="home" class="hero">

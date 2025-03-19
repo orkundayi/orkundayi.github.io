@@ -187,4 +187,41 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         });
     }
+
+    // Tema değiştirme fonksiyonu
+    function toggleTheme() {
+        const body = document.body;
+        const darkIcon = document.getElementById('dark-icon');
+        const lightIcon = document.getElementById('light-icon');
+        
+        // Koyu tema sınıfını ekle/kaldır
+        body.classList.toggle('dark-mode');
+        
+        // İkonları değiştir
+        if (body.classList.contains('dark-mode')) {
+            darkIcon.style.display = 'none';
+            lightIcon.style.display = 'block';
+            localStorage.setItem('theme', 'dark');
+        } else {
+            darkIcon.style.display = 'block';
+            lightIcon.style.display = 'none';
+            localStorage.setItem('theme', 'light');
+        }
+    }
+
+    // Tema değiştirme düğmesine olay dinleyici ekle
+    document.getElementById('theme-toggle-btn').addEventListener('click', toggleTheme);
+
+    // Sayfa yüklendiğinde kaydedilen temayı kontrol et
+    document.addEventListener('DOMContentLoaded', function() {
+        const savedTheme = localStorage.getItem('theme');
+        const darkIcon = document.getElementById('dark-icon');
+        const lightIcon = document.getElementById('light-icon');
+        
+        if (savedTheme === 'dark') {
+            document.body.classList.add('dark-mode');
+            darkIcon.style.display = 'none';
+            lightIcon.style.display = 'block';
+        }
+    });
 });

@@ -6,8 +6,9 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Gelişmiş renk değişkenleri */
+/* Koyu tema renk değişkenleri */
 :root {
+    /* Açık tema değişkenleri (mevcut) */
     --primary: #4a6cf7;
     --primary-dark: #3151d3;
     --secondary: #6c757d;
@@ -19,6 +20,167 @@
     --gradient-secondary: linear-gradient(135deg, #6c757d 0%, #495057 100%);
     --box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     --box-shadow-hover: 0 20px 40px rgba(0, 0, 0, 0.15);
+    
+    /* Koyu tema değişkenleri */
+    --dark-primary: #5d7eff;
+    --dark-primary-dark: #4967e6;
+    --dark-secondary: #868e96;
+    --dark-success: #30c553;
+    --dark-info: #25b5cc;
+    --dark-light: #343a40;
+    --dark-dark: #f8f9fa;
+    --dark-bg: #1a1d21;
+    --dark-card-bg: #252a31;
+    --dark-border: #2c3237;
+    --dark-gradient: linear-gradient(135deg, #5d7eff 0%, #4967e6 100%);
+    --dark-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    --dark-box-shadow-hover: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* Koyu tema aktif olduğunda */
+.dark-mode {
+    --primary: var(--dark-primary);
+    --primary-dark: var(--dark-primary-dark);
+    --secondary: var(--dark-secondary);
+    --success: var(--dark-success);
+    --info: var(--dark-info);
+    --light: var(--dark-light);
+    --dark: var(--dark-dark);
+    --gradient: var(--dark-gradient);
+    --box-shadow: var(--dark-box-shadow);
+    --box-shadow-hover: var(--dark-box-shadow-hover);
+}
+
+/* Koyu tema için genel stillendirmeler */
+.dark-mode body {
+    background-color: var(--dark-bg);
+    color: #e6e6e6;
+}
+
+.dark-mode header {
+    background-color: var(--dark-bg);
+    border-bottom: 1px solid var(--dark-border);
+}
+
+.dark-mode header.scrolled {
+    background-color: rgba(26, 29, 33, 0.95);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode .logo {
+    color: var(--dark-primary);
+}
+
+.dark-mode nav ul li a {
+    color: #e6e6e6;
+}
+
+/* Hero bölümü için koyu tema */
+.dark-mode .hero {
+    background-image: linear-gradient(135deg, rgba(26, 29, 33, 0.95) 0%, rgba(38, 41, 45, 0.9) 100%), url('https://via.placeholder.com/1000?text=Pattern');
+}
+
+.dark-mode .hero-content p {
+    color: #bdbdbd;
+}
+
+/* About, Services, Portfolio bölümleri için koyu tema */
+.dark-mode .about {
+    background-color: var(--dark-bg);
+}
+
+.dark-mode .services {
+    background-color: var(--dark-bg);
+    background-image: linear-gradient(135deg, rgba(26, 29, 33, 0.97) 0%, rgba(38, 41, 45, 0.9) 100%), url('https://via.placeholder.com/500?text=Dots');
+}
+
+.dark-mode .service-card {
+    background: var(--dark-card-bg);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode .service-card:hover {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode .portfolio {
+    background-color: var(--dark-bg);
+}
+
+/* İletişim formu için koyu tema */
+.dark-mode .contact {
+    background-color: var(--dark-bg);
+}
+
+.dark-mode .contact-form {
+    background: var(--dark-card-bg);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode .form-group input,
+.dark-mode .form-group textarea {
+    background-color: var(--dark-bg);
+    border: 1px solid var(--dark-border);
+    color: #e6e6e6;
+}
+
+.dark-mode .form-group input:focus,
+.dark-mode .form-group textarea:focus {
+    border-color: var(--dark-primary);
+    box-shadow: 0 0 10px rgba(93, 126, 255, 0.2);
+}
+
+/* Language switcher için koyu tema */
+.dark-mode .language-button {
+    background: var(--dark-card-bg);
+    border: 1px solid var(--dark-border);
+    color: #e6e6e6;
+}
+
+.dark-mode .language-dropdown {
+    background: var(--dark-card-bg);
+    border: 1px solid var(--dark-border);
+}
+
+.dark-mode .language-option:hover {
+    background: var(--dark-light);
+}
+
+.dark-mode .language-option.active {
+    background: rgba(93, 126, 255, 0.2);
+}
+
+/* Tema değiştirme düğmesi stili */
+.theme-toggle {
+    margin-left: 15px;
+}
+
+.theme-toggle button {
+    background: transparent;
+    border: none;
+    color: var(--dark);
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.theme-toggle button:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.dark-mode .theme-toggle button {
+    color: #e6e6e6;
+}
+
+.dark-mode .theme-toggle button:hover {
+    background: rgba(255, 255, 255, 0.1);
 }
 
 /* Genel Stiller */
@@ -275,7 +437,6 @@ nav ul li a:hover::after {
 .hero-content h1 {
     font-size: 48px;
     margin-bottom: 20px;
-    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.8), -1px -1px 3px rgba(255, 255, 255, 0.8);
 }
 
 .hero-content p {
@@ -1132,4 +1293,323 @@ icon {
 
 .footer-email a:hover {
     color: var(--primary-dark);
+}
+
+/* Footer için koyu tema düzenlemeleri */
+.dark-mode footer {
+    background-color: var(--dark-card-bg);
+    color: #e6e6e6;
+    border-top: 1px solid var(--dark-border);
+}
+
+.dark-mode .footer-col h3 {
+    color: #e6e6e6;
+}
+
+.dark-mode .footer-col p {
+    color: #bdbdbd;
+}
+
+.dark-mode .footer-email a {
+    color: var(--dark-primary);
+}
+
+.dark-mode .footer-email a:hover {
+    color: var(--dark-primary-dark);
+}
+
+.dark-mode .footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .footer-bottom p {
+    color: #bdbdbd;
+}
+
+.dark-mode .footer-social .icon {
+    background-color: var(--dark-primary); /* Tüm sosyal medya ikonları için temel renk */
+}
+
+.dark-mode .footer-social .github {
+    background-color: #555; /* GitHub için koyu temada özel renk */
+}
+
+.dark-mode .footer-social .linkedin {
+    background-color: #0077B5; /* LinkedIn için koyu temada renk */
+}
+
+.dark-mode .footer-social a.icon:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.dark-mode .footer-email i {
+    color: var(--dark-primary);
+}
+
+/* Header İyileştirmeleri */
+header {
+    padding: 15px 0;
+    transition: all 0.4s ease;
+}
+
+header.scrolled {
+    padding: 12px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease;
+}
+
+.logo:hover {
+    transform: translateY(-2px);
+}
+
+nav {
+    margin: 0 auto 0 40px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li a {
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px 0;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: var(--gradient);
+    border-radius: 10px;
+    transition: all 0.4s cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+nav ul li a:hover::after,
+nav ul li a.active::after {
+    width: 100%;
+}
+
+/* Header actions container */
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Language switcher iyileştirmeleri */
+.language-switcher {
+    min-width: 150px;
+    position: relative;
+}
+
+.language-button {
+    gap: 8px;
+    padding: 8px 12px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #e0e0e0;
+    transition: all 0.3s ease;
+}
+
+.language-button img {
+    width: 20px;
+    height: auto;
+}
+
+.language-dropdown {
+    border-radius: 12px;
+    overflow: hidden;
+    top: calc(100% + 10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.language-option {
+    padding: 10px 12px;
+    font-size: 14px;
+}
+
+.language-option img {
+    width: 20px;
+    height: auto;
+}
+
+/* Theme toggle iyileştirmeleri */
+.theme-toggle {
+    margin-left: 5px;
+}
+
+.theme-toggle button {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    background: rgba(0, 0, 0, 0.03);
+}
+
+.theme-toggle button:hover {
+    background: rgba(0, 0, 0, 0.08);
+    transform: translateY(-2px);
+}
+
+/* Koyu tema için header iyileştirmeleri */
+.dark-mode header {
+    background-color: var(--dark-bg);
+}
+
+.dark-mode .logo {
+    background: var(--dark-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.dark-mode .language-button {
+    background: var(--dark-card-bg);
+    border-color: var(--dark-border);
+    color: #e6e6e6;
+}
+
+.dark-mode .theme-toggle button {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.dark-mode .theme-toggle button:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Mobil düzenlemeler */
+@media (max-width: 992px) {
+    nav {
+        margin-left: 20px;
+    }
+    
+    nav ul {
+        gap: 20px;
+    }
+    
+    .language-switcher {
+        min-width: 130px;
+    }
+    
+    .language-button span {
+        display: none;  /* Mobilde sadece bayrak göster */
+    }
+    
+    .language-button {
+        justify-content: center;
+        padding: 8px;
+    }
+    
+    .language-button:after {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    header .container {
+        justify-content: space-between;
+    }
+    
+    .mobile-menu-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        cursor: pointer;
+        background: rgba(0, 0, 0, 0.03);
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        order: 1;
+    }
+    
+    .dark-mode .mobile-menu-btn {
+        background: rgba(255, 255, 255, 0.05);
+    }
+    
+    .logo {
+        order: 0;
+    }
+    
+    .header-actions {
+        order: 2;
+    }
+    
+    nav {
+        margin: 0;
+        position: fixed;
+        top: 70px;
+        left: -100%;
+        width: 80%;
+        height: calc(100vh - 70px);
+        background: white;
+        transition: all 0.3s ease;
+        z-index: 1000;
+        box-shadow: 5px 0 20px rgba(0, 0, 0, 0.1);
+    }
+    
+    .dark-mode nav {
+        background: var(--dark-card-bg);
+        box-shadow: 5px 0 20px rgba(0, 0, 0, 0.3);
+    }
+    
+    nav.active {
+        left: 0;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        padding: 30px 20px;
+        gap: 25px;
+    }
+    
+    nav ul li a {
+        font-size: 18px;
+        display: block;
+        padding: 10px 15px;
+        border-radius: 8px;
+    }
+    
+    nav ul li a:hover {
+        background: rgba(74, 108, 247, 0.05);
+    }
+    
+    .dark-mode nav ul li a:hover {
+        background: rgba(93, 126, 255, 0.1);
+    }
+    
+    .language-switcher {
+        min-width: 40px;
+    }
+    
+    .theme-toggle button {
+        width: 40px;
+        height: 40px;
+    }
 }
