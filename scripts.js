@@ -3,12 +3,63 @@ document.addEventListener('DOMContentLoaded', function() {
     const savedTheme = localStorage.getItem('theme');
     const darkIcon = document.getElementById('dark-icon');
     const lightIcon = document.getElementById('light-icon');
+    const body = document.body;
         
-    if (savedTheme === 'dark') {
-        document.body.classList.add('dark-mode');
-        darkIcon.style.display = 'none';
-        lightIcon.style.display = 'block';
+    function setInitialTheme() {
+        const savedTheme = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        
+        // If theme is saved in localStorage, use that
+        if (savedTheme) {
+            body.classList.toggle('dark-mode', savedTheme === 'dark');
+        } 
+        // Otherwise use system preference
+        else if (prefersDark) {
+            body.classList.add('dark-mode');
+            localStorage.setItem('theme', 'dark');
+        }
+        
+        // Update icons based on current theme
+        updateThemeIcons();
     }
+    
+    // Update theme icons based on current theme
+    function updateThemeIcons() {
+        if (body.classList.contains('dark-mode')) {
+            darkIcon.style.display = 'none';
+            lightIcon.style.display = 'block';
+        } else {
+            darkIcon.style.display = 'block';
+            lightIcon.style.display = 'none';
+        }
+    }
+    
+    // Toggle theme function
+    function toggleTheme() {
+        body.classList.toggle('dark-mode');
+        
+        if (body.classList.contains('dark-mode')) {
+            localStorage.setItem('theme', 'dark');
+        } else {
+            localStorage.setItem('theme', 'light');
+        }
+        
+        updateThemeIcons();
+    }
+    
+    // Set initial theme
+    setInitialTheme();
+    
+    // Add event listener to theme toggle button
+    document.getElementById('theme-toggle-btn').addEventListener('click', toggleTheme);
+    
+    // Listen for system preference changes
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+        if (!localStorage.getItem('theme')) {
+            body.classList.toggle('dark-mode', e.matches);
+            updateThemeIcons();
+        }
+    });
     const header = document.querySelector('header');
     const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
     const nav = document.querySelector('nav');

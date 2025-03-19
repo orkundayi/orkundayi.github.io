@@ -21,6 +21,13 @@
     --box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     --box-shadow-hover: 0 20px 40px rgba(0, 0, 0, 0.15);
     
+    /* Açık tema için arka plan ve metin renkleri */
+    --bg: #ffffff;
+    --card-bg: #ffffff;
+    --text: #333333;
+    --text-secondary: #666666;
+    --border: #e9ecef;
+    
     /* Koyu tema değişkenleri */
     --dark-primary: #5d7eff;
     --dark-primary-dark: #4967e6;
@@ -35,6 +42,8 @@
     --dark-gradient: linear-gradient(135deg, #5d7eff 0%, #4967e6 100%);
     --dark-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
     --dark-box-shadow-hover: 0 20px 40px rgba(0, 0, 0, 0.4);
+    --dark-text: #e0e0e0;
+    --dark-text-secondary: #aaaaaa;
 }
 
 /* Koyu tema aktif olduğunda */
@@ -49,6 +58,14 @@
     --gradient: var(--dark-gradient);
     --box-shadow: var(--dark-box-shadow);
     --box-shadow-hover: var(--dark-box-shadow-hover);
+    --bg: var(--dark-bg);
+    --card-bg: var(--dark-card-bg);
+    --text: var(--dark-text);
+    --text-secondary: var(--dark-text-secondary);
+    --border: var(--dark-border);
+    
+    background-color: var(--dark-bg);
+    color: var(--dark-text);
 }
 
 /* Koyu tema için genel stillendirmeler */
@@ -72,7 +89,25 @@
 }
 
 .dark-mode nav ul li a {
-    color: #e6e6e6;
+    color: var(--dark-text);
+}
+
+/* Koyu tema için form elemanları */
+.dark-mode input, .dark-mode textarea, .dark-mode select {
+    background-color: var(--dark-card-bg);
+    color: var(--dark-text);
+    border: 1px solid var(--dark-border);
+}
+
+/* Koyu tema için butonlar */
+.dark-mode button, .dark-mode .btn {
+    background-color: var(--dark-primary);
+    color: var(--dark-text);
+}
+
+.dark-mode .language-dropdown {
+    background-color: var(--dark-card-bg);
+    border: 1px solid var(--dark-border);
 }
 
 /* Hero bölümü için koyu tema */
@@ -96,11 +131,25 @@
 
 .dark-mode .service-card {
     background: var(--dark-card-bg);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: var(--dark-box-shadow);
+    color: var(--dark-text);
+    border: 1px solid var(--dark-border);
 }
 
 .dark-mode .service-card:hover {
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    box-shadow: var(--dark-box-shadow-hover);
+}
+
+.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6 {
+    color: var(--dark-text);
+}
+
+.dark-mode p, .dark-mode span, .dark-mode li {
+    color: var(--dark-text-secondary);
+}
+
+.dark-mode a {
+    color: var(--dark-primary);
 }
 
 .dark-mode .portfolio {
@@ -137,17 +186,16 @@
     color: #e6e6e6;
 }
 
-.dark-mode .language-dropdown {
-    background: var(--dark-card-bg);
-    border: 1px solid var(--dark-border);
-}
-
 .dark-mode .language-option:hover {
     background: var(--dark-light);
 }
 
 .dark-mode .language-option.active {
     background: rgba(93, 126, 255, 0.2);
+}
+
+.dark-mode .language-option {
+    color: var(--dark-text);
 }
 
 /* Tema değiştirme düğmesi stili */
@@ -190,15 +238,17 @@ html {
 
 body {
     line-height: 1.6;
-    color: var(--dark);
-    background-color: var(--light);
+    color: var(--text);
+    background-color: var(--bg);
     overflow-x: hidden;
+    transition: all 0.3s ease;
 }
 
 h1, h2, h3, h4, h5, h6 {
     margin-bottom: 1rem;
     font-weight: 700;
     line-height: 1.2;
+    color: var(--dark);
 }
 
 a {
@@ -316,8 +366,9 @@ a:hover {
 
 /* Header */
 header {
-    background-color: white;
-    padding: 20px 0;
+    background-color: var(--bg);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px 0;
     position: fixed;
     width: 100%;
     top: 0;
@@ -361,6 +412,13 @@ nav ul li a {
 
 nav ul li a:hover {
     color: var(--primary);
+}
+
+/* Form elemanları */
+input, textarea, select {
+    background-color: var(--bg);
+    color: var(--text);
+    border: 1px solid var(--border);
 }
 
 /* Yatay çizgi hover efekti için */
@@ -600,17 +658,18 @@ nav ul li a:hover::after {
 
 /* Service kartları için gelişmiş stiller */
 .service-card {
-    background: white;
+    background: var(--card-bg);
     padding: 35px 30px;
+    border: 1px solid var(--border);
     border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    box-shadow: var(--box-shadow);
     transition: all 0.3s ease;
     border-bottom: 4px solid transparent;
 }
 
 .service-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--box-shadow-hover);
     border-bottom: 4px solid var(--primary);
 }
 
@@ -1348,10 +1407,6 @@ icon {
 }
 
 /* Header İyileştirmeleri */
-header {
-    padding: 15px 0;
-    transition: all 0.4s ease;
-}
 
 header.scrolled {
     padding: 12px 0;
@@ -1479,7 +1534,8 @@ nav ul li a.active::after {
 
 /* Koyu tema için header iyileştirmeleri */
 .dark-mode header {
-    background-color: var(--dark-bg);
+    background-color: var(--dark-card-bg);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 
 .dark-mode .logo {
