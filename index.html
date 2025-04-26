@@ -1,226 +1,38 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flutech.Dev</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <script src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
-    <link rel="icon" href="icons/favicon.png" type="image/x-icon">
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="flutech">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>flutech</title>
+  <link rel="manifest" href="manifest.json">
 </head>
 <body>
-    <!-- Header -->
-<header>
-    <div class="container">
-        <a href="#home" class="logo">Flutech.Dev</a>
-        <div class="mobile-menu-btn">☰</div>
-        <nav>
-            <ul>
-                <li><a href="#home" data-lang-tr="Ana Sayfa" data-lang-en="Home">Ana Sayfa</a></li>
-                <li><a href="#services" data-lang-tr="Hizmetler" data-lang-en="Services">Hizmetler</a></li>
-                <!-- <li><a href="#portfolio" data-lang-tr="Projelerim" data-lang-en="My Projects">Projelerim</a></li> -->
-                <li><a href="#contact" data-lang-tr="İletişim" data-lang-en="Contact">İletişim</a></li>
-            </ul>
-        </nav>
-        <div class="header-actions">
-            <div class="language-switcher">
-                <button class="language-button">
-                    <img id="selected-flag" src="https://flagcdn.com/w40/tr.png" alt="TR">
-                    <span id="selected-lang">Türkçe</span>
-                </button>
-                <div class="language-dropdown">
-                    <div class="language-option" id="lang-option-tr" onclick="setLanguage('tr')">
-                        <img src="https://flagcdn.com/w40/tr.png" alt="TR"> Türkçe
-                    </div>
-                    <div class="language-option" id="lang-option-en" onclick="setLanguage('en')">
-                        <img src="https://flagcdn.com/w40/gb.png" alt="EN"> İngilizce
-                    </div>
-                </div>
-            </div>
-            <div class="theme-toggle">
-                <button id="theme-toggle-btn">
-                    <i class="fas fa-moon" id="dark-icon"></i>
-                    <i class="fas fa-sun" id="light-icon" style="display: none;"></i>
-                </button>
-            </div>
-        </div>
-    </div>
-</header>
-
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1 data-lang-tr="Merhaba, Ben <span style='color: var(--primary);'>Orkun Dayı</span>" data-lang-en="Hello, I'm <span style='color: var(--primary);'>Orkun Dayı</span>">Merhaba, Ben <span style="color: var(--primary);">Orkun Dayı</span></h1>
-                <p data-lang-tr="Flutter ve Dart teknolojilerinde uzmanlaşmış, kullanıcı dostu ve yaratıcı mobil uygulamalar geliştiren bir yazılım geliştiricisiyim." data-lang-en="I specialize in Flutter and Dart technologies, developing user-friendly and creative mobile applications."></p>
-                <a href="#contact" class="btn" data-lang-tr="İletişime Geç" data-lang-en="Contact Me">İletişime Geç</a>
-                <div class="social-icons">
-                    <a href="https://github.com/orkundayi" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://linkedin.com/in/orkundayi" target="_blank"><i class="fab fa-linkedin"></i></a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <img src="https://media.licdn.com/dms/image/v2/D5603AQH5nNAyHkUYmg/profile-displayphoto-shrink_200_200/B56ZWpwxqhHEAc-/0/1742309891386?e=1747872000&v=beta&t=eHw-Qa6TH16Su8rDzk_qQKmzv8iE3R9jcMDi_wlkkc4" alt="Profil Resmi">
-            </div>
-        </div>
-    </section>
-
-    <!-- Services Section -->
-    <section id="services" class="services section">
-        <div class="container">
-            <div class="section-title">
-                <h2 data-lang-tr="Hizmetlerim" data-lang-en="My Services">Hizmetlerim</h2>
-            </div>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="icon">📱</div>
-                    <h3 data-lang-tr="Mobil Uygulama Geliştirme" data-lang-en="Mobile App Development"></h3>
-                    <p data-lang-tr="Flutter ve Dart kullanarak performanslı, ölçeklenebilir ve kullanıcı dostu mobil uygulamalar geliştiriyorum. Modern ve estetik UI/UX tasarımlarıyla uygulamalarınızın hem görsel hem de işlevsel kalitesini artırarak en iyi kullanıcı deneyimini sunuyorum." data-lang-en="I develop high-performance, scalable, and user-friendly mobile applications using Flutter and Dart. By incorporating modern and aesthetic UI/UX designs, I enhance both the visual appeal and functional quality of your applications to deliver the best user experience."></p>
-                </div>
-                <div class="service-card">
-                    <div class="icon">🔧</div>
-                    <h3 data-lang-tr="Uygulama Bakımı" data-lang-en="App Maintenance"></h3>
-                    <p data-lang-tr="Mevcut uygulamalarınızın güncel, hızlı ve verimli çalışmasını sağlıyorum. Hata giderme, performans iyileştirme ve yeni özellikler ekleme süreçlerini yöneterek uygulamanızın kalitesini artırıyorum." data-lang-en="I ensure that your applications remain up-to-date, fast, and efficient. By managing bug fixes, performance improvements, and new feature implementations, I help enhance the overall quality of your app."></p>
-                </div>
-                <div class="service-card">
-                    <div class="icon">🚀</div>
-                    <h3 data-lang-tr="Backend & API" data-lang-en="Backend & API"></h3>
-                    <p data-lang-tr="Mobil uygulamalar için güvenli, ölçeklenebilir ve yüksek performanslı backend çözümleri geliştiriyorum. Üçüncü taraf servisler, ödeme sistemleri ve API entegrasyonları ile uygulamanızın sorunsuz çalışmasını sağlıyorum." data-lang-en="I build secure, scalable, and high-performance backend solutions for mobile applications. I integrate third-party services, payment systems, and APIs to ensure seamless functionality and smooth operation of your application."></p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- <section id="portfolio" class="portfolio section">
-        <div class="container">
-            <div class="section-title">
-                <h2 data-lang-tr="Projelerim" data-lang-en="My Projects">Projelerim</h2>
-            </div>
-            <div class="portfolio-filters">
-                <button class="active" data-filter="all">Tümü</button>
-                <button data-filter="mobile">Mobil</button>
-                <button data-filter="web">Web</button>
-                <button data-filter="design">Tasarım</button>
-            </div>
-            <div class="portfolio-grid">
-                <div class="portfolio-item" data-category="mobile">
-                    <img src="images/project1.jpg" alt="Proje 1">
-                    <div class="overlay">
-                        <h3>Fitness Uygulaması</h3>
-                        <p>Flutter, Dart</p>
-                    </div>
-                </div>
-                <div class="portfolio-item" data-category="web">
-                    <img src="images/project2.jpg" alt="Proje 2">
-                    <div class="overlay">
-                        <h3>E-Ticaret Platformu</h3>
-                        <p>.NET, SQL Server</p>
-                    </div>
-                </div>
-                <div class="portfolio-item" data-category="mobile">
-                    <img src="images/project3.jpg" alt="Proje 3">
-                    <div class="overlay">
-                        <h3>Hava Durumu Uygulaması</h3>
-                        <p>Flutter, API Entegrasyonu</p>
-                    </div>
-                </div>
-                <div class="portfolio-item" data-category="design">
-                    <img src="images/project4.jpg" alt="Proje 4">
-                    <div class="overlay">
-                        <h3>Kurumsal Kimlik</h3>
-                        <p>Tasarım, Branding</p>
-                    </div>
-                </div>
-                <div class="portfolio-item" data-category="web">
-                    <img src="images/project5.jpg" alt="Proje 5">
-                    <div class="overlay">
-                        <h3>İçerik Yönetim Sistemi</h3>
-                        <p>.NET, Azure</p>
-                    </div>
-                </div>
-                <div class="portfolio-item" data-category="mobile">
-                    <img src="images/project6.jpg" alt="Proje 6">
-                    <div class="overlay">
-                        <h3>Seyahat Rehberi</h3>
-                        <p>Flutter, Firebase</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
-        <div class="container">
-            <div class="section-title">
-                <h2 data-lang-tr="İletişim" data-lang-en="Contact">İletişim</h2>
-            </div>
-            <div class="contact-form">
-                <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
-                    <!-- Web3Forms API Anahtarı -->
-                    <input type="hidden" name="access_key" value="3ec02830-12a9-4629-b163-9d69b7f71b23">
-                    
-                    <!-- Spam koruması için gizli alan -->
-                    <input type="checkbox" name="botcheck" style="display: none;">
-                    
-                    <!-- Gönderilecek alıcı e-posta adresi (isteğe bağlı) -->
-                    <input type="hidden" name="from_name" value="Flutech Website">
-                    <input type="hidden" name="subject" value="Flutech İletişim Formu Mesajı">
-                    
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="name" data-lang-tr="İsim" data-lang-en="Name">İsim</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email" data-lang-tr="E-posta" data-lang-en="Email">E-posta</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="subject" data-lang-tr="Konu" data-lang-en="Subject">Konu</label>
-                        <input type="text" id="subject" name="subject" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message" data-lang-tr="Mesaj" data-lang-en="Message">Mesaj</label>
-                        <textarea id="message" name="message" required></textarea>
-                    </div>
-                    <button type="submit" class="btn" data-lang-tr="Gönder" data-lang-en="Send">Gönder</button>
-                </form>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-col about-col">
-                    <h3 data-lang-tr="Hakkımda" data-lang-en="About Me">Hakkımda</h3>
-                    <p data-lang-tr="Tutkulu bir mobil uygulama geliştiricisiyim ve Flutter ile Dart teknolojileri üzerinde uzmanlaşmış durumdayım. Yüksek performanslı, ölçeklenebilir ve kullanıcı dostu uygulamalar geliştirirken, UI/UX tasarımına büyük önem veriyorum. Kendimi sürekli yeni teknolojilerle geliştirerek yenilikçi dijital çözümler üretmeyi hedefliyorum." data-lang-en="I am a passionate mobile developer specializing in Flutter and Dart. I build high-performance, scalable, and user-friendly applications with a strong focus on UI/UX. I continuously explore new technologies to improve my skills and create innovative digital solutions."></p>
-                    
-                    <div class="footer-social">
-                        <a href="https://github.com/orkundayi" class="icon github" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="https://linkedin.com/in/orkundayi" class="icon linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-                
-                <div class="footer-col contact-col">
-                    <h3 data-lang-tr="İletişim" data-lang-en="Contact">İletişim</h3>
-                    <div class="footer-email">
-                        <i class="far fa-envelope"></i>
-                        <a href="mailto:orkundayi@flutech.org">orkundayi@flutech.org</a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="footer-bottom">
-                <p>2025 - <span data-lang-tr="Orkun Dayı" data-lang-en="Orkun Dayi">Orkun Dayı</span></p>
-            </div>
-        </div>
-    </footer>
-
-    <script src="scripts.js"></script>
+  <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
