@@ -154,8 +154,6 @@ class _ProjectDetailPageState extends State<ProjectDetailPage> {
                         child: _buildImageGallery(theme, colorScheme, isMobile),
                       ),
                     const SizedBox(height: 24),
-
-                    // Google Play butonu
                     if (widget.project.storeUrl != null)
                       Center(
                         child: MouseRegion(
@@ -167,6 +165,37 @@ class _ProjectDetailPageState extends State<ProjectDetailPage> {
                             icon: Icon(Icons.android, color: Colors.white, size: 28),
                             label: Text(
                               l10n.openInGooglePlay,
+                              style: theme.textTheme.titleMedium?.copyWith(
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor: colorScheme.primary,
+                              foregroundColor: Colors.white,
+                              padding: const EdgeInsets.symmetric(horizontal: 28, vertical: 16),
+                              textStyle: const TextStyle(fontSize: 18),
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(14),
+                              ),
+                              elevation: 3,
+                            ),
+                          ),
+                        ),
+                      )
+                    else if (widget.project.apkPath != null)
+                      Center(
+                        child: MouseRegion(
+                          cursor: SystemMouseCursors.click,
+                          child: ElevatedButton.icon(
+                            onPressed: () {
+                              html.AnchorElement(href: widget.project.apkPath!)
+                                ..setAttribute('download', '')
+                                ..click();
+                            },
+                            icon: Icon(Icons.download, color: Colors.white, size: 28),
+                            label: Text(
+                              l10n.downloadApk,
                               style: theme.textTheme.titleMedium?.copyWith(
                                 color: Colors.white,
                                 fontWeight: FontWeight.bold,

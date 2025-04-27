@@ -13,15 +13,15 @@
   "letsTalk": "Let's Talk",
   "getInTouch": "Get In Touch",
   "mobileAppDevTitle": "Mobile App Development",
-  "mobileAppDevDesc": "iOS and Android apps with beautiful user interface and robust design using Flutter cross-platform framework.",
+  "mobileAppDevDesc": "I develop high-performance, scalable iOS and Android applications with Flutter, focusing on robust architecture and modern UI.",
   "uiUxDesignTitle": "UI/UX Design",
-  "uiUxDesignDesc": "User experience enhancement and creative user interface designs.",
+  "uiUxDesignDesc": "I deliver innovative and user-centric UI/UX designs that enhance usability and engagement.",
   "apiIntegrationTitle": "API Integration",
-  "apiIntegrationDesc": "RESTful services, GraphQL API integration with third-party platforms.",
+  "apiIntegrationDesc": "Seamless integration with RESTful APIs, .NET, Firebase, and other third-party platforms for secure and scalable data exchange.",
   "backendSolutionsTitle": "Backend Solutions",
-  "backendSolutionsDesc": "Supporting your applications with secure Firebase and custom backend integrations.",
+  "backendSolutionsDesc": "Custom backend solutions using .NET, Firebase, or cloud services to ensure security, scalability, and reliability for your applications.",
   "appArchitectureTitle": "App Architecture",
-  "appArchitectureDesc": "Clean architecture applications that are easy to maintain and scale.",
+  "appArchitectureDesc": "Designing maintainable, scalable, and clean application architectures tailored to your business needs.",
   "whatICanDoForYou": "What I Can Do For You",
   "language": "Language",
   "languageEn": "English",
@@ -36,7 +36,7 @@
   "contact": "Contact",
   "settings": "Settings",
   "projectFeatures": "App Features",
-  "aboutDescription": "Hello, I am a Flutter developer. I develop mobile applications using Flutter. I prioritize user experience in the app development process. I create user-friendly applications by combining design and functionality. I pay attention to clean code writing and good architecture in my projects. I also have experience in API integrations and backend solutions. If you want me to develop an application for you, you can contact me. We can achieve great projects together.",
+  "aboutDescription": "As a dedicated Flutter developer, I create modern, user-centric mobile applications with a focus on clean code, robust architecture, and elegant design. My expertise includes seamless API integrations and backend solutions, enabling me to transform ideas into high-quality digital products. I am committed to continuous learning and delivering outstanding results in every project. Let's work together to bring your vision to life.",
   "sinceDeveloper": "Developer since {date}",
   "@sinceDeveloper": {
     "description": "The year the developer started",
@@ -46,11 +46,12 @@
       }
     }
   },
-  "personalProjects": "Personal Projects & Experiments",
-  "flutterDartFocused": "Focused on Flutter and Dart",
+  "personalProjects": "Comprehensive personal projects and a continuous learning mindset",
+  "flutterDartFocused": "Specializing in Flutter, Dart, and scalable cross-platform architectures",
   "contactInfoTitle": "Contact Information",
   "contactInfoDesc": "You can use my email address to contact me.",
   "emailTitle": "Email",
   "githubDesc": "Code & Projects",
-  "linkedinDesc": "Professional Profile"
+  "linkedinDesc": "Professional Profile",
+  "downloadApk": "Download APK"
 }

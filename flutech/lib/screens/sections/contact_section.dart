@@ -11,12 +11,12 @@ class ContactSection extends StatelessWidget {
     final theme = Theme.of(context);
     final l10n = AppLocalizations.of(context);
     final screenWidth = MediaQuery.of(context).size.width;
+    final isMobile = screenWidth < 600;
 
     return SizedBox(
       width: double.infinity,
       child: Column(
         children: [
-          // Section title area
           Container(
             width: double.infinity,
             padding: EdgeInsets.only(
@@ -28,20 +28,10 @@ class ContactSection extends StatelessWidget {
               children: [
                 Text(
                   l10n.getInTouch.toUpperCase(),
-                  style: TextStyle(
-                    color: theme.colorScheme.primary,
-                    fontWeight: FontWeight.w600,
-                    letterSpacing: 2,
-                    fontSize: screenWidth < 600 ? 14 : 16,
-                  ),
-                ),
-                const SizedBox(height: 16),
-                Text(
-                  l10n.contact,
                   style: theme.textTheme.displaySmall?.copyWith(
                     fontWeight: FontWeight.bold,
-                    fontSize: screenWidth < 600 ? 32 : null,
-                    color: theme.colorScheme.onBackground,
+                    fontSize: isMobile ? 32 : null,
+                    color: theme.colorScheme.primary,
                   ),
                 ),
                 const SizedBox(height: 20),
@@ -56,7 +46,6 @@ class ContactSection extends StatelessWidget {
               ],
             ),
           ),
-
           Container(
             width: double.infinity,
             color: theme.colorScheme.surface,

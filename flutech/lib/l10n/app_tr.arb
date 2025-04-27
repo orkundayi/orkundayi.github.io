@@ -13,15 +13,15 @@
   "letsTalk": "Konuşalım",
   "getInTouch": "İletişime Geç",
   "mobileAppDevTitle": "Mobil Uygulama Geliştirme",
-  "mobileAppDevDesc": "Flutter çapraz platform çerçevesi kullanarak güzel kullanıcı arayüzü ve sağlam tasarıma sahip iOS ve Android uygulamaları.",
+  "mobileAppDevDesc": "Flutter ile yüksek performanslı, ölçeklenebilir ve modern arayüze sahip iOS ve Android uygulamaları geliştiriyorum.",
   "uiUxDesignTitle": "UI/UX Tasarım",
-  "uiUxDesignDesc": "Kullanıcı deneyimi iyileştirme ve yaratıcı kullanıcı arayüzü tasarımları.",
+  "uiUxDesignDesc": "Kullanıcı odaklı, yenilikçi ve etkileşimi artıran UI/UX tasarımları sunuyorum.",
   "apiIntegrationTitle": "API Entegrasyonu",
-  "apiIntegrationDesc": "RESTful servisler, üçüncü taraf platformlarla GraphQL API entegrasyonu.",
+  "apiIntegrationDesc": ".NET, Firebase ve diğer üçüncü parti platformlarla güvenli ve ölçeklenebilir RESTful API entegrasyonları gerçekleştiriyorum.",
   "backendSolutionsTitle": "Backend Çözümleri",
-  "backendSolutionsDesc": "Uygulamalarınızı güvenli Firebase ve özel backend entegrasyonları ile destekleme.",
+  "backendSolutionsDesc": ".NET, Firebase veya bulut servisleriyle güvenli, ölçeklenebilir ve özelleştirilmiş backend çözümleri sunuyorum.",
   "appArchitectureTitle": "Uygulama Mimarisi",
-  "appArchitectureDesc": "Bakımı ve ölçeklendirilmesi kolay temiz mimari uygulamaları.",
+  "appArchitectureDesc": "İş ihtiyaçlarınıza uygun, bakımı kolay ve ölçeklenebilir uygulama mimarileri tasarlıyorum.",
   "whatICanDoForYou": "Sizin İçin Ne Yapabilirim",
   "language": "Dil",
   "languageEn": "İngilizce",
@@ -36,7 +36,7 @@
   "contact": "İletişim",
   "settings": "Ayarlar",
   "projectFeatures": "Uygulama Özellikleri",
-  "aboutDescription": "Merhaba, ben Flutter geliştiricisiyim. Flutter kullanarak mobil uygulamalar geliştiriyorum. Uygulama geliştirme sürecinde kullanıcı deneyimini ön planda tutuyorum. Tasarım ve işlevselliği bir araya getirerek kullanıcı dostu uygulamalar oluşturuyorum. Projelerimde temiz kod yazımına ve iyi bir mimariye önem veriyorum. Ayrıca, API entegrasyonları ve backend çözümleri konusunda da deneyimim var. Eğer sizin için bir uygulama geliştirmemi isterseniz, benimle iletişime geçebilirsiniz. Birlikte harika projelere imza atabiliriz.",
+  "aboutDescription": "Mobil uygulama geliştirme alanında uzmanlaşmış bir Flutter geliştiricisi olarak, modern ve kullanıcı odaklı çözümler üretiyorum. Projelerimde temiz kod, güçlü mimari ve estetik tasarımı ön planda tutuyorum. API entegrasyonları ve backend çözümleri konusundaki deneyimimle, fikirlerinizi yüksek kaliteli dijital ürünlere dönüştürmek için çalışıyorum. Sürekli öğrenmeye ve her projede en iyi sonucu sunmaya odaklanıyorum. Hayalinizdeki projeyi birlikte hayata geçirebiliriz.",
   "sinceDeveloper": "{date} yılından beri Geliştirici",
   "@sinceDeveloper": {
     "description": "Geliştirici olarak başlanılan yıl",
@@ -46,11 +46,12 @@
       }
     }
   },
-  "personalProjects": "Kişisel Projeler & Denemeler",
-  "flutterDartFocused": "Flutter ve Dart'a odaklı",
+  "personalProjects": "Kapsamlı kişisel projeler ve sürekli öğrenme odaklı bir yaklaşım",
+  "flutterDartFocused": "Flutter ve Dart ile yüksek performanslı, estetik ve stabil mobil deneyimler",
   "contactInfoTitle": "İletişim Bilgileri",
   "contactInfoDesc": "Benimle iletişime geçmek için e-posta adresimi kullanabilirsiniz.",
   "emailTitle": "E-posta",
   "githubDesc": "Kod ve Projeler",
-  "linkedinDesc": "Profesyonel Profil"
+  "linkedinDesc": "Profesyonel Profil",
+  "downloadApk": "APK İndir"
 }

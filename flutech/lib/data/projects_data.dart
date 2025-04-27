@@ -11,6 +11,7 @@ class Project {
   final String? imageAsset;
   final String? storeUrl;
   final String? localStoreImageAsset;
+  final String? apkPath; // Yeni: APK dosyası için path
   final List<String>? screenshotAssets;
   final List<Map<String, dynamic>>? featuresEn;
   final List<Map<String, dynamic>>? featuresTr;
@@ -31,6 +32,7 @@ class Project {
     this.imageAsset,
     this.storeUrl,
     this.localStoreImageAsset,
+    this.apkPath,
     this.screenshotAssets,
     this.featuresEn,
     this.featuresTr,
@@ -48,6 +50,7 @@ class Project {
       imageAsset: json['imageAsset'] as String?,
       storeUrl: json['storeUrl'] as String?,
       localStoreImageAsset: json['localStoreImageAsset'] as String?,
+      apkPath: json['apkPath'] as String?,
       screenshotAssets: (json['screenshotAssets'] as List?)?.map((e) => e as String).toList(),
       featuresEn: (json['featuresEn'] as List?)?.map((e) => Map<String, dynamic>.from(e)).toList(),
       featuresTr: (json['featuresTr'] as List?)?.map((e) => Map<String, dynamic>.from(e)).toList(),
@@ -118,6 +121,91 @@ final List<Map<String, dynamic>> projectsData = [
         'icon': Icons.leaderboard,
         'title': 'Skor Takibi',
         'description': 'En yüksek skorlarınızı takip edin ve kendinize meydan okuyun.'
+      },
+    ],
+  },
+  {
+    'titleEn': 'Intent Tester',
+    'titleTr': 'Intent Tester',
+    'descriptionEn':
+        'With this tool developed in Flutter, you can quickly and practically test Android intent operations. Specially designed for developers, this solution makes intent management easier and debugging more efficient. Perform your tests effortlessly with easy integration, intuitive interface, and smooth performance!',
+    'descriptionTr':
+        'Flutter ile geliştirilen bu araç sayesinde Android intent işlemlerini hızlı ve pratik bir şekilde test edebilirsiniz. Geliştiriciler için özel olarak tasarlanan bu çözüm, intent yönetimini kolaylaştırarak hata ayıklama sürecini daha verimli hale getirir. Kolay entegrasyon, sezgisel arayüz ve akıcı performans ile testlerinizi zahmetsizce gerçekleştirin!',
+    'tagsEn': ['Flutter', 'Android', 'Intent', 'APK'],
+    'tagsTr': ['Flutter', 'Android', 'Intent', 'APK'],
+    'color': '#009688',
+    'imageAsset': null,
+    'storeUrl': null,
+    'apkPath': 'flutech/assets/apk/connection.apk',
+    'localStoreImageAsset': null,
+    'screenshotAssets': [
+      'assets/images/store/connection/connection-1.png',
+      'assets/images/store/connection/connection-2.png',
+      'assets/images/store/connection/connection-3.png',
+      'assets/images/store/connection/connection-4.png',
+    ],
+    'featuresEn': [
+      {
+        'icon': Icons.bolt,
+        'title': 'Quick Intent Testing',
+        'description': 'Test Android intents rapidly without writing extra code.'
+      },
+      {
+        'icon': Icons.bug_report,
+        'title': 'Debug Friendly',
+        'description': 'Designed for developers to make debugging easier.'
+      },
+      {
+        'icon': Icons.touch_app,
+        'title': 'Intuitive UI',
+        'description': 'Simple and user-friendly interface for seamless testing.'
+      },
+      {
+        'icon': Icons.integration_instructions,
+        'title': 'Easy Integration',
+        'description': 'Integrate and use the tool in your workflow effortlessly.'
+      },
+      {
+        'icon': Icons.sync_alt,
+        'title': 'Postman Integration',
+        'description': 'Works integrated with Postman, enabling automated API testing.'
+      },
+      {
+        'icon': Icons.storage,
+        'title': 'Manual & Local Test Support',
+        'description': 'Optionally store data locally for manual testing.'
+      },
+    ],
+    'featuresTr': [
+      {
+        'icon': Icons.bolt,
+        'title': 'Hızlı Intent Testi',
+        'description': 'Ekstra kod yazmadan Android intent işlemlerini hızlıca test edin.'
+      },
+      {
+        'icon': Icons.bug_report,
+        'title': 'Hata Ayıklama Dostu',
+        'description': 'Geliştiriciler için hata ayıklamayı kolaylaştıracak şekilde tasarlandı.'
+      },
+      {
+        'icon': Icons.touch_app,
+        'title': 'Sezgisel Arayüz',
+        'description': 'Kolay ve kullanıcı dostu arayüz ile zahmetsiz test.'
+      },
+      {
+        'icon': Icons.integration_instructions,
+        'title': 'Kolay Entegrasyon',
+        'description': 'Aracı iş akışınıza zahmetsizce entegre edin ve kullanın.'
+      },
+      {
+        'icon': Icons.sync_alt,
+        'title': 'Postman Entegrasyonu',
+        'description': 'Postman ile entegre çalışabilir, API testlerini otomatikleştirebilirsiniz.'
+      },
+      {
+        'icon': Icons.storage,
+        'title': 'Manuel & Lokal Test Desteği',
+        'description': 'İsterseniz verileri lokalde tutarak manuel testlerinizi de kolayca gerçekleştirebilirsiniz.'
       },
     ],
   },

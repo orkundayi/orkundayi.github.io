@@ -40,51 +40,57 @@ class ServicesSection extends StatelessWidget {
       ),
     ];
 
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.center,
-      children: [
-        // Contact ve Project section'ları ile aynı stil
-        Text(
-          l10n.services.toUpperCase(),
-          style: TextStyle(
-            color: theme.colorScheme.primary,
-            fontWeight: FontWeight.w600,
-            letterSpacing: 2,
-            fontSize: isMobile ? 14 : 16,
+    return Center(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          Text(
+            l10n.whatICanDoForYou,
+            textAlign: TextAlign.center,
+            style: theme.textTheme.displaySmall?.copyWith(
+              fontWeight: FontWeight.bold,
+              fontSize: isMobile ? 32 : null,
+              color: theme.colorScheme.primary,
+            ),
           ),
-        ),
-        const SizedBox(height: 16),
-        Text(
-          l10n.whatICanDoForYou,
-          style: theme.textTheme.displaySmall?.copyWith(
-            fontWeight: FontWeight.bold,
-            fontSize: isMobile ? 32 : null,
-            color: theme.colorScheme.onBackground,
+          const SizedBox(height: 20),
+          Container(
+            width: 70,
+            height: 4,
+            decoration: BoxDecoration(
+              color: theme.colorScheme.primary,
+              borderRadius: BorderRadius.circular(2),
+            ),
           ),
-        ),
-        const SizedBox(height: 20),
-        Container(
-          width: 70,
-          height: 4,
-          decoration: BoxDecoration(
-            color: theme.colorScheme.primary,
-            borderRadius: BorderRadius.circular(2),
+          const SizedBox(height: 60),
+          LayoutBuilder(
+            builder: (context, constraints) {
+              int crossAxisCount = 1;
+              if (constraints.maxWidth > 1100) {
+                crossAxisCount = 3;
+              } else if (constraints.maxWidth > 650) {
+                crossAxisCount = 2;
+              }
+              return GridView.builder(
+                shrinkWrap: true,
+                physics: const NeverScrollableScrollPhysics(),
+                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                  crossAxisCount: crossAxisCount,
+                  childAspectRatio: 1.1, // Daha dengeli oran
+                  crossAxisSpacing: 30,
+                  mainAxisSpacing: 30,
+                ),
+                itemCount: services.length,
+                itemBuilder: (context, index) => SizedBox(
+                  // Responsive minHeight
+                  height: 260,
+                  child: services[index],
+                ),
+              );
+            },
           ),
-        ),
-        const SizedBox(height: 60),
-        GridView.builder(
-          shrinkWrap: true,
-          physics: const NeverScrollableScrollPhysics(),
-          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: screenSize.width > 1100 ? 3 : (screenSize.width > 650 ? 2 : 1),
-            childAspectRatio: 1.2,
-            crossAxisSpacing: 30,
-            mainAxisSpacing: 30,
-          ),
-          itemCount: services.length,
-          itemBuilder: (context, index) => services[index],
-        ),
-      ],
+        ],
+      ),
     );
   }
 }

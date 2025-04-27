@@ -20,7 +20,6 @@ class WebHeader extends StatelessWidget {
     final theme = Theme.of(context);
     final l10n = AppLocalizations.of(context);
     final screenSize = MediaQuery.of(context).size;
-    final isSmallScreen = screenSize.width < 768;
 
     return Container(
       height: 80,
@@ -34,66 +33,113 @@ class WebHeader extends StatelessWidget {
           ),
         ],
       ),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        children: [
-          MouseRegion(
-            cursor: SystemMouseCursors.click,
-            child: GestureDetector(
-              onTap: () => onSectionSelected('home'),
-              child: Row(
-                children: [
-                  Text(
-                    'Flutech.Dev',
-                    style: theme.textTheme.headlineSmall?.copyWith(
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                ],
+      child: LayoutBuilder(
+        builder: (context, constraints) {
+          final isSmallScreen = constraints.maxWidth < 768;
+          return Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              MouseRegion(
+                cursor: SystemMouseCursors.click,
+                child: GestureDetector(
+                    onTap: () => onSectionSelected('home'),
+                    child: Row(
+                      mainAxisSize: MainAxisSize.min,
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      children: [
+                        FittedBox(
+                          fit: BoxFit.scaleDown,
+                          child: Text(
+                            'Flutech',
+                            style: theme.textTheme.headlineLarge?.copyWith(
+                              fontWeight: FontWeight.bold,
+                              color: theme.colorScheme.primary,
+                              letterSpacing: 1.1,
+                            ),
+                          ),
+                        ),
+                        SizedBox(width: 8),
+                        Container(
+                          margin: EdgeInsets.only(top: 4),
+                          padding: EdgeInsets.symmetric(horizontal: 8, vertical: 1),
+                          decoration: BoxDecoration(
+                            color: theme.colorScheme.primary.withOpacity(0.10),
+                            borderRadius: BorderRadius.circular(12),
+                            boxShadow: [
+                              BoxShadow(
+                                color: theme.colorScheme.primary.withOpacity(0.08),
+                                blurRadius: 4,
+                                offset: Offset(0, 1),
+                              ),
+                            ],
+                          ),
+                          child: FittedBox(
+                            fit: BoxFit.scaleDown,
+                            child: Text(
+                              '.Dev',
+                              style: theme.textTheme.bodyMedium?.copyWith(
+                                fontWeight: FontWeight.bold,
+                                color: theme.colorScheme.primary,
+                                letterSpacing: 1.05,
+                              ),
+                            ),
+                          ),
+                        ),
+                      ],
+                    )),
               ),
-            ),
-          ),
-          if (showFullMenu && !isSmallScreen)
-            Row(
-              children: [
-                _buildNavItem('home', l10n.home, context),
-                _buildNavItem('about', l10n.about, context),
-                _buildNavItem('services', l10n.services, context),
-                _buildNavItem('projects', l10n.projects, context),
-                _buildNavItem('contact', l10n.contact, context),
-                const SizedBox(width: 8),
-                const ThemeSwitch(),
-                const SizedBox(width: 8),
-                const LanguageSelector(),
-              ],
-            )
-          else if (!showFullMenu && !isSmallScreen)
-            Row(
-              children: [
-                _buildNavItem('home', l10n.home, context),
-                const SizedBox(width: 8),
-                const ThemeSwitch(),
-                const SizedBox(width: 8),
-                const LanguageSelector(),
-              ],
-            )
-          else
-            Row(
-              children: [
-                const LanguageSelector(isCompact: true),
-                const SizedBox(width: 4),
-                const ThemeSwitch(),
-                const SizedBox(width: 4),
-                if (showFullMenu)
-                  IconButton(
-                    onPressed: () {
-                      _showMobileMenu(context);
-                    },
-                    icon: Icon(Icons.menu),
+              if (showFullMenu && !isSmallScreen)
+                Flexible(
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.end,
+                    children: [
+                      _buildNavItem('home', l10n.home, context),
+                      _buildNavItem('about', l10n.about, context),
+                      _buildNavItem('services', l10n.services, context),
+                      _buildNavItem('projects', l10n.projects, context),
+                      _buildNavItem('contact', l10n.contact, context),
+                      const SizedBox(width: 8),
+                      const ThemeSwitch(),
+                      const SizedBox(width: 8),
+                      const LanguageSelector(),
+                    ],
                   ),
-              ],
-            ),
-        ],
+                )
+              else if (!showFullMenu && !isSmallScreen)
+                Flexible(
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.end,
+                    children: [
+                      _buildNavItem('home', l10n.home, context),
+                      const SizedBox(width: 8),
+                      const ThemeSwitch(),
+                      const SizedBox(width: 8),
+                      const LanguageSelector(),
+                    ],
+                  ),
+                )
+              else
+                Flexible(
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.end,
+                    children: [
+                      const LanguageSelector(isCompact: true),
+                      const SizedBox(width: 4),
+                      const ThemeSwitch(),
+                      const SizedBox(width: 4),
+                      if (showFullMenu)
+                        IconButton(
+                          onPressed: () {
+                            _showMobileMenu(context);
+                          },
+                          icon: Icon(Icons.menu),
+                        ),
+                    ],
+                  ),
+                ),
+            ],
+          );
+        },
       ),
     );
   }

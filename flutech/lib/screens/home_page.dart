@@ -428,14 +428,24 @@ class _HomePageState extends State<HomePage> with AutomaticKeepAliveClientMixin 
   Widget _buildFooter(BuildContext context) {
     final theme = Theme.of(context);
     final l10n = AppLocalizations.of(context);
+    final screenWidth = MediaQuery.of(context).size.width;
+    final isMobile = screenWidth < 600;
 
     return Container(
-      padding: const EdgeInsets.symmetric(vertical: 30),
+      padding: EdgeInsets.symmetric(vertical: isMobile ? 18 : 30, horizontal: isMobile ? 16 : 0),
       color: theme.colorScheme.primary.withOpacity(0.05),
       child: Center(
-        child: Text(
-          '© ${DateTime.now().year} ${l10n.companyName}. ${l10n.allRightsReserved}',
-          style: theme.textTheme.bodyMedium,
+        child: ConstrainedBox(
+          constraints: isMobile ? BoxConstraints(maxWidth: 400) : BoxConstraints(),
+          child: Text(
+            '© ${DateTime.now().year} ${l10n.companyName}. ${l10n.allRightsReserved}',
+            style: theme.textTheme.bodyMedium?.copyWith(
+              fontSize: isMobile ? 13 : null,
+              color: theme.colorScheme.onSurface.withOpacity(0.8),
+            ),
+            textAlign: TextAlign.center,
+            softWrap: true,
+          ),
         ),
       ),
     );

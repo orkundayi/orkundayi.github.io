@@ -14,17 +14,20 @@ class ProjectsSection extends StatelessWidget {
     final screenSize = MediaQuery.of(context).size;
     final l10n = AppLocalizations.of(context);
     final currentLocale = Provider.of<LanguageProvider>(context).locale.languageCode;
+    final isMobile = screenSize.width < 600;
 
     final projects = projectsData.map((data) => Project.fromJson(data)).toList();
+    final minCardWidth = 400.0;
+    final crossAxisCount = (screenSize.width / minCardWidth).floor().clamp(1, 3); // En fazla 3 kart yan yana
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
         Text(
           l10n.projects.toUpperCase(),
-          style: theme.textTheme.bodyLarge?.copyWith(
+          style: theme.textTheme.displaySmall?.copyWith(
             fontWeight: FontWeight.bold,
-            fontSize: screenSize.width < 600 ? 32 : null,
+            fontSize: isMobile ? 32 : null,
             color: theme.colorScheme.primary,
           ),
         ),
@@ -42,7 +45,7 @@ class ProjectsSection extends StatelessWidget {
           shrinkWrap: true,
           physics: const NeverScrollableScrollPhysics(),
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: screenSize.width > 1100 ? 3 : (screenSize.width > 650 ? 2 : 1),
+            crossAxisCount: crossAxisCount,
             childAspectRatio: 0.8,
             crossAxisSpacing: 30,
             mainAxisSpacing: 30,
@@ -69,113 +72,119 @@ class ProjectsSection extends StatelessWidget {
     return ProjectHoverCard(
       onTap: () {
         if (project.screenshotAssets != null && project.screenshotAssets!.isNotEmpty) {
-          // GoRouter kullanarak yönlendirme
           context.go('/project/$projectIndex');
         }
       },
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          project.screenshotAssets != null && project.screenshotAssets!.isNotEmpty
-              ? Stack(
-                  children: [
-                    Container(
-                      height: 200,
-                      width: double.infinity,
-                      decoration: BoxDecoration(
-                        borderRadius: const BorderRadius.only(
-                          topLeft: Radius.circular(16),
-                          topRight: Radius.circular(16),
-                        ),
-                        border: null,
-                      ),
-                      clipBehavior: Clip.antiAlias,
-                      child: Image.asset(
-                        project.screenshotAssets![0],
-                        fit: BoxFit.cover,
-                      ),
-                    ),
-                    if (project.screenshotAssets!.length > 1)
-                      Positioned(
-                        right: 10,
-                        top: 10,
-                        child: Container(
-                          padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 5),
+      child: LayoutBuilder(
+        builder: (context, constraints) {
+          return Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              project.screenshotAssets != null && project.screenshotAssets!.isNotEmpty
+                  ? Stack(
+                      children: [
+                        Container(
+                          height: 200,
+                          width: double.infinity,
                           decoration: BoxDecoration(
-                            color: Colors.black54,
-                            borderRadius: BorderRadius.circular(12),
+                            borderRadius: const BorderRadius.only(
+                              topLeft: Radius.circular(16),
+                              topRight: Radius.circular(16),
+                            ),
+                            border: null,
                           ),
-                          child: Row(
-                            mainAxisSize: MainAxisSize.min,
-                            children: [
-                              const Icon(
-                                Icons.photo_library,
-                                color: Colors.white,
-                                size: 14,
-                              ),
-                              const SizedBox(width: 4),
-                              Text(
-                                "${project.screenshotAssets!.length}",
-                                style: const TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 12,
-                                  fontWeight: FontWeight.w500,
-                                ),
-                              ),
-                            ],
+                          clipBehavior: Clip.antiAlias,
+                          child: Image.asset(
+                            project.screenshotAssets![0],
+                            fit: BoxFit.cover,
                           ),
                         ),
+                        if (project.screenshotAssets!.length > 1)
+                          Positioned(
+                            right: 10,
+                            top: 10,
+                            child: Container(
+                              padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 5),
+                              decoration: BoxDecoration(
+                                color: Colors.black54,
+                                borderRadius: BorderRadius.circular(12),
+                              ),
+                              child: Row(
+                                mainAxisSize: MainAxisSize.min,
+                                children: [
+                                  const Icon(
+                                    Icons.photo_library,
+                                    color: Colors.white,
+                                    size: 14,
+                                  ),
+                                  const SizedBox(width: 4),
+                                  Text(
+                                    "${project.screenshotAssets!.length}",
+                                    style: const TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 12,
+                                      fontWeight: FontWeight.w500,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+                      ],
+                    )
+                  : _buildDefaultImagePlaceholder(projectColor, theme),
+              Expanded(
+                child: Padding(
+                  padding: const EdgeInsets.all(20.0),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Wrap(
+                        spacing: 8,
+                        runSpacing: 8,
+                        children: tags.map((tag) {
+                          return Container(
+                            padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+                            decoration: BoxDecoration(
+                              color: theme.colorScheme.primary.withOpacity(0.1),
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                            child: Text(
+                              tag,
+                              style: TextStyle(
+                                color: theme.colorScheme.primary,
+                                fontSize: 12,
+                                fontWeight: FontWeight.w500,
+                              ),
+                            ),
+                          );
+                        }).toList(),
                       ),
-                  ],
-                )
-              : _buildDefaultImagePlaceholder(projectColor, theme),
-          Padding(
-            padding: const EdgeInsets.all(20.0),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Wrap(
-                  spacing: 8,
-                  runSpacing: 8,
-                  children: tags.map((tag) {
-                    return Container(
-                      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
-                      decoration: BoxDecoration(
-                        color: theme.colorScheme.primary.withOpacity(0.1),
-                        borderRadius: BorderRadius.circular(12),
-                      ),
-                      child: Text(
-                        tag,
-                        style: TextStyle(
-                          color: theme.colorScheme.primary,
-                          fontSize: 12,
-                          fontWeight: FontWeight.w500,
+                      const SizedBox(height: 16),
+                      Text(
+                        title,
+                        style: theme.textTheme.titleLarge?.copyWith(
+                          fontWeight: FontWeight.bold,
+                          color: theme.colorScheme.onSurface,
                         ),
                       ),
-                    );
-                  }).toList(),
-                ),
-                const SizedBox(height: 16),
-                Text(
-                  title,
-                  style: theme.textTheme.titleLarge?.copyWith(
-                    fontWeight: FontWeight.bold,
-                    color: theme.colorScheme.onSurface,
+                      const SizedBox(height: 12),
+                      Expanded(
+                        child: Text(
+                          description,
+                          style: theme.textTheme.bodyMedium?.copyWith(
+                            color: theme.colorScheme.onSurface.withOpacity(0.7),
+                          ),
+                          softWrap: true,
+                        ),
+                      ),
+                    ],
                   ),
                 ),
-                const SizedBox(height: 12),
-                Text(
-                  description,
-                  maxLines: 3,
-                  overflow: TextOverflow.ellipsis,
-                  style: theme.textTheme.bodyMedium?.copyWith(
-                    color: theme.colorScheme.onSurface.withOpacity(0.7),
-                  ),
-                ),
-              ],
-            ),
-          ),
-        ],
+              ),
+            ],
+          );
+        },
       ),
     );
   }
