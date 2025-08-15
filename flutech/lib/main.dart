@@ -9,6 +9,7 @@ import 'package:url_strategy/url_strategy.dart'; // Web URL için
 
 void main() {
   // Web URL'lerdeki #'yi kaldır
+  // initial publish commit
   setPathUrlStrategy();
 
   // Flutter web performans optimizasyonları
