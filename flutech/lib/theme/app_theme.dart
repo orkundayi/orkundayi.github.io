@@ -17,6 +17,8 @@ class AppTheme {
     onSurface: Color(0xFF1C1B1F),
     surfaceContainerHighest: Color(0xFFF4F4F4),
     outline: Color(0xFFBDBDBD),
+    background: Colors.white,
+    onBackground: Color(0xFF1C1B1F),
   );
 
   // Dark theme colors - Mavi tonlarına güncellenmiş koyu tema
@@ -48,7 +50,7 @@ class AppTheme {
       elevation: 0,
       scrolledUnderElevation: 2,
     ),
-    cardTheme: CardTheme(
+    cardTheme: CardThemeData(
       elevation: 2,
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(16),
@@ -97,7 +99,7 @@ class AppTheme {
       elevation: 0,
       scrolledUnderElevation: 2,
     ),
-    cardTheme: CardTheme(
+    cardTheme: CardThemeData(
       color: _darkColorScheme.surfaceContainerHighest,
       elevation: 3,
       shape: RoundedRectangleBorder(
@@ -137,7 +139,7 @@ class AppTheme {
       ),
     ),
     // Ek bileşen temaları
-    dialogTheme: DialogTheme(
+    dialogTheme: DialogThemeData(
       backgroundColor: _darkColorScheme.surfaceContainerHighest,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
     ),

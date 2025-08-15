@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:flutech/providers/language_provider.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:flutech/providers/locale_provider.dart';
+import 'package:flutech/l10n/app_localizations.dart';
 
 class LanguageSelector extends StatelessWidget {
   final bool isCompact;
@@ -11,8 +11,8 @@ class LanguageSelector extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final languageProvider = Provider.of<LanguageProvider>(context);
-    final currentLocale = languageProvider.locale;
+    final localeProvider = Provider.of<LocaleProvider>(context);
+    final currentLocale = localeProvider.locale;
 
     return PopupMenuButton<Locale>(
       tooltip: AppLocalizations.of(context).language,
@@ -28,9 +28,9 @@ class LanguageSelector extends StatelessWidget {
         ],
       ),
       onSelected: (Locale locale) {
-        languageProvider.setLocale(locale);
+        localeProvider.setLocale(locale);
       },
-      itemBuilder: (context) => languageProvider.supportedLocales.map((locale) {
+      itemBuilder: (context) => AppLocalizations.supportedLocales.map((locale) {
         final isSelected = currentLocale.languageCode == locale.languageCode;
         return PopupMenuItem<Locale>(
           value: locale,
@@ -38,13 +38,11 @@ class LanguageSelector extends StatelessWidget {
             children: [
               _buildFlagIcon(locale.languageCode),
               const SizedBox(width: 12),
-              Text(
-                languageProvider.getDisplayLanguage(locale),
-                style: TextStyle(
-                  fontWeight: isSelected ? FontWeight.bold : FontWeight.normal,
-                  color: isSelected ? theme.colorScheme.primary : null,
-                ),
-              ),
+              Text(_displayLanguage(locale),
+                  style: TextStyle(
+                    fontWeight: isSelected ? FontWeight.bold : FontWeight.normal,
+                    color: isSelected ? theme.colorScheme.primary : null,
+                  )),
               const Spacer(),
               if (isSelected)
                 Icon(
@@ -68,6 +66,17 @@ class LanguageSelector extends StatelessWidget {
         return Text('🇹🇷', style: TextStyle(fontSize: isCompact ? 18 : 20));
       default:
         return Icon(Icons.language);
+    }
+  }
+
+  String _displayLanguage(Locale locale) {
+    switch (locale.languageCode) {
+      case 'en':
+        return 'English';
+      case 'tr':
+        return 'Türkçe';
+      default:
+        return locale.languageCode;
     }
   }
 }

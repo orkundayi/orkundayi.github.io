@@ -5,6 +5,9 @@ class HoverCard extends StatefulWidget {
   final double elevation;
   final double hoverElevation;
   final VoidCallback? onTap; // Added onTap parameter
+  final BorderRadius? borderRadius;
+  final Color? backgroundColor;
+  final BoxBorder? border;
 
   const HoverCard({
     super.key,
@@ -12,6 +15,9 @@ class HoverCard extends StatefulWidget {
     this.elevation = 4.0,
     this.hoverElevation = 8.0,
     this.onTap, // Added to constructor
+    this.borderRadius,
+    this.backgroundColor,
+    this.border,
   });
 
   @override
@@ -33,8 +39,9 @@ class _HoverCardState extends State<HoverCard> {
         child: AnimatedContainer(
           duration: const Duration(milliseconds: 200),
           decoration: BoxDecoration(
-            color: Theme.of(context).cardTheme.color,
-            borderRadius: BorderRadius.circular(12),
+            color: widget.backgroundColor ?? Theme.of(context).cardTheme.color,
+            borderRadius: widget.borderRadius ?? BorderRadius.circular(12),
+            border: widget.border,
             boxShadow: [
               BoxShadow(
                 color: Colors.black26,

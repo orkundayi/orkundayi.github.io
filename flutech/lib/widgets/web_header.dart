@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:flutech/l10n/app_localizations.dart';
 import 'package:flutech/widgets/theme_switch.dart';
 import 'package:flutech/widgets/language_selector.dart';
 
@@ -132,6 +132,7 @@ class WebHeader extends StatelessWidget {
                           onPressed: () {
                             _showMobileMenu(context);
                           },
+                          tooltip: l10n.settings,
                           icon: Icon(Icons.menu),
                         ),
                     ],
@@ -205,7 +206,7 @@ class WebHeader extends StatelessWidget {
               ),
               ListTile(
                 leading: Icon(Icons.home, color: theme.colorScheme.primary),
-                title: Text(l10n.about),
+                title: Text(l10n.home),
                 onTap: () {
                   Navigator.pop(context);
                   onSectionSelected('home');

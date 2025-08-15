@@ -1,9 +1,9 @@
 import 'package:flutech/data/projects_data.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:flutech/l10n/app_localizations.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
-import 'package:flutech/providers/language_provider.dart';
+import 'package:flutech/providers/locale_provider.dart';
 
 class ProjectsSection extends StatelessWidget {
   const ProjectsSection({super.key});
@@ -13,7 +13,7 @@ class ProjectsSection extends StatelessWidget {
     final theme = Theme.of(context);
     final screenSize = MediaQuery.of(context).size;
     final l10n = AppLocalizations.of(context);
-    final currentLocale = Provider.of<LanguageProvider>(context).locale.languageCode;
+    final currentLocale = Provider.of<LocaleProvider>(context).locale.languageCode;
     final isMobile = screenSize.width < 600;
 
     final projects = projectsData.map((data) => Project.fromJson(data)).toList();

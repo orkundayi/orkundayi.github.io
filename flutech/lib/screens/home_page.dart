@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:flutech/l10n/app_localizations.dart';
 import 'package:flutech/widgets/web_header.dart';
 import 'package:flutech/widgets/web_section.dart';
 import 'package:flutech/screens/sections/about_section.dart';
@@ -10,6 +10,7 @@ import 'package:flutech/widgets/scroll_indicator.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'dart:async';
 import 'dart:math' as math;
+import 'package:visibility_detector/visibility_detector.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -182,6 +183,20 @@ class _HomePageState extends State<HomePage> with AutomaticKeepAliveClientMixin 
     }
   }
 
+  // Section visibility via VisibilityDetector
+  void _onSectionVisibilityChanged(String sectionId, double visibleFraction) {
+    if (_isScrollingProgrammatically) return;
+    if (_scrollController.offset < 100 && sectionId == 'home') {
+      if (_activeSection != 'home') {
+        setState(() => _activeSection = 'home');
+      }
+      return;
+    }
+    if (visibleFraction > 0.5 && _activeSection != sectionId) {
+      setState(() => _activeSection = sectionId);
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     super.build(context);
@@ -218,52 +233,64 @@ class _HomePageState extends State<HomePage> with AutomaticKeepAliveClientMixin 
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               _buildHeroSection(context),
-              WebSection(
-                key: _sectionKeys['about'],
-                id: 'about',
-                backgroundColor: theme.colorScheme.surface,
-                child: Container(
-                  constraints: BoxConstraints(
-                    minHeight: _minimumSectionHeight,
-                  ),
-                  child: AboutSection(
-                    scrollToContact: () => _scrollToSection('contact'),
-                  ),
-                ),
-              ),
-              WebSection(
-                key: _sectionKeys['services'],
-                id: 'services',
-                backgroundColor: theme.colorScheme.surface,
-                child: Container(
-                  constraints: BoxConstraints(
-                    minHeight: _minimumSectionHeight,
-                  ),
-                  child: ServicesSection(),
-                ),
-              ),
-              WebSection(
-                key: _sectionKeys['projects'],
-                id: 'projects',
-                backgroundColor: theme.colorScheme.surface,
-                child: Container(
-                  constraints: BoxConstraints(
-                    minHeight: _minimumSectionHeight,
-                  ),
-                  child: ProjectsSection(),
-                ),
-              ),
-              WebSection(
-                key: _sectionKeys['contact'],
-                id: 'contact',
-                backgroundColor: theme.colorScheme.surface,
-                child: Container(
-                  constraints: BoxConstraints(
-                    minHeight: _minimumSectionHeight,
-                  ),
-                  child: ContactSection(),
-                ),
-              ),
+              VisibilityDetector(
+                  key: const Key('about-visibility'),
+                  onVisibilityChanged: (info) => _onSectionVisibilityChanged('about', info.visibleFraction),
+                  child: WebSection(
+                    key: _sectionKeys['about'],
+                    id: 'about',
+                    backgroundColor: theme.colorScheme.surface,
+                    child: Container(
+                      constraints: BoxConstraints(
+                        minHeight: _minimumSectionHeight,
+                      ),
+                      child: AboutSection(
+                        scrollToContact: () => _scrollToSection('contact'),
+                      ),
+                    ),
+                  )),
+              VisibilityDetector(
+                  key: const Key('services-visibility'),
+                  onVisibilityChanged: (info) => _onSectionVisibilityChanged('services', info.visibleFraction),
+                  child: WebSection(
+                    key: _sectionKeys['services'],
+                    id: 'services',
+                    backgroundColor: theme.colorScheme.surface,
+                    child: Container(
+                      constraints: BoxConstraints(
+                        minHeight: _minimumSectionHeight,
+                      ),
+                      child: ServicesSection(),
+                    ),
+                  )),
+              VisibilityDetector(
+                  key: const Key('projects-visibility'),
+                  onVisibilityChanged: (info) => _onSectionVisibilityChanged('projects', info.visibleFraction),
+                  child: WebSection(
+                    key: _sectionKeys['projects'],
+                    id: 'projects',
+                    backgroundColor: theme.colorScheme.surface,
+                    child: Container(
+                      constraints: BoxConstraints(
+                        minHeight: _minimumSectionHeight,
+                      ),
+                      child: ProjectsSection(),
+                    ),
+                  )),
+              VisibilityDetector(
+                  key: const Key('contact-visibility'),
+                  onVisibilityChanged: (info) => _onSectionVisibilityChanged('contact', info.visibleFraction),
+                  child: WebSection(
+                    key: _sectionKeys['contact'],
+                    id: 'contact',
+                    backgroundColor: theme.colorScheme.surface,
+                    child: Container(
+                      constraints: BoxConstraints(
+                        minHeight: _minimumSectionHeight,
+                      ),
+                      child: ContactSection(),
+                    ),
+                  )),
               _buildFooter(context),
             ],
           ),

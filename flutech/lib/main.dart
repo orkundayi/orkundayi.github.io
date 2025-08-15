@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:flutech/providers/language_provider.dart';
+import 'package:flutech/l10n/app_localizations.dart';
+import 'package:flutech/providers/locale_provider.dart';
 import 'package:flutech/providers/theme_provider.dart';
 import 'package:flutech/routes/app_routes.dart';
 import 'package:flutech/theme/app_theme.dart';
@@ -19,7 +19,7 @@ void main() {
     MultiProvider(
       providers: [
         ChangeNotifierProvider(create: (context) => ThemeProvider()),
-        ChangeNotifierProvider(create: (context) => LanguageProvider()),
+        ChangeNotifierProvider(create: (context) => LocaleProvider()),
       ],
       child: const MyApp(),
     ),
@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final themeProvider = Provider.of<ThemeProvider>(context);
-    final languageProvider = Provider.of<LanguageProvider>(context);
+    final localeProvider = Provider.of<LocaleProvider>(context);
 
     return MaterialApp.router(
       debugShowCheckedModeBanner: false,
@@ -45,7 +45,7 @@ class MyApp extends StatelessWidget {
       // Lokalizasyon
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
-      locale: languageProvider.locale,
+      locale: localeProvider.locale,
 
       routerConfig: appRouter,
 
@@ -55,7 +55,6 @@ class MyApp extends StatelessWidget {
         return ScrollConfiguration(
           behavior: ScrollConfiguration.of(context).copyWith(
             physics: const ClampingScrollPhysics(),
-            platform: TargetPlatform.macOS, // Daha yumuşak scrolling
           ),
           child: child!,
         );

@@ -14,7 +14,7 @@ dependencies:
   provider: ^6.0.5
   shared_preferences: ^2.2.0
   url_launcher: ^6.1.12
-  intl: ^0.19.0
+  intl: ^0.20.2
   google_fonts: ^6.1.0
   url_strategy: ^0.3.0
   flutter_svg: ^2.0.7
@@ -39,3 +39,4 @@ flutter:
     - assets/images/store/
     - assets/images/store/flublocks/
     - assets/images/store/connection/
+    - assets/images/orkun-dayi.jpeg

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:flutech/providers/theme_provider.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:flutech/l10n/app_localizations.dart';
 
 class ThemeSwitch extends StatelessWidget {
   const ThemeSwitch({super.key});

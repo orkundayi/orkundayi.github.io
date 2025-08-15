@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:flutech/l10n/app_localizations.dart';
 import 'package:flutech/widgets/web_header.dart';
-import 'dart:html' as html;
+import 'package:url_launcher/url_launcher.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutech/data/projects_data.dart';
 import 'package:go_router/go_router.dart';
@@ -159,8 +159,9 @@ class _ProjectDetailPageState extends State<ProjectDetailPage> {
                         child: MouseRegion(
                           cursor: SystemMouseCursors.click,
                           child: ElevatedButton.icon(
-                            onPressed: () {
-                              html.window.open(widget.project.storeUrl!, '_blank');
+                            onPressed: () async {
+                              final uri = Uri.parse(widget.project.storeUrl!);
+                              await launchUrl(uri, webOnlyWindowName: '_blank');
                             },
                             icon: Icon(Icons.android, color: Colors.white, size: 28),
                             label: Text(
@@ -188,10 +189,9 @@ class _ProjectDetailPageState extends State<ProjectDetailPage> {
                         child: MouseRegion(
                           cursor: SystemMouseCursors.click,
                           child: ElevatedButton.icon(
-                            onPressed: () {
-                              html.AnchorElement(href: widget.project.apkPath!)
-                                ..setAttribute('download', '')
-                                ..click();
+                            onPressed: () async {
+                              final uri = Uri.parse(widget.project.apkPath!);
+                              await launchUrl(uri, webOnlyWindowName: '_blank');
                             },
                             icon: Icon(Icons.download, color: Colors.white, size: 28),
                             label: Text(

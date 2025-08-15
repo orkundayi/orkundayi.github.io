@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:flutech/l10n/app_localizations.dart';
 
 class AboutSection extends StatelessWidget {
   final VoidCallback scrollToContact;
@@ -86,8 +86,8 @@ class AboutSection extends StatelessWidget {
       ),
       child: ClipRRect(
         borderRadius: BorderRadius.circular(20),
-        child: Image.network(
-          'https://media.licdn.com/dms/image/v2/D5603AQH5nNAyHkUYmg/profile-displayphoto-shrink_800_800/B56ZWpwxqhHEAg-/0/1742309891389?e=1750896000&v=beta&t=LNgAGmfCYG09khuPMJmNGCM28hIeuus_AtKS8eM4Oxg',
+        child: Image.asset(
+          'assets/images/orkun-dayi.jpeg',
           fit: BoxFit.cover,
         ),
       ),
