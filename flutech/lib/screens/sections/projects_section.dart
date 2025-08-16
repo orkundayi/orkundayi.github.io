@@ -4,6 +4,8 @@ import 'package:flutech/l10n/app_localizations.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 import 'package:flutech/providers/locale_provider.dart';
+import 'package:url_launcher/url_launcher.dart';
+import 'package:flutter/gestures.dart';
 
 class ProjectsSection extends StatelessWidget {
   const ProjectsSection({super.key});
@@ -57,6 +59,50 @@ class ProjectsSection extends StatelessWidget {
     );
   }
 
+  Widget _buildDescriptionWithLink({
+    required BuildContext context,
+    required String text,
+    required TextStyle? style,
+    String? linkText,
+    String? linkUrl,
+  }) {
+    if (linkText == null || linkUrl == null || linkText.isEmpty || linkUrl.isEmpty) {
+      return Text(
+        text,
+        style: style,
+        softWrap: true,
+      );
+    }
+
+    final parts = text.split(linkText);
+    final spans = <TextSpan>[];
+    for (var i = 0; i < parts.length; i++) {
+      spans.add(TextSpan(text: parts[i], style: style));
+      if (i != parts.length - 1) {
+        spans.add(
+          TextSpan(
+            text: linkText,
+            style: style?.copyWith(
+              color: Theme.of(context).colorScheme.primary,
+              decoration: TextDecoration.underline,
+              fontWeight: FontWeight.w600,
+            ),
+            recognizer: (TapGestureRecognizer()
+              ..onTap = () {
+                final uri = Uri.parse(linkUrl);
+                launchUrl(uri, webOnlyWindowName: '_blank');
+              }),
+          ),
+        );
+      }
+    }
+
+    return RichText(
+      text: TextSpan(children: spans),
+      textAlign: TextAlign.start,
+    );
+  }
+
   Widget _buildProjectCard(BuildContext context, Project project, String currentLocale) {
     final theme = Theme.of(context);
     final Color projectColor = project.color;
@@ -73,6 +119,11 @@ class ProjectsSection extends StatelessWidget {
       onTap: () {
         if (project.screenshotAssets != null && project.screenshotAssets!.isNotEmpty) {
           context.go('/project/$projectIndex');
+        } else if (project.externalUrl != null && project.externalUrl!.isNotEmpty) {
+          final path = project.externalUrl!;
+          final String href = path.startsWith('/') ? path : '/$path';
+          final uri = Uri.parse(href);
+          launchUrl(uri, webOnlyWindowName: '_blank');
         }
       },
       child: LayoutBuilder(
@@ -170,12 +221,14 @@ class ProjectsSection extends StatelessWidget {
                       ),
                       const SizedBox(height: 12),
                       Expanded(
-                        child: Text(
-                          description,
+                        child: _buildDescriptionWithLink(
+                          context: context,
+                          text: description,
+                          linkText: project.linkText,
+                          linkUrl: project.linkUrl,
                           style: theme.textTheme.bodyMedium?.copyWith(
                             color: theme.colorScheme.onSurface.withOpacity(0.7),
                           ),
-                          softWrap: true,
                         ),
                       ),
                     ],
@@ -209,7 +262,7 @@ class ProjectsSection extends StatelessWidget {
       ),
       child: Center(
         child: Icon(
-          Icons.smartphone,
+          Icons.code,
           size: 70,
           color: Colors.white.withOpacity(0.8),
         ),

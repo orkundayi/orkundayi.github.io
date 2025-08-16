@@ -12,6 +12,9 @@ class Project {
   final String? storeUrl;
   final String? localStoreImageAsset;
   final String? apkPath; // Yeni: APK dosyası için path
+  final String? externalUrl; // Yeni: Harici web yönlendirme linki
+  final String? linkText; // Yeni: Description içinde vurgulanacak link metni
+  final String? linkUrl; // Yeni: Vurgulu linkin URL'si
   final List<String>? screenshotAssets;
   final List<Map<String, dynamic>>? featuresEn;
   final List<Map<String, dynamic>>? featuresTr;
@@ -33,6 +36,9 @@ class Project {
     this.storeUrl,
     this.localStoreImageAsset,
     this.apkPath,
+    this.externalUrl,
+    this.linkText,
+    this.linkUrl,
     this.screenshotAssets,
     this.featuresEn,
     this.featuresTr,
@@ -51,6 +57,9 @@ class Project {
       storeUrl: json['storeUrl'] as String?,
       localStoreImageAsset: json['localStoreImageAsset'] as String?,
       apkPath: json['apkPath'] as String?,
+      externalUrl: json['externalUrl'] as String?,
+      linkText: json['linkText'] as String?,
+      linkUrl: json['linkUrl'] as String?,
       screenshotAssets: (json['screenshotAssets'] as List?)?.map((e) => e as String).toList(),
       featuresEn: (json['featuresEn'] as List?)?.map((e) => Map<String, dynamic>.from(e)).toList(),
       featuresTr: (json['featuresTr'] as List?)?.map((e) => Map<String, dynamic>.from(e)).toList(),
@@ -59,6 +68,26 @@ class Project {
 }
 
 final List<Map<String, dynamic>> projectsData = [
+  {
+    'titleEn': 'Flulog',
+    'titleTr': 'Flulog',
+    'descriptionEn': 'A web portal designed specifically for the advanced_firebase_logger package to view logs.',
+    'descriptionTr':
+        'advanced_firebase_logger paketine özel olarak tasarlanmış, log izleyebileceğiniz bir web portaldır.',
+    'tagsEn': ['Flutter', 'Web', 'Logging'],
+    'tagsTr': ['Flutter', 'Web', 'Log'],
+    'color': '#FF7043',
+    'imageAsset': null,
+    'storeUrl': null,
+    'localStoreImageAsset': null,
+    'apkPath': null,
+    'externalUrl': '/Flulog/',
+    'linkText': 'advanced_firebase_logger',
+    'linkUrl': 'https://pub.dev/packages/advanced_firebase_logger',
+    'screenshotAssets': [],
+    'featuresEn': [],
+    'featuresTr': [],
+  },
   {
     'titleEn': 'FluBlocks Tetris',
     'titleTr': 'FluBlocks Tetris',

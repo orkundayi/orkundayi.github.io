@@ -128,12 +128,15 @@ class _ProjectDetailPageState extends State<ProjectDetailPage> {
                                 textAlign: TextAlign.center,
                               ),
                               const SizedBox(height: 18),
-                              SelectableText(
-                                description,
+                              _DescriptionWithLink(
+                                text: description,
+                                linkText: widget.project.linkText,
+                                linkUrl: widget.project.linkUrl,
                                 style: theme.textTheme.titleLarge?.copyWith(
                                   color: Colors.white.withOpacity(0.92), // Açıklama her zaman beyaz
                                 ),
                                 textAlign: TextAlign.center,
+                                linkColor: Colors.white,
                               ),
                             ],
                           ),
@@ -374,6 +377,63 @@ class _ProjectDetailPageState extends State<ProjectDetailPage> {
         ),
       );
     }).toList();
+  }
+}
+
+class _DescriptionWithLink extends StatelessWidget {
+  final String text;
+  final String? linkText;
+  final String? linkUrl;
+  final TextStyle? style;
+  final TextAlign? textAlign;
+  final Color? linkColor;
+
+  const _DescriptionWithLink({
+    required this.text,
+    this.linkText,
+    this.linkUrl,
+    this.style,
+    this.textAlign,
+    this.linkColor,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    if (linkText == null || linkUrl == null || linkText!.isEmpty || linkUrl!.isEmpty) {
+      return SelectableText(
+        text,
+        style: style,
+        textAlign: textAlign,
+      );
+    }
+
+    final parts = text.split(linkText!);
+    final spans = <TextSpan>[];
+    for (var i = 0; i < parts.length; i++) {
+      spans.add(TextSpan(text: parts[i], style: style));
+      if (i != parts.length - 1) {
+        spans.add(
+          TextSpan(
+            text: linkText,
+            style: style?.copyWith(
+              color: linkColor ?? Theme.of(context).colorScheme.secondary,
+              decoration: TextDecoration.underline,
+              fontWeight: FontWeight.w600,
+            ),
+            recognizer: (TapGestureRecognizer()
+              ..onTap = () {
+                final uri = Uri.parse(linkUrl!);
+                launchUrl(uri, webOnlyWindowName: '_blank');
+              }),
+          ),
+        );
+      }
+    }
+
+    return SelectableText.rich(
+      TextSpan(children: spans),
+      textAlign: textAlign,
+    );
   }
 }
 
