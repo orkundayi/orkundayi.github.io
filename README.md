@@ -1,1 +1,0 @@
-# orkundayi.github.io
