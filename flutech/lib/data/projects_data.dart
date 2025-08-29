@@ -52,7 +52,8 @@ class Project {
       descriptionTr: json['descriptionTr'] as String?,
       tagsEn: (json['tagsEn'] as List?)?.map((e) => e as String).toList(),
       tagsTr: (json['tagsTr'] as List?)?.map((e) => e as String).toList(),
-      color: Color(int.parse(json['color'].toString().replaceFirst('#', '0xff'))),
+      color:
+          Color(int.parse(json['color'].toString().replaceFirst('#', '0xff'))),
       imageAsset: json['imageAsset'] as String?,
       storeUrl: json['storeUrl'] as String?,
       localStoreImageAsset: json['localStoreImageAsset'] as String?,
@@ -60,18 +61,45 @@ class Project {
       externalUrl: json['externalUrl'] as String?,
       linkText: json['linkText'] as String?,
       linkUrl: json['linkUrl'] as String?,
-      screenshotAssets: (json['screenshotAssets'] as List?)?.map((e) => e as String).toList(),
-      featuresEn: (json['featuresEn'] as List?)?.map((e) => Map<String, dynamic>.from(e)).toList(),
-      featuresTr: (json['featuresTr'] as List?)?.map((e) => Map<String, dynamic>.from(e)).toList(),
+      screenshotAssets:
+          (json['screenshotAssets'] as List?)?.map((e) => e as String).toList(),
+      featuresEn: (json['featuresEn'] as List?)
+          ?.map((e) => Map<String, dynamic>.from(e))
+          .toList(),
+      featuresTr: (json['featuresTr'] as List?)
+          ?.map((e) => Map<String, dynamic>.from(e))
+          .toList(),
     );
   }
 }
 
 final List<Map<String, dynamic>> projectsData = [
   {
+    'titleEn': 'CvMaker',
+    'titleTr': 'CvMaker',
+    'descriptionEn':
+        'A professional CV/Resume builder tool that helps you create stunning resumes with ease.',
+    'descriptionTr':
+        'Kolayca çarpıcı özgeçmişler oluşturmanıza yardımcı olan profesyonel bir CV/Özgeçmiş oluşturma aracı.',
+    'tagsEn': ['Flutter', 'Web'],
+    'tagsTr': ['Flutter', 'Web'],
+    'color': '#2196F3',
+    'imageAsset': null,
+    'storeUrl': null,
+    'localStoreImageAsset': null,
+    'apkPath': null,
+    'externalUrl': '/CvMaker/',
+    'linkText': null,
+    'linkUrl': null,
+    'screenshotAssets': [],
+    'featuresEn': [],
+    'featuresTr': [],
+  },
+  {
     'titleEn': 'Flulog',
     'titleTr': 'Flulog',
-    'descriptionEn': 'A web portal designed specifically for the advanced_firebase_logger package to view logs.',
+    'descriptionEn':
+        'A web portal designed specifically for the advanced_firebase_logger package to view logs.',
     'descriptionTr':
         'advanced_firebase_logger paketine özel olarak tasarlanmış, log izleyebileceğiniz bir web portaldır.',
     'tagsEn': ['Flutter', 'Web', 'Logging'],
@@ -99,7 +127,8 @@ final List<Map<String, dynamic>> projectsData = [
     'tagsTr': ['Flutter', 'Oyun', 'Google Play'],
     'color': '#673AB7', // Rengi hex string formatında tanımla
     'imageAsset': 'assets/images/store/flublocks/flublocks-icon.png',
-    'storeUrl': 'https://play.google.com/store/apps/details?id=com.orkun.flutter_tetris',
+    'storeUrl':
+        'https://play.google.com/store/apps/details?id=com.orkun.flutter_tetris',
     'localStoreImageAsset': 'assets/images/store/google_play_badge.png',
     'screenshotAssets': [
       'assets/images/store/flublocks/flublocks-1.png',
@@ -112,44 +141,52 @@ final List<Map<String, dynamic>> projectsData = [
       {
         'icon': Icons.gamepad,
         'title': 'Classic Tetris Experience',
-        'description': 'Enjoy the nostalgia of classic Tetris with a modern touch and smooth controls.'
+        'description':
+            'Enjoy the nostalgia of classic Tetris with a modern touch and smooth controls.'
       },
       {
         'icon': Icons.speed,
         'title': 'Multiple Difficulty Levels',
-        'description': 'Test your skills with increasing speeds and challenges as you progress.'
+        'description':
+            'Test your skills with increasing speeds and challenges as you progress.'
       },
       {
         'icon': Icons.palette,
         'title': 'Clean Visual Design',
-        'description': 'Sleek, modern interfaces that let you focus on the gameplay.'
+        'description':
+            'Sleek, modern interfaces that let you focus on the gameplay.'
       },
       {
         'icon': Icons.leaderboard,
         'title': 'Score Tracking',
-        'description': 'Keep track of your highest scores and challenge yourself to beat them.'
+        'description':
+            'Keep track of your highest scores and challenge yourself to beat them.'
       },
     ],
     'featuresTr': [
       {
         'icon': Icons.gamepad,
         'title': 'Klasik Tetris Deneyimi',
-        'description': 'Klasik Tetris nostaljisini modern dokunuş ve akıcı kontrollerle yaşayın.'
+        'description':
+            'Klasik Tetris nostaljisini modern dokunuş ve akıcı kontrollerle yaşayın.'
       },
       {
         'icon': Icons.speed,
         'title': 'Birden Fazla Zorluk Seviyesi',
-        'description': 'İlerledikçe artan hız ve zorluklarla yeteneklerinizi test edin.'
+        'description':
+            'İlerledikçe artan hız ve zorluklarla yeteneklerinizi test edin.'
       },
       {
         'icon': Icons.palette,
         'title': 'Temiz Görsel Tasarım',
-        'description': 'Oyun deneyimine odaklanmanızı sağlayan şık ve modern arayüzler.'
+        'description':
+            'Oyun deneyimine odaklanmanızı sağlayan şık ve modern arayüzler.'
       },
       {
         'icon': Icons.leaderboard,
         'title': 'Skor Takibi',
-        'description': 'En yüksek skorlarınızı takip edin ve kendinize meydan okuyun.'
+        'description':
+            'En yüksek skorlarınızı takip edin ve kendinize meydan okuyun.'
       },
     ],
   },
@@ -177,7 +214,8 @@ final List<Map<String, dynamic>> projectsData = [
       {
         'icon': Icons.bolt,
         'title': 'Quick Intent Testing',
-        'description': 'Test Android intents rapidly without writing extra code.'
+        'description':
+            'Test Android intents rapidly without writing extra code.'
       },
       {
         'icon': Icons.bug_report,
@@ -187,17 +225,20 @@ final List<Map<String, dynamic>> projectsData = [
       {
         'icon': Icons.touch_app,
         'title': 'Intuitive UI',
-        'description': 'Simple and user-friendly interface for seamless testing.'
+        'description':
+            'Simple and user-friendly interface for seamless testing.'
       },
       {
         'icon': Icons.integration_instructions,
         'title': 'Easy Integration',
-        'description': 'Integrate and use the tool in your workflow effortlessly.'
+        'description':
+            'Integrate and use the tool in your workflow effortlessly.'
       },
       {
         'icon': Icons.sync_alt,
         'title': 'Postman Integration',
-        'description': 'Works integrated with Postman, enabling automated API testing.'
+        'description':
+            'Works integrated with Postman, enabling automated API testing.'
       },
       {
         'icon': Icons.storage,
@@ -209,12 +250,14 @@ final List<Map<String, dynamic>> projectsData = [
       {
         'icon': Icons.bolt,
         'title': 'Hızlı Intent Testi',
-        'description': 'Ekstra kod yazmadan Android intent işlemlerini hızlıca test edin.'
+        'description':
+            'Ekstra kod yazmadan Android intent işlemlerini hızlıca test edin.'
       },
       {
         'icon': Icons.bug_report,
         'title': 'Hata Ayıklama Dostu',
-        'description': 'Geliştiriciler için hata ayıklamayı kolaylaştıracak şekilde tasarlandı.'
+        'description':
+            'Geliştiriciler için hata ayıklamayı kolaylaştıracak şekilde tasarlandı.'
       },
       {
         'icon': Icons.touch_app,
@@ -224,17 +267,20 @@ final List<Map<String, dynamic>> projectsData = [
       {
         'icon': Icons.integration_instructions,
         'title': 'Kolay Entegrasyon',
-        'description': 'Aracı iş akışınıza zahmetsizce entegre edin ve kullanın.'
+        'description':
+            'Aracı iş akışınıza zahmetsizce entegre edin ve kullanın.'
       },
       {
         'icon': Icons.sync_alt,
         'title': 'Postman Entegrasyonu',
-        'description': 'Postman ile entegre çalışabilir, API testlerini otomatikleştirebilirsiniz.'
+        'description':
+            'Postman ile entegre çalışabilir, API testlerini otomatikleştirebilirsiniz.'
       },
       {
         'icon': Icons.storage,
         'title': 'Manuel & Lokal Test Desteği',
-        'description': 'İsterseniz verileri lokalde tutarak manuel testlerinizi de kolayca gerçekleştirebilirsiniz.'
+        'description':
+            'İsterseniz verileri lokalde tutarak manuel testlerinizi de kolayca gerçekleştirebilirsiniz.'
       },
     ],
   },
