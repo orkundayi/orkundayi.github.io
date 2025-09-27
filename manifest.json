@@ -1,11 +1,11 @@
 {
-    "name": "orkundayi_portfolyo",
-    "short_name": "orkundayi_portfolyo",
+    "name": "Orkun Dayı",
+    "short_name": "Orkun Dayı",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Orkun Dayı | Flutter Developer Portfolio",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
