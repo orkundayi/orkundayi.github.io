@@ -1,7 +1,0 @@
-include: package:flutter_lints/flutter.yaml
-analyzer:
-  # Global analyzer configuration
-  errors:
-    # Allow usage of deprecated members like Color.withOpacity
-    deprecated_member_use: ignore
-    deprecated_member_use_from_same_package: ignore
