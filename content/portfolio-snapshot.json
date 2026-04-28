@@ -1,0 +1,358 @@
+{
+  "schemaVersion": "v2",
+  "profile": {
+    "fullName": "Orkun Dayi",
+    "roleTitle": "Flutter \u0026 .NET Developer",
+    "headline": "I design and build production-grade mobile and web applications with Flutter, backed by robust .NET APIs. I care about clean architecture, intuitive UX, and shipping products that actually work.",
+    "summary": "Product-minded software engineer with hands-on experience in payment systems, cross-platform mobile apps, and API-driven architectures. I turn business requirements into reliable, well-structured applications \u2014 from pixel-perfect interfaces to the backend services behind them. My day-to-day work involves Flutter for the frontend and .NET for the backend, with a strong focus on maintainability and user experience.",
+    "location": "Istanbul, Turkiye",
+    "email": "orkundayi@flutech.org",
+    "phone": "\u002B90 542 339 86 93",
+    "website": "https://orkundayi.com/",
+    "gitHub": "https://github.com/orkundayi",
+    "linkedIn": "https://www.linkedin.com/in/orkundayi/"
+  },
+  "recruiterSnapshot": {
+    "yearsExperienceLabel": "3\u002B years professional experience",
+    "primaryFocus": "Flutter \u0026 .NET full-stack development",
+    "currentRoleSummary": "Flutter Developer at Overtech Information Technologies \u2014 building Android POS applications for payment operations with complex integration requirements.",
+    "preferredWork": "Cross-platform products, business applications, internal tools, and backend-connected user experiences where I can own the full delivery.",
+    "availability": "Open to new opportunities"
+  },
+  "capabilities": [
+    {
+      "title": "Cross-platform development",
+      "description": "Building Flutter applications that run on Android, iOS, and Web from a single codebase \u2014 with platform-specific polish where it matters.",
+      "id": "c44fa8e69bdb4cfb8b74f722a02d5d8e"
+    },
+    {
+      "title": "API design \u0026 integration",
+      "description": "Connecting frontends to REST APIs, Firebase services, Android intents, and backend workflows. Comfortable on both sides of the request.",
+      "id": "fbc9ada6e80d40fa9c5fc3851f9ca572"
+    },
+    {
+      "title": "Product-focused UI",
+      "description": "Translating business needs into clear, responsive interfaces. I think in user flows, not just widgets \u2014 every screen should earn its place.",
+      "id": "360190c315864f84a598db798de28173"
+    },
+    {
+      "title": "Clean architecture",
+      "description": "Writing code that the next developer can read. Testable structure, clear separation of concerns, and scalable data models.",
+      "id": "ea3923dcb6d6436d923243240baef211"
+    },
+    {
+      "title": "End-to-end delivery",
+      "description": "Taking features from design through implementation, testing, and release. I\u0027ve shipped products solo and know what it takes to get things live.",
+      "id": "17c2cf1d25bb40d4a8b0f528ef327554"
+    }
+  ],
+  "careerHighlights": [
+    {
+      "title": "Payment systems expertise",
+      "description": "Built and maintained POS software handling real financial transactions \u2014 ISO 8583 messaging, transaction workflows, and regulated integration scenarios.",
+      "id": "79dba8ad960345678e9b684c150b24fc"
+    },
+    {
+      "title": "Shipped real products",
+      "description": "Multiple published applications across App Store, Play Store, and web \u2014 from concept to production with real users.",
+      "id": "dc7a9e33326c4650a4a8ae6a407d3c87"
+    },
+    {
+      "title": "Full product ownership",
+      "description": "Owned the complete lifecycle: UI design, architecture, integration, testing, release, and iteration. Not just a feature developer \u2014 a product builder.",
+      "id": "a64f005723e24340bee0703a851005b1"
+    },
+    {
+      "title": "Full-stack mindset",
+      "description": "Equally comfortable building Flutter interfaces and .NET APIs. This means fewer handoff gaps and faster delivery.",
+      "id": "6b161c7976e94806841deb9e77786dd6"
+    }
+  ],
+  "workExperiences": [
+    {
+      "role": "Flutter Developer",
+      "company": "Overtech Information Technologies",
+      "location": "Istanbul, Turkiye",
+      "dateRange": "Sep 2021 \u2014 Present",
+      "summary": "Building and maintaining Flutter applications for Android-based POS devices used in payment operations. My work spans product interface development, transaction integrations, backend communication, and domain-specific business logic.",
+      "achievements": [
+        "Developed and maintained Flutter-based POS applications running on Android payment terminals.",
+        "Integrated REST APIs, Android intents, and cloud communication channels for transaction processing.",
+        "Implemented sale initiation, status inquiry, cancellation flows, and end-of-day settlement features.",
+        "Improved the integration layer to meet ISO 8583 payment messaging and tax-related compliance requirements.",
+        "Owned interface quality and product usability while ensuring secure transmission of transaction data."
+      ],
+      "technologies": [
+        "Flutter",
+        "Dart",
+        "REST API",
+        "Android Intents",
+        "POS Systems",
+        "Payment Integration",
+        ".NET"
+      ],
+      "id": "b552127cf1384a2ca212b32c445ad609"
+    }
+  ],
+  "projects": [
+    {
+      "slug": "flublocks",
+      "title": "FluBlocks",
+      "category": "Mobile",
+      "status": "Live",
+      "dateRange": "2025",
+      "summary": "Cross-platform mobile app published on iOS and Android with Firebase-backed user flows and real-time data sync.",
+      "problem": "Needed a smooth cross-platform experience with cloud features \u2014 without fragmenting the codebase across platforms.",
+      "contribution": "Designed the UI, built the Flutter app, integrated Firebase (auth, Firestore, storage), and managed the full release pipeline.",
+      "outcome": "Shipped a polished app on both stores with real-time sync, authentication, and cloud storage working seamlessly.",
+      "technologies": [
+        "Flutter",
+        "Dart",
+        "Firebase",
+        "iOS",
+        "Android"
+      ],
+      "links": [],
+      "isFeatured": true,
+      "id": "3af33d7b9376495a82a15248159792b9"
+    },
+    {
+      "slug": "cv-maker",
+      "title": "CV Maker",
+      "category": "Web",
+      "status": "Completed",
+      "dateRange": "2025",
+      "summary": "Flutter Web tool for creating professional CVs instantly \u2014 fill in your info, get a PDF. No signup required.",
+      "problem": "Existing CV tools are bloated, slow, or require accounts. Wanted something that just works \u2014 open, type, export.",
+      "contribution": "Built the entire product: responsive form flow, live preview, and browser-side PDF generation.",
+      "outcome": "A fast, practical web tool with zero friction. Users get a professional CV in under 5 minutes.",
+      "technologies": [
+        "Flutter Web",
+        "Dart",
+        "PDF Generation",
+        "Responsive Design"
+      ],
+      "links": [
+        {
+          "label": "Live",
+          "url": "https://orkundayi.com/CvMaker/",
+          "id": "624852bb4c974e41b195612ec41c6594"
+        }
+      ],
+      "isFeatured": true,
+      "id": "e0bfecd1038d44d2a2692b7bb6a3f666"
+    },
+    {
+      "slug": "flulog",
+      "title": "Flulog",
+      "category": "Developer Tool",
+      "status": "Completed",
+      "dateRange": "2025",
+      "summary": "Log collection and inspection platform for Flutter apps \u2014 centralized debugging with classification and filtering.",
+      "problem": "Production debugging is painful when logs are scattered. Needed a central place to inspect, classify, and search them.",
+      "contribution": "Built the web dashboard and companion logging package. Logs flow from app to Firebase to a searchable UI.",
+      "outcome": "Turned raw application logging into a structured, developer-friendly debugging workflow.",
+      "technologies": [
+        "Flutter Web",
+        "Firebase",
+        "Dart",
+        "Logging"
+      ],
+      "links": [
+        {
+          "label": "Live",
+          "url": "https://orkundayi.com/Flulog/",
+          "id": "5b59ce78958249f892c502eafffdd1c5"
+        }
+      ],
+      "isFeatured": true,
+      "id": "7ca854eed7dc4aeb8a0fd69ddf0bb302"
+    },
+    {
+      "slug": "flutech-dev",
+      "title": "Flutech Dev",
+      "category": "Corporate",
+      "status": "Live",
+      "dateRange": "2025",
+      "summary": "Responsive corporate website presenting Flutter and API development services with a professional identity.",
+      "problem": "The business needed a clear digital presence \u2014 explaining services, building trust, and working on every screen size.",
+      "contribution": "Designed the information architecture, built the responsive frontend, and established the visual brand identity.",
+      "outcome": "Professional web presence with clear service positioning and easy contact paths.",
+      "technologies": [
+        "Flutter Web",
+        "Dart",
+        "Responsive Design"
+      ],
+      "links": [
+        {
+          "label": "Live",
+          "url": "https://flutech.org/",
+          "id": "a221f690b01348a483fc59b666d4f366"
+        }
+      ],
+      "isFeatured": false,
+      "id": "3b9b4041c4104e969ca83274dbb0de89"
+    },
+    {
+      "slug": "orkun-dayi-portfolio",
+      "title": "orkundayi.com",
+      "category": "Personal",
+      "status": "Active",
+      "dateRange": "2025",
+      "summary": "This portfolio site \u2014 Flutter Web frontend with a .NET API backend. Designed to evolve into a full CMS.",
+      "problem": "A developer portfolio should showcase both technical ability and taste. It should be fast, clean, and data-driven.",
+      "contribution": "Built the full stack: Flutter Web frontend, .NET API, admin panel, and responsive design across all breakpoints.",
+      "outcome": "A living portfolio that demonstrates real full-stack capability \u2014 not just a static page.",
+      "technologies": [
+        "Flutter Web",
+        ".NET",
+        "REST API",
+        "Responsive Design"
+      ],
+      "links": [
+        {
+          "label": "Live",
+          "url": "https://orkundayi.com/",
+          "id": "77e1698253264e5c9d3a28f07f56b61e"
+        }
+      ],
+      "isFeatured": false,
+      "id": "10d7c10d71fa42e7aad7afb0e942c8f0"
+    },
+    {
+      "slug": "flupass",
+      "title": "FluPass",
+      "category": "Security",
+      "status": "Active",
+      "dateRange": "2025",
+      "summary": "Privacy-first password manager with local encryption and biometric authentication across platforms.",
+      "problem": "Cloud-based password managers require trust. Wanted a solution where credentials never leave the device.",
+      "contribution": "Architected the app around local-first security, biometric unlock, and a clean UX for everyday use.",
+      "outcome": "A security product that puts user privacy first without sacrificing usability.",
+      "technologies": [
+        "Flutter",
+        "Dart",
+        "Encryption",
+        "Biometrics"
+      ],
+      "links": [],
+      "isFeatured": false,
+      "id": "d31a27d03e6b49aeb8219e958fe7cdc6"
+    },
+    {
+      "slug": "cuzdan",
+      "title": "Cuzdan",
+      "category": "Finance",
+      "status": "Active",
+      "dateRange": "2025",
+      "summary": "Personal finance tracker with spending insights, category analysis, and visual charts.",
+      "problem": "Most finance apps track numbers but don\u0027t surface patterns. Wanted one that helps you understand your spending.",
+      "contribution": "Designed and built the mobile app with Firebase backend, category-based analysis, and data visualization.",
+      "outcome": "A finance tool that goes beyond logging \u2014 it helps users see where their money actually goes.",
+      "technologies": [
+        "Flutter",
+        "Dart",
+        "Firebase",
+        "Charts"
+      ],
+      "links": [],
+      "isFeatured": false,
+      "id": "d01c3805af4a4404949c24b1b89e8874"
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Sc. in Computer Engineering",
+      "school": "Trakya University",
+      "location": "Edirne, Turkiye",
+      "dateRange": "2017 \u2014 2021",
+      "notes": "Solid foundation in software engineering, algorithms, data structures, and systems thinking.",
+      "id": "0883a761a30846e392408e0d87f2447a"
+    }
+  ],
+  "skillCategories": [
+    {
+      "title": "Frontend \u0026 Mobile",
+      "items": [
+        "Flutter",
+        "Dart",
+        "Cross-Platform",
+        "Responsive Web",
+        "Material Design",
+        "State Management",
+        "Animations"
+      ],
+      "id": "dd34e1b8544a43908b520743030d038c"
+    },
+    {
+      "title": "Backend \u0026 Services",
+      "items": [
+        ".NET",
+        "ASP.NET Core",
+        "REST APIs",
+        "Firebase",
+        "Entity Framework",
+        "SQL Server",
+        "Android Intents"
+      ],
+      "id": "45abd194e1704ec39331b4e8a874b196"
+    },
+    {
+      "title": "Engineering \u0026 Delivery",
+      "items": [
+        "Clean Architecture",
+        "MVVM",
+        "Git",
+        "CI/CD",
+        "Agile",
+        "Product Thinking",
+        "Technical Writing"
+      ],
+      "id": "478303a089a3437ca867923bb9ac8626"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Turkish",
+      "level": "Native",
+      "id": "111640d5ce974d1eb4fe228353c82e18"
+    },
+    {
+      "name": "English",
+      "level": "B2 \u2014 Professional",
+      "id": "af20b131bb4246c48fc87d29e3bf5557"
+    }
+  ],
+  "contactLinks": [
+    {
+      "label": "Email",
+      "value": "orkundayi@flutech.org",
+      "url": "mailto:orkundayi@flutech.org",
+      "id": "6499deebb77f4e1fa9edb4f458bb3813"
+    },
+    {
+      "label": "GitHub",
+      "value": "github.com/orkundayi",
+      "url": "https://github.com/orkundayi",
+      "id": "48cbe962ecc24193a052a0d07afd4bf6"
+    },
+    {
+      "label": "LinkedIn",
+      "value": "linkedin.com/in/orkundayi",
+      "url": "https://www.linkedin.com/in/orkundayi/",
+      "id": "99ead99b0f74408289ae228290ba1bd8"
+    },
+    {
+      "label": "Website",
+      "value": "orkundayi.com",
+      "url": "https://orkundayi.com/",
+      "id": "78536377fd5041bd9c91997dacd3d515"
+    },
+    {
+      "label": "Phone",
+      "value": "\u002B90 542 339 86 93",
+      "url": "tel:\u002B905423398693",
+      "id": "f12d6f2d418a458fb982ce7952974d83"
+    }
+  ]
+}
