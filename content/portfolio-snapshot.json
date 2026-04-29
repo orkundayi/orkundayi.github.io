@@ -1,358 +1,726 @@
 {
   "schemaVersion": "v2",
-  "profile": {
-    "fullName": "Orkun Dayi",
-    "roleTitle": "Flutter \u0026 .NET Developer",
-    "headline": "I design and build production-grade mobile and web applications with Flutter, backed by robust .NET APIs. I care about clean architecture, intuitive UX, and shipping products that actually work.",
-    "summary": "Product-minded software engineer with hands-on experience in payment systems, cross-platform mobile apps, and API-driven architectures. I turn business requirements into reliable, well-structured applications \u2014 from pixel-perfect interfaces to the backend services behind them. My day-to-day work involves Flutter for the frontend and .NET for the backend, with a strong focus on maintainability and user experience.",
-    "location": "Istanbul, Turkiye",
-    "email": "orkundayi@flutech.org",
-    "phone": "\u002B90 542 339 86 93",
-    "website": "https://orkundayi.com/",
-    "gitHub": "https://github.com/orkundayi/",
-    "linkedIn": "https://www.linkedin.com/in/orkundayi/"
-  },
-  "recruiterSnapshot": {
-    "yearsExperienceLabel": "3\u002B years professional experience",
-    "primaryFocus": "Flutter \u0026 .NET full-stack development",
-    "currentRoleSummary": "Flutter Developer at Overtech Information Technologies \u2014 building Android POS applications for payment operations with complex integration requirements.",
-    "preferredWork": "Cross-platform products, business applications, internal tools, and backend-connected user experiences where I can own the full delivery.",
-    "availability": "Open to new opportunities"
-  },
-  "capabilities": [
-    {
-      "title": "Cross-platform development",
-      "description": "Building Flutter applications that run on Android, iOS, and Web from a single codebase \u2014 with platform-specific polish where it matters.",
-      "id": "c44fa8e69bdb4cfb8b74f722a02d5d8e"
-    },
-    {
-      "title": "API design \u0026 integration",
-      "description": "Connecting frontends to REST APIs, Firebase services, Android intents, and backend workflows. Comfortable on both sides of the request.",
-      "id": "fbc9ada6e80d40fa9c5fc3851f9ca572"
-    },
-    {
-      "title": "Product-focused UI",
-      "description": "Translating business needs into clear, responsive interfaces. I think in user flows, not just widgets \u2014 every screen should earn its place.",
-      "id": "360190c315864f84a598db798de28173"
-    },
-    {
-      "title": "Clean architecture",
-      "description": "Writing code that the next developer can read. Testable structure, clear separation of concerns, and scalable data models.",
-      "id": "ea3923dcb6d6436d923243240baef211"
-    },
-    {
-      "title": "End-to-end delivery",
-      "description": "Taking features from design through implementation, testing, and release. I\u0027ve shipped products solo and know what it takes to get things live.",
-      "id": "17c2cf1d25bb40d4a8b0f528ef327554"
-    }
+  "defaultLanguage": "en",
+  "supportedLanguages": [
+    "tr",
+    "en"
   ],
-  "careerHighlights": [
-    {
-      "title": "Payment systems expertise",
-      "description": "Built and maintained POS software handling real financial transactions \u2014 ISO 8583 messaging, transaction workflows, and regulated integration scenarios.",
-      "id": "79dba8ad960345678e9b684c150b24fc"
-    },
-    {
-      "title": "Shipped real products",
-      "description": "Multiple published applications across App Store, Play Store, and web \u2014 from concept to production with real users.",
-      "id": "dc7a9e33326c4650a4a8ae6a407d3c87"
-    },
-    {
-      "title": "Full product ownership",
-      "description": "Owned the complete lifecycle: UI design, architecture, integration, testing, release, and iteration. Not just a feature developer \u2014 a product builder.",
-      "id": "a64f005723e24340bee0703a851005b1"
-    },
-    {
-      "title": "Full-stack mindset",
-      "description": "Equally comfortable building Flutter interfaces and .NET APIs. This means fewer handoff gaps and faster delivery.",
-      "id": "6b161c7976e94806841deb9e77786dd6"
-    }
-  ],
-  "workExperiences": [
-    {
-      "role": "Flutter Developer",
-      "company": "Overtech Information Technologies",
-      "location": "Istanbul, Turkiye",
-      "dateRange": "Sep 2021 \u2014 Present",
-      "summary": "Building and maintaining Flutter applications for Android-based POS devices used in payment operations. My work spans product interface development, transaction integrations, backend communication, and domain-specific business logic.",
-      "achievements": [
-        "Developed and maintained Flutter-based POS applications running on Android payment terminals.",
-        "Integrated REST APIs, Android intents, and cloud communication channels for transaction processing.",
-        "Implemented sale initiation, status inquiry, cancellation flows, and end-of-day settlement features.",
-        "Improved the integration layer to meet ISO 8583 payment messaging and tax-related compliance requirements.",
-        "Owned interface quality and product usability while ensuring secure transmission of transaction data."
-      ],
-      "technologies": [
-        "Flutter",
-        "Dart",
-        "REST API",
-        "Android Intents",
-        "POS Systems",
-        "Payment Integration",
-        ".NET"
-      ],
-      "id": "b552127cf1384a2ca212b32c445ad609"
-    }
-  ],
-  "projects": [
-    {
-      "slug": "flublocks",
-      "title": "FluBlocks",
-      "category": "Mobile",
-      "status": "Live",
-      "dateRange": "2025",
-      "summary": "Cross-platform mobile app published on iOS and Android with Firebase-backed user flows and real-time data sync.",
-      "problem": "Needed a smooth cross-platform experience with cloud features \u2014 without fragmenting the codebase across platforms.",
-      "contribution": "Designed the UI, built the Flutter app, integrated Firebase (auth, Firestore, storage), and managed the full release pipeline.",
-      "outcome": "Shipped a polished app on both stores with real-time sync, authentication, and cloud storage working seamlessly.",
-      "technologies": [
-        "Flutter",
-        "Dart",
-        "Firebase",
-        "iOS",
-        "Android"
-      ],
-      "links": [],
-      "isFeatured": true,
-      "id": "3af33d7b9376495a82a15248159792b9"
-    },
-    {
-      "slug": "cv-maker",
-      "title": "CV Maker",
-      "category": "Web",
-      "status": "Completed",
-      "dateRange": "2025",
-      "summary": "Flutter Web tool for creating professional CVs instantly \u2014 fill in your info, get a PDF. No signup required.",
-      "problem": "Existing CV tools are bloated, slow, or require accounts. Wanted something that just works \u2014 open, type, export.",
-      "contribution": "Built the entire product: responsive form flow, live preview, and browser-side PDF generation.",
-      "outcome": "A fast, practical web tool with zero friction. Users get a professional CV in under 5 minutes.",
-      "technologies": [
-        "Flutter Web",
-        "Dart",
-        "PDF Generation",
-        "Responsive Design"
-      ],
-      "links": [
+  "translations": {
+    "tr": {
+      "schemaVersion": "v2",
+      "profile": {
+        "fullName": "Orkun Dayi",
+        "roleTitle": "Flutter \u0026 .NET Geli\u015Ftirici",
+        "headline": "Flutter ile \u00FCretim kalitesinde mobil ve web uygulamalar\u0131 tasarlay\u0131p geli\u015Ftiriyorum; arkas\u0131n\u0131 da sa\u011Flam .NET API\u0027lerle destekliyorum. Temiz mimari, sezgisel UX ve ger\u00E7ekten \u00E7al\u0131\u015Fan \u00FCr\u00FCnler benim i\u00E7in merkezde.",
+        "summary": "\u00D6deme sistemleri, \u00E7apraz platform mobil uygulamalar ve API odakl\u0131 mimarilerde deneyimli, \u00FCr\u00FCn odakl\u0131 bir yaz\u0131l\u0131m geli\u015Ftiriciyim. \u0130\u015F ihtiya\u00E7lar\u0131n\u0131 g\u00FCvenilir ve d\u00FCzenli uygulamalara d\u00F6n\u00FC\u015Ft\u00FCr\u00FCyorum; piksel hassasiyetindeki aray\u00FCzlerden arkadaki backend servislerine kadar u\u00E7tan uca \u00E7al\u0131\u015F\u0131yorum.",
+        "location": "\u0130stanbul, T\u00FCrkiye",
+        "email": "orkundayi@flutech.org",
+        "phone": "\u002B90 542 339 86 93",
+        "website": "https://orkundayi.com/",
+        "gitHub": "https://github.com/orkundayi/",
+        "linkedIn": "https://www.linkedin.com/in/orkundayi/"
+      },
+      "recruiterSnapshot": {
+        "yearsExperienceLabel": "3\u002B y\u0131l profesyonel deneyim",
+        "primaryFocus": "Flutter \u0026 .NET full-stack geli\u015Ftirme",
+        "currentRoleSummary": "Overtech Bilgi Teknolojileri\u0027nde Flutter Developer olarak, karma\u015F\u0131k entegrasyon ihtiya\u00E7lar\u0131 olan Android POS uygulamalar\u0131 geli\u015Ftiriyorum.",
+        "preferredWork": "\u00C7apraz platform \u00FCr\u00FCnler, i\u015F uygulamalar\u0131, i\u00E7 ara\u00E7lar ve backend ba\u011Flant\u0131l\u0131 kullan\u0131c\u0131 deneyimleri.",
+        "availability": "Yeni f\u0131rsatlara a\u00E7\u0131\u011F\u0131m"
+      },
+      "capabilities": [
         {
-          "label": "Live",
-          "url": "https://orkundayi.com/CvMaker/",
-          "id": "624852bb4c974e41b195612ec41c6594"
+          "title": "\u00C7apraz platform geli\u015Ftirme",
+          "description": "Tek kod taban\u0131yla Android, iOS ve Web\u0027de \u00E7al\u0131\u015Fan Flutter uygulamalar\u0131 geli\u015Ftiriyorum; gerekti\u011Fi yerde platforma \u00F6zel detaylar\u0131 da parlat\u0131yorum.",
+          "id": "c44fa8e69bdb4cfb8b74f722a02d5d8e"
+        },
+        {
+          "title": "API tasar\u0131m\u0131 ve entegrasyon",
+          "description": "Frontendleri REST API\u0027ler, Firebase servisleri, Android intent\u0027leri ve backend i\u015F ak\u0131\u015Flar\u0131yla ba\u011Fl\u0131yorum. \u0130ste\u011Fin iki taraf\u0131nda da rahat \u00E7al\u0131\u015F\u0131yorum.",
+          "id": "fbc9ada6e80d40fa9c5fc3851f9ca572"
+        },
+        {
+          "title": "\u00DCr\u00FCn odakl\u0131 aray\u00FCz",
+          "description": "\u0130\u015F ihtiya\u00E7lar\u0131n\u0131 net ve responsive aray\u00FCzlere \u00E7eviriyorum. Sadece widget de\u011Fil, kullan\u0131c\u0131 ak\u0131\u015F\u0131 d\u00FC\u015F\u00FCn\u00FCr\u00FCm.",
+          "id": "360190c315864f84a598db798de28173"
+        },
+        {
+          "title": "Temiz mimari",
+          "description": "Bir sonraki geli\u015Ftiricinin okuyabilece\u011Fi kod yazmaya \u00F6nem veririm. Test edilebilir yap\u0131, net sorumluluklar ve \u00F6l\u00E7eklenebilir veri modelleri.",
+          "id": "ea3923dcb6d6436d923243240baef211"
+        },
+        {
+          "title": "U\u00E7tan uca teslim",
+          "description": "\u00D6zellikleri tasar\u0131mdan geli\u015Ftirmeye, testten yay\u0131na kadar ta\u015F\u0131yorum. Tek ba\u015F\u0131ma \u00FCr\u00FCn \u00E7\u0131kard\u0131m; canl\u0131ya almak ne ister biliyorum.",
+          "id": "17c2cf1d25bb40d4a8b0f528ef327554"
         }
       ],
-      "isFeatured": true,
-      "id": "e0bfecd1038d44d2a2692b7bb6a3f666"
-    },
-    {
-      "slug": "flulog",
-      "title": "Flulog",
-      "category": "Developer Tool",
-      "status": "Completed",
-      "dateRange": "2025",
-      "summary": "Log collection and inspection platform for Flutter apps \u2014 centralized debugging with classification and filtering.",
-      "problem": "Production debugging is painful when logs are scattered. Needed a central place to inspect, classify, and search them.",
-      "contribution": "Built the web dashboard and companion logging package. Logs flow from app to Firebase to a searchable UI.",
-      "outcome": "Turned raw application logging into a structured, developer-friendly debugging workflow.",
-      "technologies": [
-        "Flutter Web",
-        "Firebase",
-        "Dart",
-        "Logging"
-      ],
-      "links": [
+      "careerHighlights": [
         {
-          "label": "Live",
-          "url": "https://orkundayi.com/Flulog/",
-          "id": "5b59ce78958249f892c502eafffdd1c5"
+          "title": "\u00D6deme sistemleri deneyimi",
+          "description": "Ger\u00E7ek finansal i\u015Flemler, ISO 8583 mesajla\u015Fmas\u0131, i\u015Flem ak\u0131\u015Flar\u0131 ve reg\u00FClasyon gerektiren entegrasyonlarda \u00E7al\u0131\u015Fan POS yaz\u0131l\u0131mlar\u0131 geli\u015Ftirdim.",
+          "id": "79dba8ad960345678e9b684c150b24fc"
+        },
+        {
+          "title": "Canl\u0131 \u00FCr\u00FCn tecr\u00FCbesi",
+          "description": "App Store, Play Store ve web \u00FCzerinde fikir a\u015Famas\u0131ndan \u00FCretime kadar \u00E7\u0131kan, ger\u00E7ek kullan\u0131c\u0131l\u0131 birden fazla \u00FCr\u00FCn geli\u015Ftirdim.",
+          "id": "dc7a9e33326c4650a4a8ae6a407d3c87"
+        },
+        {
+          "title": "Tam \u00FCr\u00FCn sahipli\u011Fi",
+          "description": "UI tasar\u0131m\u0131, mimari, entegrasyon, test, yay\u0131n ve iterasyon dahil s\u00FCrecin tamam\u0131n\u0131 \u00FCstlendim.",
+          "id": "a64f005723e24340bee0703a851005b1"
+        },
+        {
+          "title": "Full-stack bak\u0131\u015F a\u00E7\u0131s\u0131",
+          "description": "Flutter aray\u00FCzleri ve .NET API\u0027leri ayn\u0131 rahatl\u0131kla geli\u015Ftirebiliyorum. Bu da daha az kopukluk ve daha h\u0131zl\u0131 teslim demek.",
+          "id": "6b161c7976e94806841deb9e77786dd6"
         }
       ],
-      "isFeatured": true,
-      "id": "7ca854eed7dc4aeb8a0fd69ddf0bb302"
-    },
-    {
-      "slug": "flutech-dev",
-      "title": "Flutech Dev",
-      "category": "Corporate",
-      "status": "Live",
-      "dateRange": "2025",
-      "summary": "Responsive corporate website presenting Flutter and API development services with a professional identity.",
-      "problem": "The business needed a clear digital presence \u2014 explaining services, building trust, and working on every screen size.",
-      "contribution": "Designed the information architecture, built the responsive frontend, and established the visual brand identity.",
-      "outcome": "Professional web presence with clear service positioning and easy contact paths.",
-      "technologies": [
-        "Flutter Web",
-        "Dart",
-        "Responsive Design"
-      ],
-      "links": [
+      "workExperiences": [
         {
-          "label": "Live",
-          "url": "https://flutech.org/",
-          "id": "a221f690b01348a483fc59b666d4f366"
+          "role": "Flutter Developer",
+          "company": "Overtech Information Technologies",
+          "location": "\u0130stanbul, T\u00FCrkiye",
+          "dateRange": "Eyl 2021 - G\u00FCn\u00FCm\u00FCz",
+          "summary": "\u00D6deme operasyonlar\u0131nda kullan\u0131lan Android tabanl\u0131 POS cihazlar\u0131 i\u00E7in Flutter uygulamalar\u0131 geli\u015Ftiriyor ve s\u00FCrd\u00FCr\u00FCyorum. \u00C7al\u0131\u015Fmalar\u0131m \u00FCr\u00FCn aray\u00FCz\u00FC, i\u015Flem entegrasyonlar\u0131, backend ileti\u015Fimi ve alana \u00F6zel i\u015F kurallar\u0131n\u0131 kaps\u0131yor.",
+          "achievements": [
+            "Android \u00F6deme terminallerinde \u00E7al\u0131\u015Fan Flutter tabanl\u0131 POS uygulamalar\u0131 geli\u015Ftirdim ve bak\u0131m\u0131n\u0131 yapt\u0131m.",
+            "\u0130\u015Flem y\u00F6netimi i\u00E7in REST API, Android intent ve bulut ileti\u015Fim kanallar\u0131n\u0131 entegre ettim.",
+            "Sat\u0131\u015F ba\u015Flatma, durum sorgulama, iptal ve g\u00FCn sonu ak\u0131\u015Flar\u0131n\u0131 geli\u015Ftirdim.",
+            "ISO 8583 \u00F6deme mesajla\u015Fmas\u0131 ve vergi uyumlulu\u011Fu ihtiya\u00E7lar\u0131 i\u00E7in entegrasyon katman\u0131n\u0131 iyile\u015Ftirdim.",
+            "\u0130\u015Flem verilerinin g\u00FCvenli iletimini korurken aray\u00FCz kalitesi ve kullan\u0131labilirli\u011Fi \u00FCstlendim."
+          ],
+          "technologies": [
+            "Flutter",
+            "Dart",
+            "REST API",
+            "Android Intents",
+            "POS Systems",
+            "Payment Integration",
+            ".NET"
+          ],
+          "id": "b552127cf1384a2ca212b32c445ad609"
         }
       ],
-      "isFeatured": false,
-      "id": "3b9b4041c4104e969ca83274dbb0de89"
-    },
-    {
-      "slug": "orkun-dayi-portfolio",
-      "title": "orkundayi.com",
-      "category": "Personal",
-      "status": "Active",
-      "dateRange": "2025",
-      "summary": "This portfolio site \u2014 Flutter Web frontend with a .NET API backend. Designed to evolve into a full CMS.",
-      "problem": "A developer portfolio should showcase both technical ability and taste. It should be fast, clean, and data-driven.",
-      "contribution": "Built the full stack: Flutter Web frontend, .NET API, admin panel, and responsive design across all breakpoints.",
-      "outcome": "A living portfolio that demonstrates real full-stack capability \u2014 not just a static page.",
-      "technologies": [
-        "Flutter Web",
-        ".NET",
-        "REST API",
-        "Responsive Design"
-      ],
-      "links": [
+      "projects": [
         {
-          "label": "Live",
+          "slug": "flublocks",
+          "title": "FluBlocks",
+          "category": "Mobil",
+          "status": "Canl\u0131",
+          "dateRange": "2025",
+          "summary": "iOS ve Android\u0027de yay\u0131nlanm\u0131\u015F, Firebase destekli kullan\u0131c\u0131 ak\u0131\u015Flar\u0131 ve ger\u00E7ek zamanl\u0131 veri senkronizasyonu olan \u00E7apraz platform mobil uygulama.",
+          "problem": "Kod taban\u0131n\u0131 platformlara b\u00F6lmeden bulut \u00F6zellikleriyle ak\u0131c\u0131 bir \u00E7apraz platform deneyimi gerekiyordu.",
+          "contribution": "UI tasar\u0131m\u0131n\u0131 yapt\u0131m, Flutter uygulamas\u0131n\u0131 geli\u015Ftirdim, Firebase auth, Firestore ve storage entegrasyonlar\u0131n\u0131 kurup yay\u0131n s\u00FCrecini y\u00F6nettim.",
+          "outcome": "Ger\u00E7ek zamanl\u0131 senkronizasyon, kimlik do\u011Frulama ve bulut depolama ile iki ma\u011Fazada \u00E7al\u0131\u015Fan cilal\u0131 bir uygulama yay\u0131nland\u0131.",
+          "technologies": [
+            "Flutter",
+            "Dart",
+            "Firebase",
+            "iOS",
+            "Android"
+          ],
+          "links": [],
+          "isFeatured": true,
+          "id": "3af33d7b9376495a82a15248159792b9"
+        },
+        {
+          "slug": "cv-maker",
+          "title": "CV Maker",
+          "category": "Web",
+          "status": "Tamamland\u0131",
+          "dateRange": "2025",
+          "summary": "Profesyonel CV\u0027leri h\u0131zl\u0131ca haz\u0131rlayan Flutter Web arac\u0131: bilgileri doldur, PDF al. \u00DCyelik gerekmez.",
+          "problem": "Mevcut CV ara\u00E7lar\u0131 yava\u015F, karma\u015F\u0131k veya \u00FCyelik istiyor. A\u00E7, yaz, d\u0131\u015Fa aktar mant\u0131\u011F\u0131nda sade bir ara\u00E7 hedeflendi.",
+          "contribution": "Responsive form ak\u0131\u015F\u0131, canl\u0131 \u00F6nizleme ve taray\u0131c\u0131 taraf\u0131nda PDF \u00FCretimi dahil t\u00FCm \u00FCr\u00FCn\u00FC geli\u015Ftirdim.",
+          "outcome": "Kullan\u0131c\u0131n\u0131n dakikalar i\u00E7inde profesyonel CV almas\u0131n\u0131 sa\u011Flayan h\u0131zl\u0131 ve pratik bir web arac\u0131 \u00E7\u0131kt\u0131.",
+          "technologies": [
+            "Flutter Web",
+            "Dart",
+            "PDF Generation",
+            "Responsive Design"
+          ],
+          "links": [
+            {
+              "label": "Live",
+              "url": "https://orkundayi.com/CvMaker/",
+              "id": "624852bb4c974e41b195612ec41c6594"
+            }
+          ],
+          "isFeatured": true,
+          "id": "e0bfecd1038d44d2a2692b7bb6a3f666"
+        },
+        {
+          "slug": "flulog",
+          "title": "Flulog",
+          "category": "Geli\u015Ftirici Arac\u0131",
+          "status": "Tamamland\u0131",
+          "dateRange": "2025",
+          "summary": "Flutter uygulamalar\u0131 i\u00E7in merkezi log toplama ve inceleme platformu; s\u0131n\u0131fland\u0131rma ve filtreleme destekli.",
+          "problem": "Canl\u0131 ortamda loglar da\u011F\u0131n\u0131k oldu\u011Funda hata ay\u0131klama zorla\u015F\u0131r. Loglar\u0131 aramak, s\u0131n\u0131fland\u0131rmak ve incelemek i\u00E7in merkezi bir yer gerekiyordu.",
+          "contribution": "Web panelini ve e\u015Flik eden logging paketini geli\u015Ftirdim. Loglar uygulamadan Firebase\u0027e, oradan aranabilir aray\u00FCze ak\u0131yor.",
+          "outcome": "Ham uygulama loglar\u0131n\u0131 d\u00FCzenli, geli\u015Ftirici dostu bir hata ay\u0131klama ak\u0131\u015F\u0131na d\u00F6n\u00FC\u015Ft\u00FCrd\u00FC.",
+          "technologies": [
+            "Flutter Web",
+            "Firebase",
+            "Dart",
+            "Logging"
+          ],
+          "links": [
+            {
+              "label": "Live",
+              "url": "https://orkundayi.com/Flulog/",
+              "id": "5b59ce78958249f892c502eafffdd1c5"
+            }
+          ],
+          "isFeatured": true,
+          "id": "7ca854eed7dc4aeb8a0fd69ddf0bb302"
+        },
+        {
+          "slug": "flutech-dev",
+          "title": "Flutech Dev",
+          "category": "Kurumsal",
+          "status": "Canl\u0131",
+          "dateRange": "2025",
+          "summary": "Flutter ve API geli\u015Ftirme hizmetlerini profesyonel kimlikle anlatan responsive kurumsal web sitesi.",
+          "problem": "\u0130\u015Fin hizmetlerini a\u00E7\u0131klayan, g\u00FCven olu\u015Fturan ve t\u00FCm ekranlarda \u00E7al\u0131\u015Fan net bir dijital varl\u0131\u011Fa ihtiya\u00E7 vard\u0131.",
+          "contribution": "Bilgi mimarisini tasarlad\u0131m, responsive frontend\u0027i geli\u015Ftirdim ve g\u00F6rsel marka kimli\u011Fini olu\u015Fturdum.",
+          "outcome": "Net hizmet konumland\u0131rmas\u0131 ve kolay ileti\u015Fim yollar\u0131 olan profesyonel bir web varl\u0131\u011F\u0131 olu\u015Ftu.",
+          "technologies": [
+            "Flutter Web",
+            "Dart",
+            "Responsive Design"
+          ],
+          "links": [
+            {
+              "label": "Live",
+              "url": "https://flutech.org/",
+              "id": "a221f690b01348a483fc59b666d4f366"
+            }
+          ],
+          "isFeatured": false,
+          "id": "3b9b4041c4104e969ca83274dbb0de89"
+        },
+        {
+          "slug": "orkun-dayi-portfolio",
+          "title": "orkundayi.com",
+          "category": "Ki\u015Fisel",
+          "status": "Aktif",
+          "dateRange": "2025",
+          "summary": "Bu portfolyo sitesi: Flutter Web frontend ve .NET API backend. Zamanla tam bir CMS\u0027e evrilecek \u015Fekilde tasarland\u0131.",
+          "problem": "Bir geli\u015Ftirici portfolyosu hem teknik yetkinli\u011Fi hem de zevki g\u00F6stermeli; h\u0131zl\u0131, temiz ve veri odakl\u0131 olmal\u0131.",
+          "contribution": "Flutter Web frontend, .NET API, admin panel ve t\u00FCm k\u0131r\u0131l\u0131mlarda responsive tasar\u0131m dahil full-stack yap\u0131y\u0131 geli\u015Ftirdim.",
+          "outcome": "Statik bir sayfadan \u00F6te, ger\u00E7ek full-stack kabiliyeti g\u00F6steren ya\u015Fayan bir portfolyo ortaya \u00E7\u0131kt\u0131.",
+          "technologies": [
+            "Flutter Web",
+            ".NET",
+            "REST API",
+            "Responsive Design"
+          ],
+          "links": [
+            {
+              "label": "Live",
+              "url": "https://orkundayi.com/",
+              "id": "77e1698253264e5c9d3a28f07f56b61e"
+            }
+          ],
+          "isFeatured": false,
+          "id": "10d7c10d71fa42e7aad7afb0e942c8f0"
+        },
+        {
+          "slug": "flupass",
+          "title": "FluPass",
+          "category": "G\u00FCvenlik",
+          "status": "Aktif",
+          "dateRange": "2025",
+          "summary": "Yerel \u015Fifreleme ve biyometrik do\u011Frulama kullanan, gizlilik \u00F6ncelikli \u00E7apraz platform \u015Fifre y\u00F6neticisi.",
+          "problem": "Bulut tabanl\u0131 \u015Fifre y\u00F6neticileri g\u00FCven ili\u015Fkisi ister. Kimlik bilgilerinin cihazdan \u00E7\u0131kmad\u0131\u011F\u0131 bir \u00E7\u00F6z\u00FCm hedeflendi.",
+          "contribution": "Uygulamay\u0131 local-first g\u00FCvenlik, biyometrik kilit a\u00E7ma ve g\u00FCnl\u00FCk kullan\u0131ma uygun sade UX etraf\u0131nda kurgulad\u0131m.",
+          "outcome": "Kullan\u0131c\u0131 gizlili\u011Fini \u00F6nceleyen, kullan\u0131labilirlikten \u00F6d\u00FCn vermeyen bir g\u00FCvenlik \u00FCr\u00FCn\u00FC.",
+          "technologies": [
+            "Flutter",
+            "Dart",
+            "Encryption",
+            "Biometrics"
+          ],
+          "links": [],
+          "isFeatured": false,
+          "id": "d31a27d03e6b49aeb8219e958fe7cdc6"
+        },
+        {
+          "slug": "cuzdan",
+          "title": "Cuzdan",
+          "category": "Finans",
+          "status": "Aktif",
+          "dateRange": "2025",
+          "summary": "Harcama i\u00E7g\u00F6r\u00FCleri, kategori analizi ve g\u00F6rsel grafikler sunan ki\u015Fisel finans takip uygulamas\u0131.",
+          "problem": "\u00C7o\u011Fu finans uygulamas\u0131 say\u0131lar\u0131 tutar ama al\u0131\u015Fkanl\u0131klar\u0131 g\u00F6stermez. Harcamay\u0131 anlamay\u0131 kolayla\u015Ft\u0131ran bir \u00FCr\u00FCn hedeflendi.",
+          "contribution": "Mobil uygulamay\u0131 Firebase backend, kategori bazl\u0131 analiz ve veri g\u00F6rselle\u015Ftirme ile tasarlay\u0131p geli\u015Ftirdim.",
+          "outcome": "Sadece kay\u0131t tutmayan, paran\u0131n nereye gitti\u011Fini g\u00F6rmeyi kolayla\u015Ft\u0131ran bir finans arac\u0131.",
+          "technologies": [
+            "Flutter",
+            "Dart",
+            "Firebase",
+            "Charts"
+          ],
+          "links": [],
+          "isFeatured": false,
+          "id": "d01c3805af4a4404949c24b1b89e8874"
+        }
+      ],
+      "education": [
+        {
+          "degree": "Bilgisayar M\u00FChendisli\u011Fi Lisans",
+          "school": "Trakya University",
+          "location": "Edirne, T\u00FCrkiye",
+          "dateRange": "2017 \u2014 2021",
+          "notes": "Yaz\u0131l\u0131m m\u00FChendisli\u011Fi, algoritmalar, veri yap\u0131lar\u0131 ve sistem d\u00FC\u015F\u00FCncesi \u00FCzerine g\u00FC\u00E7l\u00FC temel.",
+          "id": "0883a761a30846e392408e0d87f2447a"
+        }
+      ],
+      "skillCategories": [
+        {
+          "title": "Frontend \u0026 Mobil",
+          "items": [
+            "Flutter",
+            "Dart",
+            "\u00C7apraz Platform",
+            "Responsive Web",
+            "Material Design",
+            "State Management",
+            "Animasyonlar"
+          ],
+          "id": "dd34e1b8544a43908b520743030d038c"
+        },
+        {
+          "title": "Backend \u0026 Servisler",
+          "items": [
+            ".NET",
+            "ASP.NET Core",
+            "REST APIs",
+            "Firebase",
+            "Entity Framework",
+            "SQL Server",
+            "Android Intents"
+          ],
+          "id": "45abd194e1704ec39331b4e8a874b196"
+        },
+        {
+          "title": "M\u00FChendislik \u0026 Teslim",
+          "items": [
+            "Clean Architecture",
+            "MVVM",
+            "Git",
+            "CI/CD",
+            "Agile",
+            "\u00DCr\u00FCn Odakl\u0131l\u0131k",
+            "Teknik Yaz\u0131m"
+          ],
+          "id": "478303a089a3437ca867923bb9ac8626"
+        }
+      ],
+      "languages": [
+        {
+          "name": "T\u00FCrk\u00E7e",
+          "level": "Ana dil",
+          "id": "111640d5ce974d1eb4fe228353c82e18"
+        },
+        {
+          "name": "\u0130ngilizce",
+          "level": "B2 - Profesyonel",
+          "id": "af20b131bb4246c48fc87d29e3bf5557"
+        }
+      ],
+      "contactLinks": [
+        {
+          "label": "E-posta",
+          "value": "orkundayi@flutech.org",
+          "url": "mailto:orkundayi@flutech.org",
+          "id": "6499deebb77f4e1fa9edb4f458bb3813"
+        },
+        {
+          "label": "GitHub",
+          "value": "github.com/orkundayi",
+          "url": "https://github.com/orkundayi",
+          "id": "48cbe962ecc24193a052a0d07afd4bf6"
+        },
+        {
+          "label": "LinkedIn",
+          "value": "linkedin.com/in/orkundayi",
+          "url": "https://www.linkedin.com/in/orkundayi/",
+          "id": "99ead99b0f74408289ae228290ba1bd8"
+        },
+        {
+          "label": "Web sitesi",
+          "value": "orkundayi.com",
           "url": "https://orkundayi.com/",
-          "id": "77e1698253264e5c9d3a28f07f56b61e"
+          "id": "78536377fd5041bd9c91997dacd3d515"
+        },
+        {
+          "label": "Telefon",
+          "value": "\u002B90 542 339 86 93",
+          "url": "tel:\u002B905423398693",
+          "id": "f12d6f2d418a458fb982ce7952974d83"
+        }
+      ]
+    },
+    "en": {
+      "schemaVersion": "v2",
+      "profile": {
+        "fullName": "Orkun Dayi",
+        "roleTitle": "Flutter \u0026 .NET Developer",
+        "headline": "I design and build production-grade mobile and web applications with Flutter, backed by robust .NET APIs. I care about clean architecture, intuitive UX, and shipping products that actually work.",
+        "summary": "Product-minded software engineer with hands-on experience in payment systems, cross-platform mobile apps, and API-driven architectures. I turn business requirements into reliable, well-structured applications \u2014 from pixel-perfect interfaces to the backend services behind them. My day-to-day work involves Flutter for the frontend and .NET for the backend, with a strong focus on maintainability and user experience.",
+        "location": "Istanbul, Turkiye",
+        "email": "orkundayi@flutech.org",
+        "phone": "\u002B90 542 339 86 93",
+        "website": "https://orkundayi.com/",
+        "gitHub": "https://github.com/orkundayi/",
+        "linkedIn": "https://www.linkedin.com/in/orkundayi/"
+      },
+      "recruiterSnapshot": {
+        "yearsExperienceLabel": "3\u002B years professional experience",
+        "primaryFocus": "Flutter \u0026 .NET full-stack development",
+        "currentRoleSummary": "Flutter Developer at Overtech Information Technologies \u2014 building Android POS applications for payment operations with complex integration requirements.",
+        "preferredWork": "Cross-platform products, business applications, internal tools, and backend-connected user experiences where I can own the full delivery.",
+        "availability": "Open to new opportunities"
+      },
+      "capabilities": [
+        {
+          "title": "Cross-platform development",
+          "description": "Building Flutter applications that run on Android, iOS, and Web from a single codebase \u2014 with platform-specific polish where it matters.",
+          "id": "c44fa8e69bdb4cfb8b74f722a02d5d8e"
+        },
+        {
+          "title": "API design \u0026 integration",
+          "description": "Connecting frontends to REST APIs, Firebase services, Android intents, and backend workflows. Comfortable on both sides of the request.",
+          "id": "fbc9ada6e80d40fa9c5fc3851f9ca572"
+        },
+        {
+          "title": "Product-focused UI",
+          "description": "Translating business needs into clear, responsive interfaces. I think in user flows, not just widgets \u2014 every screen should earn its place.",
+          "id": "360190c315864f84a598db798de28173"
+        },
+        {
+          "title": "Clean architecture",
+          "description": "Writing code that the next developer can read. Testable structure, clear separation of concerns, and scalable data models.",
+          "id": "ea3923dcb6d6436d923243240baef211"
+        },
+        {
+          "title": "End-to-end delivery",
+          "description": "Taking features from design through implementation, testing, and release. I\u0027ve shipped products solo and know what it takes to get things live.",
+          "id": "17c2cf1d25bb40d4a8b0f528ef327554"
         }
       ],
-      "isFeatured": false,
-      "id": "10d7c10d71fa42e7aad7afb0e942c8f0"
-    },
-    {
-      "slug": "flupass",
-      "title": "FluPass",
-      "category": "Security",
-      "status": "Active",
-      "dateRange": "2025",
-      "summary": "Privacy-first password manager with local encryption and biometric authentication across platforms.",
-      "problem": "Cloud-based password managers require trust. Wanted a solution where credentials never leave the device.",
-      "contribution": "Architected the app around local-first security, biometric unlock, and a clean UX for everyday use.",
-      "outcome": "A security product that puts user privacy first without sacrificing usability.",
-      "technologies": [
-        "Flutter",
-        "Dart",
-        "Encryption",
-        "Biometrics"
+      "careerHighlights": [
+        {
+          "title": "Payment systems expertise",
+          "description": "Built and maintained POS software handling real financial transactions \u2014 ISO 8583 messaging, transaction workflows, and regulated integration scenarios.",
+          "id": "79dba8ad960345678e9b684c150b24fc"
+        },
+        {
+          "title": "Shipped real products",
+          "description": "Multiple published applications across App Store, Play Store, and web \u2014 from concept to production with real users.",
+          "id": "dc7a9e33326c4650a4a8ae6a407d3c87"
+        },
+        {
+          "title": "Full product ownership",
+          "description": "Owned the complete lifecycle: UI design, architecture, integration, testing, release, and iteration. Not just a feature developer \u2014 a product builder.",
+          "id": "a64f005723e24340bee0703a851005b1"
+        },
+        {
+          "title": "Full-stack mindset",
+          "description": "Equally comfortable building Flutter interfaces and .NET APIs. This means fewer handoff gaps and faster delivery.",
+          "id": "6b161c7976e94806841deb9e77786dd6"
+        }
       ],
-      "links": [],
-      "isFeatured": false,
-      "id": "d31a27d03e6b49aeb8219e958fe7cdc6"
-    },
-    {
-      "slug": "cuzdan",
-      "title": "Cuzdan",
-      "category": "Finance",
-      "status": "Active",
-      "dateRange": "2025",
-      "summary": "Personal finance tracker with spending insights, category analysis, and visual charts.",
-      "problem": "Most finance apps track numbers but don\u0027t surface patterns. Wanted one that helps you understand your spending.",
-      "contribution": "Designed and built the mobile app with Firebase backend, category-based analysis, and data visualization.",
-      "outcome": "A finance tool that goes beyond logging \u2014 it helps users see where their money actually goes.",
-      "technologies": [
-        "Flutter",
-        "Dart",
-        "Firebase",
-        "Charts"
+      "workExperiences": [
+        {
+          "role": "Flutter Developer",
+          "company": "Overtech Information Technologies",
+          "location": "Istanbul, Turkiye",
+          "dateRange": "Sep 2021 \u2014 Present",
+          "summary": "Building and maintaining Flutter applications for Android-based POS devices used in payment operations. My work spans product interface development, transaction integrations, backend communication, and domain-specific business logic.",
+          "achievements": [
+            "Developed and maintained Flutter-based POS applications running on Android payment terminals.",
+            "Integrated REST APIs, Android intents, and cloud communication channels for transaction processing.",
+            "Implemented sale initiation, status inquiry, cancellation flows, and end-of-day settlement features.",
+            "Improved the integration layer to meet ISO 8583 payment messaging and tax-related compliance requirements.",
+            "Owned interface quality and product usability while ensuring secure transmission of transaction data."
+          ],
+          "technologies": [
+            "Flutter",
+            "Dart",
+            "REST API",
+            "Android Intents",
+            "POS Systems",
+            "Payment Integration",
+            ".NET"
+          ],
+          "id": "b552127cf1384a2ca212b32c445ad609"
+        }
       ],
-      "links": [],
-      "isFeatured": false,
-      "id": "d01c3805af4a4404949c24b1b89e8874"
-    }
-  ],
-  "education": [
-    {
-      "degree": "B.Sc. in Computer Engineering",
-      "school": "Trakya University",
-      "location": "Edirne, Turkiye",
-      "dateRange": "2017 \u2014 2021",
-      "notes": "Solid foundation in software engineering, algorithms, data structures, and systems thinking.",
-      "id": "0883a761a30846e392408e0d87f2447a"
-    }
-  ],
-  "skillCategories": [
-    {
-      "title": "Frontend \u0026 Mobile",
-      "items": [
-        "Flutter",
-        "Dart",
-        "Cross-Platform",
-        "Responsive Web",
-        "Material Design",
-        "State Management",
-        "Animations"
+      "projects": [
+        {
+          "slug": "flublocks",
+          "title": "FluBlocks",
+          "category": "Mobile",
+          "status": "Live",
+          "dateRange": "2025",
+          "summary": "Cross-platform mobile app published on iOS and Android with Firebase-backed user flows and real-time data sync.",
+          "problem": "Needed a smooth cross-platform experience with cloud features \u2014 without fragmenting the codebase across platforms.",
+          "contribution": "Designed the UI, built the Flutter app, integrated Firebase (auth, Firestore, storage), and managed the full release pipeline.",
+          "outcome": "Shipped a polished app on both stores with real-time sync, authentication, and cloud storage working seamlessly.",
+          "technologies": [
+            "Flutter",
+            "Dart",
+            "Firebase",
+            "iOS",
+            "Android"
+          ],
+          "links": [],
+          "isFeatured": true,
+          "id": "3af33d7b9376495a82a15248159792b9"
+        },
+        {
+          "slug": "cv-maker",
+          "title": "CV Maker",
+          "category": "Web",
+          "status": "Completed",
+          "dateRange": "2025",
+          "summary": "Flutter Web tool for creating professional CVs instantly \u2014 fill in your info, get a PDF. No signup required.",
+          "problem": "Existing CV tools are bloated, slow, or require accounts. Wanted something that just works \u2014 open, type, export.",
+          "contribution": "Built the entire product: responsive form flow, live preview, and browser-side PDF generation.",
+          "outcome": "A fast, practical web tool with zero friction. Users get a professional CV in under 5 minutes.",
+          "technologies": [
+            "Flutter Web",
+            "Dart",
+            "PDF Generation",
+            "Responsive Design"
+          ],
+          "links": [
+            {
+              "label": "Live",
+              "url": "https://orkundayi.com/CvMaker/",
+              "id": "624852bb4c974e41b195612ec41c6594"
+            }
+          ],
+          "isFeatured": true,
+          "id": "e0bfecd1038d44d2a2692b7bb6a3f666"
+        },
+        {
+          "slug": "flulog",
+          "title": "Flulog",
+          "category": "Developer Tool",
+          "status": "Completed",
+          "dateRange": "2025",
+          "summary": "Log collection and inspection platform for Flutter apps \u2014 centralized debugging with classification and filtering.",
+          "problem": "Production debugging is painful when logs are scattered. Needed a central place to inspect, classify, and search them.",
+          "contribution": "Built the web dashboard and companion logging package. Logs flow from app to Firebase to a searchable UI.",
+          "outcome": "Turned raw application logging into a structured, developer-friendly debugging workflow.",
+          "technologies": [
+            "Flutter Web",
+            "Firebase",
+            "Dart",
+            "Logging"
+          ],
+          "links": [
+            {
+              "label": "Live",
+              "url": "https://orkundayi.com/Flulog/",
+              "id": "5b59ce78958249f892c502eafffdd1c5"
+            }
+          ],
+          "isFeatured": true,
+          "id": "7ca854eed7dc4aeb8a0fd69ddf0bb302"
+        },
+        {
+          "slug": "flutech-dev",
+          "title": "Flutech Dev",
+          "category": "Corporate",
+          "status": "Live",
+          "dateRange": "2025",
+          "summary": "Responsive corporate website presenting Flutter and API development services with a professional identity.",
+          "problem": "The business needed a clear digital presence \u2014 explaining services, building trust, and working on every screen size.",
+          "contribution": "Designed the information architecture, built the responsive frontend, and established the visual brand identity.",
+          "outcome": "Professional web presence with clear service positioning and easy contact paths.",
+          "technologies": [
+            "Flutter Web",
+            "Dart",
+            "Responsive Design"
+          ],
+          "links": [
+            {
+              "label": "Live",
+              "url": "https://flutech.org/",
+              "id": "a221f690b01348a483fc59b666d4f366"
+            }
+          ],
+          "isFeatured": false,
+          "id": "3b9b4041c4104e969ca83274dbb0de89"
+        },
+        {
+          "slug": "orkun-dayi-portfolio",
+          "title": "orkundayi.com",
+          "category": "Personal",
+          "status": "Active",
+          "dateRange": "2025",
+          "summary": "This portfolio site \u2014 Flutter Web frontend with a .NET API backend. Designed to evolve into a full CMS.",
+          "problem": "A developer portfolio should showcase both technical ability and taste. It should be fast, clean, and data-driven.",
+          "contribution": "Built the full stack: Flutter Web frontend, .NET API, admin panel, and responsive design across all breakpoints.",
+          "outcome": "A living portfolio that demonstrates real full-stack capability \u2014 not just a static page.",
+          "technologies": [
+            "Flutter Web",
+            ".NET",
+            "REST API",
+            "Responsive Design"
+          ],
+          "links": [
+            {
+              "label": "Live",
+              "url": "https://orkundayi.com/",
+              "id": "77e1698253264e5c9d3a28f07f56b61e"
+            }
+          ],
+          "isFeatured": false,
+          "id": "10d7c10d71fa42e7aad7afb0e942c8f0"
+        },
+        {
+          "slug": "flupass",
+          "title": "FluPass",
+          "category": "Security",
+          "status": "Active",
+          "dateRange": "2025",
+          "summary": "Privacy-first password manager with local encryption and biometric authentication across platforms.",
+          "problem": "Cloud-based password managers require trust. Wanted a solution where credentials never leave the device.",
+          "contribution": "Architected the app around local-first security, biometric unlock, and a clean UX for everyday use.",
+          "outcome": "A security product that puts user privacy first without sacrificing usability.",
+          "technologies": [
+            "Flutter",
+            "Dart",
+            "Encryption",
+            "Biometrics"
+          ],
+          "links": [],
+          "isFeatured": false,
+          "id": "d31a27d03e6b49aeb8219e958fe7cdc6"
+        },
+        {
+          "slug": "cuzdan",
+          "title": "Cuzdan",
+          "category": "Finance",
+          "status": "Active",
+          "dateRange": "2025",
+          "summary": "Personal finance tracker with spending insights, category analysis, and visual charts.",
+          "problem": "Most finance apps track numbers but don\u0027t surface patterns. Wanted one that helps you understand your spending.",
+          "contribution": "Designed and built the mobile app with Firebase backend, category-based analysis, and data visualization.",
+          "outcome": "A finance tool that goes beyond logging \u2014 it helps users see where their money actually goes.",
+          "technologies": [
+            "Flutter",
+            "Dart",
+            "Firebase",
+            "Charts"
+          ],
+          "links": [],
+          "isFeatured": false,
+          "id": "d01c3805af4a4404949c24b1b89e8874"
+        }
       ],
-      "id": "dd34e1b8544a43908b520743030d038c"
-    },
-    {
-      "title": "Backend \u0026 Services",
-      "items": [
-        ".NET",
-        "ASP.NET Core",
-        "REST APIs",
-        "Firebase",
-        "Entity Framework",
-        "SQL Server",
-        "Android Intents"
+      "education": [
+        {
+          "degree": "B.Sc. in Computer Engineering",
+          "school": "Trakya University",
+          "location": "Edirne, Turkiye",
+          "dateRange": "2017 \u2014 2021",
+          "notes": "Solid foundation in software engineering, algorithms, data structures, and systems thinking.",
+          "id": "0883a761a30846e392408e0d87f2447a"
+        }
       ],
-      "id": "45abd194e1704ec39331b4e8a874b196"
-    },
-    {
-      "title": "Engineering \u0026 Delivery",
-      "items": [
-        "Clean Architecture",
-        "MVVM",
-        "Git",
-        "CI/CD",
-        "Agile",
-        "Product Thinking",
-        "Technical Writing"
+      "skillCategories": [
+        {
+          "title": "Frontend \u0026 Mobile",
+          "items": [
+            "Flutter",
+            "Dart",
+            "Cross-Platform",
+            "Responsive Web",
+            "Material Design",
+            "State Management",
+            "Animations"
+          ],
+          "id": "dd34e1b8544a43908b520743030d038c"
+        },
+        {
+          "title": "Backend \u0026 Services",
+          "items": [
+            ".NET",
+            "ASP.NET Core",
+            "REST APIs",
+            "Firebase",
+            "Entity Framework",
+            "SQL Server",
+            "Android Intents"
+          ],
+          "id": "45abd194e1704ec39331b4e8a874b196"
+        },
+        {
+          "title": "Engineering \u0026 Delivery",
+          "items": [
+            "Clean Architecture",
+            "MVVM",
+            "Git",
+            "CI/CD",
+            "Agile",
+            "Product Thinking",
+            "Technical Writing"
+          ],
+          "id": "478303a089a3437ca867923bb9ac8626"
+        }
       ],
-      "id": "478303a089a3437ca867923bb9ac8626"
+      "languages": [
+        {
+          "name": "Turkish",
+          "level": "Native",
+          "id": "111640d5ce974d1eb4fe228353c82e18"
+        },
+        {
+          "name": "English",
+          "level": "B2 \u2014 Professional",
+          "id": "af20b131bb4246c48fc87d29e3bf5557"
+        }
+      ],
+      "contactLinks": [
+        {
+          "label": "Email",
+          "value": "orkundayi@flutech.org",
+          "url": "mailto:orkundayi@flutech.org",
+          "id": "6499deebb77f4e1fa9edb4f458bb3813"
+        },
+        {
+          "label": "GitHub",
+          "value": "github.com/orkundayi",
+          "url": "https://github.com/orkundayi",
+          "id": "48cbe962ecc24193a052a0d07afd4bf6"
+        },
+        {
+          "label": "LinkedIn",
+          "value": "linkedin.com/in/orkundayi",
+          "url": "https://www.linkedin.com/in/orkundayi/",
+          "id": "99ead99b0f74408289ae228290ba1bd8"
+        },
+        {
+          "label": "Website",
+          "value": "orkundayi.com",
+          "url": "https://orkundayi.com/",
+          "id": "78536377fd5041bd9c91997dacd3d515"
+        },
+        {
+          "label": "Phone",
+          "value": "\u002B90 542 339 86 93",
+          "url": "tel:\u002B905423398693",
+          "id": "f12d6f2d418a458fb982ce7952974d83"
+        }
+      ]
     }
-  ],
-  "languages": [
-    {
-      "name": "Turkish",
-      "level": "Native",
-      "id": "111640d5ce974d1eb4fe228353c82e18"
-    },
-    {
-      "name": "English",
-      "level": "B2 \u2014 Professional",
-      "id": "af20b131bb4246c48fc87d29e3bf5557"
-    }
-  ],
-  "contactLinks": [
-    {
-      "label": "Email",
-      "value": "orkundayi@flutech.org",
-      "url": "mailto:orkundayi@flutech.org",
-      "id": "6499deebb77f4e1fa9edb4f458bb3813"
-    },
-    {
-      "label": "GitHub",
-      "value": "github.com/orkundayi",
-      "url": "https://github.com/orkundayi",
-      "id": "48cbe962ecc24193a052a0d07afd4bf6"
-    },
-    {
-      "label": "LinkedIn",
-      "value": "linkedin.com/in/orkundayi",
-      "url": "https://www.linkedin.com/in/orkundayi/",
-      "id": "99ead99b0f74408289ae228290ba1bd8"
-    },
-    {
-      "label": "Website",
-      "value": "orkundayi.com",
-      "url": "https://orkundayi.com/",
-      "id": "78536377fd5041bd9c91997dacd3d515"
-    },
-    {
-      "label": "Phone",
-      "value": "\u002B90 542 339 86 93",
-      "url": "tel:\u002B905423398693",
-      "id": "f12d6f2d418a458fb982ce7952974d83"
-    }
-  ]
+  }
 }
