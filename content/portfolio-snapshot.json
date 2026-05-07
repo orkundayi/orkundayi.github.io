@@ -1,6 +1,6 @@
 {
   "schemaVersion": "sql-v1",
-  "generatedAtUtc": "2026-05-07T08:47:47.2485492+00:00",
+  "generatedAtUtc": "2026-05-07T09:40:50.3787956+00:00",
   "defaultLanguageCode": "tr",
   "languageCodes": [
     "tr",
@@ -508,106 +508,9 @@
             }
           ],
           "links": [],
-          "metrics": [
-            {
-              "id": 1,
-              "label": "Platform",
-              "value": "iOS \u002B Android",
-              "iconName": "smartphone",
-              "sortOrder": 0
-            }
-          ],
-          "gallery": [
-            {
-              "id": 3,
-              "usageKey": "gallery",
-              "media": {
-                "id": 2,
-                "publicId": "2d03dd7a-468c-4216-a963-bca133de5fe9",
-                "url": "/content/media/2d03dd7a-468c-4216-a963-bca133de5fe9.png",
-                "fileName": "chips.png",
-                "contentType": "image/png",
-                "byteSize": 104613,
-                "width": 247,
-                "height": 292,
-                "alt": "chips tr",
-                "caption": "chips caption tr"
-              },
-              "alt": "chips tr",
-              "caption": "chips caption tr 1",
-              "isPrimary": false,
-              "sortOrder": 0
-            },
-            {
-              "id": 1,
-              "usageKey": "gallery",
-              "media": {
-                "id": 1,
-                "publicId": "8a56fa5d-2b67-46c1-b40b-b906f4448b15",
-                "url": "/content/media/8a56fa5d-2b67-46c1-b40b-b906f4448b15.png",
-                "fileName": "Ekran g\u00F6r\u00FCnt\u00FCs\u00FC 2026-05-06 064605.png",
-                "contentType": "image/png",
-                "byteSize": 108580,
-                "width": 1093,
-                "height": 847,
-                "alt": "Test Alt",
-                "caption": "Test Caption Tr"
-              },
-              "alt": "Test Alt",
-              "caption": "Test Caption Tr",
-              "isPrimary": false,
-              "sortOrder": 1
-            },
-            {
-              "id": 2,
-              "usageKey": "gallery",
-              "media": {
-                "id": 2,
-                "publicId": "2d03dd7a-468c-4216-a963-bca133de5fe9",
-                "url": "/content/media/2d03dd7a-468c-4216-a963-bca133de5fe9.png",
-                "fileName": "chips.png",
-                "contentType": "image/png",
-                "byteSize": 104613,
-                "width": 247,
-                "height": 292,
-                "alt": "chips tr",
-                "caption": "chips caption tr"
-              },
-              "alt": "chips tr",
-              "caption": "chips caption tr",
-              "isPrimary": true,
-              "sortOrder": 2
-            },
-            {
-              "id": 4,
-              "usageKey": "gallery",
-              "media": {
-                "id": 3,
-                "publicId": "a28dc15e-6561-4a13-9092-815ce54257d6",
-                "url": "/content/media/a28dc15e-6561-4a13-9092-815ce54257d6.png",
-                "fileName": "test.png",
-                "contentType": "image/png",
-                "byteSize": 132396,
-                "width": 370,
-                "height": 811,
-                "alt": "test tr",
-                "caption": "test  tr cp"
-              },
-              "alt": "test tr",
-              "caption": "test  tr cp",
-              "isPrimary": false,
-              "sortOrder": 3
-            }
-          ],
-          "detailSections": [
-            {
-              "id": 1,
-              "sectionTypeKey": "overview",
-              "title": "Detay Ba\u015Fl\u0131k",
-              "body": "T\u00FCrk\u00E7e g\u00F6vde",
-              "sortOrder": 0
-            }
-          ],
+          "metrics": [],
+          "gallery": [],
+          "detailSections": [],
           "sortOrder": 1
         },
         {
@@ -1862,106 +1765,9 @@
             }
           ],
           "links": [],
-          "metrics": [
-            {
-              "id": 1,
-              "label": "Platform",
-              "value": "iOS \u002B Android",
-              "iconName": "smartphone",
-              "sortOrder": 0
-            }
-          ],
-          "gallery": [
-            {
-              "id": 3,
-              "usageKey": "gallery",
-              "media": {
-                "id": 2,
-                "publicId": "2d03dd7a-468c-4216-a963-bca133de5fe9",
-                "url": "/content/media/2d03dd7a-468c-4216-a963-bca133de5fe9.png",
-                "fileName": "chips.png",
-                "contentType": "image/png",
-                "byteSize": 104613,
-                "width": 247,
-                "height": 292,
-                "alt": "chips en",
-                "caption": "chips caption en"
-              },
-              "alt": "chips en",
-              "caption": "chips caption en 1",
-              "isPrimary": false,
-              "sortOrder": 0
-            },
-            {
-              "id": 1,
-              "usageKey": "gallery",
-              "media": {
-                "id": 1,
-                "publicId": "8a56fa5d-2b67-46c1-b40b-b906f4448b15",
-                "url": "/content/media/8a56fa5d-2b67-46c1-b40b-b906f4448b15.png",
-                "fileName": "Ekran g\u00F6r\u00FCnt\u00FCs\u00FC 2026-05-06 064605.png",
-                "contentType": "image/png",
-                "byteSize": 108580,
-                "width": 1093,
-                "height": 847,
-                "alt": "Test Alt",
-                "caption": "Test Caption En"
-              },
-              "alt": "Test Alt",
-              "caption": "Test Caption En",
-              "isPrimary": false,
-              "sortOrder": 1
-            },
-            {
-              "id": 2,
-              "usageKey": "gallery",
-              "media": {
-                "id": 2,
-                "publicId": "2d03dd7a-468c-4216-a963-bca133de5fe9",
-                "url": "/content/media/2d03dd7a-468c-4216-a963-bca133de5fe9.png",
-                "fileName": "chips.png",
-                "contentType": "image/png",
-                "byteSize": 104613,
-                "width": 247,
-                "height": 292,
-                "alt": "chips en",
-                "caption": "chips caption en"
-              },
-              "alt": "chips en",
-              "caption": "chips caption en",
-              "isPrimary": true,
-              "sortOrder": 2
-            },
-            {
-              "id": 4,
-              "usageKey": "gallery",
-              "media": {
-                "id": 3,
-                "publicId": "a28dc15e-6561-4a13-9092-815ce54257d6",
-                "url": "/content/media/a28dc15e-6561-4a13-9092-815ce54257d6.png",
-                "fileName": "test.png",
-                "contentType": "image/png",
-                "byteSize": 132396,
-                "width": 370,
-                "height": 811,
-                "alt": "trst en",
-                "caption": "test en cap"
-              },
-              "alt": "trst en",
-              "caption": "test en cap",
-              "isPrimary": false,
-              "sortOrder": 3
-            }
-          ],
-          "detailSections": [
-            {
-              "id": 1,
-              "sectionTypeKey": "overview",
-              "title": "T\u00FCrk\u00E7e Ba\u015Fl\u0131k",
-              "body": "T\u00FCrk\u00E7e G\u00F6vde",
-              "sortOrder": 0
-            }
-          ],
+          "metrics": [],
+          "gallery": [],
+          "detailSections": [],
           "sortOrder": 1
         },
         {
