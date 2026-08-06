@@ -1,0 +1,11 @@
+{
+  "name": "Orkun Dayı — Portfolio",
+  "short_name": "Orkun Dayı",
+  "description": "Orkun Dayı'nın yazılım geliştirme portfolyosu.",
+  "lang": "tr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "browser",
+  "background_color": "#0b0d10",
+  "theme_color": "#0b0d10"
+}

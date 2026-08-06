@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "sql-v1",
+  "schemaVersion": "portfolio-v2",
   "generatedAtUtc": "2026-05-11T19:29:58.33291+00:00",
   "defaultLanguageCode": "tr",
   "languageCodes": [
@@ -8,123 +8,123 @@
   ],
   "translations": {
     "tr": {
-      "schemaVersion": "sql-v1",
+      "schemaVersion": "portfolio-v2",
       "languageCode": "tr",
       "languages": [
         {
           "code": "tr",
-          "displayName": "T\u00FCrk\u00E7e",
-          "nativeName": "T\u00FCrk\u00E7e",
+          "displayName": "Türkçe",
+          "nativeName": "Türkçe",
           "isDefault": true,
           "sortOrder": 0
         },
         {
           "code": "en",
           "displayName": "English",
-          "nativeName": "\u0130ngilizce",
+          "nativeName": "İngilizce",
           "isDefault": false,
           "sortOrder": 1
         }
       ],
       "profile": {
-        "fullName": "Orkun Day\u0131",
+        "fullName": "Orkun Dayı",
         "roleTitle": "Flutter Developer | Full-Stack Developer",
-        "headline": "Flutter ile mobil ve web uygulamalar\u0131 geli\u015Ftiren; Firebase, .NET, REST API ve SQL tabanl\u0131 backend/veri s\u00FCre\u00E7leriyle \u00E7al\u0131\u015Fan full-stack odakl\u0131 yaz\u0131l\u0131m geli\u015Ftirici.",
-        "summary": "Flutter Developer olarak mobil ve web uygulamalar\u0131 geli\u015Ftiriyorum. Flutter ve Dart ana uzmanl\u0131k alan\u0131m\u0131n yan\u0131nda Firebase, REST API entegrasyonlar\u0131, SQL veri yap\u0131lar\u0131 ve .NET tabanl\u0131 backend geli\u015Ftirme s\u00FCre\u00E7leriyle \u00E7al\u0131\u015F\u0131yorum. OverPay projesinde \u00F6deme, sat\u0131\u015F, raporlama, m\u00FC\u015Fteri entegrasyonlar\u0131, G\u0130B entegrasyonu ve VKN/TCKN sorgulama ak\u0131\u015Flar\u0131na y\u00F6nelik kullan\u0131c\u0131 aray\u00FCzleri geli\u015Ftirdim. Full-stack bak\u0131\u015F a\u00E7\u0131s\u0131yla temiz kod, s\u00FCrd\u00FCr\u00FClebilir mimari, performansl\u0131 ekran yap\u0131lar\u0131 ve ger\u00E7ek i\u015F s\u00FCre\u00E7lerine uygun \u00FCr\u00FCnler geli\u015Ftirmeye odaklan\u0131yorum.",
-        "location": "\u0130stanbul, T\u00FCrkiye"
+        "headline": "Flutter ile mobil ve web uygulamaları geliştiren; Firebase, .NET, REST API ve SQL tabanlı backend/veri süreçleriyle çalışan full-stack odaklı yazılım geliştirici.",
+        "summary": "Flutter Developer olarak mobil ve web uygulamaları geliştiriyorum. Flutter ve Dart ana uzmanlık alanımın yanında Firebase, REST API entegrasyonları, SQL veri yapıları ve .NET tabanlı backend geliştirme süreçleriyle çalışıyorum. OverPay projesinde ödeme, satış, raporlama, müşteri entegrasyonları, GİB entegrasyonu ve VKN/TCKN sorgulama akışlarına yönelik kullanıcı arayüzleri geliştirdim. Full-stack bakış açısıyla temiz kod, sürdürülebilir mimari, performanslı ekran yapıları ve gerçek iş süreçlerine uygun ürünler geliştirmeye odaklanıyorum.",
+        "location": "İstanbul, Türkiye"
       },
       "recruiterSnapshot": {
-        "yearsExperienceLabel": "4\u002B y\u0131l Flutter geli\u015Ftirme deneyimi",
-        "primaryFocus": "Flutter Mobil \u0026 Web | Full-Stack Odakl\u0131 Geli\u015Ftirme",
-        "currentRoleSummary": "Flutter Developer olarak OverPay projesinde \u00F6deme, sat\u0131\u015F, raporlama ve entegrasyon ak\u0131\u015Flar\u0131na y\u00F6nelik mobil/web aray\u00FCzleri geli\u015Ftiriyorum. Flutter ve Dart ana oda\u011F\u0131m\u0131n yan\u0131nda Firebase, REST API, SQL ve .NET tabanl\u0131 backend s\u00FCre\u00E7leriyle \u00E7al\u0131\u015Farak full-stack bak\u0131\u015F a\u00E7\u0131s\u0131yla \u00FCr\u00FCn geli\u015Ftirmeye odaklan\u0131yorum.",
-        "preferredWork": "Mobil ve web \u00FCr\u00FCn geli\u015Ftirme, Flutter odakl\u0131 uygulamalar, Firebase/.NET destekli sistemler ve uzun vadeli \u00FCr\u00FCn odakl\u0131 projelerde yer almak istiyorum. Kullan\u0131c\u0131 deneyimi g\u00FC\u00E7l\u00FC, s\u00FCrd\u00FCr\u00FClebilir ve geli\u015Ftirilebilir \u00FCr\u00FCnler \u00FCzerinde \u00E7al\u0131\u015Fmay\u0131 hedefliyorum.",
+        "yearsExperienceLabel": "4+ yıl Flutter geliştirme deneyimi",
+        "primaryFocus": "Flutter Mobil & Web | Full-Stack Odaklı Geliştirme",
+        "currentRoleSummary": "Flutter Developer olarak OverPay projesinde ödeme, satış, raporlama ve entegrasyon akışlarına yönelik mobil/web arayüzleri geliştiriyorum. Flutter ve Dart ana odağımın yanında Firebase, REST API, SQL ve .NET tabanlı backend süreçleriyle çalışarak full-stack bakış açısıyla ürün geliştirmeye odaklanıyorum.",
+        "preferredWork": "Mobil ve web ürün geliştirme, Flutter odaklı uygulamalar, Firebase/.NET destekli sistemler ve uzun vadeli ürün odaklı projelerde yer almak istiyorum. Kullanıcı deneyimi güçlü, sürdürülebilir ve geliştirilebilir ürünler üzerinde çalışmayı hedefliyorum.",
         "availability": "Flutech Dev"
       },
       "capabilities": [
         {
           "id": 1,
-          "title": "Flutter Mobil ve Web Geli\u015Ftirme",
-          "description": "Mobil ve web platformlar\u0131 i\u00E7in Flutter ile performansl\u0131, responsive ve s\u00FCrd\u00FCr\u00FClebilir uygulamalar geli\u015Ftiririm.",
+          "title": "Flutter Mobil ve Web Geliştirme",
+          "description": "Mobil ve web platformları için Flutter ile performanslı, responsive ve sürdürülebilir uygulamalar geliştiririm.",
           "sortOrder": 1
         },
         {
           "id": 2,
-          "title": "Veri Y\u00F6netimi ve Modelleme",
-          "description": "Firebase/Firestore ve SQL tabanl\u0131 yap\u0131larda uygulama ihtiya\u00E7lar\u0131na uygun veri modelleri, kay\u0131t ak\u0131\u015Flar\u0131 ve sorgulanabilir veri yap\u0131lar\u0131 olu\u015Ftururum.",
+          "title": "Veri Yönetimi ve Modelleme",
+          "description": "Firebase/Firestore ve SQL tabanlı yapılarda uygulama ihtiyaçlarına uygun veri modelleri, kayıt akışları ve sorgulanabilir veri yapıları oluştururum.",
           "sortOrder": 2
         },
         {
           "id": 3,
-          "title": "REST API ve .NET Backend S\u00FCre\u00E7leri",
-          "description": "REST API entegrasyonlar\u0131, veri modelleri ve .NET tabanl\u0131 backend s\u00FCre\u00E7leriyle \u00E7al\u0131\u015Fan uygulama yap\u0131lar\u0131 kurar\u0131m.",
+          "title": "REST API ve .NET Backend Süreçleri",
+          "description": "REST API entegrasyonları, veri modelleri ve .NET tabanlı backend süreçleriyle çalışan uygulama yapıları kurarım.",
           "sortOrder": 3
         },
         {
           "id": 4,
-          "title": "Responsive Aray\u00FCz Geli\u015Ftirme",
-          "description": "Telefon, tablet ve web ekranlar\u0131nda tutarl\u0131 \u00E7al\u0131\u015Fan, kullan\u0131c\u0131 deneyimi g\u00FC\u00E7l\u00FC aray\u00FCzler geli\u015Ftiririm.",
+          "title": "Responsive Arayüz Geliştirme",
+          "description": "Telefon, tablet ve web ekranlarında tutarlı çalışan, kullanıcı deneyimi güçlü arayüzler geliştiririm.",
           "sortOrder": 4
         },
         {
           "id": 5,
-          "title": "Admin Panel ve \u0130\u00E7erik Y\u00F6netimi",
-          "description": "Proje, i\u00E7erik, kullan\u0131c\u0131 veya medya verilerinin y\u00F6netilebildi\u011Fi sade ve kullan\u0131\u015Fl\u0131 admin panelleri geli\u015Ftiririm.",
+          "title": "Admin Panel ve İçerik Yönetimi",
+          "description": "Proje, içerik, kullanıcı veya medya verilerinin yönetilebildiği sade ve kullanışlı admin panelleri geliştiririm.",
           "sortOrder": 5
         },
         {
           "id": 6,
-          "title": "Temiz ve S\u00FCrd\u00FCr\u00FClebilir Kod",
-          "description": "Okunabilir, geli\u015Ftirilebilir ve uzun vadede bak\u0131m\u0131 kolay kod yap\u0131lar\u0131 olu\u015Fturmaya \u00F6nem veririm.",
+          "title": "Temiz ve Sürdürülebilir Kod",
+          "description": "Okunabilir, geliştirilebilir ve uzun vadede bakımı kolay kod yapıları oluşturmaya önem veririm.",
           "sortOrder": 6
         },
         {
           "id": 7,
-          "title": "\u00DCr\u00FCn Odakl\u0131 Geli\u015Ftirme",
-          "description": "Sadece ekran geli\u015Ftirmeye de\u011Fil, ger\u00E7ek kullan\u0131c\u0131 ihtiyac\u0131na ve i\u015F s\u00FCrecine uygun \u00FCr\u00FCn deneyimi olu\u015Fturmaya odaklan\u0131r\u0131m.",
+          "title": "Ürün Odaklı Geliştirme",
+          "description": "Sadece ekran geliştirmeye değil, gerçek kullanıcı ihtiyacına ve iş sürecine uygun ürün deneyimi oluşturmaya odaklanırım.",
           "sortOrder": 7
         },
         {
           "id": 8,
           "title": "Performans Optimizasyonu",
-          "description": "Uygulamalar\u0131n daha h\u0131zl\u0131, ak\u0131c\u0131 ve stabil \u00E7al\u0131\u015Fmas\u0131 i\u00E7in performans odakl\u0131 iyile\u015Ftirmeler yapar\u0131m.",
+          "description": "Uygulamaların daha hızlı, akıcı ve stabil çalışması için performans odaklı iyileştirmeler yaparım.",
           "sortOrder": 8
         }
       ],
       "careerHighlights": [
         {
           "id": 1,
-          "title": "U\u00E7tan Uca Geli\u015Ftirme",
-          "description": "Bir uygulaman\u0131n aray\u00FCz\u00FCnden veri yap\u0131s\u0131na, Firebase entegrasyonundan yay\u0131na haz\u0131rl\u0131k s\u00FCrecine kadar geli\u015Ftirme ad\u0131mlar\u0131nda sorumluluk alabilirim.",
+          "title": "Uçtan Uca Geliştirme",
+          "description": "Bir uygulamanın arayüzünden veri yapısına, Firebase entegrasyonundan yayına hazırlık sürecine kadar geliştirme adımlarında sorumluluk alabilirim.",
           "sortOrder": 1
         },
         {
           "id": 2,
           "title": "Mobil ve Web Deneyimi",
-          "description": "Flutter ile hem mobil hem web platformlar\u0131nda responsive \u00E7al\u0131\u015Fan, farkl\u0131 ekran boyutlar\u0131na uyumlu uygulamalar geli\u015Ftiririm.",
+          "description": "Flutter ile hem mobil hem web platformlarında responsive çalışan, farklı ekran boyutlarına uyumlu uygulamalar geliştiririm.",
           "sortOrder": 2
         },
         {
           "id": 3,
-          "title": "Backend ve Veri Taraf\u0131na Hakimiyet",
-          "description": "Firebase, REST API, SQL ve .NET tabanl\u0131 s\u00FCre\u00E7lerle \u00E7al\u0131\u015Farak uygulamalar\u0131n sadece aray\u00FCz\u00FCn\u00FC de\u011Fil, veri ve backend ak\u0131\u015Flar\u0131n\u0131 da anlayarak geli\u015Ftirme yapar\u0131m.",
+          "title": "Backend ve Veri Tarafına Hakimiyet",
+          "description": "Firebase, REST API, SQL ve .NET tabanlı süreçlerle çalışarak uygulamaların sadece arayüzünü değil, veri ve backend akışlarını da anlayarak geliştirme yaparım.",
           "sortOrder": 3
         },
         {
           "id": 4,
-          "title": "Admin Panel ve \u0130\u00E7erik Y\u00F6netimi",
-          "description": "Projelerde i\u00E7eriklerin, kullan\u0131c\u0131 verilerinin veya portfolyo bilgilerinin kolayca y\u00F6netilebildi\u011Fi sade admin panelleri geli\u015Ftirebilirim.",
+          "title": "Admin Panel ve İçerik Yönetimi",
+          "description": "Projelerde içeriklerin, kullanıcı verilerinin veya portfolyo bilgilerinin kolayca yönetilebildiği sade admin panelleri geliştirebilirim.",
           "sortOrder": 4
         },
         {
           "id": 5,
-          "title": "Temiz ve S\u00FCrd\u00FCr\u00FClebilir Kod",
-          "description": "Projelerde okunabilir, geli\u015Ftirilebilir ve uzun vadede bak\u0131m\u0131 kolay kod yap\u0131lar\u0131 olu\u015Fturmaya \u00F6nem veririm.",
+          "title": "Temiz ve Sürdürülebilir Kod",
+          "description": "Projelerde okunabilir, geliştirilebilir ve uzun vadede bakımı kolay kod yapıları oluşturmaya önem veririm.",
           "sortOrder": 5
         },
         {
           "id": 6,
-          "title": "H\u0131zl\u0131 Adaptasyon",
-          "description": "Yeni projelere, farkl\u0131 kod yap\u0131lar\u0131na ve de\u011Fi\u015Fen ihtiya\u00E7lara h\u0131zl\u0131 uyum sa\u011Flayarak \u00FCretken \u015Fekilde geli\u015Ftirme yapabilirim.",
+          "title": "Hızlı Adaptasyon",
+          "description": "Yeni projelere, farklı kod yapılarına ve değişen ihtiyaçlara hızlı uyum sağlayarak üretken şekilde geliştirme yapabilirim.",
           "sortOrder": 6
         }
       ],
@@ -133,18 +133,18 @@
           "id": 1,
           "role": "Flutter Developer",
           "company": "Overtech Bilgi Teknolojileri",
-          "location": "\u0130stanbul, T\u00FCrkiye",
-          "dateRange": "Eyl\u00FCl 2021 - Devam ediyor",
-          "summary": "Overtech b\u00FCnyesinde Flutter Developer olarak OverPay projesinde \u00E7al\u0131\u015F\u0131yorum. \u00D6deme, sat\u0131\u015F, raporlama ve entegrasyon ak\u0131\u015Flar\u0131na y\u00F6nelik mobil ve web aray\u00FCzleri geli\u015Ftiriyor; kullan\u0131c\u0131 deneyimi, s\u00FCrd\u00FCr\u00FClebilir ekran yap\u0131s\u0131 ve performans odakl\u0131 iyile\u015Ftirmelere katk\u0131 sa\u011Fl\u0131yorum.",
+          "location": "İstanbul, Türkiye",
+          "dateRange": "Eylül 2021 - Devam ediyor",
+          "summary": "Overtech bünyesinde Flutter Developer olarak OverPay projesinde çalışıyorum. Ödeme, satış, raporlama ve entegrasyon akışlarına yönelik mobil ve web arayüzleri geliştiriyor; kullanıcı deneyimi, sürdürülebilir ekran yapısı ve performans odaklı iyileştirmelere katkı sağlıyorum.",
           "startDate": "2021-09-01",
           "endDate": null,
           "isCurrent": true,
           "achievements": [
-            "OverPay projesinde \u00F6deme, sat\u0131\u015F, raporlama ve m\u00FC\u015Fteri entegrasyon ak\u0131\u015Flar\u0131na y\u00F6nelik Flutter ekranlar\u0131 geli\u015Ftirdim.",
-            "507/509 \u00F6deme sistemleri, G\u0130B entegrasyonu ve VKN/TCKN sorgulama s\u00FCre\u00E7lerinde kullan\u0131c\u0131 aray\u00FCzleri \u00FCzerinde \u00E7al\u0131\u015Ft\u0131m.",
-            "X, Y, Z raporlar\u0131 ve operasyonel takip ekranlar\u0131nda kullan\u0131c\u0131 deneyimi ve s\u00FCrd\u00FCr\u00FClebilir ekran yap\u0131s\u0131na katk\u0131 sa\u011Flad\u0131m.",
-            "REST API, JSON ve SQL destekli i\u015F ak\u0131\u015Flar\u0131yla entegre \u00E7al\u0131\u015Fan mobil/web aray\u00FCzleri geli\u015Ftirdim.",
-            "Mevcut ekranlarda performans, okunabilirlik ve bak\u0131m kolayl\u0131\u011F\u0131 odakl\u0131 iyile\u015Ftirmeler yapt\u0131m."
+            "OverPay projesinde ödeme, satış, raporlama ve müşteri entegrasyon akışlarına yönelik Flutter ekranları geliştirdim.",
+            "507/509 ödeme sistemleri, GİB entegrasyonu ve VKN/TCKN sorgulama süreçlerinde kullanıcı arayüzleri üzerinde çalıştım.",
+            "X, Y, Z raporları ve operasyonel takip ekranlarında kullanıcı deneyimi ve sürdürülebilir ekran yapısına katkı sağladım.",
+            "REST API, JSON ve SQL destekli iş akışlarıyla entegre çalışan mobil/web arayüzleri geliştirdim.",
+            "Mevcut ekranlarda performans, okunabilirlik ve bakım kolaylığı odaklı iyileştirmeler yaptım."
           ],
           "technologies": [
             {
@@ -192,14 +192,14 @@
             {
               "id": 7,
               "key": "payment-flows",
-              "name": "\u00D6deme Ak\u0131\u015Flar\u0131",
+              "name": "Ödeme Akışları",
               "iconName": "wallet-cards",
               "sortOrder": 70
             },
             {
               "id": 8,
               "key": "customer-integrations",
-              "name": "M\u00FC\u015Fteri Entegrasyonlar\u0131",
+              "name": "Müşteri Entegrasyonları",
               "iconName": "network",
               "sortOrder": 80
             },
@@ -243,7 +243,7 @@
         {
           "id": 3,
           "key": "developer-tool",
-          "name": "Geli\u015Ftirici Arac\u0131",
+          "name": "Geliştirici Aracı",
           "description": null,
           "iconName": "build",
           "colorHex": "#2D6A4F",
@@ -261,7 +261,7 @@
         {
           "id": 6,
           "key": "security",
-          "name": "G\u00FCvenlik",
+          "name": "Güvenlik",
           "description": null,
           "iconName": "lock",
           "colorHex": "#C62828",
@@ -281,7 +281,7 @@
         {
           "id": 1,
           "key": "live",
-          "name": "Yay\u0131nda",
+          "name": "Yayında",
           "description": null,
           "colorHex": "#2E7D32",
           "sortOrder": 1
@@ -289,7 +289,7 @@
         {
           "id": 2,
           "key": "completed",
-          "name": "Tamamland\u0131",
+          "name": "Tamamlandı",
           "description": null,
           "colorHex": "#455A64",
           "sortOrder": 2
@@ -305,7 +305,7 @@
         {
           "id": 4,
           "key": "archived",
-          "name": "Ar\u015Fivlendi",
+          "name": "Arşivlendi",
           "description": null,
           "colorHex": "#6B7280",
           "sortOrder": 4
@@ -392,14 +392,14 @@
         {
           "id": 7,
           "key": "payment-flows",
-          "name": "\u00D6deme Ak\u0131\u015Flar\u0131",
+          "name": "Ödeme Akışları",
           "iconName": "wallet-cards",
           "sortOrder": 70
         },
         {
           "id": 8,
           "key": "customer-integrations",
-          "name": "M\u00FC\u015Fteri Entegrasyonlar\u0131",
+          "name": "Müşteri Entegrasyonları",
           "iconName": "network",
           "sortOrder": 80
         },
@@ -463,18 +463,18 @@
           "status": {
             "id": 4,
             "key": "archived",
-            "name": "Ar\u015Fivlendi",
+            "name": "Arşivlendi",
             "description": null,
             "colorHex": "#6B7280",
             "sortOrder": 4
           },
           "title": "FluBlocks",
           "dateRange": "2025",
-          "summary": "iOS ve Android\u0027de yayinlanmis, Firebase destekli kullanici akislari ve gercek zamanli veri senkronizasyonu olan capraz platform mobil uygulama.",
-          "detailSummary": "FluBlocks, Tetris tarzindaki blok dusurma ve satir tamamlama mekanigini mobil cihazlara tasiyan capraz platform bir bulmaca oyunudur. Flutter ile tek kod tabanindan gelistirildi; oyun tahtasi, parca hareketleri, donusler, carpisma kontrolleri, skor akisi ve mobil dokunma deneyimi birlikte kurguland\u0131.",
+          "summary": "iOS ve Android'de yayinlanmis, Firebase destekli kullanici akislari ve gercek zamanli veri senkronizasyonu olan capraz platform mobil uygulama.",
+          "detailSummary": "FluBlocks, Tetris tarzindaki blok dusurma ve satir tamamlama mekanigini mobil cihazlara tasiyan capraz platform bir bulmaca oyunudur. Flutter ile tek kod tabanindan gelistirildi; oyun tahtasi, parca hareketleri, donusler, carpisma kontrolleri, skor akisi ve mobil dokunma deneyimi birlikte kurgulandı.",
           "problem": "Klasik blok bulmaca hissini mobilde akici, hizli tepki veren ve iki platformda tutarli calisan bir deneyime donusturmek gerekiyordu. Oyun mantiginin sade gorunurken hatasiz calismasi; parca hareketi, satir temizleme ve skor akisi gibi detaylarda dikkat istiyordu.",
-          "contribution": "Flutter ile oyun arayuzunu ve temel oyun mekaniklerini gelistirdim; grid yapisi, parca kontrolu, rotasyon, carpisma kontrolu, satir temizleme, skor akisi ve mobil dokunma kontrollerini tasarladim. Yayina hazir mobil deneyim icin performans ve arayuz duzenlemelerini yapt\u0131m.",
-          "outcome": "ek kod tabanindan iOS ve Android\u0027de calisan, hizli oynanabilen ve klasik blok bulmaca deneyimini mobilde sunan yayinlanmis bir oyun ortaya cikti.",
+          "contribution": "Flutter ile oyun arayuzunu ve temel oyun mekaniklerini gelistirdim; grid yapisi, parca kontrolu, rotasyon, carpisma kontrolu, satir temizleme, skor akisi ve mobil dokunma kontrollerini tasarladim. Yayina hazir mobil deneyim icin performans ve arayuz duzenlemelerini yaptım.",
+          "outcome": "ek kod tabanindan iOS ve Android'de calisan, hizli oynanabilen ve klasik blok bulmaca deneyimini mobilde sunan yayinlanmis bir oyun ortaya cikti.",
           "role": "Flutter Developer",
           "team": "Solo proje",
           "duration": "2025",
@@ -483,7 +483,7 @@
           "endDate": null,
           "detailTemplate": "case-study",
           "seoTitle": "FluBlocks | Flutter Tetris Tarzi Mobil Oyun",
-          "seoDescription": "Flutter ile gelistirilen, iOS ve Android\u0027de calisan Tetris tarzinda blok yerlestirme mobil bulmaca oyunu.",
+          "seoDescription": "Flutter ile gelistirilen, iOS ve Android'de calisan Tetris tarzinda blok yerlestirme mobil bulmaca oyunu.",
           "thumbnail": null,
           "heroImage": null,
           "ogImage": null,
@@ -539,14 +539,14 @@
           "status": {
             "id": 4,
             "key": "archived",
-            "name": "Ar\u015Fivlendi",
+            "name": "Arşivlendi",
             "description": null,
             "colorHex": "#6B7280",
             "sortOrder": 4
           },
           "title": "CV Maker",
           "dateRange": "2025",
-          "summary": "Form ak\u0131\u015F\u0131 ve canl\u0131 \u00F6nizleme ile profesyonel CV olu\u015Fturup PDF olarak d\u0131\u015Fa aktarmay\u0131 sa\u011Flayan Flutter Web arac\u0131. Responsive aray\u00FCz, veri modeli ve PDF export s\u00FCrecini geli\u015Ftirdim.",
+          "summary": "Form akışı ve canlı önizleme ile profesyonel CV oluşturup PDF olarak dışa aktarmayı sağlayan Flutter Web aracı. Responsive arayüz, veri modeli ve PDF export sürecini geliştirdim.",
           "detailSummary": "CV Maker, kullanicinin bilgilerini hizlica girip temiz bir CV ciktisi alabilmesi icin tasarlanmis bir Flutter Web aracidir. Sade form akisi, canli onizleme ve PDF uretimiyle gereksiz hesap acma adimlarini ortadan kaldirir.",
           "problem": "Cogu CV araci yavas, karmasik veya uyelik zorunlulugu getiriyor. Hedef, kullanicinin sayfayi acip bilgilerini yazmasi ve dakikalar icinde kullanilabilir bir PDF alabilmesiydi.",
           "contribution": "Responsive form akisini, CV veri modelini, canli onizleme deneyimini ve tarayici tarafinda PDF uretim surecini gelistirdim.",
@@ -629,7 +629,7 @@
           "status": {
             "id": 4,
             "key": "archived",
-            "name": "Ar\u015Fivlendi",
+            "name": "Arşivlendi",
             "description": null,
             "colorHex": "#6B7280",
             "sortOrder": 4
@@ -705,14 +705,14 @@
           "status": {
             "id": 1,
             "key": "live",
-            "name": "Yay\u0131nda",
+            "name": "Yayında",
             "description": null,
             "colorHex": "#2E7D32",
             "sortOrder": 1
           },
           "title": "Flutech Dev",
           "dateRange": "2025",
-          "summary": "Flutter ve API geli\u015Ftirme hizmetlerini tan\u0131tan responsive kurumsal web sitesi. Bilgi mimarisi, i\u00E7erik yap\u0131s\u0131, ileti\u015Fim ak\u0131\u015Flar\u0131 ve Flutter Web aray\u00FCz\u00FCn\u00FC tasarlay\u0131p geli\u015Ftirdim.",
+          "summary": "Flutter ve API geliştirme hizmetlerini tanıtan responsive kurumsal web sitesi. Bilgi mimarisi, içerik yapısı, iletişim akışları ve Flutter Web arayüzünü tasarlayıp geliştirdim.",
           "detailSummary": "Flutech Dev, Flutter ve API odakli yazilim hizmetlerini net bir sekilde sunmak icin hazirlanmis kurumsal web sitesidir. Hizmet anlatimi, marka dili, iletisim akislari ve responsive tasarim tek bir sade yapida birlestirildi.",
           "problem": "Hizmetleri acik anlatan, guven veren ve tum cihazlarda temiz gorunen profesyonel bir dijital varliga ihtiyac vardi.",
           "contribution": "Bilgi mimarisini olusturdum, sayfa yapisini tasarladim, responsive Flutter Web arayuzunu gelistirdim ve marka dilini sayfa deneyimine tasidim.",
@@ -798,14 +798,14 @@
           "status": {
             "id": 1,
             "key": "live",
-            "name": "Yay\u0131nda",
+            "name": "Yayında",
             "description": null,
             "colorHex": "#2E7D32",
             "sortOrder": 1
           },
           "title": "FluPass",
           "dateRange": "2025",
-          "summary": "Gizlilik odakl\u0131, local-first yakla\u015F\u0131mla geli\u015Ftirilen Flutter \u015Fifre y\u00F6neticisi. Biyometrik do\u011Frulama, yerel veri saklama ve sade kay\u0131t y\u00F6netimi ak\u0131\u015Flar\u0131n\u0131 geli\u015Ftirdim.",
+          "summary": "Gizlilik odaklı, local-first yaklaşımla geliştirilen Flutter şifre yöneticisi. Biyometrik doğrulama, yerel veri saklama ve sade kayıt yönetimi akışlarını geliştirdim.",
           "detailSummary": "FluPass, kimlik bilgilerinin kullanicinin cihazinda kalmasini merkeze alan local-first bir sifre yoneticisi projesidir. Sifreleme, biyometrik kilit acma ve sade kayit yonetimiyle guvenlik ile kullanilabilirligi birlikte hedefler.",
           "problem": "Bulut tabanli sifre yoneticileri kullanicidan yuksek guven ister. Bu projede amac, hassas bilgileri cihazin disina tasimadan guvenli ve gunluk kullanima uygun bir deneyim olusturmaktir.",
           "contribution": "Local-first veri yaklasimini, sifreleme akisini, biyometrik dogrulama deneyimini ve mobil arayuz yapisini tasarlayip gelistirdim.",
@@ -886,14 +886,14 @@
           "status": {
             "id": 1,
             "key": "live",
-            "name": "Yay\u0131nda",
+            "name": "Yayında",
             "description": null,
             "colorHex": "#2E7D32",
             "sortOrder": 1
           },
           "title": "Cuzdan",
           "dateRange": "2025",
-          "summary": "Harcama takibi, kategori analizi ve grafiklerle ki\u015Fisel finans y\u00F6netimini kolayla\u015Ft\u0131ran Flutter mobil uygulamas\u0131. Firebase/Firestore veri yap\u0131s\u0131, kay\u0131t ak\u0131\u015Flar\u0131 ve analiz ekranlar\u0131n\u0131 geli\u015Ftirdim.",
+          "summary": "Harcama takibi, kategori analizi ve grafiklerle kişisel finans yönetimini kolaylaştıran Flutter mobil uygulaması. Firebase/Firestore veri yapısı, kayıt akışları ve analiz ekranlarını geliştirdim.",
           "detailSummary": "Cuzdan, gunluk harcamalari kaydetmenin otesine gecip kullanicinin parasinin nereye gittigini daha net gormesini hedefleyen bir kisisel finans uygulamasidir. Kategori bazli analizler, grafikler ve sade mobil akislariyla finansal farkindaligi artirmaya odaklanir.",
           "problem": "Bir cok finans uygulamasi sadece kayit tutar; kullanicinin aliskanliklarini anlamasini kolaylastirmaz. Hedef, harcama verisini okunabilir ve aksiyon alinabilir hale getirmekti.",
           "contribution": "Mobil arayuzleri, Firebase tabanli veri yapisini, kategori analizlerini ve grafik gosterimlerini tasarlayip gelistirdim.",
@@ -966,7 +966,7 @@
               "id": 4,
               "typeKey": "website",
               "typeName": "Web sitesi",
-              "label": "C\u00FCzdan - Ak\u0131ll\u0131 B\u00FCt\u00E7e App Store",
+              "label": "Cüzdan - Akıllı Bütçe App Store",
               "url": "https://apps.apple.com/tr/app/c%C3%BCzdan-ak%C4%B1ll%C4%B1-b%C3%BCt%C3%A7e/id6758697145?l=tr",
               "isPrimary": false,
               "sortOrder": 1
@@ -981,11 +981,11 @@
       "education": [
         {
           "id": 1,
-          "degree": "Lisans, Bilgisayar M\u00FChendisli\u011Fi",
-          "school": "Trakya \u00DCniversitesi",
-          "location": "Edirne, T\u00FCrkiye",
+          "degree": "Lisans, Bilgisayar Mühendisliği",
+          "school": "Trakya Üniversitesi",
+          "location": "Edirne, Türkiye",
           "dateRange": "2017 - 2021",
-          "notes": "Bilgisayar m\u00FChendisli\u011Fi e\u011Fitimi boyunca yaz\u0131l\u0131m geli\u015Ftirme, algoritmalar, veri yap\u0131lar\u0131, veritaban\u0131 sistemleri ve uygulama geli\u015Ftirme temelleri \u00FCzerine \u00E7al\u0131\u015Ft\u0131m. Mezuniyet sonras\u0131 Flutter ile mobil ve web uygulama geli\u015Ftirme alan\u0131na odakland\u0131m.",
+          "notes": "Bilgisayar mühendisliği eğitimi boyunca yazılım geliştirme, algoritmalar, veri yapıları, veritabanı sistemleri ve uygulama geliştirme temelleri üzerine çalıştım. Mezuniyet sonrası Flutter ile mobil ve web uygulama geliştirme alanına odaklandım.",
           "startDate": "2017-09-01",
           "endDate": "2021-07-01",
           "sortOrder": 1
@@ -1000,22 +1000,22 @@
             {
               "id": 35,
               "key": "flutter-app-development",
-              "name": "Flutter Uygulama Geli\u015Ftirme",
-              "levelLabel": "\u0130leri",
+              "name": "Flutter Uygulama Geliştirme",
+              "levelLabel": "İleri",
               "sortOrder": 0
             },
             {
               "id": 36,
               "key": "responsive-cross-platform-ui",
               "name": "Responsive ve Cross-Platform UI",
-              "levelLabel": "\u0130leri",
+              "levelLabel": "İleri",
               "sortOrder": 1
             },
             {
               "id": 40,
               "key": "mobile-web-release-flows",
-              "name": "Mobil/Web Yay\u0131n S\u00FCre\u00E7leri",
-              "levelLabel": "Orta-\u0130leri",
+              "name": "Mobil/Web Yayın Süreçleri",
+              "levelLabel": "Orta-İleri",
               "sortOrder": 2
             }
           ],
@@ -1030,21 +1030,21 @@
               "id": 37,
               "key": "rest-api-integration",
               "name": "REST API Entegrasyonu",
-              "levelLabel": "\u0130leri",
+              "levelLabel": "İleri",
               "sortOrder": 0
             },
             {
               "id": 38,
               "key": "dotnet-backend-development",
-              "name": ".NET Backend Geli\u015Ftirme",
-              "levelLabel": "Orta-\u0130leri",
+              "name": ".NET Backend Geliştirme",
+              "levelLabel": "Orta-İleri",
               "sortOrder": 1
             },
             {
               "id": 39,
               "key": "sql-data-modeling",
               "name": "SQL ve Veri Modelleme",
-              "levelLabel": "Orta-\u0130leri",
+              "levelLabel": "Orta-İleri",
               "sortOrder": 2
             }
           ],
@@ -1059,21 +1059,21 @@
               "id": 41,
               "key": "firebase-backed-apps",
               "name": "Firebase Destekli Uygulamalar",
-              "levelLabel": "\u0130leri",
+              "levelLabel": "İleri",
               "sortOrder": 0
             },
             {
               "id": 42,
               "key": "firestore-data-flows",
-              "name": "Firestore Veri Ak\u0131\u015Flar\u0131",
-              "levelLabel": "\u0130leri",
+              "name": "Firestore Veri Akışları",
+              "levelLabel": "İleri",
               "sortOrder": 1
             },
             {
               "id": 43,
               "key": "auth-storage-flows",
-              "name": "Kimlik Do\u011Frulama ve Storage Ak\u0131\u015Flar\u0131",
-              "levelLabel": "\u0130leri",
+              "name": "Kimlik Doğrulama ve Storage Akışları",
+              "levelLabel": "İleri",
               "sortOrder": 2
             }
           ],
@@ -1082,27 +1082,27 @@
         {
           "id": 11,
           "key": "product-quality",
-          "title": "\u00DCr\u00FCn ve Kod Kalitesi",
+          "title": "Ürün ve Kod Kalitesi",
           "skills": [
             {
               "id": 44,
               "key": "admin-panel-development",
-              "name": "Admin Panel Geli\u015Ftirme",
-              "levelLabel": "\u0130leri",
+              "name": "Admin Panel Geliştirme",
+              "levelLabel": "İleri",
               "sortOrder": 0
             },
             {
               "id": 46,
               "key": "debugging-api-testing",
               "name": "Debugging ve API Testleri",
-              "levelLabel": "\u0130leri",
+              "levelLabel": "İleri",
               "sortOrder": 0
             },
             {
               "id": 45,
               "key": "clean-maintainable-code",
-              "name": "Temiz ve S\u00FCrd\u00FCr\u00FClebilir Kod",
-              "levelLabel": "\u0130leri",
+              "name": "Temiz ve Sürdürülebilir Kod",
+              "levelLabel": "İleri",
               "sortOrder": 1
             }
           ],
@@ -1112,14 +1112,14 @@
       "languageSkills": [
         {
           "id": 1,
-          "name": "T\u00FCrk\u00E7e",
+          "name": "Türkçe",
           "level": "Ana dil",
           "sortOrder": 1
         },
         {
           "id": 2,
-          "name": "\u0130ngilizce",
-          "level": "B2 / Orta-\u0130leri",
+          "name": "İngilizce",
+          "level": "B2 / Orta-İleri",
           "sortOrder": 2
         }
       ],
@@ -1167,20 +1167,20 @@
       ]
     },
     "en": {
-      "schemaVersion": "sql-v1",
+      "schemaVersion": "portfolio-v2",
       "languageCode": "en",
       "languages": [
         {
           "code": "tr",
-          "displayName": "T\u00FCrk\u00E7e",
-          "nativeName": "T\u00FCrk\u00E7e",
+          "displayName": "Türkçe",
+          "nativeName": "Türkçe",
           "isDefault": true,
           "sortOrder": 0
         },
         {
           "code": "en",
           "displayName": "English",
-          "nativeName": "\u0130ngilizce",
+          "nativeName": "İngilizce",
           "isDefault": false,
           "sortOrder": 1
         }
@@ -1190,11 +1190,11 @@
         "roleTitle": "Flutter Developer | Full-Stack Developer",
         "headline": "Full-stack oriented Flutter Developer building mobile and web applications with Firebase, .NET, REST APIs, and SQL-based backend/data workflows.",
         "summary": "I work as a Flutter Developer building mobile and web applications. Flutter and Dart are my main areas of expertise, and I also work with Firebase, REST API integrations, SQL data structures, and .NET-based backend development workflows. In the OverPay project, I developed user interfaces for payment, sales, reporting, customer integrations, GIB integration, and VKN/TCKN lookup flows. With a full-stack perspective, I focus on clean code, maintainable architecture, performant screen structures, and products aligned with real business processes.",
-        "location": "Istanbul, T\u00FCrkiye"
+        "location": "Istanbul, Türkiye"
       },
       "recruiterSnapshot": {
-        "yearsExperienceLabel": "4\u002B years of Flutter development experience",
-        "primaryFocus": "Flutter Mobile \u0026 Web | Full-Stack Oriented Development",
+        "yearsExperienceLabel": "4+ years of Flutter development experience",
+        "primaryFocus": "Flutter Mobile & Web | Full-Stack Oriented Development",
         "currentRoleSummary": "I develop mobile and web applications with Flutter. I work on Firebase integration, API communication, admin panels, and responsive interfaces. My focus is building maintainable, performant, and user-friendly products.",
         "preferredWork": "I am interested in mobile and web product development, Flutter-focused applications, Firebase/.NET-backed systems, and long-term product-focused projects. I aim to work on maintainable, scalable products with a strong user experience.",
         "availability": "Flutech Dev"
@@ -1292,7 +1292,7 @@
           "id": 1,
           "role": "Flutter Developer",
           "company": "Overtech Bilgi Teknolojileri",
-          "location": "Istanbul, T\u00FCrkiye",
+          "location": "Istanbul, Türkiye",
           "dateRange": "September 2021 - Present",
           "summary": "I work as a Flutter Developer at Overtech on the OverPay project. I develop mobile and web interfaces for payment, sales, reporting, and integration flows, contributing to user experience, maintainable screen structures, and performance-focused improvements.",
           "startDate": "2021-09-01",
@@ -1965,7 +1965,7 @@
           "title": "FluPass",
           "dateRange": "2025",
           "summary": "A privacy-focused Flutter password manager built with a local-first approach. I developed biometric authentication, local data storage, and clean credential management flows.",
-          "detailSummary": "FluPass is a local-first password manager project focused on keeping credentials on the user\u0027s device. It aims to combine encryption, biometric unlock, and simple credential management into a secure but usable mobile experience.",
+          "detailSummary": "FluPass is a local-first password manager project focused on keeping credentials on the user's device. It aims to combine encryption, biometric unlock, and simple credential management into a secure but usable mobile experience.",
           "problem": "Cloud-based password managers require a high level of user trust. This project focuses on creating a secure daily-use experience without moving sensitive credentials away from the device.",
           "contribution": "I designed and built the local-first data approach, encryption flow, biometric authentication experience, and mobile UI structure.",
           "outcome": "The result is a privacy-first, device-centered, and usable password manager experience.",
@@ -2125,7 +2125,7 @@
               "id": 4,
               "typeKey": "website",
               "typeName": "Website",
-              "label": "C\u00FCzdan - Ak\u0131ll\u0131 B\u00FCt\u00E7e App Store",
+              "label": "Cüzdan - Akıllı Bütçe App Store",
               "url": "https://apps.apple.com/tr/app/c%C3%BCzdan-ak%C4%B1ll%C4%B1-b%C3%BCt%C3%A7e/id6758697145?l=tr",
               "isPrimary": false,
               "sortOrder": 1
@@ -2140,9 +2140,9 @@
       "education": [
         {
           "id": 1,
-          "degree": "Bachelor\u2019s Degree, Computer Engineering",
+          "degree": "Bachelor’s Degree, Computer Engineering",
           "school": "Trakya University",
-          "location": "Edirne, T\u00FCrkiye",
+          "location": "Edirne, Türkiye",
           "dateRange": "2017 - 2021",
           "notes": "Studied software development, algorithms, data structures, database systems, and application development fundamentals. After graduation, I focused on mobile and web application development with Flutter.",
           "startDate": "2017-09-01",
