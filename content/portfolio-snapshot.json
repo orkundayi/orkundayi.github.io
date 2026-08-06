@@ -1,6 +1,6 @@
 {
   "schemaVersion": "portfolio-v2",
-  "generatedAtUtc": "2026-05-11T19:29:58.33291+00:00",
+  "generatedAtUtc": "2026-08-06T23:54:45.157Z",
   "defaultLanguageCode": "tr",
   "languageCodes": [
     "tr",
@@ -34,7 +34,7 @@
         "location": "İstanbul, Türkiye"
       },
       "recruiterSnapshot": {
-        "yearsExperienceLabel": "4+ yıl Flutter geliştirme deneyimi",
+        "yearsExperienceLabel": "5+ yıl Flutter geliştirme deneyimi",
         "primaryFocus": "Flutter Mobil & Web | Full-Stack Odaklı Geliştirme",
         "currentRoleSummary": "Flutter Developer olarak OverPay projesinde ödeme, satış, raporlama ve entegrasyon akışlarına yönelik mobil/web arayüzleri geliştiriyorum. Flutter ve Dart ana odağımın yanında Firebase, REST API, SQL ve .NET tabanlı backend süreçleriyle çalışarak full-stack bakış açısıyla ürün geliştirmeye odaklanıyorum.",
         "preferredWork": "Mobil ve web ürün geliştirme, Flutter odaklı uygulamalar, Firebase/.NET destekli sistemler ve uzun vadeli ürün odaklı projelerde yer almak istiyorum. Kullanıcı deneyimi güçlü, sürdürülebilir ve geliştirilebilir ürünler üzerinde çalışmayı hedefliyorum.",
@@ -42,49 +42,49 @@
       },
       "capabilities": [
         {
-          "id": 1,
+          "id": "1",
           "title": "Flutter Mobil ve Web Geliştirme",
           "description": "Mobil ve web platformları için Flutter ile performanslı, responsive ve sürdürülebilir uygulamalar geliştiririm.",
           "sortOrder": 1
         },
         {
-          "id": 2,
+          "id": "2",
           "title": "Veri Yönetimi ve Modelleme",
           "description": "Firebase/Firestore ve SQL tabanlı yapılarda uygulama ihtiyaçlarına uygun veri modelleri, kayıt akışları ve sorgulanabilir veri yapıları oluştururum.",
           "sortOrder": 2
         },
         {
-          "id": 3,
+          "id": "3",
           "title": "REST API ve .NET Backend Süreçleri",
           "description": "REST API entegrasyonları, veri modelleri ve .NET tabanlı backend süreçleriyle çalışan uygulama yapıları kurarım.",
           "sortOrder": 3
         },
         {
-          "id": 4,
+          "id": "4",
           "title": "Responsive Arayüz Geliştirme",
           "description": "Telefon, tablet ve web ekranlarında tutarlı çalışan, kullanıcı deneyimi güçlü arayüzler geliştiririm.",
           "sortOrder": 4
         },
         {
-          "id": 5,
+          "id": "5",
           "title": "Admin Panel ve İçerik Yönetimi",
           "description": "Proje, içerik, kullanıcı veya medya verilerinin yönetilebildiği sade ve kullanışlı admin panelleri geliştiririm.",
           "sortOrder": 5
         },
         {
-          "id": 6,
+          "id": "6",
           "title": "Temiz ve Sürdürülebilir Kod",
           "description": "Okunabilir, geliştirilebilir ve uzun vadede bakımı kolay kod yapıları oluşturmaya önem veririm.",
           "sortOrder": 6
         },
         {
-          "id": 7,
+          "id": "7",
           "title": "Ürün Odaklı Geliştirme",
           "description": "Sadece ekran geliştirmeye değil, gerçek kullanıcı ihtiyacına ve iş sürecine uygun ürün deneyimi oluşturmaya odaklanırım.",
           "sortOrder": 7
         },
         {
-          "id": 8,
+          "id": "8",
           "title": "Performans Optimizasyonu",
           "description": "Uygulamaların daha hızlı, akıcı ve stabil çalışması için performans odaklı iyileştirmeler yaparım.",
           "sortOrder": 8
@@ -92,37 +92,37 @@
       ],
       "careerHighlights": [
         {
-          "id": 1,
+          "id": "1",
           "title": "Uçtan Uca Geliştirme",
           "description": "Bir uygulamanın arayüzünden veri yapısına, Firebase entegrasyonundan yayına hazırlık sürecine kadar geliştirme adımlarında sorumluluk alabilirim.",
           "sortOrder": 1
         },
         {
-          "id": 2,
+          "id": "2",
           "title": "Mobil ve Web Deneyimi",
           "description": "Flutter ile hem mobil hem web platformlarında responsive çalışan, farklı ekran boyutlarına uyumlu uygulamalar geliştiririm.",
           "sortOrder": 2
         },
         {
-          "id": 3,
+          "id": "3",
           "title": "Backend ve Veri Tarafına Hakimiyet",
           "description": "Firebase, REST API, SQL ve .NET tabanlı süreçlerle çalışarak uygulamaların sadece arayüzünü değil, veri ve backend akışlarını da anlayarak geliştirme yaparım.",
           "sortOrder": 3
         },
         {
-          "id": 4,
+          "id": "4",
           "title": "Admin Panel ve İçerik Yönetimi",
           "description": "Projelerde içeriklerin, kullanıcı verilerinin veya portfolyo bilgilerinin kolayca yönetilebildiği sade admin panelleri geliştirebilirim.",
           "sortOrder": 4
         },
         {
-          "id": 5,
+          "id": "5",
           "title": "Temiz ve Sürdürülebilir Kod",
           "description": "Projelerde okunabilir, geliştirilebilir ve uzun vadede bakımı kolay kod yapıları oluşturmaya önem veririm.",
           "sortOrder": 5
         },
         {
-          "id": 6,
+          "id": "6",
           "title": "Hızlı Adaptasyon",
           "description": "Yeni projelere, farklı kod yapılarına ve değişen ihtiyaçlara hızlı uyum sağlayarak üretken şekilde geliştirme yapabilirim.",
           "sortOrder": 6
@@ -130,7 +130,7 @@
       ],
       "workExperiences": [
         {
-          "id": 1,
+          "id": "1",
           "role": "Flutter Developer",
           "company": "Overtech Bilgi Teknolojileri",
           "location": "İstanbul, Türkiye",
@@ -148,70 +148,70 @@
           ],
           "technologies": [
             {
-              "id": 15,
+              "id": "15",
               "key": "dot-net",
               "name": ".NET",
               "iconName": null,
               "sortOrder": 1
             },
             {
-              "id": 1,
+              "id": "1",
               "key": "flutter",
               "name": "Flutter",
               "iconName": "smartphone",
               "sortOrder": 10
             },
             {
-              "id": 3,
+              "id": "3",
               "key": "rest-api",
               "name": "REST API",
               "iconName": "plug",
               "sortOrder": 30
             },
             {
-              "id": 4,
+              "id": "4",
               "key": "json",
               "name": "JSON",
               "iconName": "braces",
               "sortOrder": 40
             },
             {
-              "id": 5,
+              "id": "5",
               "key": "sql",
               "name": "SQL",
               "iconName": "database",
               "sortOrder": 50
             },
             {
-              "id": 6,
+              "id": "6",
               "key": "pos-systems",
               "name": "POS Sistemleri",
               "iconName": "credit-card",
               "sortOrder": 60
             },
             {
-              "id": 7,
+              "id": "7",
               "key": "payment-flows",
               "name": "Ödeme Akışları",
               "iconName": "wallet-cards",
               "sortOrder": 70
             },
             {
-              "id": 8,
+              "id": "8",
               "key": "customer-integrations",
               "name": "Müşteri Entegrasyonları",
               "iconName": "network",
               "sortOrder": 80
             },
             {
-              "id": 9,
+              "id": "9",
               "key": "reporting",
               "name": "Raporlama",
               "iconName": "bar-chart-3",
               "sortOrder": 90
             },
             {
-              "id": 12,
+              "id": "12",
               "key": "git",
               "name": "Git",
               "iconName": "git-branch",
@@ -223,7 +223,7 @@
       ],
       "projectCategories": [
         {
-          "id": 1,
+          "id": "1",
           "key": "mobile",
           "name": "Mobil",
           "description": null,
@@ -232,7 +232,7 @@
           "sortOrder": 1
         },
         {
-          "id": 2,
+          "id": "2",
           "key": "web",
           "name": "Web",
           "description": null,
@@ -241,7 +241,7 @@
           "sortOrder": 2
         },
         {
-          "id": 3,
+          "id": "3",
           "key": "developer-tool",
           "name": "Geliştirici Aracı",
           "description": null,
@@ -250,7 +250,7 @@
           "sortOrder": 3
         },
         {
-          "id": 4,
+          "id": "4",
           "key": "corporate",
           "name": "Kurumsal",
           "description": null,
@@ -259,7 +259,7 @@
           "sortOrder": 4
         },
         {
-          "id": 6,
+          "id": "6",
           "key": "security",
           "name": "Güvenlik",
           "description": null,
@@ -268,7 +268,7 @@
           "sortOrder": 6
         },
         {
-          "id": 7,
+          "id": "7",
           "key": "finance",
           "name": "Finans",
           "description": null,
@@ -279,7 +279,7 @@
       ],
       "projectStatuses": [
         {
-          "id": 1,
+          "id": "1",
           "key": "live",
           "name": "Yayında",
           "description": null,
@@ -287,7 +287,7 @@
           "sortOrder": 1
         },
         {
-          "id": 2,
+          "id": "2",
           "key": "completed",
           "name": "Tamamlandı",
           "description": null,
@@ -295,7 +295,7 @@
           "sortOrder": 2
         },
         {
-          "id": 3,
+          "id": "3",
           "key": "active",
           "name": "Aktif",
           "description": null,
@@ -303,7 +303,7 @@
           "sortOrder": 3
         },
         {
-          "id": 4,
+          "id": "4",
           "key": "archived",
           "name": "Arşivlendi",
           "description": null,
@@ -313,133 +313,133 @@
       ],
       "technologies": [
         {
-          "id": 15,
+          "id": "15",
           "key": "dot-net",
           "name": ".NET",
           "iconName": null,
           "sortOrder": 1
         },
         {
-          "id": 16,
+          "id": "16",
           "key": "c-sharp",
           "name": "C#",
           "iconName": null,
           "sortOrder": 2
         },
         {
-          "id": 17,
+          "id": "17",
           "key": "responsive-ui",
           "name": "Responsive UI",
           "iconName": null,
           "sortOrder": 3
         },
         {
-          "id": 18,
+          "id": "18",
           "key": "material-design",
           "name": "Material Design",
           "iconName": null,
           "sortOrder": 4
         },
         {
-          "id": 19,
+          "id": "19",
           "key": "clean-code",
           "name": "Clean Code",
           "iconName": null,
           "sortOrder": 5
         },
         {
-          "id": 1,
+          "id": "1",
           "key": "flutter",
           "name": "Flutter",
           "iconName": "smartphone",
           "sortOrder": 10
         },
         {
-          "id": 2,
+          "id": "2",
           "key": "dart",
           "name": "Dart",
           "iconName": "code",
           "sortOrder": 20
         },
         {
-          "id": 3,
+          "id": "3",
           "key": "rest-api",
           "name": "REST API",
           "iconName": "plug",
           "sortOrder": 30
         },
         {
-          "id": 4,
+          "id": "4",
           "key": "json",
           "name": "JSON",
           "iconName": "braces",
           "sortOrder": 40
         },
         {
-          "id": 5,
+          "id": "5",
           "key": "sql",
           "name": "SQL",
           "iconName": "database",
           "sortOrder": 50
         },
         {
-          "id": 6,
+          "id": "6",
           "key": "pos-systems",
           "name": "POS Sistemleri",
           "iconName": "credit-card",
           "sortOrder": 60
         },
         {
-          "id": 7,
+          "id": "7",
           "key": "payment-flows",
           "name": "Ödeme Akışları",
           "iconName": "wallet-cards",
           "sortOrder": 70
         },
         {
-          "id": 8,
+          "id": "8",
           "key": "customer-integrations",
           "name": "Müşteri Entegrasyonları",
           "iconName": "network",
           "sortOrder": 80
         },
         {
-          "id": 9,
+          "id": "9",
           "key": "reporting",
           "name": "Raporlama",
           "iconName": "bar-chart-3",
           "sortOrder": 90
         },
         {
-          "id": 10,
+          "id": "10",
           "key": "firebase",
           "name": "Firebase",
           "iconName": "flame",
           "sortOrder": 100
         },
         {
-          "id": 11,
+          "id": "11",
           "key": "firestore",
           "name": "Cloud Firestore",
           "iconName": "database-zap",
           "sortOrder": 110
         },
         {
-          "id": 12,
+          "id": "12",
           "key": "git",
           "name": "Git",
           "iconName": "git-branch",
           "sortOrder": 120
         },
         {
-          "id": 13,
+          "id": "13",
           "key": "postman",
           "name": "Postman",
           "iconName": "send",
           "sortOrder": 130
         },
         {
-          "id": 14,
+          "id": "14",
           "key": "debugging",
           "name": "Debugging",
           "iconName": "bug",
@@ -448,11 +448,11 @@
       ],
       "projects": [
         {
-          "id": 1,
+          "id": "1",
           "publicId": "d2663b81-3058-4895-88cb-d0af04a6c05e",
           "slug": "flublocks",
           "category": {
-            "id": 1,
+            "id": "1",
             "key": "mobile",
             "name": "Mobil",
             "description": null,
@@ -461,7 +461,7 @@
             "sortOrder": 1
           },
           "status": {
-            "id": 4,
+            "id": "4",
             "key": "archived",
             "name": "Arşivlendi",
             "description": null,
@@ -489,28 +489,28 @@
           "ogImage": null,
           "technologies": [
             {
-              "id": 1,
+              "id": "1",
               "key": "flutter",
               "name": "Flutter",
               "iconName": "smartphone",
               "sortOrder": 10
             },
             {
-              "id": 2,
+              "id": "2",
               "key": "dart",
               "name": "Dart",
               "iconName": "code",
               "sortOrder": 20
             },
             {
-              "id": 10,
+              "id": "10",
               "key": "firebase",
               "name": "Firebase",
               "iconName": "flame",
               "sortOrder": 100
             },
             {
-              "id": 11,
+              "id": "11",
               "key": "firestore",
               "name": "Cloud Firestore",
               "iconName": "database-zap",
@@ -524,11 +524,11 @@
           "sortOrder": 1
         },
         {
-          "id": 2,
+          "id": "2",
           "publicId": "023d871b-265b-4d45-bb6e-3efdd3855a9c",
           "slug": "cv-maker",
           "category": {
-            "id": 2,
+            "id": "2",
             "key": "web",
             "name": "Web",
             "description": null,
@@ -537,7 +537,7 @@
             "sortOrder": 2
           },
           "status": {
-            "id": 4,
+            "id": "4",
             "key": "archived",
             "name": "Arşivlendi",
             "description": null,
@@ -565,42 +565,42 @@
           "ogImage": null,
           "technologies": [
             {
-              "id": 17,
+              "id": "17",
               "key": "responsive-ui",
               "name": "Responsive UI",
               "iconName": null,
               "sortOrder": 3
             },
             {
-              "id": 18,
+              "id": "18",
               "key": "material-design",
               "name": "Material Design",
               "iconName": null,
               "sortOrder": 4
             },
             {
-              "id": 1,
+              "id": "1",
               "key": "flutter",
               "name": "Flutter",
               "iconName": "smartphone",
               "sortOrder": 10
             },
             {
-              "id": 2,
+              "id": "2",
               "key": "dart",
               "name": "Dart",
               "iconName": "code",
               "sortOrder": 20
             },
             {
-              "id": 10,
+              "id": "10",
               "key": "firebase",
               "name": "Firebase",
               "iconName": "flame",
               "sortOrder": 100
             },
             {
-              "id": 11,
+              "id": "11",
               "key": "firestore",
               "name": "Cloud Firestore",
               "iconName": "database-zap",
@@ -614,11 +614,11 @@
           "sortOrder": 2
         },
         {
-          "id": 3,
+          "id": "3",
           "publicId": "c5cdd0e2-09a3-4cf6-8f0e-d5f552ef16b2",
           "slug": "flulog",
           "category": {
-            "id": 2,
+            "id": "2",
             "key": "web",
             "name": "Web",
             "description": null,
@@ -627,7 +627,7 @@
             "sortOrder": 2
           },
           "status": {
-            "id": 4,
+            "id": "4",
             "key": "archived",
             "name": "Arşivlendi",
             "description": null,
@@ -655,28 +655,28 @@
           "ogImage": null,
           "technologies": [
             {
-              "id": 1,
+              "id": "1",
               "key": "flutter",
               "name": "Flutter",
               "iconName": "smartphone",
               "sortOrder": 10
             },
             {
-              "id": 2,
+              "id": "2",
               "key": "dart",
               "name": "Dart",
               "iconName": "code",
               "sortOrder": 20
             },
             {
-              "id": 10,
+              "id": "10",
               "key": "firebase",
               "name": "Firebase",
               "iconName": "flame",
               "sortOrder": 100
             },
             {
-              "id": 11,
+              "id": "11",
               "key": "firestore",
               "name": "Cloud Firestore",
               "iconName": "database-zap",
@@ -690,11 +690,11 @@
           "sortOrder": 3
         },
         {
-          "id": 4,
+          "id": "4",
           "publicId": "8349ebb8-c9f3-45aa-8b35-8579170d9b9c",
           "slug": "flutech-dev",
           "category": {
-            "id": 2,
+            "id": "2",
             "key": "web",
             "name": "Web",
             "description": null,
@@ -703,7 +703,7 @@
             "sortOrder": 2
           },
           "status": {
-            "id": 1,
+            "id": "1",
             "key": "live",
             "name": "Yayında",
             "description": null,
@@ -731,35 +731,35 @@
           "ogImage": null,
           "technologies": [
             {
-              "id": 17,
+              "id": "17",
               "key": "responsive-ui",
               "name": "Responsive UI",
               "iconName": null,
               "sortOrder": 3
             },
             {
-              "id": 18,
+              "id": "18",
               "key": "material-design",
               "name": "Material Design",
               "iconName": null,
               "sortOrder": 4
             },
             {
-              "id": 1,
+              "id": "1",
               "key": "flutter",
               "name": "Flutter",
               "iconName": "smartphone",
               "sortOrder": 10
             },
             {
-              "id": 2,
+              "id": "2",
               "key": "dart",
               "name": "Dart",
               "iconName": "code",
               "sortOrder": 20
             },
             {
-              "id": 4,
+              "id": "4",
               "key": "json",
               "name": "JSON",
               "iconName": "braces",
@@ -768,7 +768,7 @@
           ],
           "links": [
             {
-              "id": 1,
+              "id": "1",
               "typeKey": "website",
               "typeName": "Web sitesi",
               "label": "Flutech Dev",
@@ -783,11 +783,11 @@
           "sortOrder": 4
         },
         {
-          "id": 5,
+          "id": "5",
           "publicId": "d722933d-116c-49ca-9102-2fee632fa796",
           "slug": "flupass",
           "category": {
-            "id": 1,
+            "id": "1",
             "key": "mobile",
             "name": "Mobil",
             "description": null,
@@ -796,7 +796,7 @@
             "sortOrder": 1
           },
           "status": {
-            "id": 1,
+            "id": "1",
             "key": "live",
             "name": "Yayında",
             "description": null,
@@ -824,21 +824,21 @@
           "ogImage": null,
           "technologies": [
             {
-              "id": 1,
+              "id": "1",
               "key": "flutter",
               "name": "Flutter",
               "iconName": "smartphone",
               "sortOrder": 10
             },
             {
-              "id": 2,
+              "id": "2",
               "key": "dart",
               "name": "Dart",
               "iconName": "code",
               "sortOrder": 20
             },
             {
-              "id": 5,
+              "id": "5",
               "key": "sql",
               "name": "SQL",
               "iconName": "database",
@@ -847,7 +847,7 @@
           ],
           "links": [
             {
-              "id": 2,
+              "id": "2",
               "typeKey": "website",
               "typeName": "Web sitesi",
               "label": "Flupass App Store",
@@ -856,7 +856,7 @@
               "sortOrder": 1
             },
             {
-              "id": 3,
+              "id": "3",
               "typeKey": "website",
               "typeName": "Web sitesi",
               "label": "Flupass Google Play Store",
@@ -871,11 +871,11 @@
           "sortOrder": 5
         },
         {
-          "id": 6,
+          "id": "6",
           "publicId": "64828612-7dd6-4ce0-8988-02442368f153",
           "slug": "cuzdan",
           "category": {
-            "id": 1,
+            "id": "1",
             "key": "mobile",
             "name": "Mobil",
             "description": null,
@@ -884,7 +884,7 @@
             "sortOrder": 1
           },
           "status": {
-            "id": 1,
+            "id": "1",
             "key": "live",
             "name": "Yayında",
             "description": null,
@@ -912,49 +912,49 @@
           "ogImage": null,
           "technologies": [
             {
-              "id": 17,
+              "id": "17",
               "key": "responsive-ui",
               "name": "Responsive UI",
               "iconName": null,
               "sortOrder": 3
             },
             {
-              "id": 18,
+              "id": "18",
               "key": "material-design",
               "name": "Material Design",
               "iconName": null,
               "sortOrder": 4
             },
             {
-              "id": 1,
+              "id": "1",
               "key": "flutter",
               "name": "Flutter",
               "iconName": "smartphone",
               "sortOrder": 10
             },
             {
-              "id": 4,
+              "id": "4",
               "key": "json",
               "name": "JSON",
               "iconName": "braces",
               "sortOrder": 40
             },
             {
-              "id": 9,
+              "id": "9",
               "key": "reporting",
               "name": "Raporlama",
               "iconName": "bar-chart-3",
               "sortOrder": 90
             },
             {
-              "id": 10,
+              "id": "10",
               "key": "firebase",
               "name": "Firebase",
               "iconName": "flame",
               "sortOrder": 100
             },
             {
-              "id": 11,
+              "id": "11",
               "key": "firestore",
               "name": "Cloud Firestore",
               "iconName": "database-zap",
@@ -963,7 +963,7 @@
           ],
           "links": [
             {
-              "id": 4,
+              "id": "4",
               "typeKey": "website",
               "typeName": "Web sitesi",
               "label": "Cüzdan - Akıllı Bütçe App Store",
@@ -980,7 +980,7 @@
       ],
       "education": [
         {
-          "id": 1,
+          "id": "1",
           "degree": "Lisans, Bilgisayar Mühendisliği",
           "school": "Trakya Üniversitesi",
           "location": "Edirne, Türkiye",
@@ -993,26 +993,26 @@
       ],
       "skillCategories": [
         {
-          "id": 8,
+          "id": "8",
           "key": "flutter-mobile-web",
           "title": "Flutter Mobil ve Web",
           "skills": [
             {
-              "id": 35,
+              "id": "35",
               "key": "flutter-app-development",
               "name": "Flutter Uygulama Geliştirme",
               "levelLabel": "İleri",
               "sortOrder": 0
             },
             {
-              "id": 36,
+              "id": "36",
               "key": "responsive-cross-platform-ui",
               "name": "Responsive ve Cross-Platform UI",
               "levelLabel": "İleri",
               "sortOrder": 1
             },
             {
-              "id": 40,
+              "id": "40",
               "key": "mobile-web-release-flows",
               "name": "Mobil/Web Yayın Süreçleri",
               "levelLabel": "Orta-İleri",
@@ -1022,26 +1022,26 @@
           "sortOrder": 0
         },
         {
-          "id": 9,
+          "id": "9",
           "key": "backend-api-data",
           "title": "Backend, API ve Veri",
           "skills": [
             {
-              "id": 37,
+              "id": "37",
               "key": "rest-api-integration",
               "name": "REST API Entegrasyonu",
               "levelLabel": "İleri",
               "sortOrder": 0
             },
             {
-              "id": 38,
+              "id": "38",
               "key": "dotnet-backend-development",
               "name": ".NET Backend Geliştirme",
               "levelLabel": "Orta-İleri",
               "sortOrder": 1
             },
             {
-              "id": 39,
+              "id": "39",
               "key": "sql-data-modeling",
               "name": "SQL ve Veri Modelleme",
               "levelLabel": "Orta-İleri",
@@ -1051,26 +1051,26 @@
           "sortOrder": 1
         },
         {
-          "id": 10,
+          "id": "10",
           "key": "firebase-cloud",
           "title": "Firebase ve Bulut",
           "skills": [
             {
-              "id": 41,
+              "id": "41",
               "key": "firebase-backed-apps",
               "name": "Firebase Destekli Uygulamalar",
               "levelLabel": "İleri",
               "sortOrder": 0
             },
             {
-              "id": 42,
+              "id": "42",
               "key": "firestore-data-flows",
               "name": "Firestore Veri Akışları",
               "levelLabel": "İleri",
               "sortOrder": 1
             },
             {
-              "id": 43,
+              "id": "43",
               "key": "auth-storage-flows",
               "name": "Kimlik Doğrulama ve Storage Akışları",
               "levelLabel": "İleri",
@@ -1080,26 +1080,26 @@
           "sortOrder": 2
         },
         {
-          "id": 11,
+          "id": "11",
           "key": "product-quality",
           "title": "Ürün ve Kod Kalitesi",
           "skills": [
             {
-              "id": 44,
+              "id": "44",
               "key": "admin-panel-development",
               "name": "Admin Panel Geliştirme",
               "levelLabel": "İleri",
               "sortOrder": 0
             },
             {
-              "id": 46,
+              "id": "46",
               "key": "debugging-api-testing",
               "name": "Debugging ve API Testleri",
               "levelLabel": "İleri",
               "sortOrder": 0
             },
             {
-              "id": 45,
+              "id": "45",
               "key": "clean-maintainable-code",
               "name": "Temiz ve Sürdürülebilir Kod",
               "levelLabel": "İleri",
@@ -1111,13 +1111,13 @@
       ],
       "languageSkills": [
         {
-          "id": 1,
+          "id": "1",
           "name": "Türkçe",
           "level": "Ana dil",
           "sortOrder": 1
         },
         {
-          "id": 2,
+          "id": "2",
           "name": "İngilizce",
           "level": "B2 / Orta-İleri",
           "sortOrder": 2
@@ -1125,7 +1125,7 @@
       ],
       "contactLinks": [
         {
-          "id": 1,
+          "id": "1",
           "typeKey": "email",
           "typeName": "E-posta",
           "label": "E-posta",
@@ -1135,7 +1135,7 @@
           "sortOrder": 1
         },
         {
-          "id": 3,
+          "id": "3",
           "typeKey": "github",
           "typeName": "GitHub",
           "label": "GitHub",
@@ -1145,7 +1145,7 @@
           "sortOrder": 3
         },
         {
-          "id": 4,
+          "id": "4",
           "typeKey": "linkedin",
           "typeName": "LinkedIn",
           "label": "LinkedIn",
@@ -1155,7 +1155,7 @@
           "sortOrder": 4
         },
         {
-          "id": 5,
+          "id": "5",
           "typeKey": "website",
           "typeName": "Web sitesi",
           "label": "Web sitesi",
@@ -1193,7 +1193,7 @@
         "location": "Istanbul, Türkiye"
       },
       "recruiterSnapshot": {
-        "yearsExperienceLabel": "4+ years of Flutter development experience",
+        "yearsExperienceLabel": "5+ years of Flutter development experience",
         "primaryFocus": "Flutter Mobile & Web | Full-Stack Oriented Development",
         "currentRoleSummary": "I develop mobile and web applications with Flutter. I work on Firebase integration, API communication, admin panels, and responsive interfaces. My focus is building maintainable, performant, and user-friendly products.",
         "preferredWork": "I am interested in mobile and web product development, Flutter-focused applications, Firebase/.NET-backed systems, and long-term product-focused projects. I aim to work on maintainable, scalable products with a strong user experience.",
@@ -1201,49 +1201,49 @@
       },
       "capabilities": [
         {
-          "id": 1,
+          "id": "1",
           "title": "Flutter Mobile and Web Development",
           "description": "I build performant, responsive, and maintainable Flutter applications for mobile and web platforms.",
           "sortOrder": 1
         },
         {
-          "id": 2,
+          "id": "2",
           "title": "Data Management and Modeling",
           "description": "I create data models, storage flows, and queryable data structures for Firebase/Firestore and SQL-based application architectures.",
           "sortOrder": 2
         },
         {
-          "id": 3,
+          "id": "3",
           "title": "REST API and .NET Backend Workflows",
           "description": "I build application flows that work with REST APIs, data models, and .NET-based backend workflows.",
           "sortOrder": 3
         },
         {
-          "id": 4,
+          "id": "4",
           "title": "Responsive UI Development",
           "description": "I build user-focused interfaces that work consistently across phone, tablet, and web screens.",
           "sortOrder": 4
         },
         {
-          "id": 5,
+          "id": "5",
           "title": "Admin Panels and Content Management",
           "description": "I build clean and practical admin panels for managing projects, content, users, or media data.",
           "sortOrder": 5
         },
         {
-          "id": 6,
+          "id": "6",
           "title": "Clean and Maintainable Code",
           "description": "I focus on readable, scalable, and maintainable code structures for long-term development.",
           "sortOrder": 6
         },
         {
-          "id": 7,
+          "id": "7",
           "title": "Product-Focused Development",
           "description": "I focus on building product experiences that support real user needs and business workflows, not just isolated screens.",
           "sortOrder": 7
         },
         {
-          "id": 8,
+          "id": "8",
           "title": "Performance Optimization",
           "description": "I improve application speed, smoothness, and stability through performance-focused optimizations.",
           "sortOrder": 8
@@ -1251,37 +1251,37 @@
       ],
       "careerHighlights": [
         {
-          "id": 1,
+          "id": "1",
           "title": "End-to-End Development",
           "description": "I can take responsibility across the development process, from UI implementation and data structure to Firebase integration and release preparation.",
           "sortOrder": 1
         },
         {
-          "id": 2,
+          "id": "2",
           "title": "Mobile and Web Experience",
           "description": "I build responsive Flutter applications for both mobile and web platforms, adapting interfaces to different screen sizes.",
           "sortOrder": 2
         },
         {
-          "id": 3,
+          "id": "3",
           "title": "Backend and Data Awareness",
           "description": "I work with Firebase, REST APIs, SQL, and .NET-based workflows, allowing me to build applications with an understanding of both UI and backend/data flows.",
           "sortOrder": 3
         },
         {
-          "id": 4,
+          "id": "4",
           "title": "Admin Panels and Content Management",
           "description": "I build clean admin panels that make it easy to manage content, user data, or portfolio information within a project.",
           "sortOrder": 4
         },
         {
-          "id": 5,
+          "id": "5",
           "title": "Clean and Maintainable Code",
           "description": "I focus on creating readable, scalable, and maintainable code structures for long-term project development.",
           "sortOrder": 5
         },
         {
-          "id": 6,
+          "id": "6",
           "title": "Fast Adaptation",
           "description": "I can quickly adapt to new projects, different codebases, and changing requirements while staying productive.",
           "sortOrder": 6
@@ -1289,7 +1289,7 @@
       ],
       "workExperiences": [
         {
-          "id": 1,
+          "id": "1",
           "role": "Flutter Developer",
           "company": "Overtech Bilgi Teknolojileri",
           "location": "Istanbul, Türkiye",
@@ -1307,70 +1307,70 @@
           ],
           "technologies": [
             {
-              "id": 15,
+              "id": "15",
               "key": "dot-net",
               "name": ".NET",
               "iconName": null,
               "sortOrder": 1
             },
             {
-              "id": 1,
+              "id": "1",
               "key": "flutter",
               "name": "Flutter",
               "iconName": "smartphone",
               "sortOrder": 10
             },
             {
-              "id": 3,
+              "id": "3",
               "key": "rest-api",
               "name": "REST API",
               "iconName": "plug",
               "sortOrder": 30
             },
             {
-              "id": 4,
+              "id": "4",
               "key": "json",
               "name": "JSON",
               "iconName": "braces",
               "sortOrder": 40
             },
             {
-              "id": 5,
+              "id": "5",
               "key": "sql",
               "name": "SQL",
               "iconName": "database",
               "sortOrder": 50
             },
             {
-              "id": 6,
+              "id": "6",
               "key": "pos-systems",
               "name": "POS Systems",
               "iconName": "credit-card",
               "sortOrder": 60
             },
             {
-              "id": 7,
+              "id": "7",
               "key": "payment-flows",
               "name": "Payment Flows",
               "iconName": "wallet-cards",
               "sortOrder": 70
             },
             {
-              "id": 8,
+              "id": "8",
               "key": "customer-integrations",
               "name": "Customer Integrations",
               "iconName": "network",
               "sortOrder": 80
             },
             {
-              "id": 9,
+              "id": "9",
               "key": "reporting",
               "name": "Reporting",
               "iconName": "bar-chart-3",
               "sortOrder": 90
             },
             {
-              "id": 12,
+              "id": "12",
               "key": "git",
               "name": "Git",
               "iconName": "git-branch",
@@ -1382,7 +1382,7 @@
       ],
       "projectCategories": [
         {
-          "id": 1,
+          "id": "1",
           "key": "mobile",
           "name": "Mobile",
           "description": null,
@@ -1391,7 +1391,7 @@
           "sortOrder": 1
         },
         {
-          "id": 2,
+          "id": "2",
           "key": "web",
           "name": "Web",
           "description": null,
@@ -1400,7 +1400,7 @@
           "sortOrder": 2
         },
         {
-          "id": 3,
+          "id": "3",
           "key": "developer-tool",
           "name": "Developer Tool",
           "description": null,
@@ -1409,7 +1409,7 @@
           "sortOrder": 3
         },
         {
-          "id": 4,
+          "id": "4",
           "key": "corporate",
           "name": "Corporate",
           "description": null,
@@ -1418,7 +1418,7 @@
           "sortOrder": 4
         },
         {
-          "id": 6,
+          "id": "6",
           "key": "security",
           "name": "Security",
           "description": null,
@@ -1427,7 +1427,7 @@
           "sortOrder": 6
         },
         {
-          "id": 7,
+          "id": "7",
           "key": "finance",
           "name": "Finance",
           "description": null,
@@ -1438,7 +1438,7 @@
       ],
       "projectStatuses": [
         {
-          "id": 1,
+          "id": "1",
           "key": "live",
           "name": "Live",
           "description": null,
@@ -1446,7 +1446,7 @@
           "sortOrder": 1
         },
         {
-          "id": 2,
+          "id": "2",
           "key": "completed",
           "name": "Completed",
           "description": null,
@@ -1454,7 +1454,7 @@
           "sortOrder": 2
         },
         {
-          "id": 3,
+          "id": "3",
           "key": "active",
           "name": "Active",
           "description": null,
@@ -1462,7 +1462,7 @@
           "sortOrder": 3
         },
         {
-          "id": 4,
+          "id": "4",
           "key": "archived",
           "name": "Archived",
           "description": null,
@@ -1472,133 +1472,133 @@
       ],
       "technologies": [
         {
-          "id": 15,
+          "id": "15",
           "key": "dot-net",
           "name": ".NET",
           "iconName": null,
           "sortOrder": 1
         },
         {
-          "id": 16,
+          "id": "16",
           "key": "c-sharp",
           "name": "C#",
           "iconName": null,
           "sortOrder": 2
         },
         {
-          "id": 17,
+          "id": "17",
           "key": "responsive-ui",
           "name": "Responsive UI",
           "iconName": null,
           "sortOrder": 3
         },
         {
-          "id": 18,
+          "id": "18",
           "key": "material-design",
           "name": "Material Design",
           "iconName": null,
           "sortOrder": 4
         },
         {
-          "id": 19,
+          "id": "19",
           "key": "clean-code",
           "name": "Clean Code",
           "iconName": null,
           "sortOrder": 5
         },
         {
-          "id": 1,
+          "id": "1",
           "key": "flutter",
           "name": "Flutter",
           "iconName": "smartphone",
           "sortOrder": 10
         },
         {
-          "id": 2,
+          "id": "2",
           "key": "dart",
           "name": "Dart",
           "iconName": "code",
           "sortOrder": 20
         },
         {
-          "id": 3,
+          "id": "3",
           "key": "rest-api",
           "name": "REST API",
           "iconName": "plug",
           "sortOrder": 30
         },
         {
-          "id": 4,
+          "id": "4",
           "key": "json",
           "name": "JSON",
           "iconName": "braces",
           "sortOrder": 40
         },
         {
-          "id": 5,
+          "id": "5",
           "key": "sql",
           "name": "SQL",
           "iconName": "database",
           "sortOrder": 50
         },
         {
-          "id": 6,
+          "id": "6",
           "key": "pos-systems",
           "name": "POS Systems",
           "iconName": "credit-card",
           "sortOrder": 60
         },
         {
-          "id": 7,
+          "id": "7",
           "key": "payment-flows",
           "name": "Payment Flows",
           "iconName": "wallet-cards",
           "sortOrder": 70
         },
         {
-          "id": 8,
+          "id": "8",
           "key": "customer-integrations",
           "name": "Customer Integrations",
           "iconName": "network",
           "sortOrder": 80
         },
         {
-          "id": 9,
+          "id": "9",
           "key": "reporting",
           "name": "Reporting",
           "iconName": "bar-chart-3",
           "sortOrder": 90
         },
         {
-          "id": 10,
+          "id": "10",
           "key": "firebase",
           "name": "Firebase",
           "iconName": "flame",
           "sortOrder": 100
         },
         {
-          "id": 11,
+          "id": "11",
           "key": "firestore",
           "name": "Cloud Firestore",
           "iconName": "database-zap",
           "sortOrder": 110
         },
         {
-          "id": 12,
+          "id": "12",
           "key": "git",
           "name": "Git",
           "iconName": "git-branch",
           "sortOrder": 120
         },
         {
-          "id": 13,
+          "id": "13",
           "key": "postman",
           "name": "Postman",
           "iconName": "send",
           "sortOrder": 130
         },
         {
-          "id": 14,
+          "id": "14",
           "key": "debugging",
           "name": "Debugging",
           "iconName": "bug",
@@ -1607,11 +1607,11 @@
       ],
       "projects": [
         {
-          "id": 1,
+          "id": "1",
           "publicId": "d2663b81-3058-4895-88cb-d0af04a6c05e",
           "slug": "flublocks",
           "category": {
-            "id": 1,
+            "id": "1",
             "key": "mobile",
             "name": "Mobile",
             "description": null,
@@ -1620,7 +1620,7 @@
             "sortOrder": 1
           },
           "status": {
-            "id": 4,
+            "id": "4",
             "key": "archived",
             "name": "Archived",
             "description": null,
@@ -1648,28 +1648,28 @@
           "ogImage": null,
           "technologies": [
             {
-              "id": 1,
+              "id": "1",
               "key": "flutter",
               "name": "Flutter",
               "iconName": "smartphone",
               "sortOrder": 10
             },
             {
-              "id": 2,
+              "id": "2",
               "key": "dart",
               "name": "Dart",
               "iconName": "code",
               "sortOrder": 20
             },
             {
-              "id": 10,
+              "id": "10",
               "key": "firebase",
               "name": "Firebase",
               "iconName": "flame",
               "sortOrder": 100
             },
             {
-              "id": 11,
+              "id": "11",
               "key": "firestore",
               "name": "Cloud Firestore",
               "iconName": "database-zap",
@@ -1683,11 +1683,11 @@
           "sortOrder": 1
         },
         {
-          "id": 2,
+          "id": "2",
           "publicId": "023d871b-265b-4d45-bb6e-3efdd3855a9c",
           "slug": "cv-maker",
           "category": {
-            "id": 2,
+            "id": "2",
             "key": "web",
             "name": "Web",
             "description": null,
@@ -1696,7 +1696,7 @@
             "sortOrder": 2
           },
           "status": {
-            "id": 4,
+            "id": "4",
             "key": "archived",
             "name": "Archived",
             "description": null,
@@ -1724,42 +1724,42 @@
           "ogImage": null,
           "technologies": [
             {
-              "id": 17,
+              "id": "17",
               "key": "responsive-ui",
               "name": "Responsive UI",
               "iconName": null,
               "sortOrder": 3
             },
             {
-              "id": 18,
+              "id": "18",
               "key": "material-design",
               "name": "Material Design",
               "iconName": null,
               "sortOrder": 4
             },
             {
-              "id": 1,
+              "id": "1",
               "key": "flutter",
               "name": "Flutter",
               "iconName": "smartphone",
               "sortOrder": 10
             },
             {
-              "id": 2,
+              "id": "2",
               "key": "dart",
               "name": "Dart",
               "iconName": "code",
               "sortOrder": 20
             },
             {
-              "id": 10,
+              "id": "10",
               "key": "firebase",
               "name": "Firebase",
               "iconName": "flame",
               "sortOrder": 100
             },
             {
-              "id": 11,
+              "id": "11",
               "key": "firestore",
               "name": "Cloud Firestore",
               "iconName": "database-zap",
@@ -1773,11 +1773,11 @@
           "sortOrder": 2
         },
         {
-          "id": 3,
+          "id": "3",
           "publicId": "c5cdd0e2-09a3-4cf6-8f0e-d5f552ef16b2",
           "slug": "flulog",
           "category": {
-            "id": 2,
+            "id": "2",
             "key": "web",
             "name": "Web",
             "description": null,
@@ -1786,7 +1786,7 @@
             "sortOrder": 2
           },
           "status": {
-            "id": 4,
+            "id": "4",
             "key": "archived",
             "name": "Archived",
             "description": null,
@@ -1814,28 +1814,28 @@
           "ogImage": null,
           "technologies": [
             {
-              "id": 1,
+              "id": "1",
               "key": "flutter",
               "name": "Flutter",
               "iconName": "smartphone",
               "sortOrder": 10
             },
             {
-              "id": 2,
+              "id": "2",
               "key": "dart",
               "name": "Dart",
               "iconName": "code",
               "sortOrder": 20
             },
             {
-              "id": 10,
+              "id": "10",
               "key": "firebase",
               "name": "Firebase",
               "iconName": "flame",
               "sortOrder": 100
             },
             {
-              "id": 11,
+              "id": "11",
               "key": "firestore",
               "name": "Cloud Firestore",
               "iconName": "database-zap",
@@ -1849,11 +1849,11 @@
           "sortOrder": 3
         },
         {
-          "id": 4,
+          "id": "4",
           "publicId": "8349ebb8-c9f3-45aa-8b35-8579170d9b9c",
           "slug": "flutech-dev",
           "category": {
-            "id": 2,
+            "id": "2",
             "key": "web",
             "name": "Web",
             "description": null,
@@ -1862,7 +1862,7 @@
             "sortOrder": 2
           },
           "status": {
-            "id": 1,
+            "id": "1",
             "key": "live",
             "name": "Live",
             "description": null,
@@ -1890,35 +1890,35 @@
           "ogImage": null,
           "technologies": [
             {
-              "id": 17,
+              "id": "17",
               "key": "responsive-ui",
               "name": "Responsive UI",
               "iconName": null,
               "sortOrder": 3
             },
             {
-              "id": 18,
+              "id": "18",
               "key": "material-design",
               "name": "Material Design",
               "iconName": null,
               "sortOrder": 4
             },
             {
-              "id": 1,
+              "id": "1",
               "key": "flutter",
               "name": "Flutter",
               "iconName": "smartphone",
               "sortOrder": 10
             },
             {
-              "id": 2,
+              "id": "2",
               "key": "dart",
               "name": "Dart",
               "iconName": "code",
               "sortOrder": 20
             },
             {
-              "id": 4,
+              "id": "4",
               "key": "json",
               "name": "JSON",
               "iconName": "braces",
@@ -1927,7 +1927,7 @@
           ],
           "links": [
             {
-              "id": 1,
+              "id": "1",
               "typeKey": "website",
               "typeName": "Website",
               "label": "Flutech Dev",
@@ -1942,11 +1942,11 @@
           "sortOrder": 4
         },
         {
-          "id": 5,
+          "id": "5",
           "publicId": "d722933d-116c-49ca-9102-2fee632fa796",
           "slug": "flupass",
           "category": {
-            "id": 1,
+            "id": "1",
             "key": "mobile",
             "name": "Mobile",
             "description": null,
@@ -1955,7 +1955,7 @@
             "sortOrder": 1
           },
           "status": {
-            "id": 1,
+            "id": "1",
             "key": "live",
             "name": "Live",
             "description": null,
@@ -1983,21 +1983,21 @@
           "ogImage": null,
           "technologies": [
             {
-              "id": 1,
+              "id": "1",
               "key": "flutter",
               "name": "Flutter",
               "iconName": "smartphone",
               "sortOrder": 10
             },
             {
-              "id": 2,
+              "id": "2",
               "key": "dart",
               "name": "Dart",
               "iconName": "code",
               "sortOrder": 20
             },
             {
-              "id": 5,
+              "id": "5",
               "key": "sql",
               "name": "SQL",
               "iconName": "database",
@@ -2006,7 +2006,7 @@
           ],
           "links": [
             {
-              "id": 2,
+              "id": "2",
               "typeKey": "website",
               "typeName": "Website",
               "label": "Flupass App Store",
@@ -2015,7 +2015,7 @@
               "sortOrder": 1
             },
             {
-              "id": 3,
+              "id": "3",
               "typeKey": "website",
               "typeName": "Website",
               "label": "Flupass Google Play Store",
@@ -2030,11 +2030,11 @@
           "sortOrder": 5
         },
         {
-          "id": 6,
+          "id": "6",
           "publicId": "64828612-7dd6-4ce0-8988-02442368f153",
           "slug": "cuzdan",
           "category": {
-            "id": 1,
+            "id": "1",
             "key": "mobile",
             "name": "Mobile",
             "description": null,
@@ -2043,7 +2043,7 @@
             "sortOrder": 1
           },
           "status": {
-            "id": 1,
+            "id": "1",
             "key": "live",
             "name": "Live",
             "description": null,
@@ -2071,49 +2071,49 @@
           "ogImage": null,
           "technologies": [
             {
-              "id": 17,
+              "id": "17",
               "key": "responsive-ui",
               "name": "Responsive UI",
               "iconName": null,
               "sortOrder": 3
             },
             {
-              "id": 18,
+              "id": "18",
               "key": "material-design",
               "name": "Material Design",
               "iconName": null,
               "sortOrder": 4
             },
             {
-              "id": 1,
+              "id": "1",
               "key": "flutter",
               "name": "Flutter",
               "iconName": "smartphone",
               "sortOrder": 10
             },
             {
-              "id": 4,
+              "id": "4",
               "key": "json",
               "name": "JSON",
               "iconName": "braces",
               "sortOrder": 40
             },
             {
-              "id": 9,
+              "id": "9",
               "key": "reporting",
               "name": "Reporting",
               "iconName": "bar-chart-3",
               "sortOrder": 90
             },
             {
-              "id": 10,
+              "id": "10",
               "key": "firebase",
               "name": "Firebase",
               "iconName": "flame",
               "sortOrder": 100
             },
             {
-              "id": 11,
+              "id": "11",
               "key": "firestore",
               "name": "Cloud Firestore",
               "iconName": "database-zap",
@@ -2122,7 +2122,7 @@
           ],
           "links": [
             {
-              "id": 4,
+              "id": "4",
               "typeKey": "website",
               "typeName": "Website",
               "label": "Cüzdan - Akıllı Bütçe App Store",
@@ -2139,7 +2139,7 @@
       ],
       "education": [
         {
-          "id": 1,
+          "id": "1",
           "degree": "Bachelor’s Degree, Computer Engineering",
           "school": "Trakya University",
           "location": "Edirne, Türkiye",
@@ -2152,26 +2152,26 @@
       ],
       "skillCategories": [
         {
-          "id": 8,
+          "id": "8",
           "key": "flutter-mobile-web",
           "title": "Flutter Mobile and Web",
           "skills": [
             {
-              "id": 35,
+              "id": "35",
               "key": "flutter-app-development",
               "name": "Flutter Application Development",
               "levelLabel": "Advanced",
               "sortOrder": 0
             },
             {
-              "id": 36,
+              "id": "36",
               "key": "responsive-cross-platform-ui",
               "name": "Responsive ve Cross-Platform UI",
               "levelLabel": "Advanced",
               "sortOrder": 1
             },
             {
-              "id": 40,
+              "id": "40",
               "key": "mobile-web-release-flows",
               "name": "Mobile/Web Release Flows",
               "levelLabel": "Upper Intermediate",
@@ -2181,26 +2181,26 @@
           "sortOrder": 0
         },
         {
-          "id": 9,
+          "id": "9",
           "key": "backend-api-data",
           "title": "Backend, API and Data",
           "skills": [
             {
-              "id": 37,
+              "id": "37",
               "key": "rest-api-integration",
               "name": "REST API Integration",
               "levelLabel": "Advanced",
               "sortOrder": 0
             },
             {
-              "id": 38,
+              "id": "38",
               "key": "dotnet-backend-development",
               "name": ".NET Backend Development",
               "levelLabel": "Upper Intermediate",
               "sortOrder": 1
             },
             {
-              "id": 39,
+              "id": "39",
               "key": "sql-data-modeling",
               "name": "SQL and Data Modeling",
               "levelLabel": "Upper Intermediate",
@@ -2210,26 +2210,26 @@
           "sortOrder": 1
         },
         {
-          "id": 10,
+          "id": "10",
           "key": "firebase-cloud",
           "title": "Firebase and Cloud",
           "skills": [
             {
-              "id": 41,
+              "id": "41",
               "key": "firebase-backed-apps",
               "name": "Firebase-Backed Applications",
               "levelLabel": "Advanced",
               "sortOrder": 0
             },
             {
-              "id": 42,
+              "id": "42",
               "key": "firestore-data-flows",
               "name": "Firestore Data Flows",
               "levelLabel": "Advanced",
               "sortOrder": 1
             },
             {
-              "id": 43,
+              "id": "43",
               "key": "auth-storage-flows",
               "name": "Authentication and Storage Flows",
               "levelLabel": "Advanced",
@@ -2239,26 +2239,26 @@
           "sortOrder": 2
         },
         {
-          "id": 11,
+          "id": "11",
           "key": "product-quality",
           "title": "Product and Code Quality",
           "skills": [
             {
-              "id": 44,
+              "id": "44",
               "key": "admin-panel-development",
               "name": "Admin Panel Development",
               "levelLabel": "Advanced",
               "sortOrder": 0
             },
             {
-              "id": 46,
+              "id": "46",
               "key": "debugging-api-testing",
               "name": "Debugging and API Testing",
               "levelLabel": "Advanced",
               "sortOrder": 0
             },
             {
-              "id": 45,
+              "id": "45",
               "key": "clean-maintainable-code",
               "name": "Clean and Maintainable Code",
               "levelLabel": "Advanced",
@@ -2270,13 +2270,13 @@
       ],
       "languageSkills": [
         {
-          "id": 1,
+          "id": "1",
           "name": "Turkish",
           "level": "Native",
           "sortOrder": 1
         },
         {
-          "id": 2,
+          "id": "2",
           "name": "English",
           "level": "B2 / Upper Intermediate",
           "sortOrder": 2
@@ -2284,7 +2284,7 @@
       ],
       "contactLinks": [
         {
-          "id": 1,
+          "id": "1",
           "typeKey": "email",
           "typeName": "Email",
           "label": "Email",
@@ -2294,7 +2294,7 @@
           "sortOrder": 1
         },
         {
-          "id": 3,
+          "id": "3",
           "typeKey": "github",
           "typeName": "GitHub",
           "label": "GitHub",
@@ -2304,7 +2304,7 @@
           "sortOrder": 3
         },
         {
-          "id": 4,
+          "id": "4",
           "typeKey": "linkedin",
           "typeName": "LinkedIn",
           "label": "LinkedIn",
@@ -2314,7 +2314,7 @@
           "sortOrder": 4
         },
         {
-          "id": 5,
+          "id": "5",
           "typeKey": "website",
           "typeName": "Website",
           "label": "Website",
