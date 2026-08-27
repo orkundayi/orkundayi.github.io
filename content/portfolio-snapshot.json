@@ -1,6 +1,6 @@
 {
   "schemaVersion": "portfolio-v2",
-  "generatedAtUtc": "2026-08-27T08:46:04.780Z",
+  "generatedAtUtc": "2026-08-27T19:05:38.129Z",
   "defaultLanguageCode": "tr",
   "languageCodes": [
     "tr",
@@ -28,7 +28,7 @@
       ],
       "profile": {
         "fullName": "Orkun Dayı",
-        "roleTitle": "Flutter Developer | Indie Oyun Geliştirici",
+        "roleTitle": "Flutter | Fullstack Developer",
         "headline": "Flutter ve Flame ile mobil uygulamalar ve indie oyunlar geliştiren; ürünlerini App Store ve Google Play’e taşıyan yazılım geliştirici.",
         "summary": "Flutter ve Dart odaklı mobil ürünler geliştiriyorum. Overtech bünyesinde OverPay’in ödeme, satış, raporlama ve entegrasyon akışları üzerinde çalışırken; Flutech altında bağımsız uygulamalar ve oyunlar üretiyorum. Firebase, REST API, SQL ve .NET deneyimimin yanında Flame ile oyun döngüsü, fizik, çarpışma ve sahne yönetimi geliştiriyorum. FluPass, Cüzdan ve Foxy: Işıltının Dengesi’ni mağaza yayınına taşıdım.",
         "location": "İstanbul, Türkiye"
@@ -1110,8 +1110,7 @@
           "metrics": [],
           "gallery": [],
           "detailSections": [],
-          "sortOrder": 5,
-          "imageAlt": "FluPass şifre kasası ve mobil uygulama ekranları"
+          "sortOrder": 5
         },
         {
           "id": "6",
@@ -1470,7 +1469,7 @@
       ],
       "profile": {
         "fullName": "Orkun Dayi",
-        "roleTitle": "Flutter Developer | Indie Game Developer",
+        "roleTitle": "Flutter | Fullstack Developer",
         "headline": "A software developer building mobile apps and indie games with Flutter and Flame, and shipping products to the App Store and Google Play.",
         "summary": "I build mobile products with Flutter and Dart. At Overtech, I work on payment, sales, reporting, and integration flows for OverPay; independently, I create apps and games under Flutech. Alongside Firebase, REST API, SQL, and .NET experience, I use Flame to build game loops, physics, collision systems, and scene management. I shipped FluPass, Cüzdan, and Foxy: Balance of the Glow to mobile stores.",
         "location": "Istanbul, Türkiye"
@@ -2552,8 +2551,7 @@
           "metrics": [],
           "gallery": [],
           "detailSections": [],
-          "sortOrder": 5,
-          "imageAlt": "FluPass password vault and mobile application screens"
+          "sortOrder": 5
         },
         {
           "id": "6",
