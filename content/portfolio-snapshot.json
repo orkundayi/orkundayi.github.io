@@ -1,6 +1,6 @@
 {
   "schemaVersion": "portfolio-v2",
-  "generatedAtUtc": "2026-08-06T23:54:45.157Z",
+  "generatedAtUtc": "2026-08-27T08:46:04.780Z",
   "defaultLanguageCode": "tr",
   "languageCodes": [
     "tr",
@@ -28,23 +28,23 @@
       ],
       "profile": {
         "fullName": "Orkun Dayı",
-        "roleTitle": "Flutter Developer | Full-Stack Developer",
-        "headline": "Flutter ile mobil ve web uygulamaları geliştiren; Firebase, .NET, REST API ve SQL tabanlı backend/veri süreçleriyle çalışan full-stack odaklı yazılım geliştirici.",
-        "summary": "Flutter Developer olarak mobil ve web uygulamaları geliştiriyorum. Flutter ve Dart ana uzmanlık alanımın yanında Firebase, REST API entegrasyonları, SQL veri yapıları ve .NET tabanlı backend geliştirme süreçleriyle çalışıyorum. OverPay projesinde ödeme, satış, raporlama, müşteri entegrasyonları, GİB entegrasyonu ve VKN/TCKN sorgulama akışlarına yönelik kullanıcı arayüzleri geliştirdim. Full-stack bakış açısıyla temiz kod, sürdürülebilir mimari, performanslı ekran yapıları ve gerçek iş süreçlerine uygun ürünler geliştirmeye odaklanıyorum.",
+        "roleTitle": "Flutter Developer | Indie Oyun Geliştirici",
+        "headline": "Flutter ve Flame ile mobil uygulamalar ve indie oyunlar geliştiren; ürünlerini App Store ve Google Play’e taşıyan yazılım geliştirici.",
+        "summary": "Flutter ve Dart odaklı mobil ürünler geliştiriyorum. Overtech bünyesinde OverPay’in ödeme, satış, raporlama ve entegrasyon akışları üzerinde çalışırken; Flutech altında bağımsız uygulamalar ve oyunlar üretiyorum. Firebase, REST API, SQL ve .NET deneyimimin yanında Flame ile oyun döngüsü, fizik, çarpışma ve sahne yönetimi geliştiriyorum. FluPass, Cüzdan ve Foxy: Işıltının Dengesi’ni mağaza yayınına taşıdım.",
         "location": "İstanbul, Türkiye"
       },
       "recruiterSnapshot": {
         "yearsExperienceLabel": "5+ yıl Flutter geliştirme deneyimi",
-        "primaryFocus": "Flutter Mobil & Web | Full-Stack Odaklı Geliştirme",
-        "currentRoleSummary": "Flutter Developer olarak OverPay projesinde ödeme, satış, raporlama ve entegrasyon akışlarına yönelik mobil/web arayüzleri geliştiriyorum. Flutter ve Dart ana odağımın yanında Firebase, REST API, SQL ve .NET tabanlı backend süreçleriyle çalışarak full-stack bakış açısıyla ürün geliştirmeye odaklanıyorum.",
-        "preferredWork": "Mobil ve web ürün geliştirme, Flutter odaklı uygulamalar, Firebase/.NET destekli sistemler ve uzun vadeli ürün odaklı projelerde yer almak istiyorum. Kullanıcı deneyimi güçlü, sürdürülebilir ve geliştirilebilir ürünler üzerinde çalışmayı hedefliyorum.",
-        "availability": "Flutech Dev"
+        "primaryFocus": "Flutter, Flame ve indie oyun geliştirme",
+        "currentRoleSummary": "OverPay’de ödeme ve operasyon akışlarına yönelik Flutter arayüzleri geliştiriyor; Flutech altında mobil uygulamalar ve 2D indie oyunlar tasarlayıp yayınlıyorum.",
+        "preferredWork": "Flutter tabanlı mobil ürünler, 2D oyunlar, ürünle birlikte büyüyen sürdürülebilir uygulama mimarileri ve mağaza yayın süreçleriyle ilgileniyorum.",
+        "availability": "Flutech · Bağımsız ürünler ve oyunlar"
       },
       "capabilities": [
         {
           "id": "1",
-          "title": "Flutter Mobil ve Web Geliştirme",
-          "description": "Mobil ve web platformları için Flutter ile performanslı, responsive ve sürdürülebilir uygulamalar geliştiririm.",
+          "title": "Flutter Mobil Uygulama ve Oyun Geliştirme",
+          "description": "Flutter ve Flame ile iOS ve Android için mobil uygulamalar, 2D oyun mekanikleri ve farklı ekranlara uyumlu arayüzler geliştiririm.",
           "sortOrder": 1
         },
         {
@@ -79,8 +79,8 @@
         },
         {
           "id": "7",
-          "title": "Ürün Odaklı Geliştirme",
-          "description": "Sadece ekran geliştirmeye değil, gerçek kullanıcı ihtiyacına ve iş sürecine uygun ürün deneyimi oluşturmaya odaklanırım.",
+          "title": "Ürün ve Mağaza Yayını",
+          "description": "Ürün fikrinden uygulama mimarisine, testten App Store ve Google Play yayınına kadar uçtan uca ürün geliştirme sürecini yürütürüm.",
           "sortOrder": 7
         },
         {
@@ -93,14 +93,14 @@
       "careerHighlights": [
         {
           "id": "1",
-          "title": "Uçtan Uca Geliştirme",
-          "description": "Bir uygulamanın arayüzünden veri yapısına, Firebase entegrasyonundan yayına hazırlık sürecine kadar geliştirme adımlarında sorumluluk alabilirim.",
+          "title": "Canlıya Çıkan Ürünler",
+          "description": "FluPass, Cüzdan ve Foxy’yi ürün geliştirme, mağaza hazırlığı ve yayın adımlarıyla birlikte canlıya taşıdım.",
           "sortOrder": 1
         },
         {
           "id": "2",
-          "title": "Mobil ve Web Deneyimi",
-          "description": "Flutter ile hem mobil hem web platformlarında responsive çalışan, farklı ekran boyutlarına uyumlu uygulamalar geliştiririm.",
+          "title": "Mobil Uygulama ve Oyun Deneyimi",
+          "description": "Flutter ile üretim uygulamaları, Flame ile oyun döngüsü ve sahne yönetimi geliştiriyor; iOS ve Android’de tutarlı deneyimler oluşturuyorum.",
           "sortOrder": 2
         },
         {
@@ -275,6 +275,15 @@
           "iconName": "account_balance_wallet",
           "colorHex": "#F57F17",
           "sortOrder": 7
+        },
+        {
+          "id": "8",
+          "key": "game",
+          "name": "Oyun",
+          "description": "Bağımsız mobil oyunlar",
+          "iconName": "sports-esports",
+          "colorHex": "#D97706",
+          "sortOrder": 5
         }
       ],
       "projectStatuses": [
@@ -355,11 +364,39 @@
           "sortOrder": 10
         },
         {
+          "id": "20",
+          "key": "flame",
+          "name": "Flame",
+          "iconName": "local-fire-department",
+          "sortOrder": 15
+        },
+        {
+          "id": "21",
+          "key": "tiled",
+          "name": "Tiled",
+          "iconName": "grid-view",
+          "sortOrder": 16
+        },
+        {
           "id": "2",
           "key": "dart",
           "name": "Dart",
           "iconName": "code",
           "sortOrder": 20
+        },
+        {
+          "id": "22",
+          "key": "astro",
+          "name": "Astro",
+          "iconName": "language",
+          "sortOrder": 25
+        },
+        {
+          "id": "23",
+          "key": "typescript",
+          "name": "TypeScript",
+          "iconName": "code",
+          "sortOrder": 26
         },
         {
           "id": "3",
@@ -448,6 +485,185 @@
       ],
       "projects": [
         {
+          "id": "7",
+          "publicId": "f8026113-b89f-4d52-a9b8-0ca7732928bc",
+          "slug": "foxy-isiltinin-dengesi",
+          "category": {
+            "id": "8",
+            "key": "game",
+            "name": "Oyun",
+            "description": "Bağımsız mobil oyunlar",
+            "iconName": "sports-esports",
+            "colorHex": "#D97706",
+            "sortOrder": 5
+          },
+          "status": {
+            "id": "1",
+            "key": "live",
+            "name": "Yayında",
+            "description": null,
+            "colorHex": "#2E7D32",
+            "sortOrder": 1
+          },
+          "title": "Foxy: Işıltının Dengesi",
+          "dateRange": "2026",
+          "summary": "Flutter ve Flame ile geliştirdiğim, App Store ve Google Play’de yayındaki piksel sanat 2D platform oyunu. 41 bölümlük hikâye kampanyası, boss karşılaşmaları ve Klasik/Zor Sonsuz Mod içeriyor.",
+          "detailSummary": "Foxy: Işıltının Dengesi, çevrimdışı öncelikli tek oyunculu bir 2D platform macerası. Oyuncu 20 Orman, 20 Kumsal ve bir final haritasından oluşan 41 bölümlük kampanyada ilerliyor; ayrıca Klasik ve Zor seçenekli Sonsuz Mod’da skor tablosu için yarışabiliyor.",
+          "problem": "Mobilde akıcı çalışan bir platform oyununu tek kod tabanında kurarken fizik, çarpışma, dokunmatik kontroller, içerik üretimi, çevrimdışı ilerleme ve isteğe bağlı bulut yedeğini birlikte güvenilir şekilde yönetmek gerekiyordu.",
+          "contribution": "Oyun döngüsünü, Flame bileşenlerini, Tiled tabanlı sahne akışını, fizik ve çarpışma kurallarını, 41 bölümlük kampanyayı, Sonsuz Mod’u, Türkçe/İngilizce arayüzü ve Firebase destekli hesap/yedekleme servislerini geliştirdim. iOS ve Android mağaza hazırlıklarını ve yayın sürecini de yönettim.",
+          "outcome": "İki dilde çalışan, 41 bölümlük kampanya ve tekrar oynanabilir Sonsuz Mod sunan bağımsız oyun App Store ve Google Play’de yayınlandı.",
+          "role": "Indie Oyun Geliştirici",
+          "team": "Solo proje",
+          "duration": "Haziran 2026 - devam ediyor",
+          "isFeatured": true,
+          "startDate": "2026-06-24",
+          "endDate": null,
+          "detailTemplate": "case-study",
+          "seoTitle": "Foxy: Işıltının Dengesi | 2D Indie Platform Oyunu",
+          "seoDescription": "Flutter ve Flame ile geliştirilen, 41 bölümlük kampanyası ve Sonsuz Mod’u bulunan 2D indie platform oyunu.",
+          "thumbnail": {
+            "id": "foxy-cover",
+            "publicId": "foxy-cover-2026",
+            "url": "/content/media/projects/foxy/foxy.webp",
+            "fileName": "foxy.webp",
+            "contentType": "image/webp",
+            "byteSize": 150340,
+            "width": 1200,
+            "height": 675,
+            "alt": "Foxy: Işıltının Dengesi oyunundan dünya haritası ve oynanış sahneleri",
+            "caption": ""
+          },
+          "heroImage": {
+            "id": "foxy-cover",
+            "publicId": "foxy-cover-2026",
+            "url": "/content/media/projects/foxy/foxy.webp",
+            "fileName": "foxy.webp",
+            "contentType": "image/webp",
+            "byteSize": 150340,
+            "width": 1200,
+            "height": 675,
+            "alt": "Foxy: Işıltının Dengesi oyunundan dünya haritası ve oynanış sahneleri",
+            "caption": ""
+          },
+          "ogImage": {
+            "id": "foxy-cover",
+            "publicId": "foxy-cover-2026",
+            "url": "/content/media/projects/foxy/foxy.webp",
+            "fileName": "foxy.webp",
+            "contentType": "image/webp",
+            "byteSize": 150340,
+            "width": 1200,
+            "height": 675,
+            "alt": "Foxy: Işıltının Dengesi oyunundan dünya haritası ve oynanış sahneleri",
+            "caption": ""
+          },
+          "technologies": [
+            {
+              "id": "1",
+              "key": "flutter",
+              "name": "Flutter",
+              "iconName": "smartphone",
+              "sortOrder": 10
+            },
+            {
+              "id": "2",
+              "key": "dart",
+              "name": "Dart",
+              "iconName": "code",
+              "sortOrder": 20
+            },
+            {
+              "id": "20",
+              "key": "flame",
+              "name": "Flame",
+              "iconName": "local-fire-department",
+              "sortOrder": 15
+            },
+            {
+              "id": "21",
+              "key": "tiled",
+              "name": "Tiled",
+              "iconName": "grid-view",
+              "sortOrder": 16
+            },
+            {
+              "id": "10",
+              "key": "firebase",
+              "name": "Firebase",
+              "iconName": "flame",
+              "sortOrder": 100
+            }
+          ],
+          "links": [
+            {
+              "id": "5",
+              "typeKey": "app-store",
+              "typeName": "App Store",
+              "label": "App Store’da indir",
+              "url": "https://apps.apple.com/tr/app/foxy-i%C5%9F%C4%B1lt%C4%B1n%C4%B1n-dengesi/id6796245569?l=tr",
+              "isPrimary": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "6",
+              "typeKey": "google-play",
+              "typeName": "Google Play",
+              "label": "Google Play’den indir",
+              "url": "https://play.google.com/store/apps/details?id=com.flutech.foxy_jump",
+              "isPrimary": false,
+              "sortOrder": 2
+            }
+          ],
+          "metrics": [
+            {
+              "id": "1",
+              "label": "Bölüm",
+              "value": "41",
+              "iconName": null,
+              "sortOrder": 1
+            },
+            {
+              "id": "2",
+              "label": "Platform",
+              "value": "iOS + Android",
+              "iconName": null,
+              "sortOrder": 2
+            },
+            {
+              "id": "3",
+              "label": "Dil",
+              "value": "Türkçe + İngilizce",
+              "iconName": null,
+              "sortOrder": 3
+            }
+          ],
+          "gallery": [],
+          "detailSections": [
+            {
+              "id": "1",
+              "sectionTypeKey": "text",
+              "title": "Oyun yapısı",
+              "body": "20 Orman, 20 Kumsal ve bir final haritasından oluşan hikâye kampanyası; görevler, yükseltmeler, boss karşılaşmaları ve hikâye ödülleriyle ilerliyor.",
+              "sortOrder": 1
+            },
+            {
+              "id": "2",
+              "sectionTypeKey": "text",
+              "title": "Teknik mimari",
+              "body": "Flutter arayüz katmanı ile Flame oyun dünyası birlikte çalışıyor. Tiled haritaları, çevrimdışı yerel ilerleme ve isteğe bağlı Firebase hesabı/bulut yedeği aynı ürün akışında birleştiriliyor.",
+              "sortOrder": 2
+            },
+            {
+              "id": "3",
+              "sectionTypeKey": "text",
+              "title": "Yayın",
+              "body": "Uygulama iOS ve Android için hazırlanarak App Store ve Google Play’de canlıya alındı. Mağaza metinleri, görselleri, gizlilik akışı ve sürüm kontrolleri ürünle birlikte yönetiliyor.",
+              "sortOrder": 3
+            }
+          ],
+          "sortOrder": 0
+        },
+        {
           "id": "1",
           "publicId": "d2663b81-3058-4895-88cb-d0af04a6c05e",
           "slug": "flublocks",
@@ -470,11 +686,11 @@
           },
           "title": "FluBlocks",
           "dateRange": "2025",
-          "summary": "iOS ve Android'de yayinlanmis, Firebase destekli kullanici akislari ve gercek zamanli veri senkronizasyonu olan capraz platform mobil uygulama.",
-          "detailSummary": "FluBlocks, Tetris tarzindaki blok dusurma ve satir tamamlama mekanigini mobil cihazlara tasiyan capraz platform bir bulmaca oyunudur. Flutter ile tek kod tabanindan gelistirildi; oyun tahtasi, parca hareketleri, donusler, carpisma kontrolleri, skor akisi ve mobil dokunma deneyimi birlikte kurgulandı.",
-          "problem": "Klasik blok bulmaca hissini mobilde akici, hizli tepki veren ve iki platformda tutarli calisan bir deneyime donusturmek gerekiyordu. Oyun mantiginin sade gorunurken hatasiz calismasi; parca hareketi, satir temizleme ve skor akisi gibi detaylarda dikkat istiyordu.",
-          "contribution": "Flutter ile oyun arayuzunu ve temel oyun mekaniklerini gelistirdim; grid yapisi, parca kontrolu, rotasyon, carpisma kontrolu, satir temizleme, skor akisi ve mobil dokunma kontrollerini tasarladim. Yayina hazir mobil deneyim icin performans ve arayuz duzenlemelerini yaptım.",
-          "outcome": "ek kod tabanindan iOS ve Android'de calisan, hizli oynanabilen ve klasik blok bulmaca deneyimini mobilde sunan yayinlanmis bir oyun ortaya cikti.",
+          "summary": "Flutter ile geliştirilen, Tetris tarzı blok yerleştirme ve satır tamamlama mekaniklerine sahip arşivlenmiş mobil bulmaca oyunu.",
+          "detailSummary": "FluBlocks, Tetris tarzındaki blok düşürme ve satır tamamlama mekaniğini mobil cihazlara taşıyan çapraz platform bir bulmaca oyunudur. Flutter ile tek kod tabanından geliştirildi; oyun tahtası, parça hareketleri, dönüşler, çarpışma kontrolleri, skor akışı ve dokunmatik kontroller birlikte kurgulandı.",
+          "problem": "Klasik blok bulmaca hissini mobilde akıcı, hızlı tepki veren ve iki platformda tutarlı çalışan bir deneyime dönüştürmek gerekiyordu. Parça hareketi, satır temizleme ve skor akışı gibi ayrıntıların güvenilir çalışması önemliydi.",
+          "contribution": "Flutter ile oyun arayüzünü ve temel mekanikleri geliştirdim; grid yapısı, parça kontrolü, rotasyon, çarpışma kontrolü, satır temizleme, skor akışı ve mobil dokunma kontrollerini tasarladım.",
+          "outcome": "Tek kod tabanından iOS ve Android’de çalışan, klasik blok bulmaca deneyimini mobilde sunan bir oyun prototipi ortaya çıktı.",
           "role": "Flutter Developer",
           "team": "Solo proje",
           "duration": "2025",
@@ -482,8 +698,8 @@
           "startDate": null,
           "endDate": null,
           "detailTemplate": "case-study",
-          "seoTitle": "FluBlocks | Flutter Tetris Tarzi Mobil Oyun",
-          "seoDescription": "Flutter ile gelistirilen, iOS ve Android'de calisan Tetris tarzinda blok yerlestirme mobil bulmaca oyunu.",
+          "seoTitle": "FluBlocks | Flutter Tetris Tarzı Mobil Oyun",
+          "seoDescription": "Flutter ile geliştirilen Tetris tarzı blok yerleştirme ve satır tamamlama mobil bulmaca oyunu.",
           "thumbnail": null,
           "heroImage": null,
           "ogImage": null,
@@ -547,10 +763,10 @@
           "title": "CV Maker",
           "dateRange": "2025",
           "summary": "Form akışı ve canlı önizleme ile profesyonel CV oluşturup PDF olarak dışa aktarmayı sağlayan Flutter Web aracı. Responsive arayüz, veri modeli ve PDF export sürecini geliştirdim.",
-          "detailSummary": "CV Maker, kullanicinin bilgilerini hizlica girip temiz bir CV ciktisi alabilmesi icin tasarlanmis bir Flutter Web aracidir. Sade form akisi, canli onizleme ve PDF uretimiyle gereksiz hesap acma adimlarini ortadan kaldirir.",
-          "problem": "Cogu CV araci yavas, karmasik veya uyelik zorunlulugu getiriyor. Hedef, kullanicinin sayfayi acip bilgilerini yazmasi ve dakikalar icinde kullanilabilir bir PDF alabilmesiydi.",
-          "contribution": "Responsive form akisini, CV veri modelini, canli onizleme deneyimini ve tarayici tarafinda PDF uretim surecini gelistirdim.",
-          "outcome": "Kullanici odakli, hizli ve pratik bir web araci ortaya cikti; CV hazirlama sureci daha sade ve dogrudan hale geldi.",
+          "detailSummary": "CV Maker, kullanıcının bilgilerini hızlıca girip temiz bir CV çıktısı alabilmesi için tasarlanmış bir Flutter Web aracıdır. Sade form akışı, canlı önizleme ve PDF üretimiyle gereksiz hesap açma adımlarını ortadan kaldırır.",
+          "problem": "Birçok CV aracı yavaş, karmaşık veya üyelik zorunluluğu getiriyor. Hedef, kullanıcının sayfayı açıp bilgilerini yazması ve dakikalar içinde kullanılabilir bir PDF alabilmesiydi.",
+          "contribution": "Responsive form akışını, CV veri modelini, canlı önizleme deneyimini ve tarayıcı tarafında PDF üretim sürecini geliştirdim.",
+          "outcome": "Kullanıcı odaklı, hızlı ve pratik bir web aracı ortaya çıktı; CV hazırlama süreci daha sade ve doğrudan hale geldi.",
           "role": "Flutter Developer | Full-Stack Developer",
           "team": "Solo proje",
           "duration": "2025",
@@ -558,8 +774,8 @@
           "startDate": null,
           "endDate": null,
           "detailTemplate": "case-study",
-          "seoTitle": "CV Maker | Flutter Web PDF CV Araci",
-          "seoDescription": "Uyelik gerektirmeden CV hazirlayip PDF olarak disa aktarmaya yarayan Flutter Web tabanli CV olusturma araci.",
+          "seoTitle": "CV Maker | Flutter Web PDF CV Aracı",
+          "seoDescription": "Üyelik gerektirmeden CV hazırlayıp PDF olarak dışa aktarmaya yarayan Flutter Web tabanlı CV oluşturma aracı.",
           "thumbnail": null,
           "heroImage": null,
           "ogImage": null,
@@ -636,11 +852,11 @@
           },
           "title": "Flulog",
           "dateRange": "2025",
-          "summary": "Flutter uygulamalari icin merkezi log toplama, filtreleme ve inceleme deneyimi sunan gelistirici araci.",
-          "detailSummary": "Flulog, Flutter uygulamalarindan gelen loglari merkezi bir panelde toplamayi ve incelemeyi kolaylastiran bir gelistirici aracidir. Loglari Firebase uzerinden saklayip arama, filtreleme ve siniflandirma akislariyla daha okunabilir hale getirir.",
-          "problem": "Canli ortamda loglar daginik kaldiginda hata ayiklama yavaslar. Gelistiricinin uygulama loglarini tek yerde gorebildigi, filtreleyebildigi ve sorunlari daha hizli yakalayabildigi bir araca ihtiyac vardi.",
-          "contribution": "Flutter Web panelini, log veri modelini, Firebase entegrasyonunu ve uygulamadan panele akan logging yapisini gelistirdim.",
-          "outcome": "Ham uygulama loglari daha duzenli, aranabilir ve gelistirici dostu bir hata ayiklama akisina donustu.",
+          "summary": "Flutter uygulamaları için merkezi log toplama, filtreleme ve inceleme deneyimi sunan geliştirici aracı.",
+          "detailSummary": "Flulog, Flutter uygulamalarından gelen logları merkezi bir panelde toplamayı ve incelemeyi kolaylaştıran bir geliştirici aracıdır. Logları Firebase üzerinden saklayıp arama, filtreleme ve sınıflandırma akışlarıyla daha okunabilir hale getirir.",
+          "problem": "Canlı ortamda loglar dağınık kaldığında hata ayıklama yavaşlar. Geliştiricinin uygulama loglarını tek yerde görebildiği, filtreleyebildiği ve sorunları daha hızlı yakalayabildiği bir araca ihtiyaç vardı.",
+          "contribution": "Flutter Web panelini, log veri modelini, Firebase entegrasyonunu ve uygulamadan panele akan logging yapısını geliştirdim.",
+          "outcome": "Ham uygulama logları daha düzenli, aranabilir ve geliştirici dostu bir hata ayıklama akışına dönüştü.",
           "role": "Flutter Developer",
           "team": "Solo proje",
           "duration": "2025",
@@ -648,8 +864,8 @@
           "startDate": null,
           "endDate": null,
           "detailTemplate": "case-study",
-          "seoTitle": "Flulog | Flutter Log Takip Araci",
-          "seoDescription": "Flutter uygulamalari icin Firebase destekli merkezi log toplama, filtreleme ve inceleme platformu.",
+          "seoTitle": "Flulog | Flutter Log Takip Aracı",
+          "seoDescription": "Flutter uygulamaları için Firebase destekli merkezi log toplama, filtreleme ve inceleme platformu.",
           "thumbnail": null,
           "heroImage": null,
           "ogImage": null,
@@ -710,26 +926,40 @@
             "colorHex": "#2E7D32",
             "sortOrder": 1
           },
-          "title": "Flutech Dev",
-          "dateRange": "2025",
-          "summary": "Flutter ve API geliştirme hizmetlerini tanıtan responsive kurumsal web sitesi. Bilgi mimarisi, içerik yapısı, iletişim akışları ve Flutter Web arayüzünü tasarlayıp geliştirdim.",
-          "detailSummary": "Flutech Dev, Flutter ve API odakli yazilim hizmetlerini net bir sekilde sunmak icin hazirlanmis kurumsal web sitesidir. Hizmet anlatimi, marka dili, iletisim akislari ve responsive tasarim tek bir sade yapida birlestirildi.",
-          "problem": "Hizmetleri acik anlatan, guven veren ve tum cihazlarda temiz gorunen profesyonel bir dijital varliga ihtiyac vardi.",
-          "contribution": "Bilgi mimarisini olusturdum, sayfa yapisini tasarladim, responsive Flutter Web arayuzunu gelistirdim ve marka dilini sayfa deneyimine tasidim.",
-          "outcome": "Ziyaretcinin hizmetleri hizli anlayabildigi, iletisime kolay gecebildigi ve profesyonel izlenim birakan bir web varligi ortaya cikti.",
-          "role": "Flutter Developer | Full-Stack Developer",
+          "title": "Flutech",
+          "dateRange": "2025 - 2026",
+          "summary": "Yayındaki mobil uygulamalarımı ve indie oyun çalışmalarımı sergileyen Astro tabanlı ürün sitesi. İki dilli içerik, mağaza bağlantıları, responsive görseller ve statik yayın akışını geliştirdim.",
+          "detailSummary": "Flutech, canlı mobil ürünleri ve indie oyunları tek bir hızlı, iki dilli vitrinde bir araya getiriyor. Site Astro ile statik üretiliyor; ürün kartları, mağaza bağlantıları, yapılandırılmış veri ve responsive görseller üzerinden yayın odağını doğrudan anlatıyor.",
+          "problem": "Eski hizmet odaklı anlatı, yayınlanmış ürünleri ve yeni indie oyun yönünü yeterince görünür kılmıyordu. Mağaza bağlantılarının doğrulanabildiği, hızlı ve güncellenmesi kolay bir ürün vitrini gerekiyordu.",
+          "contribution": "Bilgi mimarisini ürün odaklı yeniden kurdum; Astro tabanlı iki dilli yapıyı, responsive proje görsellerini, App Store/Google Play bağlantılarını, SEO ve yapılandırılmış veri katmanını geliştirdim.",
+          "outcome": "FluPass, Cüzdan ve Foxy’yi öne çıkaran; indie oyun yönünü açıkça anlatan hızlı ve erişilebilir bir ürün vitrini yayına alındı.",
+          "role": "Ürün Geliştirici",
           "team": "Solo proje",
-          "duration": "2025",
+          "duration": "2025 - devam ediyor",
           "isFeatured": true,
           "startDate": null,
           "endDate": null,
           "detailTemplate": "case-study",
-          "seoTitle": "Flutech Dev | Flutter ve API Gelistirme Hizmetleri",
-          "seoDescription": "Flutter, mobil uygulama ve API gelistirme hizmetlerini tanitan responsive kurumsal web sitesi.",
+          "seoTitle": "Flutech | Mobil Uygulamalar ve Indie Oyunlar",
+          "seoDescription": "Flutech’in yayınlanmış mobil uygulamalarını ve indie oyunlarını sergileyen Astro tabanlı ürün sitesi.",
           "thumbnail": null,
           "heroImage": null,
           "ogImage": null,
           "technologies": [
+            {
+              "id": "22",
+              "key": "astro",
+              "name": "Astro",
+              "iconName": "language",
+              "sortOrder": 25
+            },
+            {
+              "id": "23",
+              "key": "typescript",
+              "name": "TypeScript",
+              "iconName": "code",
+              "sortOrder": 26
+            },
             {
               "id": "17",
               "key": "responsive-ui",
@@ -738,32 +968,11 @@
               "sortOrder": 3
             },
             {
-              "id": "18",
-              "key": "material-design",
-              "name": "Material Design",
-              "iconName": null,
-              "sortOrder": 4
-            },
-            {
-              "id": "1",
-              "key": "flutter",
-              "name": "Flutter",
-              "iconName": "smartphone",
-              "sortOrder": 10
-            },
-            {
-              "id": "2",
-              "key": "dart",
-              "name": "Dart",
-              "iconName": "code",
-              "sortOrder": 20
-            },
-            {
-              "id": "4",
-              "key": "json",
-              "name": "JSON",
-              "iconName": "braces",
-              "sortOrder": 40
+              "id": "12",
+              "key": "git",
+              "name": "Git",
+              "iconName": "git-branch",
+              "sortOrder": 120
             }
           ],
           "links": [
@@ -804,12 +1013,12 @@
             "sortOrder": 1
           },
           "title": "FluPass",
-          "dateRange": "2025",
-          "summary": "Gizlilik odaklı, local-first yaklaşımla geliştirilen Flutter şifre yöneticisi. Biyometrik doğrulama, yerel veri saklama ve sade kayıt yönetimi akışlarını geliştirdim.",
-          "detailSummary": "FluPass, kimlik bilgilerinin kullanicinin cihazinda kalmasini merkeze alan local-first bir sifre yoneticisi projesidir. Sifreleme, biyometrik kilit acma ve sade kayit yonetimiyle guvenlik ile kullanilabilirligi birlikte hedefler.",
+          "dateRange": "2025 - 2026",
+          "summary": "Şifre ve kartları cihazda şifreli saklayan gizlilik odaklı Flutter parola yöneticisi. Biyometrik kilit, otomatik doldurma, şifre sağlığı ve isteğe bağlı Google Drive yedekleme akışlarını geliştirdim.",
+          "detailSummary": "FluPass, hesap oluşturmayı zorunlu tutmadan şifre ve kart bilgilerini cihazdaki şifreli kasada saklayan local-first bir parola yöneticisidir. Face ID/Touch ID veya PIN, otomatik doldurma, şifre sağlığı, arama/etiketler ve isteğe bağlı Google Drive yedekleme sunar.",
           "problem": "Bulut tabanli sifre yoneticileri kullanicidan yuksek guven ister. Bu projede amac, hassas bilgileri cihazin disina tasimadan guvenli ve gunluk kullanima uygun bir deneyim olusturmaktir.",
           "contribution": "Local-first veri yaklasimini, sifreleme akisini, biyometrik dogrulama deneyimini ve mobil arayuz yapisini tasarlayip gelistirdim.",
-          "outcome": "Gizliligi onceleyen, cihaz odakli ve kullanilabilir bir sifre yoneticisi deneyimi ortaya cikti.",
+          "outcome": "Gizlilik odaklı parola yöneticisi App Store ve Google Play’de yayınlandı; otomatik doldurma ve kontrollü yedekleme akışlarıyla günlük kullanıma hazır hale geldi.",
           "role": "Flutter Developer | Full-Stack Developer",
           "team": "Solo proje",
           "duration": "2025 - devam ediyor",
@@ -819,9 +1028,42 @@
           "detailTemplate": "case-study",
           "seoTitle": "FluPass | Flutter Sifre Yoneticisi",
           "seoDescription": "Yerel sifreleme ve biyometrik dogrulama odakli, gizlilik oncelikli Flutter sifre yoneticisi projesi.",
-          "thumbnail": null,
-          "heroImage": null,
-          "ogImage": null,
+          "thumbnail": {
+            "id": "flupass-cover",
+            "publicId": "flupass-cover-2026",
+            "url": "/content/media/projects/flupass/flupass.webp",
+            "fileName": "flupass.webp",
+            "contentType": "image/webp",
+            "byteSize": 52508,
+            "width": 1200,
+            "height": 750,
+            "alt": "FluPass şifre kasası ve mobil uygulama ekranları",
+            "caption": ""
+          },
+          "heroImage": {
+            "id": "flupass-cover",
+            "publicId": "flupass-cover-2026",
+            "url": "/content/media/projects/flupass/flupass.webp",
+            "fileName": "flupass.webp",
+            "contentType": "image/webp",
+            "byteSize": 52508,
+            "width": 1200,
+            "height": 750,
+            "alt": "FluPass şifre kasası ve mobil uygulama ekranları",
+            "caption": ""
+          },
+          "ogImage": {
+            "id": "flupass-cover",
+            "publicId": "flupass-cover-2026",
+            "url": "/content/media/projects/flupass/flupass.webp",
+            "fileName": "flupass.webp",
+            "contentType": "image/webp",
+            "byteSize": 52508,
+            "width": 1200,
+            "height": 750,
+            "alt": "FluPass şifre kasası ve mobil uygulama ekranları",
+            "caption": ""
+          },
           "technologies": [
             {
               "id": "1",
@@ -868,7 +1110,8 @@
           "metrics": [],
           "gallery": [],
           "detailSections": [],
-          "sortOrder": 5
+          "sortOrder": 5,
+          "imageAlt": "FluPass şifre kasası ve mobil uygulama ekranları"
         },
         {
           "id": "6",
@@ -891,7 +1134,7 @@
             "colorHex": "#2E7D32",
             "sortOrder": 1
           },
-          "title": "Cuzdan",
+          "title": "Cüzdan",
           "dateRange": "2025",
           "summary": "Harcama takibi, kategori analizi ve grafiklerle kişisel finans yönetimini kolaylaştıran Flutter mobil uygulaması. Firebase/Firestore veri yapısı, kayıt akışları ve analiz ekranlarını geliştirdim.",
           "detailSummary": "Cuzdan, gunluk harcamalari kaydetmenin otesine gecip kullanicinin parasinin nereye gittigini daha net gormesini hedefleyen bir kisisel finans uygulamasidir. Kategori bazli analizler, grafikler ve sade mobil akislariyla finansal farkindaligi artirmaya odaklanir.",
@@ -907,9 +1150,42 @@
           "detailTemplate": "case-study",
           "seoTitle": "Cuzdan | Flutter Kisisel Finans Uygulamasi",
           "seoDescription": "Harcama takibi, kategori analizi ve grafiklerle finansal aliskanliklari gormeyi kolaylastiran Flutter mobil uygulamasi.",
-          "thumbnail": null,
-          "heroImage": null,
-          "ogImage": null,
+          "thumbnail": {
+            "id": "cuzdan-cover",
+            "publicId": "cuzdan-cover-2026",
+            "url": "/content/media/projects/cuzdan/cuzdan.webp",
+            "fileName": "cuzdan.webp",
+            "contentType": "image/webp",
+            "byteSize": 43524,
+            "width": 1200,
+            "height": 750,
+            "alt": "Cüzdan akıllı bütçe uygulamasının harcama ve analiz ekranları",
+            "caption": ""
+          },
+          "heroImage": {
+            "id": "cuzdan-cover",
+            "publicId": "cuzdan-cover-2026",
+            "url": "/content/media/projects/cuzdan/cuzdan.webp",
+            "fileName": "cuzdan.webp",
+            "contentType": "image/webp",
+            "byteSize": 43524,
+            "width": 1200,
+            "height": 750,
+            "alt": "Cüzdan akıllı bütçe uygulamasının harcama ve analiz ekranları",
+            "caption": ""
+          },
+          "ogImage": {
+            "id": "cuzdan-cover",
+            "publicId": "cuzdan-cover-2026",
+            "url": "/content/media/projects/cuzdan/cuzdan.webp",
+            "fileName": "cuzdan.webp",
+            "contentType": "image/webp",
+            "byteSize": 43524,
+            "width": 1200,
+            "height": 750,
+            "alt": "Cüzdan akıllı bütçe uygulamasının harcama ve analiz ekranları",
+            "caption": ""
+          },
           "technologies": [
             {
               "id": "17",
@@ -995,7 +1271,7 @@
         {
           "id": "8",
           "key": "flutter-mobile-web",
-          "title": "Flutter Mobil ve Web",
+          "title": "Flutter Mobil ve Oyun",
           "skills": [
             {
               "id": "35",
@@ -1017,6 +1293,13 @@
               "name": "Mobil/Web Yayın Süreçleri",
               "levelLabel": "Orta-İleri",
               "sortOrder": 2
+            },
+            {
+              "id": "47",
+              "key": "flame-game-development",
+              "name": "Flame ile 2D Oyun Geliştirme",
+              "levelLabel": "İleri",
+              "sortOrder": 3
             }
           ],
           "sortOrder": 0
@@ -1187,23 +1470,23 @@
       ],
       "profile": {
         "fullName": "Orkun Dayi",
-        "roleTitle": "Flutter Developer | Full-Stack Developer",
-        "headline": "Full-stack oriented Flutter Developer building mobile and web applications with Firebase, .NET, REST APIs, and SQL-based backend/data workflows.",
-        "summary": "I work as a Flutter Developer building mobile and web applications. Flutter and Dart are my main areas of expertise, and I also work with Firebase, REST API integrations, SQL data structures, and .NET-based backend development workflows. In the OverPay project, I developed user interfaces for payment, sales, reporting, customer integrations, GIB integration, and VKN/TCKN lookup flows. With a full-stack perspective, I focus on clean code, maintainable architecture, performant screen structures, and products aligned with real business processes.",
+        "roleTitle": "Flutter Developer | Indie Game Developer",
+        "headline": "A software developer building mobile apps and indie games with Flutter and Flame, and shipping products to the App Store and Google Play.",
+        "summary": "I build mobile products with Flutter and Dart. At Overtech, I work on payment, sales, reporting, and integration flows for OverPay; independently, I create apps and games under Flutech. Alongside Firebase, REST API, SQL, and .NET experience, I use Flame to build game loops, physics, collision systems, and scene management. I shipped FluPass, Cüzdan, and Foxy: Balance of the Glow to mobile stores.",
         "location": "Istanbul, Türkiye"
       },
       "recruiterSnapshot": {
         "yearsExperienceLabel": "5+ years of Flutter development experience",
-        "primaryFocus": "Flutter Mobile & Web | Full-Stack Oriented Development",
-        "currentRoleSummary": "I develop mobile and web applications with Flutter. I work on Firebase integration, API communication, admin panels, and responsive interfaces. My focus is building maintainable, performant, and user-friendly products.",
-        "preferredWork": "I am interested in mobile and web product development, Flutter-focused applications, Firebase/.NET-backed systems, and long-term product-focused projects. I aim to work on maintainable, scalable products with a strong user experience.",
-        "availability": "Flutech Dev"
+        "primaryFocus": "Flutter, Flame, and indie game development",
+        "currentRoleSummary": "I build Flutter interfaces for payment and operational workflows in OverPay, while designing and shipping mobile apps and 2D indie games independently under Flutech.",
+        "preferredWork": "I am interested in Flutter mobile products, 2D games, maintainable application architectures that grow with the product, and mobile store release workflows.",
+        "availability": "Flutech · Independent products and games"
       },
       "capabilities": [
         {
           "id": "1",
-          "title": "Flutter Mobile and Web Development",
-          "description": "I build performant, responsive, and maintainable Flutter applications for mobile and web platforms.",
+          "title": "Flutter Mobile App and Game Development",
+          "description": "I build mobile apps, 2D game mechanics, and adaptive interfaces for iOS and Android with Flutter and Flame.",
           "sortOrder": 1
         },
         {
@@ -1238,8 +1521,8 @@
         },
         {
           "id": "7",
-          "title": "Product-Focused Development",
-          "description": "I focus on building product experiences that support real user needs and business workflows, not just isolated screens.",
+          "title": "Product and Store Releases",
+          "description": "I handle the end-to-end product journey from product idea and application architecture through testing and App Store or Google Play release.",
           "sortOrder": 7
         },
         {
@@ -1252,14 +1535,14 @@
       "careerHighlights": [
         {
           "id": "1",
-          "title": "End-to-End Development",
-          "description": "I can take responsibility across the development process, from UI implementation and data structure to Firebase integration and release preparation.",
+          "title": "Shipped Products",
+          "description": "I shipped FluPass, Cüzdan, and Foxy through product development, store preparation, and public release.",
           "sortOrder": 1
         },
         {
           "id": "2",
-          "title": "Mobile and Web Experience",
-          "description": "I build responsive Flutter applications for both mobile and web platforms, adapting interfaces to different screen sizes.",
+          "title": "Mobile App and Game Experience",
+          "description": "I build production applications with Flutter and game loops and scene systems with Flame, creating consistent experiences across iOS and Android.",
           "sortOrder": 2
         },
         {
@@ -1434,6 +1717,15 @@
           "iconName": "account_balance_wallet",
           "colorHex": "#F57F17",
           "sortOrder": 7
+        },
+        {
+          "id": "8",
+          "key": "game",
+          "name": "Game",
+          "description": "Independent mobile games",
+          "iconName": "sports-esports",
+          "colorHex": "#D97706",
+          "sortOrder": 5
         }
       ],
       "projectStatuses": [
@@ -1514,11 +1806,39 @@
           "sortOrder": 10
         },
         {
+          "id": "20",
+          "key": "flame",
+          "name": "Flame",
+          "iconName": "local-fire-department",
+          "sortOrder": 15
+        },
+        {
+          "id": "21",
+          "key": "tiled",
+          "name": "Tiled",
+          "iconName": "grid-view",
+          "sortOrder": 16
+        },
+        {
           "id": "2",
           "key": "dart",
           "name": "Dart",
           "iconName": "code",
           "sortOrder": 20
+        },
+        {
+          "id": "22",
+          "key": "astro",
+          "name": "Astro",
+          "iconName": "language",
+          "sortOrder": 25
+        },
+        {
+          "id": "23",
+          "key": "typescript",
+          "name": "TypeScript",
+          "iconName": "code",
+          "sortOrder": 26
         },
         {
           "id": "3",
@@ -1606,6 +1926,185 @@
         }
       ],
       "projects": [
+        {
+          "id": "7",
+          "publicId": "f8026113-b89f-4d52-a9b8-0ca7732928bc",
+          "slug": "foxy-isiltinin-dengesi",
+          "category": {
+            "id": "8",
+            "key": "game",
+            "name": "Game",
+            "description": "Independent mobile games",
+            "iconName": "sports-esports",
+            "colorHex": "#D97706",
+            "sortOrder": 5
+          },
+          "status": {
+            "id": "1",
+            "key": "live",
+            "name": "Live",
+            "description": null,
+            "colorHex": "#2E7D32",
+            "sortOrder": 1
+          },
+          "title": "Foxy: Balance of the Glow",
+          "dateRange": "2026",
+          "summary": "A pixel-art 2D platformer I built with Flutter and Flame, live on the App Store and Google Play. It includes a 41-level story campaign, boss encounters, and Classic/Hard Endless modes.",
+          "detailSummary": "Foxy: Balance of the Glow is an offline-first single-player 2D platform adventure. Players progress through a 41-level campaign made up of 20 Forest maps, 20 Beach maps, and one finale, or compete for leaderboard positions in Classic and Hard Endless modes.",
+          "problem": "Building a smooth mobile platformer from one codebase required reliable coordination of physics, collision, touch controls, content production, offline progression, and optional cloud backup.",
+          "contribution": "I built the game loop, Flame components, Tiled-based scene flow, physics and collision rules, the 41-level campaign, Endless mode, Turkish/English UI, and Firebase-backed account and backup services. I also handled iOS and Android store preparation and release.",
+          "outcome": "The independent game launched on the App Store and Google Play with two-language support, a 41-level campaign, and a replayable Endless mode.",
+          "role": "Indie Game Developer",
+          "team": "Solo project",
+          "duration": "June 2026 - ongoing",
+          "isFeatured": true,
+          "startDate": "2026-06-24",
+          "endDate": null,
+          "detailTemplate": "case-study",
+          "seoTitle": "Foxy: Balance of the Glow | 2D Indie Platformer",
+          "seoDescription": "A 2D indie platformer built with Flutter and Flame, featuring a 41-level campaign and an Endless mode.",
+          "thumbnail": {
+            "id": "foxy-cover",
+            "publicId": "foxy-cover-2026",
+            "url": "/content/media/projects/foxy/foxy.webp",
+            "fileName": "foxy.webp",
+            "contentType": "image/webp",
+            "byteSize": 150340,
+            "width": 1200,
+            "height": 675,
+            "alt": "World map and gameplay scenes from Foxy: Balance of the Glow",
+            "caption": ""
+          },
+          "heroImage": {
+            "id": "foxy-cover",
+            "publicId": "foxy-cover-2026",
+            "url": "/content/media/projects/foxy/foxy.webp",
+            "fileName": "foxy.webp",
+            "contentType": "image/webp",
+            "byteSize": 150340,
+            "width": 1200,
+            "height": 675,
+            "alt": "World map and gameplay scenes from Foxy: Balance of the Glow",
+            "caption": ""
+          },
+          "ogImage": {
+            "id": "foxy-cover",
+            "publicId": "foxy-cover-2026",
+            "url": "/content/media/projects/foxy/foxy.webp",
+            "fileName": "foxy.webp",
+            "contentType": "image/webp",
+            "byteSize": 150340,
+            "width": 1200,
+            "height": 675,
+            "alt": "World map and gameplay scenes from Foxy: Balance of the Glow",
+            "caption": ""
+          },
+          "technologies": [
+            {
+              "id": "1",
+              "key": "flutter",
+              "name": "Flutter",
+              "iconName": "smartphone",
+              "sortOrder": 10
+            },
+            {
+              "id": "2",
+              "key": "dart",
+              "name": "Dart",
+              "iconName": "code",
+              "sortOrder": 20
+            },
+            {
+              "id": "20",
+              "key": "flame",
+              "name": "Flame",
+              "iconName": "local-fire-department",
+              "sortOrder": 15
+            },
+            {
+              "id": "21",
+              "key": "tiled",
+              "name": "Tiled",
+              "iconName": "grid-view",
+              "sortOrder": 16
+            },
+            {
+              "id": "10",
+              "key": "firebase",
+              "name": "Firebase",
+              "iconName": "flame",
+              "sortOrder": 100
+            }
+          ],
+          "links": [
+            {
+              "id": "5",
+              "typeKey": "app-store",
+              "typeName": "App Store",
+              "label": "Download on the App Store",
+              "url": "https://apps.apple.com/tr/app/foxy-i%C5%9F%C4%B1lt%C4%B1n%C4%B1n-dengesi/id6796245569?l=tr",
+              "isPrimary": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "6",
+              "typeKey": "google-play",
+              "typeName": "Google Play",
+              "label": "Get it on Google Play",
+              "url": "https://play.google.com/store/apps/details?id=com.flutech.foxy_jump",
+              "isPrimary": false,
+              "sortOrder": 2
+            }
+          ],
+          "metrics": [
+            {
+              "id": "1",
+              "label": "Levels",
+              "value": "41",
+              "iconName": null,
+              "sortOrder": 1
+            },
+            {
+              "id": "2",
+              "label": "Platforms",
+              "value": "iOS + Android",
+              "iconName": null,
+              "sortOrder": 2
+            },
+            {
+              "id": "3",
+              "label": "Languages",
+              "value": "Turkish + English",
+              "iconName": null,
+              "sortOrder": 3
+            }
+          ],
+          "gallery": [],
+          "detailSections": [
+            {
+              "id": "1",
+              "sectionTypeKey": "text",
+              "title": "Game structure",
+              "body": "The story campaign spans 20 Forest maps, 20 Beach maps, and one finale, supported by quests, upgrades, boss encounters, and story rewards.",
+              "sortOrder": 1
+            },
+            {
+              "id": "2",
+              "sectionTypeKey": "text",
+              "title": "Technical architecture",
+              "body": "The Flutter interface layer works alongside the Flame game world. Tiled maps, offline local progression, and optional Firebase account and cloud backup flows are combined in one product.",
+              "sortOrder": 2
+            },
+            {
+              "id": "3",
+              "sectionTypeKey": "text",
+              "title": "Release",
+              "body": "The app was prepared for iOS and Android and launched on the App Store and Google Play. Store copy, media, privacy flows, and version checks are maintained alongside the product.",
+              "sortOrder": 3
+            }
+          ],
+          "sortOrder": 0
+        },
         {
           "id": "1",
           "publicId": "d2663b81-3058-4895-88cb-d0af04a6c05e",
@@ -1869,26 +2368,40 @@
             "colorHex": "#2E7D32",
             "sortOrder": 1
           },
-          "title": "Flutech Dev",
-          "dateRange": "2025",
-          "summary": "A responsive corporate website presenting Flutter and API development services. I designed and built the information architecture, content structure, contact flows, and Flutter Web interface.",
-          "detailSummary": "Flutech Dev is a corporate website built to present Flutter and API-focused software services clearly. It combines service messaging, brand language, contact flows, and responsive design in a focused web experience.",
-          "problem": "The business needed a professional digital presence that explained services clearly, built trust, and worked well across devices.",
-          "contribution": "I shaped the information architecture, designed the page structure, built the responsive Flutter Web interface, and carried the brand language into the user experience.",
-          "outcome": "The result is a professional web presence where visitors can quickly understand the services and contact the business easily.",
-          "role": "Flutter Developer | Full-Stack Developer",
+          "title": "Flutech",
+          "dateRange": "2025 - 2026",
+          "summary": "An Astro-based product site showcasing my shipped mobile apps and indie game work. I built its bilingual content, store links, responsive visuals, and static release flow.",
+          "detailSummary": "Flutech brings live mobile products and indie games together in one fast bilingual showcase. Generated statically with Astro, it communicates the product focus through project cards, store links, structured data, and responsive visuals.",
+          "problem": "The previous service-led message did not make the shipped products or the new indie game direction visible enough. The brand needed a fast product showcase with verifiable store links and a maintainable content structure.",
+          "contribution": "I rebuilt the information architecture around products and implemented the bilingual Astro site, responsive project media, App Store and Google Play links, SEO, and structured data.",
+          "outcome": "The result is a fast and accessible product showcase that highlights FluPass, Cüzdan, and Foxy while clearly communicating the indie game direction.",
+          "role": "Product Developer",
           "team": "Solo project",
-          "duration": "2025",
+          "duration": "2025 - ongoing",
           "isFeatured": true,
           "startDate": null,
           "endDate": null,
           "detailTemplate": "case-study",
-          "seoTitle": "Flutech Dev | Flutter and API Development Services",
-          "seoDescription": "A responsive corporate website presenting Flutter, mobile app, and API development services.",
+          "seoTitle": "Flutech | Mobile Apps and Indie Games",
+          "seoDescription": "An Astro-based product site showcasing Flutech’s shipped mobile apps and indie games.",
           "thumbnail": null,
           "heroImage": null,
           "ogImage": null,
           "technologies": [
+            {
+              "id": "22",
+              "key": "astro",
+              "name": "Astro",
+              "iconName": "language",
+              "sortOrder": 25
+            },
+            {
+              "id": "23",
+              "key": "typescript",
+              "name": "TypeScript",
+              "iconName": "code",
+              "sortOrder": 26
+            },
             {
               "id": "17",
               "key": "responsive-ui",
@@ -1897,32 +2410,11 @@
               "sortOrder": 3
             },
             {
-              "id": "18",
-              "key": "material-design",
-              "name": "Material Design",
-              "iconName": null,
-              "sortOrder": 4
-            },
-            {
-              "id": "1",
-              "key": "flutter",
-              "name": "Flutter",
-              "iconName": "smartphone",
-              "sortOrder": 10
-            },
-            {
-              "id": "2",
-              "key": "dart",
-              "name": "Dart",
-              "iconName": "code",
-              "sortOrder": 20
-            },
-            {
-              "id": "4",
-              "key": "json",
-              "name": "JSON",
-              "iconName": "braces",
-              "sortOrder": 40
+              "id": "12",
+              "key": "git",
+              "name": "Git",
+              "iconName": "git-branch",
+              "sortOrder": 120
             }
           ],
           "links": [
@@ -1963,12 +2455,12 @@
             "sortOrder": 1
           },
           "title": "FluPass",
-          "dateRange": "2025",
-          "summary": "A privacy-focused Flutter password manager built with a local-first approach. I developed biometric authentication, local data storage, and clean credential management flows.",
-          "detailSummary": "FluPass is a local-first password manager project focused on keeping credentials on the user's device. It aims to combine encryption, biometric unlock, and simple credential management into a secure but usable mobile experience.",
+          "dateRange": "2025 - 2026",
+          "summary": "A privacy-first Flutter password manager that keeps passwords and cards encrypted on-device. I built biometric locking, autofill, password health, and optional Google Drive backup flows.",
+          "detailSummary": "FluPass is a local-first password manager that stores passwords and payment cards in an encrypted on-device vault without requiring an account. It supports Face ID/Touch ID or PIN, autofill, password health, search and tags, and optional Google Drive backups.",
           "problem": "Cloud-based password managers require a high level of user trust. This project focuses on creating a secure daily-use experience without moving sensitive credentials away from the device.",
           "contribution": "I designed and built the local-first data approach, encryption flow, biometric authentication experience, and mobile UI structure.",
-          "outcome": "The result is a privacy-first, device-centered, and usable password manager experience.",
+          "outcome": "The privacy-first password manager launched on the App Store and Google Play with production-ready autofill and controlled backup workflows.",
           "role": "Flutter Developer | Full-Stack Developer",
           "team": "Solo project",
           "duration": "2025 - ongoing",
@@ -1978,9 +2470,42 @@
           "detailTemplate": "case-study",
           "seoTitle": "FluPass | Flutter Password Manager",
           "seoDescription": "A privacy-first Flutter password manager project focused on local encryption and biometric authentication.",
-          "thumbnail": null,
-          "heroImage": null,
-          "ogImage": null,
+          "thumbnail": {
+            "id": "flupass-cover",
+            "publicId": "flupass-cover-2026",
+            "url": "/content/media/projects/flupass/flupass.webp",
+            "fileName": "flupass.webp",
+            "contentType": "image/webp",
+            "byteSize": 52508,
+            "width": 1200,
+            "height": 750,
+            "alt": "FluPass password vault and mobile application screens",
+            "caption": ""
+          },
+          "heroImage": {
+            "id": "flupass-cover",
+            "publicId": "flupass-cover-2026",
+            "url": "/content/media/projects/flupass/flupass.webp",
+            "fileName": "flupass.webp",
+            "contentType": "image/webp",
+            "byteSize": 52508,
+            "width": 1200,
+            "height": 750,
+            "alt": "FluPass password vault and mobile application screens",
+            "caption": ""
+          },
+          "ogImage": {
+            "id": "flupass-cover",
+            "publicId": "flupass-cover-2026",
+            "url": "/content/media/projects/flupass/flupass.webp",
+            "fileName": "flupass.webp",
+            "contentType": "image/webp",
+            "byteSize": 52508,
+            "width": 1200,
+            "height": 750,
+            "alt": "FluPass password vault and mobile application screens",
+            "caption": ""
+          },
           "technologies": [
             {
               "id": "1",
@@ -2027,7 +2552,8 @@
           "metrics": [],
           "gallery": [],
           "detailSections": [],
-          "sortOrder": 5
+          "sortOrder": 5,
+          "imageAlt": "FluPass password vault and mobile application screens"
         },
         {
           "id": "6",
@@ -2050,7 +2576,7 @@
             "colorHex": "#2E7D32",
             "sortOrder": 1
           },
-          "title": "Cuzdan",
+          "title": "Cüzdan",
           "dateRange": "2025",
           "summary": "A Flutter mobile app that simplifies personal finance management with expense tracking, category analysis, and charts. I built the Firebase/Firestore data structure, entry flows, and analytics screens.",
           "detailSummary": "Cuzdan is a personal finance app designed to go beyond simple expense logging and help users understand where their money goes. It focuses on category-based analysis, charts, and clean mobile flows to improve financial awareness.",
@@ -2066,9 +2592,42 @@
           "detailTemplate": "case-study",
           "seoTitle": "Cuzdan | Flutter Personal Finance App",
           "seoDescription": "A Flutter mobile app for expense tracking, category analysis, and visual insights into personal spending habits.",
-          "thumbnail": null,
-          "heroImage": null,
-          "ogImage": null,
+          "thumbnail": {
+            "id": "cuzdan-cover",
+            "publicId": "cuzdan-cover-2026",
+            "url": "/content/media/projects/cuzdan/cuzdan.webp",
+            "fileName": "cuzdan.webp",
+            "contentType": "image/webp",
+            "byteSize": 43524,
+            "width": 1200,
+            "height": 750,
+            "alt": "Expense and analytics screens from the Cüzdan smart budget app",
+            "caption": ""
+          },
+          "heroImage": {
+            "id": "cuzdan-cover",
+            "publicId": "cuzdan-cover-2026",
+            "url": "/content/media/projects/cuzdan/cuzdan.webp",
+            "fileName": "cuzdan.webp",
+            "contentType": "image/webp",
+            "byteSize": 43524,
+            "width": 1200,
+            "height": 750,
+            "alt": "Expense and analytics screens from the Cüzdan smart budget app",
+            "caption": ""
+          },
+          "ogImage": {
+            "id": "cuzdan-cover",
+            "publicId": "cuzdan-cover-2026",
+            "url": "/content/media/projects/cuzdan/cuzdan.webp",
+            "fileName": "cuzdan.webp",
+            "contentType": "image/webp",
+            "byteSize": 43524,
+            "width": 1200,
+            "height": 750,
+            "alt": "Expense and analytics screens from the Cüzdan smart budget app",
+            "caption": ""
+          },
           "technologies": [
             {
               "id": "17",
@@ -2154,7 +2713,7 @@
         {
           "id": "8",
           "key": "flutter-mobile-web",
-          "title": "Flutter Mobile and Web",
+          "title": "Flutter Mobile and Games",
           "skills": [
             {
               "id": "35",
@@ -2166,7 +2725,7 @@
             {
               "id": "36",
               "key": "responsive-cross-platform-ui",
-              "name": "Responsive ve Cross-Platform UI",
+              "name": "Responsive and Cross-Platform UI",
               "levelLabel": "Advanced",
               "sortOrder": 1
             },
@@ -2176,6 +2735,13 @@
               "name": "Mobile/Web Release Flows",
               "levelLabel": "Upper Intermediate",
               "sortOrder": 2
+            },
+            {
+              "id": "47",
+              "key": "flame-game-development",
+              "name": "2D Game Development with Flame",
+              "levelLabel": "Advanced",
+              "sortOrder": 3
             }
           ],
           "sortOrder": 0
