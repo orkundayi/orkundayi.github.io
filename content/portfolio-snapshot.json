@@ -1,6 +1,6 @@
 {
   "schemaVersion": "portfolio-v2",
-  "generatedAtUtc": "2026-08-27T19:05:38.129Z",
+  "generatedAtUtc": "2026-09-19T13:22:58.497Z",
   "defaultLanguageCode": "tr",
   "languageCodes": [
     "tr",
@@ -903,7 +903,7 @@
           "problem": "Mobilde akıcı çalışan bir platform oyununu tek kod tabanında kurarken fizik, çarpışma, dokunmatik kontroller, içerik üretimi, çevrimdışı ilerleme ve isteğe bağlı bulut yedeğini birlikte güvenilir şekilde yönetmek gerekiyordu.",
           "contribution": "Oyun döngüsünü, Flame bileşenlerini, Tiled tabanlı sahne akışını, fizik ve çarpışma kurallarını, 41 bölümlük kampanyayı, Sonsuz Mod’u, Türkçe/İngilizce arayüzü ve Firebase destekli hesap/yedekleme servislerini geliştirdim. iOS ve Android mağaza hazırlıklarını ve yayın sürecini de yönettim.",
           "outcome": "İki dilde çalışan, 41 bölümlük kampanya ve tekrar oynanabilir Sonsuz Mod sunan bağımsız oyun App Store ve Google Play’de yayınlandı.",
-          "role": "Indie Oyun Geliştirici",
+          "role": "Flutter Oyun Geliştirici",
           "team": "Solo proje",
           "duration": "Haziran 2026 - devam ediyor",
           "isFeatured": true,
@@ -2735,7 +2735,7 @@
           "problem": "Building a smooth mobile platformer from one codebase required reliable coordination of physics, collision, touch controls, content production, offline progression, and optional cloud backup.",
           "contribution": "I built the game loop, Flame components, Tiled-based scene flow, physics and collision rules, the 41-level campaign, Endless mode, Turkish/English UI, and Firebase-backed account and backup services. I also handled iOS and Android store preparation and release.",
           "outcome": "The independent game launched on the App Store and Google Play with two-language support, a 41-level campaign, and a replayable Endless mode.",
-          "role": "Indie Game Developer",
+          "role": "Flutter Game Developer",
           "team": "Solo project",
           "duration": "June 2026 - ongoing",
           "isFeatured": true,
