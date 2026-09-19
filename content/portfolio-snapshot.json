@@ -318,6 +318,14 @@
           "description": null,
           "colorHex": "#6B7280",
           "sortOrder": 4
+        },
+        {
+          "id": "5",
+          "key": "in-development",
+          "name": "Geliştiriliyor",
+          "description": "Geliştirme ve doğrulama çalışmaları devam ediyor.",
+          "colorHex": "#7C8CF8",
+          "sortOrder": 5
         }
       ],
       "technologies": [
@@ -481,9 +489,392 @@
           "name": "Debugging",
           "iconName": "bug",
           "sortOrder": 140
+        },
+        {
+          "id": "24",
+          "key": "riverpod",
+          "name": "Riverpod",
+          "iconName": "layers",
+          "sortOrder": 27
         }
       ],
       "projects": [
+        {
+          "id": "8",
+          "publicId": "6877f52f-68d6-4f84-b8d4-4533a750107c",
+          "slug": "pofuduk",
+          "category": {
+            "id": "8",
+            "key": "game",
+            "name": "Oyun",
+            "description": "Bağımsız mobil oyunlar",
+            "iconName": "sports-esports",
+            "colorHex": "#D97706",
+            "sortOrder": 5
+          },
+          "status": {
+            "id": "5",
+            "key": "in-development",
+            "name": "Geliştiriliyor",
+            "description": "Geliştirme ve doğrulama çalışmaları devam ediyor.",
+            "colorHex": "#7C8CF8",
+            "sortOrder": 5
+          },
+          "title": "Pofuduk · Kümes Macerası",
+          "dateRange": "",
+          "summary": "Flutter ve Flame ile geliştirdiğim kayma bulmacası. 10 dünyada 200 bölüm, üç civcivi kümese ulaştırma yolculuğu ve kodla çizilen canlı bir orman.",
+          "detailSummary": "Pofuduk, Android ve webde aynı oyun motorunu kullanan, mobil öncelikli bir bulmaca macerası. Her hamlede engelle karşılaşana kadar kay, üç civcivi topla ve kümese ulaş. Su, akıntı, mantar, kapı ve ışınlanma gibi mekanikler 10 dünyaya yayılan 200 bölüm boyunca bir araya geliyor.",
+          "problem": "Zincirleme hareket kurallarını anlaşılır bir bulmaca deneyimine dönüştürmek; dokunmatik kontrolleri, farklı ekran boyutlarını, geri almayı ve kalıcı ilerlemeyi aynı motor üzerinde tutarlı çalıştırmak.",
+          "contribution": "Flutter/Flame oyun motoru, Canvas ile çizilen karakter ve sahneler, 200 bölümlük kampanya, en kısa yolu hesaplayan ipuçları, geri alma, yerel ilerleme kaydı ve oyun içi öğreticiler. Android ve web için ortak oyun deneyimi; mobil tam sürümden ayrı 10 bölümlük web demosu.",
+          "outcome": "200 bölüm ve 10 dünyadan oluşan kampanya ile Android ve web derlemeleri hazırlandı. Tarayıcı demosu ilk 10 bölümü reklamsız ve ücretsiz ipuçlarıyla sunuyor; mobil mağaza yayını için hazırlıklar sürüyor.",
+          "role": "Oyun geliştirme",
+          "team": "",
+          "duration": "",
+          "isFeatured": true,
+          "startDate": null,
+          "endDate": null,
+          "detailTemplate": "case-study",
+          "seoTitle": "Pofuduk · Kümes Macerası | Flutter ve Flame Bulmaca Oyunu",
+          "seoDescription": "10 dünya, 200 bölüm ve kodla çizilen bir orman. Flutter ve Flame ile geliştirilen Pofuduk bulmaca oyununun tasarımını ve teknik yapısını keşfet.",
+          "thumbnail": {
+            "id": "pofuduk-desktop",
+            "publicId": "pofuduk-desktop",
+            "url": "/content/media/projects/pofuduk/pofuduk-desktop.webp",
+            "fileName": "pofuduk-desktop.webp",
+            "contentType": "image/webp",
+            "byteSize": 83428,
+            "width": 1440,
+            "height": 1000,
+            "alt": "Pofuduk bulmaca oyununun masaüstü görünümünde Sihirli Bahçe, civcivler, su ve mantarlı oyun tahtası",
+            "caption": "Masaüstünde oyun tahtası ve bölüm bilgileri."
+          },
+          "heroImage": {
+            "id": "pofuduk-desktop",
+            "publicId": "pofuduk-desktop",
+            "url": "/content/media/projects/pofuduk/pofuduk-desktop.webp",
+            "fileName": "pofuduk-desktop.webp",
+            "contentType": "image/webp",
+            "byteSize": 83428,
+            "width": 1440,
+            "height": 1000,
+            "alt": "Pofuduk bulmaca oyununun masaüstü görünümünde Sihirli Bahçe, civcivler, su ve mantarlı oyun tahtası",
+            "caption": "Masaüstünde oyun tahtası ve bölüm bilgileri."
+          },
+          "ogImage": {
+            "id": "pofuduk-desktop",
+            "publicId": "pofuduk-desktop",
+            "url": "/content/media/projects/pofuduk/pofuduk-desktop.webp",
+            "fileName": "pofuduk-desktop.webp",
+            "contentType": "image/webp",
+            "byteSize": 83428,
+            "width": 1440,
+            "height": 1000,
+            "alt": "Pofuduk bulmaca oyununun masaüstü görünümünde Sihirli Bahçe, civcivler, su ve mantarlı oyun tahtası",
+            "caption": "Masaüstünde oyun tahtası ve bölüm bilgileri."
+          },
+          "technologies": [
+            {
+              "id": "1",
+              "key": "flutter",
+              "name": "Flutter",
+              "iconName": "smartphone",
+              "sortOrder": 10
+            },
+            {
+              "id": "2",
+              "key": "dart",
+              "name": "Dart",
+              "iconName": "code",
+              "sortOrder": 20
+            },
+            {
+              "id": "20",
+              "key": "flame",
+              "name": "Flame",
+              "iconName": "local-fire-department",
+              "sortOrder": 15
+            }
+          ],
+          "links": [
+            {
+              "id": "pofuduk-demo",
+              "typeKey": "website",
+              "typeName": "Web demosu",
+              "label": "Web demosunu oyna",
+              "url": "https://pofuduk.flutech.org/oyna/",
+              "isPrimary": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "pofuduk-website",
+              "typeKey": "website",
+              "typeName": "Web sitesi",
+              "label": "Proje sitesi",
+              "url": "https://pofuduk.flutech.org/",
+              "isPrimary": false,
+              "sortOrder": 2
+            }
+          ],
+          "metrics": [
+            {
+              "id": "pofuduk-metric-1",
+              "label": "Bölüm",
+              "value": "200",
+              "iconName": null,
+              "sortOrder": 1
+            },
+            {
+              "id": "pofuduk-metric-2",
+              "label": "Dünya",
+              "value": "10",
+              "iconName": null,
+              "sortOrder": 2
+            },
+            {
+              "id": "pofuduk-metric-3",
+              "label": "Platform",
+              "value": "Android + Web",
+              "iconName": null,
+              "sortOrder": 3
+            }
+          ],
+          "gallery": [
+            {
+              "id": "pofuduk-gallery-desktop",
+              "usageKey": "gallery",
+              "media": {
+                "id": "pofuduk-desktop",
+                "publicId": "pofuduk-desktop",
+                "url": "/content/media/projects/pofuduk/pofuduk-desktop.webp",
+                "fileName": "pofuduk-desktop.webp",
+                "contentType": "image/webp",
+                "byteSize": 83428,
+                "width": 1440,
+                "height": 1000,
+                "alt": "Pofuduk bulmaca oyununun masaüstü görünümünde Sihirli Bahçe, civcivler, su ve mantarlı oyun tahtası",
+                "caption": "Masaüstünde oyun tahtası ve bölüm bilgileri."
+              },
+              "alt": "Pofuduk bulmaca oyununun masaüstü görünümünde Sihirli Bahçe, civcivler, su ve mantarlı oyun tahtası",
+              "caption": "Masaüstünde oyun tahtası ve bölüm bilgileri.",
+              "isPrimary": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "pofuduk-gallery-mobile",
+              "usageKey": "gallery",
+              "media": {
+                "id": "pofuduk-mobile",
+                "publicId": "pofuduk-mobile",
+                "url": "/content/media/projects/pofuduk/pofuduk-mobile.webp",
+                "fileName": "pofuduk-mobile.webp",
+                "contentType": "image/webp",
+                "byteSize": 33390,
+                "width": 390,
+                "height": 844,
+                "alt": "Pofuduk oyununun dikey mobil görünümünde Zıpır Kervan bölümü ve dokunmatik yön kontrolleri",
+                "caption": "Telefonda dikey oyun alanı ve dokunmatik kontroller."
+              },
+              "alt": "Pofuduk oyununun dikey mobil görünümünde Zıpır Kervan bölümü ve dokunmatik yön kontrolleri",
+              "caption": "Telefonda dikey oyun alanı ve dokunmatik kontroller.",
+              "isPrimary": false,
+              "sortOrder": 2
+            }
+          ],
+          "detailSections": [
+            {
+              "id": "pofuduk-section-1",
+              "sectionTypeKey": "text",
+              "title": "Bir hamle, birden çok mekanik",
+              "body": "Bir kayış boyunca gerçekleşen dönüşler, sıçramalar ve ışınlanmalar tek hamle sayılıyor. Geri alma, kapıların ve çöken tahtaların durumunu da geri getiriyor. İpucu sistemi mevcut oyun durumundan en kısa çözümü hesaplıyor.",
+              "sortOrder": 1
+            },
+            {
+              "id": "pofuduk-section-2",
+              "sectionTypeKey": "text",
+              "title": "Kodla çizilen bir orman",
+              "body": "Karakterler, sahne, oyun nesneleri ve arayüz Flutter/Canvas ile çiziliyor. Hareketli su, kelebekler, çiçekler ve yumuşak renkler; dokunmatik kontrol ve ekran yönüne uyarlanan yerleşimle birleşiyor.",
+              "sortOrder": 2
+            },
+            {
+              "id": "pofuduk-section-3",
+              "sectionTypeKey": "text",
+              "title": "Tam kampanya ve web demosu",
+              "body": "Tam oyunda 200 bölüm, günlük bulmaca ve kostüm ilerlemesi bulunuyor. Ayrı web demosu ilk 10 bölümü sunuyor; ücretsiz ipuçları kullanıyor ve reklam ya da satın alma servislerini başlatmıyor. İlerleme cihazda saklanıyor.",
+              "sortOrder": 3
+            }
+          ],
+          "sortOrder": 0
+        },
+        {
+          "id": "9",
+          "publicId": "8b768a14-e31f-4e07-bf1a-f7385bd1c0d9",
+          "slug": "flumate",
+          "category": {
+            "id": "1",
+            "key": "mobile",
+            "name": "Mobil",
+            "description": null,
+            "iconName": "smartphone",
+            "colorHex": "#6750A4",
+            "sortOrder": 1
+          },
+          "status": {
+            "id": "5",
+            "key": "in-development",
+            "name": "Geliştiriliyor",
+            "description": "Geliştirme ve doğrulama çalışmaları devam ediyor.",
+            "colorHex": "#7C8CF8",
+            "sortOrder": 5
+          },
+          "title": "Flumate",
+          "dateRange": "",
+          "summary": "Gününü bir bütün olarak ele alan kişisel yaşam asistanı. Planlama, rutinler ve hatırlatmalar; Flutter arayüzü, deterministik zamanlama motoru ve yapay zekâ desteğiyle buluşuyor.",
+          "detailSummary": "Flumate; iş, toplantı, görev, antrenman, öğün, su, rutin ve uykuyu kullanıcının gerçek günü etrafında birleştiren bir kişisel yaşam asistanı. Günlük görünüm, haftalık plan, ilerleme ve asistan aynı veri kaynaklarıyla çalışıyor. Türkçe ve İngilizce arayüz sunan uygulamanın geliştirme ve cihaz doğrulamaları devam ediyor.",
+          "problem": "Günlük yaşamın farklı parçalarını aynı plana bağlamak, değişen koşullara uyarlamak ve yapay zekâ önerilerini takvim hesaplamalarıyla tutarlı, kullanıcının kontrolünde tutmak.",
+          "contribution": "Flutter ve Riverpod arayüzü, Firebase servisleri ve TypeScript Cloud Functions katmanı; Dart ve TypeScript üzerinde ortak senaryolarla doğrulanan Schedule Engine. Asistan önerileri için kullanıcı onayı ve geri alma akışı; rutin, planlama ve bildirim deneyimleri.",
+          "outcome": "16 uygulama ekranı, Türkçe/İngilizce yerelleştirme ve istemci-sunucu zamanlama motoru uygulandı. Uygulama geliştirme aşamasında; gerçek cihaz kontrolleri ve mağaza hazırlıkları devam ediyor.",
+          "role": "Mobil uygulama geliştirme",
+          "team": "",
+          "duration": "",
+          "isFeatured": true,
+          "startDate": null,
+          "endDate": null,
+          "detailTemplate": "case-study",
+          "seoTitle": "Flumate | Kişisel Yaşam Asistanı",
+          "seoDescription": "Flutter, Riverpod ve Firebase ile geliştirilen Flumate; deterministik planlama ve kullanıcı onaylı yapay zekâ önerileriyle günlük yaşamı bir araya getiriyor.",
+          "thumbnail": {
+            "id": "flumate-logo",
+            "publicId": "flumate-logo",
+            "url": "/content/media/projects/flumate/flumate-logo.webp",
+            "fileName": "flumate-logo.webp",
+            "contentType": "image/webp",
+            "byteSize": 13824,
+            "width": 1024,
+            "height": 1024,
+            "alt": "Flumate uygulamasının açık zemin üzerindeki turkuaz dört parçalı logosu",
+            "caption": ""
+          },
+          "heroImage": {
+            "id": "flumate-logo",
+            "publicId": "flumate-logo",
+            "url": "/content/media/projects/flumate/flumate-logo.webp",
+            "fileName": "flumate-logo.webp",
+            "contentType": "image/webp",
+            "byteSize": 13824,
+            "width": 1024,
+            "height": 1024,
+            "alt": "Flumate uygulamasının açık zemin üzerindeki turkuaz dört parçalı logosu",
+            "caption": ""
+          },
+          "ogImage": {
+            "id": "flumate-logo",
+            "publicId": "flumate-logo",
+            "url": "/content/media/projects/flumate/flumate-logo.webp",
+            "fileName": "flumate-logo.webp",
+            "contentType": "image/webp",
+            "byteSize": 13824,
+            "width": 1024,
+            "height": 1024,
+            "alt": "Flumate uygulamasının açık zemin üzerindeki turkuaz dört parçalı logosu",
+            "caption": ""
+          },
+          "technologies": [
+            {
+              "id": "1",
+              "key": "flutter",
+              "name": "Flutter",
+              "iconName": "smartphone",
+              "sortOrder": 10
+            },
+            {
+              "id": "2",
+              "key": "dart",
+              "name": "Dart",
+              "iconName": "code",
+              "sortOrder": 20
+            },
+            {
+              "id": "24",
+              "key": "riverpod",
+              "name": "Riverpod",
+              "iconName": "layers",
+              "sortOrder": 27
+            },
+            {
+              "id": "10",
+              "key": "firebase",
+              "name": "Firebase",
+              "iconName": "flame",
+              "sortOrder": 100
+            },
+            {
+              "id": "23",
+              "key": "typescript",
+              "name": "TypeScript",
+              "iconName": "code",
+              "sortOrder": 26
+            }
+          ],
+          "links": [
+            {
+              "id": "flumate-website",
+              "typeKey": "website",
+              "typeName": "Web sitesi",
+              "label": "Proje sitesi",
+              "url": "https://flumate.flutech.org/",
+              "isPrimary": true,
+              "sortOrder": 1
+            }
+          ],
+          "metrics": [
+            {
+              "id": "flumate-metric-1",
+              "label": "Dil",
+              "value": "Türkçe + İngilizce",
+              "iconName": null,
+              "sortOrder": 1
+            },
+            {
+              "id": "flumate-metric-2",
+              "label": "Zamanlama motoru",
+              "value": "Dart + TypeScript",
+              "iconName": null,
+              "sortOrder": 2
+            },
+            {
+              "id": "flumate-metric-3",
+              "label": "Durum",
+              "value": "Geliştiriliyor",
+              "iconName": null,
+              "sortOrder": 3
+            }
+          ],
+          "gallery": [],
+          "detailSections": [
+            {
+              "id": "flumate-section-1",
+              "sectionTypeKey": "text",
+              "title": "Günün etrafında birleşen deneyim",
+              "body": "İş ve kişisel yaşam, plan, rutinler ve ilerleme ekranlarında aynı veri kaynaklarıyla ele alınıyor. Bir ekrandaki değişiklik diğer görünümde ayrı bir veri kopyası oluşturmadan karşılığını buluyor.",
+              "sortOrder": 1
+            },
+            {
+              "id": "flumate-section-2",
+              "sectionTypeKey": "text",
+              "title": "Önce deterministik planlama",
+              "body": "Takvim aritmetiğini Schedule Engine yapıyor; asistan motorun sonucunu açıklıyor. Dart ve TypeScript uygulamaları ortak senaryolarla doğrulanıyor. Ölçülmemiş bir veri, sıfır ya da tahmin olarak gösterilmiyor.",
+              "sortOrder": 2
+            },
+            {
+              "id": "flumate-section-3",
+              "sectionTypeKey": "text",
+              "title": "Kontrol kullanıcıda",
+              "body": "Asistanın değişiklik önerileri kullanıcı onayına kadar uygulanmıyor; onaylanan işlemler geri alınabiliyor. Bildirimler, takvim ve sağlık entegrasyonları bu günlük yaşam deneyiminin parçaları olarak geliştiriliyor.",
+              "sortOrder": 3
+            }
+          ],
+          "sortOrder": 1
+        },
         {
           "id": "7",
           "publicId": "f8026113-b89f-4d52-a9b8-0ca7732928bc",
@@ -661,7 +1052,7 @@
               "sortOrder": 3
             }
           ],
-          "sortOrder": 0
+          "sortOrder": 2
         },
         {
           "id": "1",
@@ -737,7 +1128,7 @@
           "metrics": [],
           "gallery": [],
           "detailSections": [],
-          "sortOrder": 1
+          "sortOrder": 3
         },
         {
           "id": "2",
@@ -827,7 +1218,7 @@
           "metrics": [],
           "gallery": [],
           "detailSections": [],
-          "sortOrder": 2
+          "sortOrder": 4
         },
         {
           "id": "3",
@@ -903,7 +1294,7 @@
           "metrics": [],
           "gallery": [],
           "detailSections": [],
-          "sortOrder": 3
+          "sortOrder": 5
         },
         {
           "id": "4",
@@ -989,7 +1380,7 @@
           "metrics": [],
           "gallery": [],
           "detailSections": [],
-          "sortOrder": 4
+          "sortOrder": 6
         },
         {
           "id": "5",
@@ -1110,7 +1501,7 @@
           "metrics": [],
           "gallery": [],
           "detailSections": [],
-          "sortOrder": 5
+          "sortOrder": 7
         },
         {
           "id": "6",
@@ -1250,7 +1641,7 @@
           "metrics": [],
           "gallery": [],
           "detailSections": [],
-          "sortOrder": 6
+          "sortOrder": 8
         }
       ],
       "education": [
@@ -1759,6 +2150,14 @@
           "description": null,
           "colorHex": "#6B7280",
           "sortOrder": 4
+        },
+        {
+          "id": "5",
+          "key": "in-development",
+          "name": "In development",
+          "description": "Development and validation are ongoing.",
+          "colorHex": "#7C8CF8",
+          "sortOrder": 5
         }
       ],
       "technologies": [
@@ -1922,9 +2321,392 @@
           "name": "Debugging",
           "iconName": "bug",
           "sortOrder": 140
+        },
+        {
+          "id": "24",
+          "key": "riverpod",
+          "name": "Riverpod",
+          "iconName": "layers",
+          "sortOrder": 27
         }
       ],
       "projects": [
+        {
+          "id": "8",
+          "publicId": "6877f52f-68d6-4f84-b8d4-4533a750107c",
+          "slug": "pofuduk",
+          "category": {
+            "id": "8",
+            "key": "game",
+            "name": "Game",
+            "description": "Independent mobile games",
+            "iconName": "sports-esports",
+            "colorHex": "#D97706",
+            "sortOrder": 5
+          },
+          "status": {
+            "id": "5",
+            "key": "in-development",
+            "name": "In development",
+            "description": "Development and validation are ongoing.",
+            "colorHex": "#7C8CF8",
+            "sortOrder": 5
+          },
+          "title": "Pofuduk · Coop Adventure",
+          "dateRange": "",
+          "summary": "A sliding puzzle game I built with Flutter and Flame. 200 levels across 10 worlds, three chicks to bring home, and a lively forest drawn in code.",
+          "detailSummary": "Pofuduk is a mobile-first puzzle adventure sharing one game engine across Android and the web. Slide until an obstacle stops you, collect three chicks, and reach the coop. Water, currents, mushrooms, gates, and teleporters combine across 200 levels in 10 worlds.",
+          "problem": "Turn chained movement rules into an approachable puzzle experience while keeping touch controls, different screen sizes, undo, and persistent progress consistent in one engine.",
+          "contribution": "The Flutter/Flame game engine, Canvas-drawn characters and scenes, a 200-level campaign, shortest-path hints, undo, local progress storage, and in-game tutorials. A shared Android and web experience with a separate 10-level browser demo.",
+          "outcome": "A 200-level campaign across 10 worlds and Android and web builds are ready. The browser demo offers the first 10 levels without ads and with free hints; mobile store preparations are ongoing.",
+          "role": "Game development",
+          "team": "",
+          "duration": "",
+          "isFeatured": true,
+          "startDate": null,
+          "endDate": null,
+          "detailTemplate": "case-study",
+          "seoTitle": "Pofuduk · Coop Adventure | Flutter and Flame Puzzle Game",
+          "seoDescription": "10 worlds, 200 levels, and a forest drawn in code. Explore the design and engineering of Pofuduk, a sliding puzzle built with Flutter and Flame.",
+          "thumbnail": {
+            "id": "pofuduk-desktop",
+            "publicId": "pofuduk-desktop",
+            "url": "/content/media/projects/pofuduk/pofuduk-desktop.webp",
+            "fileName": "pofuduk-desktop.webp",
+            "contentType": "image/webp",
+            "byteSize": 83428,
+            "width": 1440,
+            "height": 1000,
+            "alt": "Pofuduk desktop gameplay showing the Magic Garden puzzle board with chicks, water, and mushrooms",
+            "caption": "The desktop puzzle board and level information."
+          },
+          "heroImage": {
+            "id": "pofuduk-desktop",
+            "publicId": "pofuduk-desktop",
+            "url": "/content/media/projects/pofuduk/pofuduk-desktop.webp",
+            "fileName": "pofuduk-desktop.webp",
+            "contentType": "image/webp",
+            "byteSize": 83428,
+            "width": 1440,
+            "height": 1000,
+            "alt": "Pofuduk desktop gameplay showing the Magic Garden puzzle board with chicks, water, and mushrooms",
+            "caption": "The desktop puzzle board and level information."
+          },
+          "ogImage": {
+            "id": "pofuduk-desktop",
+            "publicId": "pofuduk-desktop",
+            "url": "/content/media/projects/pofuduk/pofuduk-desktop.webp",
+            "fileName": "pofuduk-desktop.webp",
+            "contentType": "image/webp",
+            "byteSize": 83428,
+            "width": 1440,
+            "height": 1000,
+            "alt": "Pofuduk desktop gameplay showing the Magic Garden puzzle board with chicks, water, and mushrooms",
+            "caption": "The desktop puzzle board and level information."
+          },
+          "technologies": [
+            {
+              "id": "1",
+              "key": "flutter",
+              "name": "Flutter",
+              "iconName": "smartphone",
+              "sortOrder": 10
+            },
+            {
+              "id": "2",
+              "key": "dart",
+              "name": "Dart",
+              "iconName": "code",
+              "sortOrder": 20
+            },
+            {
+              "id": "20",
+              "key": "flame",
+              "name": "Flame",
+              "iconName": "local-fire-department",
+              "sortOrder": 15
+            }
+          ],
+          "links": [
+            {
+              "id": "pofuduk-demo",
+              "typeKey": "website",
+              "typeName": "Web demo",
+              "label": "Play the web demo",
+              "url": "https://pofuduk.flutech.org/oyna/",
+              "isPrimary": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "pofuduk-website",
+              "typeKey": "website",
+              "typeName": "Website",
+              "label": "Project website",
+              "url": "https://pofuduk.flutech.org/",
+              "isPrimary": false,
+              "sortOrder": 2
+            }
+          ],
+          "metrics": [
+            {
+              "id": "pofuduk-metric-1",
+              "label": "Levels",
+              "value": "200",
+              "iconName": null,
+              "sortOrder": 1
+            },
+            {
+              "id": "pofuduk-metric-2",
+              "label": "Worlds",
+              "value": "10",
+              "iconName": null,
+              "sortOrder": 2
+            },
+            {
+              "id": "pofuduk-metric-3",
+              "label": "Platforms",
+              "value": "Android + Web",
+              "iconName": null,
+              "sortOrder": 3
+            }
+          ],
+          "gallery": [
+            {
+              "id": "pofuduk-gallery-desktop",
+              "usageKey": "gallery",
+              "media": {
+                "id": "pofuduk-desktop",
+                "publicId": "pofuduk-desktop",
+                "url": "/content/media/projects/pofuduk/pofuduk-desktop.webp",
+                "fileName": "pofuduk-desktop.webp",
+                "contentType": "image/webp",
+                "byteSize": 83428,
+                "width": 1440,
+                "height": 1000,
+                "alt": "Pofuduk desktop gameplay showing the Magic Garden puzzle board with chicks, water, and mushrooms",
+                "caption": "The desktop puzzle board and level information."
+              },
+              "alt": "Pofuduk desktop gameplay showing the Magic Garden puzzle board with chicks, water, and mushrooms",
+              "caption": "The desktop puzzle board and level information.",
+              "isPrimary": true,
+              "sortOrder": 1
+            },
+            {
+              "id": "pofuduk-gallery-mobile",
+              "usageKey": "gallery",
+              "media": {
+                "id": "pofuduk-mobile",
+                "publicId": "pofuduk-mobile",
+                "url": "/content/media/projects/pofuduk/pofuduk-mobile.webp",
+                "fileName": "pofuduk-mobile.webp",
+                "contentType": "image/webp",
+                "byteSize": 33390,
+                "width": 390,
+                "height": 844,
+                "alt": "Pofuduk portrait mobile gameplay showing the jumping puzzle and touch direction controls",
+                "caption": "Portrait gameplay with touch controls on a phone."
+              },
+              "alt": "Pofuduk portrait mobile gameplay showing the jumping puzzle and touch direction controls",
+              "caption": "Portrait gameplay with touch controls on a phone.",
+              "isPrimary": false,
+              "sortOrder": 2
+            }
+          ],
+          "detailSections": [
+            {
+              "id": "pofuduk-section-1",
+              "sectionTypeKey": "text",
+              "title": "One move, multiple mechanics",
+              "body": "Turns, jumps, and teleports within a slide count as a single move. Undo also restores gates and collapsed tiles. Hints calculate the shortest solution from the current board state.",
+              "sortOrder": 1
+            },
+            {
+              "id": "pofuduk-section-2",
+              "sectionTypeKey": "text",
+              "title": "A forest drawn in code",
+              "body": "Characters, scenes, game objects, and interface elements are drawn with Flutter/Canvas. Moving water, butterflies, flowers, and soft colors come together with touch controls and layouts that adapt to screen orientation.",
+              "sortOrder": 2
+            },
+            {
+              "id": "pofuduk-section-3",
+              "sectionTypeKey": "text",
+              "title": "Full campaign and browser demo",
+              "body": "The full game includes 200 levels, a daily puzzle, and costume progression. The separate browser demo offers the first 10 levels with free hints and does not initialize ads or purchase services. Progress is stored locally on the device.",
+              "sortOrder": 3
+            }
+          ],
+          "sortOrder": 0
+        },
+        {
+          "id": "9",
+          "publicId": "8b768a14-e31f-4e07-bf1a-f7385bd1c0d9",
+          "slug": "flumate",
+          "category": {
+            "id": "1",
+            "key": "mobile",
+            "name": "Mobile",
+            "description": null,
+            "iconName": "smartphone",
+            "colorHex": "#6750A4",
+            "sortOrder": 1
+          },
+          "status": {
+            "id": "5",
+            "key": "in-development",
+            "name": "In development",
+            "description": "Development and validation are ongoing.",
+            "colorHex": "#7C8CF8",
+            "sortOrder": 5
+          },
+          "title": "Flumate",
+          "dateRange": "",
+          "summary": "A personal life assistant built around your whole day. Planning, routines, and reminders meet a Flutter interface, a deterministic scheduling engine, and AI assistance.",
+          "detailSummary": "Flumate brings work, meetings, tasks, workouts, meals, water, routines, and sleep together around a real daily schedule. The daily view, weekly plan, progress, and assistant share the same data sources. Development and device validation are ongoing, with Turkish and English interfaces implemented.",
+          "problem": "Connect different parts of everyday life in one plan, adapt to changing circumstances, and keep AI suggestions consistent with scheduling calculations and under the user’s control.",
+          "contribution": "The Flutter and Riverpod interface, Firebase services, and TypeScript Cloud Functions layer; a Schedule Engine implemented in Dart and TypeScript and validated against shared scenarios. User approval and undo for assistant suggestions, alongside routines, planning, and notifications.",
+          "outcome": "16 application screens, Turkish/English localization, and the client/server scheduling engine are implemented. The app remains in development, with real-device validation and store preparations ongoing.",
+          "role": "Mobile application development",
+          "team": "",
+          "duration": "",
+          "isFeatured": true,
+          "startDate": null,
+          "endDate": null,
+          "detailTemplate": "case-study",
+          "seoTitle": "Flumate | Personal Life Assistant",
+          "seoDescription": "Built with Flutter, Riverpod, and Firebase, Flumate combines everyday planning with a deterministic scheduling engine and user-approved AI suggestions.",
+          "thumbnail": {
+            "id": "flumate-logo",
+            "publicId": "flumate-logo",
+            "url": "/content/media/projects/flumate/flumate-logo.webp",
+            "fileName": "flumate-logo.webp",
+            "contentType": "image/webp",
+            "byteSize": 13824,
+            "width": 1024,
+            "height": 1024,
+            "alt": "Flumate’s turquoise four-part application logo on a light background",
+            "caption": ""
+          },
+          "heroImage": {
+            "id": "flumate-logo",
+            "publicId": "flumate-logo",
+            "url": "/content/media/projects/flumate/flumate-logo.webp",
+            "fileName": "flumate-logo.webp",
+            "contentType": "image/webp",
+            "byteSize": 13824,
+            "width": 1024,
+            "height": 1024,
+            "alt": "Flumate’s turquoise four-part application logo on a light background",
+            "caption": ""
+          },
+          "ogImage": {
+            "id": "flumate-logo",
+            "publicId": "flumate-logo",
+            "url": "/content/media/projects/flumate/flumate-logo.webp",
+            "fileName": "flumate-logo.webp",
+            "contentType": "image/webp",
+            "byteSize": 13824,
+            "width": 1024,
+            "height": 1024,
+            "alt": "Flumate’s turquoise four-part application logo on a light background",
+            "caption": ""
+          },
+          "technologies": [
+            {
+              "id": "1",
+              "key": "flutter",
+              "name": "Flutter",
+              "iconName": "smartphone",
+              "sortOrder": 10
+            },
+            {
+              "id": "2",
+              "key": "dart",
+              "name": "Dart",
+              "iconName": "code",
+              "sortOrder": 20
+            },
+            {
+              "id": "24",
+              "key": "riverpod",
+              "name": "Riverpod",
+              "iconName": "layers",
+              "sortOrder": 27
+            },
+            {
+              "id": "10",
+              "key": "firebase",
+              "name": "Firebase",
+              "iconName": "flame",
+              "sortOrder": 100
+            },
+            {
+              "id": "23",
+              "key": "typescript",
+              "name": "TypeScript",
+              "iconName": "code",
+              "sortOrder": 26
+            }
+          ],
+          "links": [
+            {
+              "id": "flumate-website",
+              "typeKey": "website",
+              "typeName": "Website",
+              "label": "Project website",
+              "url": "https://flumate.flutech.org/en",
+              "isPrimary": true,
+              "sortOrder": 1
+            }
+          ],
+          "metrics": [
+            {
+              "id": "flumate-metric-1",
+              "label": "Languages",
+              "value": "Turkish + English",
+              "iconName": null,
+              "sortOrder": 1
+            },
+            {
+              "id": "flumate-metric-2",
+              "label": "Scheduling engine",
+              "value": "Dart + TypeScript",
+              "iconName": null,
+              "sortOrder": 2
+            },
+            {
+              "id": "flumate-metric-3",
+              "label": "Status",
+              "value": "In development",
+              "iconName": null,
+              "sortOrder": 3
+            }
+          ],
+          "gallery": [],
+          "detailSections": [
+            {
+              "id": "flumate-section-1",
+              "sectionTypeKey": "text",
+              "title": "One experience around your day",
+              "body": "Work and personal life share the same data sources across the plan, routines, and progress screens. A change in one screen flows through the other views without creating a separate copy of the data.",
+              "sortOrder": 1
+            },
+            {
+              "id": "flumate-section-2",
+              "sectionTypeKey": "text",
+              "title": "Deterministic scheduling first",
+              "body": "The Schedule Engine handles calendar arithmetic; the assistant explains its results. Dart and TypeScript implementations are validated against shared scenarios. Unmeasured data is never presented as zero or an estimate.",
+              "sortOrder": 2
+            },
+            {
+              "id": "flumate-section-3",
+              "sectionTypeKey": "text",
+              "title": "The user stays in control",
+              "body": "Assistant changes remain proposals until the user approves them, and approved actions can be undone. Notifications, calendar, and health integrations are being developed as parts of the same daily-life experience.",
+              "sortOrder": 3
+            }
+          ],
+          "sortOrder": 1
+        },
         {
           "id": "7",
           "publicId": "f8026113-b89f-4d52-a9b8-0ca7732928bc",
@@ -2102,7 +2884,7 @@
               "sortOrder": 3
             }
           ],
-          "sortOrder": 0
+          "sortOrder": 2
         },
         {
           "id": "1",
@@ -2178,7 +2960,7 @@
           "metrics": [],
           "gallery": [],
           "detailSections": [],
-          "sortOrder": 1
+          "sortOrder": 3
         },
         {
           "id": "2",
@@ -2268,7 +3050,7 @@
           "metrics": [],
           "gallery": [],
           "detailSections": [],
-          "sortOrder": 2
+          "sortOrder": 4
         },
         {
           "id": "3",
@@ -2344,7 +3126,7 @@
           "metrics": [],
           "gallery": [],
           "detailSections": [],
-          "sortOrder": 3
+          "sortOrder": 5
         },
         {
           "id": "4",
@@ -2430,7 +3212,7 @@
           "metrics": [],
           "gallery": [],
           "detailSections": [],
-          "sortOrder": 4
+          "sortOrder": 6
         },
         {
           "id": "5",
@@ -2551,7 +3333,7 @@
           "metrics": [],
           "gallery": [],
           "detailSections": [],
-          "sortOrder": 5
+          "sortOrder": 7
         },
         {
           "id": "6",
@@ -2691,7 +3473,7 @@
           "metrics": [],
           "gallery": [],
           "detailSections": [],
-          "sortOrder": 6
+          "sortOrder": 8
         }
       ],
       "education": [
