@@ -28,15 +28,17 @@
       ],
       "profile": {
         "fullName": "Orkun Dayı",
-        "roleTitle": "Flutter | Fullstack Developer",
+        "roleTitle": "Flutter Geliştirici",
         "headline": "Flutter ve Flame ile mobil uygulamalar ve indie oyunlar geliştiren; ürünlerini App Store ve Google Play’e taşıyan yazılım geliştirici.",
-        "summary": "Flutter ve Dart odaklı mobil ürünler geliştiriyorum. Overtech bünyesinde OverPay’in ödeme, satış, raporlama ve entegrasyon akışları üzerinde çalışırken; Flutech altında bağımsız uygulamalar ve oyunlar üretiyorum. Firebase, REST API, SQL ve .NET deneyimimin yanında Flame ile oyun döngüsü, fizik, çarpışma ve sahne yönetimi geliştiriyorum. FluPass, Cüzdan ve Foxy: Işıltının Dengesi’ni mağaza yayınına taşıdım.",
-        "location": "İstanbul, Türkiye"
+        "summary": "Trakya Üniversitesi Bilgisayar Mühendisliği’nden 2021’de mezun oldum ve o günden beri Flutter ile ürün geliştiriyorum. İş yerinde ödeme sistemleri üzerinde çalışıyorum; kendi zamanımda uygulamalar ve oyunlar üretiyorum.\n\nEn çok önem verdiğim şey, ürünle birlikte büyüyebilen ve bakımı kolay uygulama yapıları kurmak, sonra da o ürünü mağazaya kadar taşımak.",
+        "location": "İstanbul, Türkiye",
+        "heroTitle": "Flutter ile [mobil uygulamalar] ve {oyunlar} geliştiriyorum.",
+        "heroIntro": "2021’den beri Overtech’te **OverPay ödeme sisteminin** Flutter arayüzlerini geliştiriyorum. Bir yandan da **Flutech** adıyla kendi uygulamalarımı ve oyunlarımı App Store ile Google Play’de yayınlıyorum."
       },
       "recruiterSnapshot": {
         "yearsExperienceLabel": "5+ yıl Flutter geliştirme deneyimi",
         "primaryFocus": "Flutter, Flame ve indie oyun geliştirme",
-        "currentRoleSummary": "OverPay’de ödeme ve operasyon akışlarına yönelik Flutter arayüzleri geliştiriyor; Flutech altında mobil uygulamalar ve 2D indie oyunlar tasarlayıp yayınlıyorum.",
+        "currentRoleSummary": "OverPay’de ödeme ve operasyon akışlarına yönelik Flutter arayüzleri geliştiriyorum; Flutech altında mobil uygulamalar ve 2D indie oyunlar tasarlayıp yayınlıyorum.",
         "preferredWork": "Flutter tabanlı mobil ürünler, 2D oyunlar, ürünle birlikte büyüyen sürdürülebilir uygulama mimarileri ve mağaza yayın süreçleriyle ilgileniyorum.",
         "availability": "Flutech · Bağımsız ürünler ve oyunlar"
       },
@@ -126,6 +128,102 @@
           "title": "Hızlı Adaptasyon",
           "description": "Yeni projelere, farklı kod yapılarına ve değişen ihtiyaçlara hızlı uyum sağlayarak üretken şekilde geliştirme yapabilirim.",
           "sortOrder": 6
+        }
+      ],
+      "services": [
+        {
+          "id": "1",
+          "title": "Mobil uygulama geliştirme",
+          "description": "Fikrinizi iOS ve Android’de çalışan tek bir Flutter uygulamasına dönüştürüyorum: arayüz, veri modeli ve entegrasyonlar dahil.",
+          "highlights": [
+            "İlk sürüm ve MVP",
+            "Firebase veya REST API",
+            "Türkçe + İngilizce arayüz"
+          ],
+          "isFeatured": false,
+          "sortOrder": 0
+        },
+        {
+          "id": "2",
+          "title": "Mevcut uygulamaya destek",
+          "description": "Var olan Flutter projenize yeni özellik ekliyor, performans sorunlarını ve hataları çözüyor, kodu bakımı kolay hale getiriyorum.",
+          "highlights": [
+            "Yeni özellik geliştirme",
+            "Performans ve hata ayıklama",
+            "Kod düzeni ve refactor"
+          ],
+          "isFeatured": false,
+          "sortOrder": 1
+        },
+        {
+          "id": "3",
+          "title": "Mağaza yayını",
+          "description": "App Store ve Google Play hazırlığı, mağaza metinleri ve görselleri, gizlilik formları ve inceleme süreci. Kendi ürünlerimi bu adımlardan geçirdim.",
+          "highlights": [
+            "TestFlight ve iç test",
+            "Mağaza sayfası hazırlığı",
+            "Sürüm ve güncelleme yönetimi"
+          ],
+          "isFeatured": false,
+          "sortOrder": 2
+        },
+        {
+          "id": "4",
+          "title": "Flutter ve Flame ile 2D oyun",
+          "description": "Çoğu Flutter geliştiricisinin girmediği bir alan: oyun döngüsü, fizik, çarpışma, bölüm tasarımı ve dokunmatik kontroller. Foxy mağazada, Pofuduk yolda.",
+          "highlights": [
+            "Platform ve bulmaca oyunları",
+            "Tiled ile bölüm tasarımı",
+            "Çevrimdışı ilerleme ve bulut yedeği"
+          ],
+          "isFeatured": true,
+          "sortOrder": 3
+        }
+      ],
+      "workProcess": [
+        {
+          "id": "1",
+          "title": "Tanışalım",
+          "description": "Fikrinizi, hedefinizi ve takviminizi kısa bir görüşmede konuşuyoruz.",
+          "sortOrder": 0
+        },
+        {
+          "id": "2",
+          "title": "Planlayalım",
+          "description": "Kapsamı, ekranları ve teknik yapıyı netleştiriyorum; neyin ne zaman teslim edileceğini yazılı paylaşıyorum.",
+          "sortOrder": 1
+        },
+        {
+          "id": "3",
+          "title": "Geliştirelim",
+          "description": "Düzenli aralıklarla çalışan sürümleri kendi telefonunuzda deneyip yorum yapabiliyorsunuz.",
+          "sortOrder": 2
+        },
+        {
+          "id": "4",
+          "title": "Yayınlayalım",
+          "description": "App Store ve Google Play süreçlerini yürütüyor, yayından sonra da destek veriyorum.",
+          "sortOrder": 3
+        }
+      ],
+      "heroStats": [
+        {
+          "id": "1",
+          "value": "5+ yıl",
+          "label": "Flutter ile üretimde",
+          "sortOrder": 0
+        },
+        {
+          "id": "2",
+          "value": "3 ürün",
+          "label": "App Store’da yayında",
+          "sortOrder": 1
+        },
+        {
+          "id": "3",
+          "value": "2 oyun",
+          "label": "Flame ile; biri yayında, biri yolda",
+          "sortOrder": 2
         }
       ],
       "workExperiences": [
@@ -1416,8 +1514,8 @@
           "dateRange": "2025 - 2026",
           "summary": "Şifre ve kartları cihazda şifreli saklayan gizlilik odaklı Flutter parola yöneticisi. Biyometrik kilit, otomatik doldurma, şifre sağlığı ve isteğe bağlı Google Drive yedekleme akışlarını geliştirdim.",
           "detailSummary": "FluPass, hesap oluşturmayı zorunlu tutmadan şifre ve kart bilgilerini cihazdaki şifreli kasada saklayan local-first bir parola yöneticisidir. Face ID/Touch ID veya PIN, otomatik doldurma, şifre sağlığı, arama/etiketler ve isteğe bağlı Google Drive yedekleme sunar.",
-          "problem": "Bulut tabanli sifre yoneticileri kullanicidan yuksek guven ister. Bu projede amac, hassas bilgileri cihazin disina tasimadan guvenli ve gunluk kullanima uygun bir deneyim olusturmaktir.",
-          "contribution": "Local-first veri yaklasimini, sifreleme akisini, biyometrik dogrulama deneyimini ve mobil arayuz yapisini tasarlayip gelistirdim.",
+          "problem": "Bulut tabanlı şifre yöneticileri kullanıcıdan yüksek güven ister. Bu projede amaç, hassas bilgileri cihazın dışına taşımadan güvenli ve günlük kullanıma uygun bir deneyim oluşturmaktır.",
+          "contribution": "Local-first veri yaklaşımını, şifreleme akışını, biyometrik doğrulama deneyimini ve mobil arayüz yapısını tasarlayıp geliştirdim.",
           "outcome": "Gizlilik odaklı parola yöneticisi App Store ve Google Play’de yayınlandı; otomatik doldurma ve kontrollü yedekleme akışlarıyla günlük kullanıma hazır hale geldi.",
           "role": "Flutter Developer | Full-Stack Developer",
           "team": "Solo proje",
@@ -1507,7 +1605,29 @@
               "sortOrder": 2
             }
           ],
-          "metrics": [],
+          "metrics": [
+            {
+              "id": "flupass-metric-1",
+              "label": "Face ID / Touch ID ile kilit",
+              "value": "Biyometrik",
+              "iconName": null,
+              "sortOrder": 1
+            },
+            {
+              "id": "flupass-metric-2",
+              "label": "şifre doldurma",
+              "value": "Otomatik",
+              "iconName": null,
+              "sortOrder": 2
+            },
+            {
+              "id": "flupass-metric-3",
+              "label": "veriler cihazda kalır",
+              "value": "Local-first",
+              "iconName": null,
+              "sortOrder": 3
+            }
+          ],
           "gallery": [],
           "detailSections": [],
           "sortOrder": 7
@@ -1536,10 +1656,10 @@
           "title": "Cüzdan",
           "dateRange": "2025",
           "summary": "Harcama takibi, kategori analizi ve grafiklerle kişisel finans yönetimini kolaylaştıran Flutter mobil uygulaması. Firebase/Firestore veri yapısı, kayıt akışları ve analiz ekranlarını geliştirdim.",
-          "detailSummary": "Cuzdan, gunluk harcamalari kaydetmenin otesine gecip kullanicinin parasinin nereye gittigini daha net gormesini hedefleyen bir kisisel finans uygulamasidir. Kategori bazli analizler, grafikler ve sade mobil akislariyla finansal farkindaligi artirmaya odaklanir.",
-          "problem": "Bir cok finans uygulamasi sadece kayit tutar; kullanicinin aliskanliklarini anlamasini kolaylastirmaz. Hedef, harcama verisini okunabilir ve aksiyon alinabilir hale getirmekti.",
-          "contribution": "Mobil arayuzleri, Firebase tabanli veri yapisini, kategori analizlerini ve grafik gosterimlerini tasarlayip gelistirdim.",
-          "outcome": "Kullaniciya sadece gider listesi degil, harcama davranislarini anlamaya yardim eden daha gorsel ve sezgisel bir finans takip deneyimi sunuldu.",
+          "detailSummary": "Cüzdan, günlük harcamaları kaydetmenin ötesine geçip kullanıcının parasının nereye gittiğini daha net görmesini hedefleyen bir kişisel finans uygulamasıdır. Kategori bazlı analizler, grafikler ve sade mobil akışlarıyla finansal farkındalığı artırmaya odaklanır.",
+          "problem": "Birçok finans uygulaması sadece kayıt tutar; kullanıcının alışkanlıklarını anlamasını kolaylaştırmaz. Hedef, harcama verisini okunabilir ve aksiyon alınabilir hale getirmekti.",
+          "contribution": "Mobil arayüzleri, Firebase tabanlı veri yapısını, kategori analizlerini ve grafik gösterimlerini tasarlayıp geliştirdim.",
+          "outcome": "Kullanıcıya sadece gider listesi değil, harcama davranışlarını anlamaya yardım eden daha görsel ve sezgisel bir finans takip deneyimi sunuldu.",
           "role": "Flutter Developer | Full-Stack Developer",
           "team": "Solo proje",
           "duration": "2025 - devam ediyor",
@@ -1647,7 +1767,29 @@
               "sortOrder": 1
             }
           ],
-          "metrics": [],
+          "metrics": [
+            {
+              "id": "cuzdan-metric-1",
+              "label": "ve abonelik takibi",
+              "value": "Taksit",
+              "iconName": null,
+              "sortOrder": 1
+            },
+            {
+              "id": "cuzdan-metric-2",
+              "label": "kategori analizi",
+              "value": "Grafik",
+              "iconName": null,
+              "sortOrder": 2
+            },
+            {
+              "id": "cuzdan-metric-3",
+              "label": "bulut veri yapısı",
+              "value": "Firestore",
+              "iconName": null,
+              "sortOrder": 3
+            }
+          ],
           "gallery": [],
           "detailSections": [],
           "sortOrder": 8
@@ -1868,11 +2010,13 @@
         }
       ],
       "profile": {
-        "fullName": "Orkun Dayi",
-        "roleTitle": "Flutter | Fullstack Developer",
+        "fullName": "Orkun Dayı",
+        "roleTitle": "Flutter Developer",
         "headline": "A software developer building mobile apps and indie games with Flutter and Flame, and shipping products to the App Store and Google Play.",
-        "summary": "I build mobile products with Flutter and Dart. At Overtech, I work on payment, sales, reporting, and integration flows for OverPay; independently, I create apps and games under Flutech. Alongside Firebase, REST API, SQL, and .NET experience, I use Flame to build game loops, physics, collision systems, and scene management. I shipped FluPass, Cüzdan, and Foxy: Balance of the Glow to mobile stores.",
-        "location": "Istanbul, Türkiye"
+        "summary": "I graduated in Computer Engineering from Trakya University in 2021 and have been building products with Flutter ever since. At work I focus on payment systems; in my own time I make apps and games.\n\nWhat I care about most is building app architectures that can grow with the product and stay easy to maintain, and then taking that product all the way to the stores.",
+        "location": "Istanbul, Türkiye",
+        "heroTitle": "I build [mobile apps] and {games} with Flutter.",
+        "heroIntro": "Since 2021 I have been building the Flutter interfaces of the **OverPay payment system** at Overtech. Alongside that, I publish my own apps and games on the App Store and Google Play under the **Flutech** name."
       },
       "recruiterSnapshot": {
         "yearsExperienceLabel": "5+ years of Flutter development experience",
@@ -1967,6 +2111,102 @@
           "title": "Fast Adaptation",
           "description": "I can quickly adapt to new projects, different codebases, and changing requirements while staying productive.",
           "sortOrder": 6
+        }
+      ],
+      "services": [
+        {
+          "id": "1",
+          "title": "Mobile app development",
+          "description": "I turn your idea into a single Flutter app that runs on iOS and Android, including the interface, data model and integrations.",
+          "highlights": [
+            "First release and MVP",
+            "Firebase or REST API",
+            "Turkish + English interface"
+          ],
+          "isFeatured": false,
+          "sortOrder": 0
+        },
+        {
+          "id": "2",
+          "title": "Support for an existing app",
+          "description": "I add features to your existing Flutter project, fix performance problems and bugs, and make the codebase easier to maintain.",
+          "highlights": [
+            "New features",
+            "Performance and debugging",
+            "Code structure and refactoring"
+          ],
+          "isFeatured": false,
+          "sortOrder": 1
+        },
+        {
+          "id": "3",
+          "title": "App store release",
+          "description": "App Store and Google Play preparation: store copy and visuals, privacy forms and the review process. I have taken my own products through every step.",
+          "highlights": [
+            "TestFlight and internal testing",
+            "Store listing preparation",
+            "Release and update management"
+          ],
+          "isFeatured": false,
+          "sortOrder": 2
+        },
+        {
+          "id": "4",
+          "title": "2D games with Flutter and Flame",
+          "description": "An area most Flutter developers never enter: game loops, physics, collisions, level design and touch controls. Foxy is in the stores, Pofuduk is on its way.",
+          "highlights": [
+            "Platformers and puzzle games",
+            "Level design with Tiled",
+            "Offline progress and cloud backup"
+          ],
+          "isFeatured": true,
+          "sortOrder": 3
+        }
+      ],
+      "workProcess": [
+        {
+          "id": "1",
+          "title": "Let’s meet",
+          "description": "We talk through your idea, goals and timeline in a short call.",
+          "sortOrder": 0
+        },
+        {
+          "id": "2",
+          "title": "Let’s plan",
+          "description": "I clarify the scope, screens and technical structure, and share in writing what will be delivered when.",
+          "sortOrder": 1
+        },
+        {
+          "id": "3",
+          "title": "Let’s build",
+          "description": "You can try working builds on your own phone at regular intervals and give feedback.",
+          "sortOrder": 2
+        },
+        {
+          "id": "4",
+          "title": "Let’s ship",
+          "description": "I handle the App Store and Google Play process and keep supporting the app after launch.",
+          "sortOrder": 3
+        }
+      ],
+      "heroStats": [
+        {
+          "id": "1",
+          "value": "5+ years",
+          "label": "building with Flutter",
+          "sortOrder": 0
+        },
+        {
+          "id": "2",
+          "value": "3 products",
+          "label": "live on the App Store",
+          "sortOrder": 1
+        },
+        {
+          "id": "3",
+          "value": "2 games",
+          "label": "built with Flame; one live, one on the way",
+          "sortOrder": 2
         }
       ],
       "workExperiences": [
@@ -3348,7 +3588,29 @@
               "sortOrder": 2
             }
           ],
-          "metrics": [],
+          "metrics": [
+            {
+              "id": "flupass-metric-1",
+              "label": "Face ID / Touch ID lock",
+              "value": "Biometric",
+              "iconName": null,
+              "sortOrder": 1
+            },
+            {
+              "id": "flupass-metric-2",
+              "label": "for passwords",
+              "value": "Autofill",
+              "iconName": null,
+              "sortOrder": 2
+            },
+            {
+              "id": "flupass-metric-3",
+              "label": "data stays on device",
+              "value": "Local-first",
+              "iconName": null,
+              "sortOrder": 3
+            }
+          ],
           "gallery": [],
           "detailSections": [],
           "sortOrder": 7
@@ -3377,12 +3639,12 @@
           "title": "Cüzdan",
           "dateRange": "2025",
           "summary": "A Flutter mobile app that simplifies personal finance management with expense tracking, category analysis, and charts. I built the Firebase/Firestore data structure, entry flows, and analytics screens.",
-          "detailSummary": "Cuzdan is a personal finance app designed to go beyond simple expense logging and help users understand where their money goes. It focuses on category-based analysis, charts, and clean mobile flows to improve financial awareness.",
+          "detailSummary": "Cüzdan is a personal finance app designed to go beyond simple expense logging and help users understand where their money goes. It focuses on category-based analysis, charts, and clean mobile flows to improve financial awareness.",
           "problem": "Many finance apps record numbers but do not make spending habits easy to understand. The goal was to turn expense data into something readable and actionable.",
           "contribution": "I designed and built the mobile UI, Firebase-backed data structure, category analysis flows, and chart-based visualizations.",
           "outcome": "The app provides a more visual and intuitive finance tracking experience that helps users understand their spending behavior, not just list expenses.",
           "role": "Flutter Developer | Full-Stack Developer",
-          "team": "Solo Project",
+          "team": "Solo project",
           "duration": "2025 - ongoing",
           "isFeatured": true,
           "startDate": null,
@@ -3488,7 +3750,29 @@
               "sortOrder": 1
             }
           ],
-          "metrics": [],
+          "metrics": [
+            {
+              "id": "cuzdan-metric-1",
+              "label": "and subscription tracking",
+              "value": "Instalments",
+              "iconName": null,
+              "sortOrder": 1
+            },
+            {
+              "id": "cuzdan-metric-2",
+              "label": "category analysis",
+              "value": "Charts",
+              "iconName": null,
+              "sortOrder": 2
+            },
+            {
+              "id": "cuzdan-metric-3",
+              "label": "cloud data model",
+              "value": "Firestore",
+              "iconName": null,
+              "sortOrder": 3
+            }
+          ],
           "gallery": [],
           "detailSections": [],
           "sortOrder": 8

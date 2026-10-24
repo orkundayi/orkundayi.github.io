@@ -1,13 +1,13 @@
 {
-  "name": "Orkun Dayı — Portfolio",
+  "name": "Orkun Dayı — Flutter Geliştirici",
   "short_name": "Orkun Dayı",
-  "description": "Orkun Dayı'nın yazılım geliştirme portfolyosu.",
+  "description": "Flutter ile mobil uygulamalar ve oyunlar geliştiren Orkun Dayı’nın portfolyosu.",
   "lang": "tr",
   "start_url": "/",
   "scope": "/",
   "display": "browser",
-  "background_color": "#06070b",
-  "theme_color": "#06070b",
+  "background_color": "#f6f5f1",
+  "theme_color": "#101217",
   "icons": [
     {
       "src": "/icons/icon-192.png",
